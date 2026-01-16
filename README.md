@@ -1,6 +1,6 @@
   3. Next steps to complete the setup:
 
-  # Stage all files
+  #  Stage all files
   git add .
 
   # Create initial commit

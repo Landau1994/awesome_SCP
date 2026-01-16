@@ -2,6 +2,7 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/plugins/obsidian-git/data.json
+.obsidian/plugins/copilot/data.json
 
 # OS files
 .DS_Store
