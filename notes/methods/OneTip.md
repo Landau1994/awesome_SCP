@@ -15,6 +15,10 @@ date_created: 2026-01-16
 
 ## Overview
 
+OneTip improve the identification of proteins in single cells, and it study the early embryo development
+
+You can see it in xxx.
+
 <% tp.file.cursor(5) %>
 
 ## Key Features
@@ -22,6 +26,7 @@ date_created: 2026-01-16
 - **Feature 1**: Description
 - **Feature 2**: Description
 - **Feature 3**: Description
+
 
 ## Workflow
 
