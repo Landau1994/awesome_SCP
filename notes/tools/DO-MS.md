@@ -1,3 +1,17 @@
+---
+title: DO-MS
+aliases:
+  - Data-driven Optimization of Mass Spectrometry
+  - DOMS
+tags:
+  - tools
+  - QC
+  - optimization
+  - visualization
+category: tool
+url: https://do-ms.slavovlab.net/
+---
+
 # DO-MS
 
 **Data-driven Optimization of Mass Spectrometry**
@@ -39,6 +53,7 @@ DO-MS is an open-source interactive platform for quality control and optimizatio
 ## Usage
 
 ### R Shiny App
+
 ```r
 # Install
 devtools::install_github("SlavovLab/DO-MS")
@@ -48,17 +63,20 @@ DO_MS::DO_MS()
 ```
 
 ### Online Version
+
 Available at: https://do-ms.slavovlab.net/
 
 ## Input Files
 
-- MaxQuant evidence.txt
-- MaxQuant msms.txt
-- DIA-NN output files
+- [[MaxQuant]] evidence.txt
+- [[MaxQuant]] msms.txt
+- [[DIA-NN]] output files
 
 ## Key Publications
 
-- Huffman et al. (2019) J Proteome Res
+> [!cite] Primary Reference
+> Huffman et al. (2019) *J Proteome Research*
+> DOI: [10.1021/acs.jproteome.9b00039](https://doi.org/10.1021/acs.jproteome.9b00039)
 
 ## Links
 
@@ -68,9 +86,4 @@ Available at: https://do-ms.slavovlab.net/
 ## Related Tools
 
 - [[MaxQuant]] - Data source
-- [[QuantQC]] - nPOP-specific QC
 - [[scp Package]] - Downstream analysis
-
-## Tags
-
-#tools #QC #optimization #visualization

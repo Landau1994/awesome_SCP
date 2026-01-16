@@ -1,3 +1,17 @@
+---
+title: SPDB
+aliases:
+  - Single-cell Proteomic DataBase
+  - scProteomicsDB
+tags:
+  - database
+  - resource
+  - datasets
+  - reference
+category: database
+url: https://scproteomicsdb.com/
+---
+
 # SPDB
 
 **Single-cell Proteomic DataBase**
@@ -17,9 +31,9 @@ SPDB is the most comprehensive database for single-cell proteomics data, integra
 ## Technologies Covered
 
 ### Mass Spectrometry-Based
-- SCoPE2
-- plexDIA
-- nanoPOTS
+- [[SCoPE2]]
+- [[plexDIA]]
+- [[nanoPOTS]]
 - Label-free DIA
 
 ### Antibody-Based
@@ -55,14 +69,11 @@ All datasets processed through standardized pipelines:
 
 ## Key Publications
 
-- Liu et al. (2024) Nucleic Acids Research
+> [!cite] Primary Reference
+> Liu et al. (2024) *Nucleic Acids Research*
+> DOI: [10.1093/nar/gkad910](https://doi.org/10.1093/nar/gkad910)
 
 ## Related Resources
 
-- [[SingPro]] - Alternative database
-- [[scpdata]] - Bioconductor datasets
-- [[Slavov Lab Data]] - Method-specific data
-
-## Tags
-
-#database #resource #datasets #reference
+- [[SingPro]] - Alternative database with raw data
+- scpdata - Bioconductor datasets

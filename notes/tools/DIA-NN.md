@@ -1,10 +1,24 @@
+---
+title: DIA-NN
+aliases:
+  - Deep Learning-based DIA Analysis
+  - DIANN
+tags:
+  - tools
+  - software
+  - DIA
+  - deep-learning
+category: tool
+url: https://github.com/vdemichev/DiaNN
+---
+
 # DIA-NN
 
 **Deep Learning-based DIA Analysis**
 
 ## Overview
 
-DIA-NN is a universal software for data-independent acquisition (DIA) proteomics that uses deep neural networks for peptide identification. It has become the primary analysis tool for plexDIA experiments.
+DIA-NN is a universal software for data-independent acquisition (DIA) proteomics that uses deep neural networks for peptide identification. It has become the primary analysis tool for [[plexDIA]] experiments.
 
 ## Key Features
 
@@ -24,7 +38,7 @@ The plexDIA module handles multiplexed samples by:
 
 ## Typical Parameters
 
-```
+```bash
 --mass-acc 20
 --mass-acc-ms1 20
 --quantification-strategy Any
@@ -52,19 +66,17 @@ The plexDIA module handles multiplexed samples by:
 
 ## Key Publications
 
-- Demichev et al. (2020) Nature Methods
-
-## Related Tools
-
-- [[MaxQuant]] - DDA analysis
-- [[FragPipe]] - Alternative search engine
-- [[scp Package]] - Downstream analysis
+> [!cite] Primary Reference
+> Demichev et al. (2020) *Nature Methods*
+> DOI: [10.1038/s41592-019-0638-x](https://doi.org/10.1038/s41592-019-0638-x)
 
 ## Links
 
 - GitHub: https://github.com/vdemichev/DiaNN
 - Documentation: https://github.com/vdemichev/DiaNN/wiki
 
-## Tags
+## Related Tools
 
-#tools #software #DIA #deep-learning
+- [[MaxQuant]] - DDA analysis
+- [[scp Package]] - Downstream analysis
+- [[plexDIA]] - Primary use case

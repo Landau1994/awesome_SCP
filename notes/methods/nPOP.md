@@ -1,3 +1,17 @@
+---
+title: nPOP
+aliases:
+  - Nano-ProteOmic sample Preparation
+  - nanoPOP
+tags:
+  - methods
+  - sample-prep
+  - automation
+  - nanoliter
+category: method
+url: https://scp.slavovlab.net/nPOP
+---
+
 # nPOP
 
 **Nano-ProteOmic sample Preparation**
@@ -51,7 +65,9 @@ nPOP is a massively parallel sample preparation method that enables processing t
 
 ## Key Publications
 
-- Leduc et al. (2024) Nature Protocols
+> [!cite] Primary Reference
+> Leduc et al. (2024) *Nature Protocols*
+> DOI: [10.1038/s41596-024-01000-z](https://doi.org/10.1038/s41596-024-01000-z)
 
 ## Related Methods
 
@@ -59,7 +75,3 @@ nPOP is a massively parallel sample preparation method that enables processing t
 - [[mPOP]] - Tube-based lysis method
 - [[plexDIA]] - Often used together
 - [[SCoPE2]] - Alternative labeling approach
-
-## Tags
-
-#methods #sample-prep #automation #nanoliter

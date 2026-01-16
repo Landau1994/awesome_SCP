@@ -1,3 +1,18 @@
+---
+title: scp Package
+aliases:
+  - scp R package
+  - Bioconductor scp
+tags:
+  - tools
+  - R
+  - Bioconductor
+  - analysis
+  - workflow
+category: tool
+url: https://bioconductor.org/packages/scp/
+---
+
 # scp Package
 
 **Bioconductor Package for Single-Cell Proteomics**
@@ -67,15 +82,13 @@ scp <- batchCorrect(scp, batch = "batch")
 
 ## Key Publications
 
-- Vanderaa & Gatto (2021) - scp package paper
-- Vanderaa & Gatto (2024) - Standardized workflow
+> [!cite] Primary References
+> - Vanderaa & Gatto (2021) - scp package paper
+> - Vanderaa & Gatto (2024) - Standardized workflow
+>   DOI: [10.1002/cpz1.658](https://doi.org/10.1002/cpz1.658)
 
 ## Related Tools
 
 - [[MaxQuant]] - Upstream data processing
 - [[DIA-NN]] - DIA data processing
-- [[SCPline]] - Alternative interactive tool
-
-## Tags
-
-#tools #R #Bioconductor #analysis #workflow
+- [[DO-MS]] - Quality control

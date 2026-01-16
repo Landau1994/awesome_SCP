@@ -1,3 +1,17 @@
+---
+title: mPOP
+aliases:
+  - Minimal ProteOmic sample Preparation
+  - Minimal sample prep
+tags:
+  - methods
+  - sample-prep
+  - lysis
+  - tube-based
+category: method
+url: https://scp.slavovlab.net/mPOP
+---
+
 # mPOP
 
 **Minimal ProteOmic sample Preparation**
@@ -33,16 +47,17 @@ mPOP (Minimal ProteOmic sample Preparation) is a simple, cost-effective method f
 
 ## Limitations
 
-- Higher reaction volumes than nPOP
+- Higher reaction volumes than [[nPOP]]
 - Some sample loss vs. nanoliter methods
 - Manual handling steps
+
+## Key Publications
+
+> [!cite] Reference
+> Part of the SCoPE2 workflow - Specht et al. (2021) *Genome Biology*
 
 ## Related Methods
 
 - [[nPOP]] - Nanoliter version
 - [[nanoPOTS]] - Chip-based alternative
 - [[SCoPE2]] - Often used together
-
-## Tags
-
-#methods #sample-prep #lysis #tube-based

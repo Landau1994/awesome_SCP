@@ -1,3 +1,15 @@
+---
+title: SingPro
+aliases:
+  - Single-cell Proteomics Knowledge Base
+tags:
+  - database
+  - resource
+  - raw-data
+  - protocols
+category: database
+---
+
 # SingPro
 
 **Single-cell Proteomics Knowledge Base**
@@ -29,7 +41,8 @@ SingPro is a specialized database for single-cell proteomics that uniquely provi
 
 ## Access
 
-**Publication**: [NAR 2024](https://academic.oup.com/nar/article/52/D1/D552/7306671)
+> [!info] Publication
+> [Nucleic Acids Research 2024](https://academic.oup.com/nar/article/52/D1/D552/7306671)
 
 ## Unique Strengths
 
@@ -40,7 +53,7 @@ SingPro is a specialized database for single-cell proteomics that uniquely provi
 
 ## Comparison with SPDB
 
-| Feature | SingPro | SPDB |
+| Feature | SingPro | [[SPDB]] |
 |---------|---------|------|
 | Raw data | Yes | No |
 | Total cells | Smaller | >300M |
@@ -54,11 +67,13 @@ SingPro is a specialized database for single-cell proteomics that uniquely provi
 - Training data curation
 - Reproducibility studies
 
+## Key Publications
+
+> [!cite] Primary Reference
+> *Nucleic Acids Research* (2024) Database Issue
+> DOI: [10.1093/nar/gkad1001](https://doi.org/10.1093/nar/gkad1001)
+
 ## Related Resources
 
 - [[SPDB]] - Larger database
-- [[scpdata]] - R/Bioconductor access
-
-## Tags
-
-#database #resource #raw-data #protocols
+- scpdata - R/Bioconductor access

@@ -1,3 +1,16 @@
+---
+title: Cancer Applications
+aliases:
+  - SCP in Cancer Research
+  - Tumor Proteomics
+tags:
+  - applications
+  - cancer
+  - heterogeneity
+  - clinical
+category: application
+---
+
 # Cancer Applications
 
 **Single-Cell Proteomics in Cancer Research**
@@ -54,8 +67,10 @@ Single-cell proteomics provides unprecedented resolution for understanding tumor
 
 ## Key Publications
 
-- Nalla et al. (2025) Proteomics Clin Appl - TNBC review
-- Specht et al. (2021) - Macrophage heterogeneity
+> [!cite] Key References
+> - Nalla et al. (2025) *Proteomics Clin Appl* - TNBC review
+> - Specht et al. (2021) *Genome Biology* - Macrophage heterogeneity
+>   DOI: [10.1186/s13059-021-02267-5](https://doi.org/10.1186/s13059-021-02267-5)
 
 ## Future Directions
 
@@ -64,6 +79,8 @@ Single-cell proteomics provides unprecedented resolution for understanding tumor
 - Drug combination optimization
 - Minimal residual disease detection
 
-## Tags
+## Related Topics
 
-#applications #cancer #heterogeneity #clinical
+- [[Cell Differentiation]] - Developmental hierarchies
+- [[SCoPE2]] - Primary method used
+- [[plexDIA]] - High-throughput alternative

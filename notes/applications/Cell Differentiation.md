@@ -1,3 +1,16 @@
+---
+title: Cell Differentiation
+aliases:
+  - Cellular Differentiation
+  - Developmental Proteomics
+tags:
+  - applications
+  - differentiation
+  - development
+  - trajectories
+category: application
+---
+
 # Cell Differentiation
 
 **Studying Cellular Hierarchies with SCP**
@@ -9,7 +22,7 @@ Single-cell proteomics enables direct measurement of protein abundance changes d
 ## Key Studies
 
 ### Monocyte-Macrophage Differentiation
-- **Method**: SCoPE2
+- **Method**: [[SCoPE2]]
 - **Cells**: 1,490 single cells
 - **Proteins**: 3,042 quantified
 - **Finding**: Protein-RNA discordance during differentiation
@@ -44,10 +57,11 @@ Pseudotime Ordering → Protein Dynamics
 
 ## Protein-RNA Discordance
 
-Key finding: Many proteins don't correlate with their mRNA
-- Post-transcriptional regulation
-- Protein stability differences
-- Translation rate variation
+> [!important] Key Finding
+> Many proteins don't correlate with their mRNA due to:
+> - Post-transcriptional regulation
+> - Protein stability differences
+> - Translation rate variation
 
 ## Applications
 
@@ -58,14 +72,14 @@ Key finding: Many proteins don't correlate with their mRNA
 
 ## Key Publications
 
-- Specht et al. (2021) Genome Biology
-- Brunner et al. (2022) Nature
+> [!cite] Primary References
+> - Specht et al. (2021) *Genome Biology*
+>   DOI: [10.1186/s13059-021-02267-5](https://doi.org/10.1186/s13059-021-02267-5)
+> - Brunner et al. (2022) *Nature*
+>   DOI: [10.1038/s41586-022-05426-1](https://doi.org/10.1038/s41586-022-05426-1)
 
 ## Related Topics
 
 - [[Cancer Applications]] - Tumor hierarchies
 - [[SCoPE2]] - Primary method used
-
-## Tags
-
-#applications #differentiation #development #trajectories
+- [[scp Package]] - Analysis workflow

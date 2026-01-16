@@ -1,3 +1,17 @@
+---
+title: SCoPE2
+aliases:
+  - Single Cell ProtEomics by Mass Spectrometry
+  - SCoPE-MS2
+tags:
+  - methods
+  - TMT
+  - isobaric
+  - MS2
+category: method
+url: https://scp.slavovlab.net/
+---
+
 # SCoPE2
 
 **Single Cell ProtEomics by Mass Spectrometry (Version 2)**
@@ -35,15 +49,15 @@ Trypsin Digestion → TMT Labeling → Pooling → LC-MS/MS
 
 ## Key Publications
 
-- Specht et al. (2021) Genome Biology - SCoPE2 method paper
-- Slavov Lab Protocols: https://scp.slavovlab.net/protocols
+> [!cite] Primary Reference
+> Specht et al. (2021) *Genome Biology* - SCoPE2 method paper
+> DOI: [10.1186/s13059-021-02267-5](https://doi.org/10.1186/s13059-021-02267-5)
+
+- Protocols: https://scp.slavovlab.net/protocols
 
 ## Related Methods
 
 - [[pSCoPE]] - Prioritized targeting version
 - [[plexDIA]] - Label-free DIA alternative
 - [[nPOP]] - Sample preparation method
-
-## Tags
-
-#methods #TMT #isobaric #MS2
+- [[mPOP]] - Minimal sample preparation

@@ -1,3 +1,17 @@
+---
+title: plexDIA
+aliases:
+  - Multiplexed DIA
+  - plexed DIA
+tags:
+  - methods
+  - DIA
+  - multiplexing
+  - MS1
+category: method
+url: https://plexdia.slavovlab.net/
+---
+
 # plexDIA
 
 **Multiplexed Data-Independent Acquisition**
@@ -36,25 +50,23 @@ Pool 3 samples → DIA-MS → DIA-NN Analysis
 
 ## Software
 
-- **DIA-NN**: Primary analysis software with plexDIA module
+- **[[DIA-NN]]**: Primary analysis software with plexDIA module
 - Supports spectral library and library-free search
 
 ## Advantages
 
-- Higher throughput than SCoPE2
+- Higher throughput than [[SCoPE2]]
 - Better data completeness than DDA
 - MS1-level quantification (less ratio compression)
 
 ## Key Publications
 
-- Derks et al. (2022) Nature Biotechnology
+> [!cite] Primary Reference
+> Derks et al. (2022) *Nature Biotechnology*
+> DOI: [10.1038/s41587-022-01389-w](https://doi.org/10.1038/s41587-022-01389-w)
 
 ## Related Methods
 
 - [[SCoPE2]] - TMT-based alternative
 - [[nPOP]] - Compatible sample prep
 - [[DIA-NN]] - Analysis software
-
-## Tags
-
-#methods #DIA #multiplexing #MS1

@@ -1,3 +1,16 @@
+---
+title: pSCoPE
+aliases:
+  - Prioritized SCoPE
+  - Targeted SCoPE
+tags:
+  - methods
+  - targeted
+  - TMT
+  - validation
+category: method
+---
+
 # pSCoPE
 
 **Prioritized SCoPE (Targeted Proteomics)**
@@ -29,18 +42,19 @@ MaxQuant Analysis
 
 ## Comparison with SCoPE2
 
-| Aspect | SCoPE2 | pSCoPE |
+| Aspect | [[SCoPE2]] | pSCoPE |
 |--------|--------|--------|
 | Approach | Discovery | Targeted |
 | Proteins | ~3000 | Selected subset |
 | Depth | Broad | Deep (targeted) |
 | Use case | Exploration | Validation |
 
+## Key Publications
+
+> [!cite] Reference
+> Specht et al. - pSCoPE method (part of SCoPE2 framework)
+
 ## Related Methods
 
 - [[SCoPE2]] - Parent method
 - [[plexDIA]] - Alternative approach
-
-## Tags
-
-#methods #targeted #TMT #validation

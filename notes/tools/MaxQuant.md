@@ -1,10 +1,25 @@
+---
+title: MaxQuant
+aliases:
+  - Max Quant
+  - MQ
+tags:
+  - tools
+  - software
+  - TMT
+  - DDA
+  - quantification
+category: tool
+url: https://www.maxquant.org/
+---
+
 # MaxQuant
 
 **Quantitative Proteomics Software**
 
 ## Overview
 
-MaxQuant is a comprehensive software platform for mass spectrometry-based proteomics developed by the Cox lab. It's widely used for TMT-based single-cell proteomics including SCoPE2.
+MaxQuant is a comprehensive software platform for mass spectrometry-based proteomics developed by the Cox lab. It's widely used for TMT-based single-cell proteomics including [[SCoPE2]].
 
 ## Key Features
 
@@ -52,14 +67,12 @@ Download from: https://www.maxquant.org/
 
 ## Key Publications
 
-- Cox & Mann (2008) Nature Biotechnology
+> [!cite] Primary Reference
+> Cox & Mann (2008) *Nature Biotechnology*
+> DOI: [10.1038/nbt.1511](https://doi.org/10.1038/nbt.1511)
 
 ## Related Tools
 
 - [[DIA-NN]] - For DIA data
-- [[FragPipe]] - Faster alternative
 - [[scp Package]] - Downstream analysis in R
-
-## Tags
-
-#tools #software #TMT #DDA #quantification
+- [[DO-MS]] - Quality control

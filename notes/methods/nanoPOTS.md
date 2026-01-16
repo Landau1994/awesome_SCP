@@ -1,3 +1,17 @@
+---
+title: nanoPOTS
+aliases:
+  - Nanodroplet Processing in One pot for Trace Samples
+  - Nested nanoPOTS
+  - N2
+tags:
+  - methods
+  - sample-prep
+  - microfluidics
+  - chip
+category: method
+---
+
 # nanoPOTS
 
 **Nanodroplet Processing in One pot for Trace Samples**
@@ -47,19 +61,17 @@ Direct injection or Collection → LC-MS/MS
 ## Limitations
 
 - Specialized chip fabrication
-- Lower throughput than nPOP
+- Lower throughput than [[nPOP]]
 - Higher per-sample cost
 
 ## Key Publications
 
-- Zhu et al. (2018) Nature Communications
-- Williams et al. (2020) - Nested nanoPOTS
+> [!cite] Primary References
+> - Zhu et al. (2018) *Nature Communications* - Original nanoPOTS
+>   DOI: [10.1038/s41467-018-03367-w](https://doi.org/10.1038/s41467-018-03367-w)
+> - Williams et al. (2020) - Nested nanoPOTS
 
 ## Related Methods
 
 - [[nPOP]] - Slide-based alternative
 - [[mPOP]] - Simpler tube-based method
-
-## Tags
-
-#methods #sample-prep #microfluidics #chip

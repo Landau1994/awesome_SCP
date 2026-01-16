@@ -1,0 +1,119 @@
+summaries:
+  avgConnections: values.filter(value.isType("number")).mean().round(1)
+  totalNotes: values.length
+filters:
+  and:
+    - file.ext == "md"
+    - file.basename != "README"
+    - file.basename != "Home"
+formulas:
+  category: if(file.inFolder("notes/methods"), "Method", if(file.inFolder("notes/tools"), "Tool", if(file.inFolder("notes/databases"), "Database", if(file.inFolder("notes/applications"), "Application", "Other"))))
+  last_updated: file.mtime.relative()
+  days_since_update: ((now() - file.mtime) / 86400000).round(0)
+  link_count: file.links.length
+  backlink_count: file.backlinks.length
+  connectivity: file.links.length + file.backlinks.length
+  has_tags: if(file.tags.length > 0, "Yes", "No")
+  tag_list: file.tags.join(", ")
+properties:
+  formula.category:
+    displayName: Category
+  formula.last_updated:
+    displayName: Updated
+  formula.days_since_update:
+    displayName: Days Old
+  formula.link_count:
+    displayName: Links
+  formula.backlink_count:
+    displayName: Backlinks
+  formula.connectivity:
+    displayName: Connections
+  formula.tag_list:
+    displayName: Tags
+views:
+  - type: table
+    name: All Notes
+    groupBy:
+      property: formula.category
+      direction: ASC
+    order:
+      - file.name
+      - formula.category
+      - formula.tag_list
+      - formula.connectivity
+      - formula.last_updated
+    summaries:
+      formula.connectivity: avgConnections
+  - type: table
+    name: Methods
+    filters:
+      and:
+        - file.inFolder("notes/methods")
+    order:
+      - file.name
+      - formula.tag_list
+      - formula.link_count
+      - formula.backlink_count
+      - formula.last_updated
+    summaries:
+      formula.link_count: Sum
+  - type: table
+    name: Tools & Software
+    filters:
+      and:
+        - file.inFolder("notes/tools")
+    order:
+      - file.name
+      - formula.tag_list
+      - formula.link_count
+      - formula.backlink_count
+      - formula.last_updated
+    summaries:
+      formula.link_count: Sum
+  - type: table
+    name: Databases
+    filters:
+      and:
+        - file.inFolder("notes/databases")
+    order:
+      - file.name
+      - formula.tag_list
+      - formula.connectivity
+      - formula.last_updated
+  - type: table
+    name: Applications
+    filters:
+      and:
+        - file.inFolder("notes/applications")
+    order:
+      - file.name
+      - formula.tag_list
+      - formula.connectivity
+      - formula.last_updated
+  - type: table
+    name: Recently Updated
+    filters:
+      and:
+        - file.mtime > now() - "30d"
+    order:
+      - file.name
+      - formula.category
+      - formula.last_updated
+      - formula.days_since_update
+    limit: 10
+  - type: table
+    name: Most Connected
+    order:
+      - file.name
+      - formula.category
+      - formula.connectivity
+      - formula.link_count
+      - formula.backlink_count
+    limit: 10
+    summaries:
+      formula.connectivity: Max
+  - type: list
+    name: Quick List
+    order:
+      - file.name
+      - formula.category

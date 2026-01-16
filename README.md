@@ -190,6 +190,50 @@ Single-cell proteomics (SCP) enables the quantification of proteins at single-ce
 
 ---
 
+## Obsidian Vault Resources
+
+This repository doubles as an [Obsidian](https://obsidian.md/) knowledge base with interconnected notes, visual canvases, and dynamic views.
+
+### Structure
+
+```
+awesome_SCP/
+├── canvas/                      # Visual knowledge maps
+│   ├── SCP Overview.canvas      # High-level field overview
+│   ├── Methods Workflow.canvas  # Sample-to-data pipeline
+│   └── Tools and Software.canvas
+├── notes/
+│   ├── methods/                 # SCoPE2, plexDIA, nPOP, etc.
+│   ├── tools/                   # MaxQuant, DIA-NN, scp, etc.
+│   ├── databases/               # SPDB, SingPro
+│   └── applications/            # Cancer, differentiation
+├── templates/                   # Templater templates
+└── Project Overview.base        # Dynamic Bases view
+```
+
+### Templater Templates
+
+Use with the [Templater](https://github.com/SilentVoid13/Templater) plugin:
+
+| Template | Purpose |
+|----------|---------|
+| Method Template | New experimental methods |
+| Tool Template | Software & analysis tools |
+| Database Template | Data resources |
+| Application Template | Research applications |
+| Literature Note | Paper annotations with citation |
+| Quick Note | Simple notes |
+
+### Features
+
+- **Wikilinks**: `[[note]]` for cross-referencing
+- **Callouts**: `> [!cite]` for publications with DOIs
+- **YAML Frontmatter**: Structured metadata (title, tags, category, url)
+- **Canvas**: Visual flowcharts and concept maps
+- **Bases**: Dynamic queries and views
+
+---
+
 ## Contributing
 
 Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) before submitting a pull request.
