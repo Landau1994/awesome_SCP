@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"group-methods","type":"group","x":-760,"y":-280,"width":500,"height":600,"color":"4","label":"Sample Preparation"},
+		{"id":"group-tools","type":"group","x":300,"y":-200,"width":500,"height":600,"color":"5","label":"Software & Tools"},
+		{"id":"group-databases","type":"group","x":-400,"y":500,"width":400,"height":350,"color":"6","label":"Databases"},
+		{"id":"group-apps","type":"group","x":100,"y":500,"width":400,"height":350,"color":"3","label":"Applications"},
+		{"id":"diann","type":"file","file":"notes/tools/DIA-NN.md","x":320,"y":-160,"width":220,"height":120},
+		{"id":"maxquant","type":"file","file":"notes/tools/MaxQuant.md","x":560,"y":-160,"width":220,"height":120},
+		{"id":"scp-pkg","type":"file","file":"notes/tools/scp Package.md","x":320,"y":0,"width":220,"height":120},
+		{"id":"doms","type":"file","file":"notes/tools/DO-MS.md","x":560,"y":0,"width":220,"height":120},
+		{"id":"tools-note","type":"text","text":"## Software Pipeline\n\n**Data Processing**\n- MaxQuant → TMT/DDA\n- DIA-NN → DIA/plexDIA\n\n**Quality Control**\n- DO-MS → Optimization\n- QuantQC → nPOP QC\n\n**Analysis**\n- scp → R/Bioconductor\n- SCPline → Interactive","x":320,"y":160,"width":460,"height":200,"color":"5"},
+		{"id":"spdb","type":"file","file":"notes/databases/SPDB.md","x":-380,"y":540,"width":170,"height":100},
+		{"id":"singpro","type":"file","file":"notes/databases/SingPro.md","x":-190,"y":540,"width":170,"height":100},
+		{"id":"db-note","type":"text","text":"## Data Resources\n\n- **SPDB**: 143 datasets, 300M+ cells\n- **SingPro**: Raw data + protocols\n- **scpdata**: Bioconductor package","x":-380,"y":680,"width":360,"height":140,"color":"6"},
+		{"id":"workflow","type":"text","text":"## Typical SCP Workflow\n\n```\nCell Isolation → Sample Prep → MS Analysis → Data Processing → Biological Insights\n     ↓              ↓              ↓              ↓                  ↓\n  CellenONE      nPOP/SCoPE2    timsTOF/       MaxQuant/         scp/Seurat\n  FACS           nanoPOTS       Orbitrap       DIA-NN            Downstream\n```","x":-200,"y":950,"width":500,"height":200,"color":"2"},
+		{"id":"resources","type":"text","text":"## Key Resources\n\n- **Slavov Lab**: https://scp.slavovlab.net/\n- **Protocols**: https://scp.slavovlab.net/protocols\n- **scp Package**: https://bioconductor.org/packages/scp/\n- **Guidelines**: Nat Methods 2023 - Benchmarking & Reporting","x":-200,"y":1200,"width":500,"height":180,"color":"1"},
+		{"id":"cancer","type":"file","file":"notes/applications/Cancer Applications.md","x":120,"y":540,"width":170,"height":100},
+		{"id":"differentiation","type":"file","file":"notes/applications/Cell Differentiation.md","x":310,"y":540,"width":170,"height":100},
+		{"id":"apps-note","type":"text","text":"## Research Areas\n\n- **Cancer**: Tumor heterogeneity\n- **Development**: Cell differentiation\n- **Immunology**: Immune states\n- **Drug Response**: Pharmacoproteomics","x":120,"y":680,"width":360,"height":140,"color":"3"},
+		{"id":"scope2","type":"file","file":"notes/methods/SCoPE2.md","x":-740,"y":-240,"width":220,"height":120},
+		{"id":"npop","type":"file","file":"notes/methods/nPOP.md","x":-740,"y":-80,"width":220,"height":120},
+		{"id":"methods-note","type":"text","text":"## Key Method Categories\n\n**Isobaric (TMT)**\n- SCoPE2, pSCoPE\n- MS2-based quantification\n\n**Label-free DIA**\n- plexDIA with mTRAQ\n- MS1-based quantification\n\n**Sample Prep**\n- nPOP (slides)\n- nanoPOTS (chips)","x":-740,"y":80,"width":460,"height":200,"color":"4"},
+		{"id":"plexdia","type":"file","file":"notes/methods/plexDIA.md","x":-500,"y":-240,"width":220,"height":120},
+		{"id":"nanopots","type":"file","file":"notes/methods/nanoPOTS.md","x":-500,"y":-80,"width":220,"height":120},
+		{"id":"title","type":"text","text":"# Single-Cell Proteomics\n## Overview & Knowledge Map\n\nA comprehensive guide to MS-based single-cell proteomics","x":0,"y":-520,"width":600,"height":120,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"scope2","fromSide":"right","toNode":"maxquant","toSide":"left","color":"4","label":"TMT analysis"},
+		{"id":"e2","fromNode":"plexdia","fromSide":"right","toNode":"diann","toSide":"left","color":"5","label":"DIA analysis"},
+		{"id":"e3","fromNode":"npop","fromSide":"top","toNode":"plexdia","toSide":"bottom","color":"4","label":"sample prep for"},
+		{"id":"e4","fromNode":"npop","fromSide":"top","toNode":"scope2","toSide":"bottom","color":"4","label":"sample prep for"},
+		{"id":"e5","fromNode":"maxquant","fromSide":"bottom","toNode":"scp-pkg","toSide":"top","color":"5","label":"downstream"},
+		{"id":"e6","fromNode":"diann","fromSide":"bottom","toNode":"scp-pkg","toSide":"top","color":"5","label":"downstream"},
+		{"id":"e7","fromNode":"scp-pkg","fromSide":"bottom","toNode":"cancer","toSide":"top","color":"3","label":"application"},
+		{"id":"e8","fromNode":"scp-pkg","fromSide":"bottom","toNode":"differentiation","toSide":"top","color":"3","label":"application"},
+		{"id":"e9","fromNode":"spdb","fromSide":"right","toNode":"scp-pkg","toSide":"left","color":"6","label":"data source"}
+	]
+}
