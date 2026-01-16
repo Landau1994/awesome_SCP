@@ -9,7 +9,8 @@
       "Bash(while read hash msg)",
       "Bash(do git diff $hash~1 $hash -- .obsidian/plugins/copilot/data.json)",
       "Bash(done)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "WebSearch"
     ]
   }
 }
