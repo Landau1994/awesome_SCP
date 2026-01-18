@@ -1,5 +1,5 @@
 ---
-title: DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput
+title: DIA-NN:neural networks and interference correction enable deep proteome coverage in high throughput
 authors:
   - Vadim Demichev
   - Christoph B. Messner
