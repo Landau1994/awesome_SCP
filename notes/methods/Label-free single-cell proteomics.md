@@ -1,23 +1,19 @@
 ---
-title: OneTip
+title: Label-free single-cell proteomics
 aliases:
   - <% tp.file.cursor(1) %>
 tags:
   - methods
 category: method
 url: <% tp.file.cursor(3) %>
-date_created: 2026-01-16
+date_created: 2026-01-18
 ---
-
-# OneTip
+TBD
+# Label-free single-cell proteomics
 
 **<% tp.file.cursor(4) %>**
 
 ## Overview
-
-OneTip improve the identification of proteins in single cells, and it study the early embryo development
-
-You can see it in xxx.
 
 <% tp.file.cursor(5) %>
 
@@ -26,7 +22,6 @@ You can see it in xxx.
 - **Feature 1**: Description
 - **Feature 2**: Description
 - **Feature 3**: Description
-
 
 ## Workflow
 

@@ -71,6 +71,11 @@ Single-cell proteomics provides unprecedented resolution for understanding tumor
 > - Nalla et al. (2025) *Proteomics Clin Appl* - TNBC review
 > - Specht et al. (2021) *Genome Biology* - Macrophage heterogeneity
 >   DOI: [10.1186/s13059-021-02267-5](https://doi.org/10.1186/s13059-021-02267-5)
+> -  Sadiku, P., Brenes, A.J., Mayer, R.L. _et al._ Single cell proteomic analysis defines discrete neutrophil functional states in human glioblastoma. _Nat Commun_ (2025). [https://doi.org/10.1038/s41467-025-67367-3](https://doi.org/10.1038/s41467-025-67367-3)
+
+
+
+
 
 ## Future Directions
 

@@ -1,12 +1,16 @@
 ---
 title: <% tp.file.title %>
 aliases:
-  - <% tp.file.cursor(1) %>
+   - <article>
+   - <paper>
+   - <literature>
 tags:
   - literature
   - paper
 category: literature
 date_created: <% tp.date.now("YYYY-MM-DD") %>
+Journal: Nature Communications
+Year: "2025"
 ---
 
 # <% tp.file.title %>
@@ -14,14 +18,14 @@ date_created: <% tp.date.now("YYYY-MM-DD") %>
 ## Citation
 
 > [!cite] Reference
-> **Authors**: <% tp.file.cursor(3) %>
-> **Year**: <% tp.file.cursor(4) %>
-> **Journal**: <% tp.file.cursor(5) %>
-> **DOI**: [10.xxxx/xxxxx](https://doi.org/<% tp.file.cursor(6) %>)
+> **Authors**: 
+> **Year**: 
+> **Journal**: 
+> **DOI**: 
 
 ## Abstract
 
-<% tp.file.cursor(7) %>
+
 
 ## Key Points
 
@@ -32,13 +36,13 @@ date_created: <% tp.date.now("YYYY-MM-DD") %>
 ## Methods
 
 ### Sample Preparation
-- Method used: [[SCoPE2]] / [[plexDIA]] / [[nPOP]]
+- Method used: 
 - Cell type:
 - Number of cells:
 
 ### Data Analysis
-- Software: [[MaxQuant]] / [[DIA-NN]]
-- Downstream: [[scp Package]]
+- Software: 
+- Downstream: 
 
 ## Results
 
@@ -67,13 +71,10 @@ date_created: <% tp.date.now("YYYY-MM-DD") %>
 
 ## Personal Notes
 
-<% tp.file.cursor(8) %>
+
 
 ## Related Papers
 
 -
 
-## Related Topics
 
-- [[Cancer Applications]]
-- [[Cell Differentiation]]
