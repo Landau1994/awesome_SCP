@@ -31,7 +31,7 @@ Single-cell proteomics (SCP) promises to revolutionize biomedicine by providing 
 
 ## Key Points
 
-- Development of **Chip-Tip**, a nearly lossless label-free SCP workflow integrating [[cellenONE]] isolation, [[proteoCHIP EVO]], and [[Evotips]].
+- Development of **Chip-Tip**, a nearly lossless label-free SCP workflow integrating [[cellenONE]] isolation, [[ProteoCHIP]], and [[Evotips]].
 - Achieved identification of **>5,000 proteins** and **>40,000 peptides** in single HeLa cells using the [[Orbitrap Astral]] mass spectrometer.
 - Demonstrated **direct detection of PTMs** (phosphorylation and glycosylation) in single cells without enrichment.
 - Validated workflow on biological models: drug response in cancer spheroids and lineage markers in human iPSC differentiation.
@@ -72,7 +72,7 @@ Single-cell proteomics (SCP) promises to revolutionize biomedicine by providing 
 
 ### Strengths
 - **Sensitivity**: Surpasses previous state-of-the-art (typically 1,500-2,500 proteins) by identifying >5,000 proteins per cell.
-- **Workflow Efficiency**: The [[proteoCHIP EVO]] and direct transfer to [[Evotips]] minimize sample loss and manual handling.
+- **Workflow Efficiency**: The [[ProteoCHIP]] and direct transfer to [[Evotips]] minimize sample loss and manual handling.
 - **PTM Capability**: Proves that deep coverage allows for "enrichment-free" PTM analysis in single cells.
 - **Robustness**: Validated across different cell types and commercial instruments (Orbitrap Astral, Fusion Lumos, timsTOF Ultra).
 
