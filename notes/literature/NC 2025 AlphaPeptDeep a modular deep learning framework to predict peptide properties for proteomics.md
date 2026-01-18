@@ -1,17 +1,29 @@
 ---
-title: NC 2025 AlphaPeptDeep a modular deep learning framework to predict peptide properties for proteomics
+title: AlphaPeptDeep:a modular deep learning framework to predict peptide properties for proteomics
 aliases:
-  - <article>
-  - <paper>
-  - <literature>
+   - AlphaPeptDeep
+   - AlphaPeptDeep paper
+   - Zeng et al. 2022
 tags:
   - literature
   - paper
 category: literature
-date_created: 2026-01-18
+date_created: 2023-10-25
 Journal: Nature Communications
-Year: "2025"
+Year: 2022
+authors:
+  - Wen-Feng Zeng
+  - Xie-Xuan Zhou
+  - Sander Willems
+  - Constantin Ammar
+  - Maria Wahle
+  - Isabell Bludau
+  - Eugenia Voytik
+  - Maximillian T. Strauss
+  - Matthias Mann
 ---
+
+
 # AlphaPeptDeep: a modular deep learning framework to predict peptide properties for proteomics
 
 ## Citation
@@ -20,69 +32,70 @@ Year: "2025"
 > **Authors**: Wen-Feng Zeng, Xie-Xuan Zhou, Sander Willems, Constantin Ammar, Maria Wahle, Isabell Bludau, Eugenia Voytik, Maximillian T. Strauss & Matthias Mann
 > **Year**: 2022
 > **Journal**: Nature Communications
-> **DOI**: 10.1038/s41467-022-34904-3
+> **DOI**: https://doi.org/10.1038/s41467-022-34904-3
 
 ## Abstract
 
-Machine learning and deep learning (DL) are becoming essential in mass spectrometry-based proteomics for predicting peptide properties such as retention time, ion mobility, and fragment intensities. However, integrating new architectures is challenging for researchers. The authors introduce AlphaPeptDeep, a modular Python framework built on PyTorch that predicts peptide properties with high accuracy. It features a "model shop" for easy creation of models, generic handling of post-translational modifications (PTMs), and extensive use of transfer learning to reduce data requirements. The framework demonstrates performance on par with existing tools and significantly improves HLA peptide identification in data-independent acquisition (DIA) workflows.
+Machine learning, particularly deep learning (DL), has become essential in MS-based proteomics for predicting peptide properties like retention time (RT), ion mobility, and fragment intensities. However, integrating new architectures remains challenging for researchers. This paper introduces **AlphaPeptDeep**, a modular Python framework built on [[PyTorch]] that allows easy creation and training of DL models. A key feature is its ability to handle post-translational modifications (PTMs) generically and use transfer learning to refine models with small datasets. The study demonstrates that AlphaPeptDeep performs on par with existing tools while offering significant advantages in speed and flexibility. It specifically highlights the framework's utility in improving HLA peptide identification in both data-dependent (DDA) and data-independent acquisition (DIA) modes through a specialized HLA peptide prediction model.
 
 ## Key Points
 
-- Introduces **AlphaPeptDeep**, a modular framework based on [[PyTorch]] for predicting peptide properties (RT, CCS, MS2 intensities).
-- Utilizes [[Transformer]] models for MS2 prediction and [[LSTM]]/[[CNN]] architectures for RT and CCS prediction.
-- Features a generic embedding strategy that supports arbitrary post-translational modifications ([[PTMs]]).
-- Implements transfer learning to refine models with small datasets (few-shot learning) for specific experimental conditions or rare PTMs.
-- Demonstrates a specialized pipeline for [[HLA]] peptide prediction that improves identification in [[DIA]] (data-independent acquisition) datasets.
+- **Modular Framework**: AlphaPeptDeep is built on [[PyTorch]], offering a "model shop" that allows non-specialists to create and train models with minimal code.
+- **PTM Handling & Transfer Learning**: The framework utilizes a generic method to embed PTMs and employs transfer learning (few-shot learning) to accurately predict properties for modified peptides (e.g., phosphorylation) without requiring massive training datasets.
+- **HLA Peptide Identification**: A specialized model was developed to predict HLA peptides, significantly boosting identification rates in DDA open searches and enabling predicted spectral library generation for DIA analysis.
+- **Performance & Speed**: The pre-trained MS2 model is roughly 40 times faster than the [[Prosit]]-Transformer model while maintaining comparable accuracy.
 
 ## Methods
 
 ### Sample Preparation
-- Method used: Validation performed on public datasets involving [[Trypsin]], [[LysC]], [[Chymotrypsin]], and [[GluC]] digests.
-- Cell type: [[HeLa]] (general benchmarks), [[U2OS]] (phosphoproteomics), [[RA957]] (HLA analysis).
-- Number of cells: N/A (Computational study utilizing MS raw data).
+- **Method used**: [[LC-MS/MS]] (DDA, DIA, dda-PASEF).
+- **Cell type**: [[HeLa]], [[U2OS]], [[RA957]] (HLA cell line), and model organisms ([[E. coli]], [[Yeast]], [[Drosophila]]).
+- **Number of cells**: N/A (Peptide inputs derived from bulk lysates and synthetic libraries like [[ProteomeTools]]).
 
 ### Data Analysis
-- Software: [[AlphaPeptDeep]], [[AlphaBase]], [[PyTorch]], [[MaxQuant]], [[pFind]] (open search), [[DIA-NN]], [[Spectronaut]], [[Prosit]], [[DeepLC]].
-- Downstream: [[Percolator]] (integrated for semi-supervised rescoring), [[AlphaViz]] (visualization).
+- **Software**: [[AlphaPeptDeep]], [[AlphaBase]], [[PyTorch]], [[AlphaPept]], [[MaxQuant]], [[Open-pFind]], [[DIA-NN]], [[Spectronaut]], [[DIA-Umpire]], [[PEAKS-Online]], [[DeepLC]].
+- **Downstream**: [[Percolator]] rescoring, [[Transfer Learning]], Spectral Library Generation, HLA peptide prediction.
 
 ## Results
 
 ### Main Findings
-1. **High Prediction Accuracy**: The MS2 prediction model (Transformer-based) is significantly faster (40x) and smaller than comparable models like Prosit-Transformer while maintaining high accuracy (PCC > 0.9 for 97% of PSMs on ProteomeTools data).
-2. **Transfer Learning Efficacy**: Transfer learning with as few as 10 to 50 peptides significantly improved prediction accuracy for rare or complex PTMs (improving PCC > 0.9 rates from ~48% to ~87%).
-3. **HLA Identification**: A dedicated HLA prediction pipeline reduced the search space for DIA analysis, outperforming standard DDA library generation and existing tools like PEAKS Online and DIA-Umpire in identifying unique HLA sequences.
+1.  **High Accuracy with Low Overhead**: The MS2, RT, and CCS prediction models achieved high correlation with experimental data (PCC > 0.9 for MS2 intensities in 97% of PSMs). The models are lightweight (4M parameters for MS2 vs 64M in Prosit) and fast.
+2.  **Robust PTM Prediction**: Using transfer learning, the models could accurately predict properties for peptides with various PTMs (e.g., phosphorylation, ubiquitylation) even when fine-tuned on as few as 10-50 peptides.
+3.  **Improved HLA Analysis**: 
+    - In **DDA**: Rescoring with AlphaPeptDeep improved HLA peptide identification by ~94% compared to standard searches and outperformed [[Prosit]] in coverage.
+    - In **DIA**: A pipeline using predicted HLA spectral libraries identified significantly more unique HLA sequences compared to library-free approaches like [[DIA-Umpire]] and [[PEAKS-Online]].
 
 ### Figures
 
 | Figure | Description |
 |--------|-------------|
-| Fig 1 | Overview of the AlphaPeptDeep framework, showing encoding, model building blocks (Transformers, LSTM), and the training/prediction workflow. |
-| Fig 2 | Architectures of the pre-trained models: MS2 (Transformer-based), RT (CNN + BiLSTM), and CCS (CNN + BiLSTM). |
-| Fig 3 | Performance benchmarks showing high correlation (PCC/R2) for MS2, RT, and CCS predictions across various datasets (ProteomeTools, HeLa, timsTOF). |
-| Fig 4 | Demonstration of transfer learning performance on 21 different PTMs, showing significant accuracy gains with few-shot training. |
-| Fig 5 | Comparison of HLA peptide identification in DDA data, showing AlphaPeptDeep improves results over MaxQuant and Prosit, especially in open-search modes. |
-| Fig 6 | The HLA prediction pipeline for DIA analysis, illustrating the reduction of the search space and superior identification performance compared to other methods. |
+| Fig 1 | Overview of the AlphaPeptDeep framework, showing the encoding of peptide sequences/PTMs and the build/train/predict workflow. |
+| Fig 2 | Architectures of the built-in pre-trained models for MS2 (Transformer-based), RT, and CCS (CNN + BiLSTM). |
+| Fig 3 | Performance benchmarking of MS2, RT, and CCS models against datasets like [[ProteomeTools]] and [[HeLa]], showing high correlations. |
+| Fig 4 | Demonstration of transfer learning performance on 21 different PTM types, showing significant accuracy improvements with few-shot training. |
+| Fig 5 | Comparison of HLA peptide identification in DDA mode, showing AlphaPeptDeep drastically improves results over [[MaxQuant]] and [[Open-pFind]]. |
+| Fig 6 | The HLA prediction model pipeline and its application to boosting HLA identification in [[DIA]] datasets (RA957). |
 
 ## Discussion
 
 ### Strengths
-- **Modularity**: The framework allows users to easily build, train, and refine models using a "model shop" concept.
-- **Flexibility**: Uniquely handles arbitrary PTMs via composition-based embedding, unlike tools restricted to specific modifications.
-- **Efficiency**: Models are lightweight and fast, enabling training and prediction on standard hardware (including CPUs).
+- **Flexibility**: Can handle arbitrary PTMs via composition-based embedding, unlike models restricted to specific modifications.
+- **Accessibility**: Open-source, modular design allows users to swap NN architectures (LSTM, Transformer, CNN) easily.
+- **Efficiency**: Significantly faster training and prediction times compared to current state-of-the-art models, running efficiently on consumer GPUs.
 
 ### Limitations
-- **Overfitting**: Standard DL risks like overfitting remain; users must carefully manage data splitting and hyperparameters (though the "model shop" provides robust baselines).
-- **Data Dependency**: While transfer learning helps, the highest accuracy still relies on the availability of some representative experimental data for fine-tuning.
+- **Overfitting Risk**: Like all DL models, standard issues such as overfitting need to be managed (though the framework includes fine-tuning safeguards).
+- **Library Size**: For HLA DIA, the predicted library is limited to known binders to keep search space manageable, whereas DDA databases are larger.
 
 ### Future Work
-- The framework is designed to be a community resource, encouraging the development of new models for various proteomic properties.
-- Potential integration into more search engines to support predicted libraries natively for DDA.
+- Expanding the application of the framework to other peptide property prediction problems.
+- Further integration into the AlphaPept ecosystem for seamless end-to-end analysis.
 
 ## Personal Notes
 
 ## Related Papers
 
-- [[Prosit]] (Gessulat et al., 2019) - Deep learning for MS2 prediction.
-- [[pDeep]] (Zhou et al., 2017) - Predecessor model using BiLSTM.
-- [[DeepLC]] (Bouwmeester et al., 2021) - Retention time prediction.
-- [[AlphaPept]] (Strauss et al., 2021) - The ecosystem this framework integrates with.
+- [[AlphaPept]] - Strauss et al. (2021)
+- [[Prosit]] - Gessulat et al. (2019)
+- [[pDeep]] - Zhou et al. (2017)
+- [[DeepLC]] - Bouwmeester et al. (2021)

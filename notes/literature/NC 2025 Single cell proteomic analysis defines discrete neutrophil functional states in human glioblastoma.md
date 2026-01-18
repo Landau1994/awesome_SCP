@@ -1,98 +1,109 @@
 ---
-title: papers
+title: Single cell proteomic analysis defines discrete neutrophil functional states in human glioblastoma
 aliases:
-  - <article>
-  - <paper>
-  - <literature>
+   - Single cell proteomic analysis of GBM neutrophils
+   - Sadiku et al., 2025
 tags:
   - literature
   - paper
+  - proteomics
+  - neutrophils
+  - glioblastoma
+  - single-cell
 category: literature
-date_created: 2026-01-18
-related_topics: applications
+date_created: 2025-11-28
 Journal: Nature Communications
+Year: 2025
 ---
+
 # Single cell proteomic analysis defines discrete neutrophil functional states in human glioblastoma
 
 ## Citation
 
 > [!cite] Reference
-> **Authors**: Sadiku, P., Brenes, A.J., Mayer, R.L., Reyes, L., Coelho, P., van Stralen, G., Zhang, A., Sanchez-Garcia, M.A., Watts, E.R., Liaquat, I., Howden, A.J.M., Adekoya, I., Boldbaatar, A., MacRaild, A., Risbridger, S., Morrison, G.M., MacPherson, H., Bruce, C.M., Johnston, S., Grecian, R., Murphy, F.A., Pollard, S.M., Brennan, P.M., Mechtler, K. & Walmsley, S.R.
+> **Title**：Single cell proteomic analysis defines discrete neutrophil functional states in human glioblastoma
+> **Authors**: Pranvera Sadiku, Alejandro J. Brenes, Rupert L. Mayer, Leila Reyes, Patricia Coelho, Gabi van Stralen, Ailiang Zhang, Manuel A. Sanchez-Garcia, Emily R. Watts, Imran Liaquat, Andrew J. M. Howden, Ikeoluwa Adekoya, Anuka Boldbaatar, Allan MacRaild, Sarah Risbridger, Gillian M. Morrison, Heather MacPherson, Caroline M. Bruce, Shonna Johnston, Robert Grecian, Fiona A. Murphy, Steven M. Pollard, Paul M. Brennan, Karl Mechtler & Sarah R. Walmsley
 > **Year**: 2025
 > **Journal**: Nature Communications
 > **DOI**: https://doi.org/10.1038/s41467-025-67367-3
 
 ## Abstract
 
-This study addresses the lack of molecular understanding regarding neutrophil functional states within the glioblastoma (GBM) tumor niche. Recognizing the discordance between mRNA and protein abundance in neutrophils, the authors developed ultra-sensitive mini-bulk and single-cell proteomic (SCP) workflows. They analyzed peripheral blood and tumor-associated neutrophils (TANs) from GBM patients. Mini-bulk analysis revealed that TANs resemble mature circulating neutrophils rather than immature populations, despite the expansion of immature neutrophils in the blood. SCP analysis of TANs (identifying >1,100 proteins per cell) uncovered seven distinct functional clusters, including pathogenic and anti-tumorigenic states. Crucially, these proteomic states—such as those defined by granule content and histone levels—are often invisible to scRNAseq, highlighting the necessity of proteomic resolution to understand neutrophil biology in cancer.
+Neutrophils are vital innate immune cells shown to infiltrate glioblastomas, however we currently lack the molecular understanding of their functional states within the tumour niche. Given that neutrophils are known to display a prominent discordance between mRNA and protein abundance, we develop ultra-sensitive mini-bulk and single cell proteomic (SCP) workflows to study the heterogeneity of peripheral blood and tumour associated neutrophils (TAN) from patients with glioblastoma. Mini-bulk analysis enable a deeper protein coverage of circulating immature, mature and TAN populations, defining signatures of maturity and demonstrating that TANs resemble mature circulating neutrophils. Analysis of the SCP data results in the detection of >1,100 proteins from a single TAN providing a detailed characterization of neutrophil subsets in glioblastoma. Our approach shows evidence of pathogenic and anti-tumorigenic clusters and discovers cell states invisible to scRNAseq, opening new opportunities to selectively target pro-tumoural neutrophil states.
 
 ## Key Points
 
-- Development of an ultra-sensitive mass spectrometry workflow capable of analyzing **mini-bulk (500 cells)** and **single cells** of neutrophils, which have very low protein content (~30-60 pg/cell).
-- **Tumor Associated Neutrophils (TANs)** in GBM proteomically resemble mature CD10+ circulating neutrophils but display increased mitochondrial content, distinct from the expanded immature CD10- population in patient blood.
-- Identification of **seven discrete functional neutrophil clusters** in GBM via SCP: Armed, Engaged, Vital NETs, Exhausted, Lytic NETs, Immunosuppressive & Angiogenic, and Vascular Immature.
-- Discovery of cell states invisible to **scRNAseq**, particularly differentiating between "Vital NETs" and "Lytic NETs" based on the retention or loss of granule and histone proteins.
+- Development of ultra-sensitive mini-bulk (500 cells) and [[Single Cell Proteomics]] (SCP) workflows capable of identifying >1,100 proteins per single human neutrophil.
+- Glioblastoma (GBM) Tumor Associated Neutrophils (TANs) largely resemble mature circulating neutrophils (CD10+) rather than immature ones, but possess a distinct mitochondrial phenotype.
+- SCP revealed seven distinct neutrophil functional states within the tumor: armed, engaged, vital NETs, exhausted, lytic NETs, immunosuppressive & angiogenic, and vascular immature.
+- The study highlights the divergence between neutrophil transcriptomes and proteomes, identifying functional states (like lytic NETosis and exhaustion) that are invisible to [[scRNAseq]].
 
 ## Methods
 
 ### Sample Preparation
-- **Method used**: [[Label-free single-cell proteomics]] (SCP) and mini-bulk proteomics.
-- **Cell type**: Human neutrophils isolated from peripheral blood and Glioblastoma (GBM) tumor tissue.
-- **Number of cells**:
+- **Method used**: Fluorescence-activated cell sorting ([[FACS]]) followed by automated nanoliter liquid handling for lysis and digestion.
+- **Cell type**: Human neutrophils (CD66b+, CD11b+, CD49d-, CD10+/-) from peripheral blood and Glioblastoma (GBM) tumor tissue.
+- **Number of cells**: 
     - **Mini-bulk**: 500 cells per sample.
-    - **SCP**: Single cells sorted (330 processed, 277 analyzed after filtering).
-- **Processing**: Cells sorted into 384-well plates containing lysis master mix. Processed using the [[cellenONE]] platform for nanoliter-scale lysis and tryptic digestion. Analyzed on a [[Thermo Scientific Vanquish Neo UHPLC]] coupled to an [[Orbitrap Astral]] mass spectrometer with a [[FAIMS Pro Duo]] interface.
+    - **SCP**: Single cells (1 cell per well).
+- **Processing**: Sorted into 384-well plates, processed on [[cellenONE X1]], digested with trypsin.
+- **Instrumentation**: Analyzed using [[Vanquish Neo UHPLC]] coupled to an [[Orbitrap Astral]] mass spectrometer equipped with a [[FAIMS Pro Duo]] interface.
 
 ### Data Analysis
-- **Software**: [[Spectronaut]] (v19.4 for SCP, v19.7 for bulk/mini-bulk) using DirectDIA.
-- **Downstream**: Analysis performed in R using [[limma]] for differential expression, [[WebGestalt]] for GO analysis, and [[Seurat]] (v5.2.1) for single-cell clustering and visualization. Normalization used a relative iBAQ (riBAQ) approach.
+- **Software**: [[Spectronaut]] (v19.7 for bulk/mini-bulk, v19.4 for SCP) using directDIA.
+- **Downstream**: 
+    - Normalization: relative iBAQ ([[riBAQ]]).
+    - Dimensionality Reduction & Clustering: [[Seurat]] (v5.2.1), [[Harmony]] (for batch correction), [[PCA]], [[UMAP]].
+    - Differential Expression: [[Limma]] (Empirical Bayes), [[WebGestalt]] (GO analysis).
+    - Statistical testing: Welch's T-test, Logistic regression (Seurat FindMarkers).
 
 ## Results
 
 ### Main Findings
-1. **Workflow Sensitivity**: The optimized workflow identified >3,000 proteins from 500 cells (mini-bulk) and >1,100 proteins from single neutrophils. This provided high coverage of granule proteins (80% of bulk), metabolic proteins (75%), and immune signaling proteins.
-2. **TAN Phenotype**: In GBM patients, an immature CD10- neutrophil population expands in the blood (Low Density Neutrophils). However, mini-bulk proteomics showed that TANs clusters closely with mature CD10+ neutrophils rather than the immature subset, though TANs exhibit higher mitochondrial metabolic proteins.
-3. **Single Cell Heterogeneity**: SCP revealed distinct functional states:
-    - **Armed**: Most abundant, high cytoskeletal and granule proteins (poised to respond).
-    - **Engaged**: Signs of degranulation (reduced MPO/S100A8) but intact histones.
-    - **Vital NETs**: Loss of granules and secretory vesicles, reduced histones.
-    - **Exhausted**: Retained histones but significant reduction in metabolic enzymes (glycolysis/pentose phosphate pathway) and signaling proteins (RAC2, Calmodulin).
-    - **Lytic NETs**: Massive loss of nuclear, granule, and cytoplasmic proteins; enriched for complement and coagulation factors (suggesting vascular localization/occlusion).
-    - **Immunosuppressive & Angiogenic (I&A)**: High Arginase 1 (ARG1), S100A7, and angiogenic factors (ECM1, MMP9), with enhanced lysosomal/phagocytic machinery.
-    - **Vascular Immature**: Small population (8%) retaining immature markers (PCNA, CEBPE) and ribosomal proteins.
+1.  **Mini-bulk Sensitivity & Phenotyping**: The workflow identified >3,000 proteins from 500 cells. It defined a proteomic signature of neutrophil maturity (distinguishing CD10+ vs CD10-), showing that CD10- immature cells have high ribosomal and mitochondrial content, while CD10+ cells are enriched in granule proteins and migration markers.
+2.  **TAN Profile**: Despite the expansion of immature neutrophils in GBM patient blood, Tumor Associated Neutrophils (TANs) proteomically resemble mature circulating neutrophils (CD10+) but with significantly elevated mitochondrial metabolic proteins.
+3.  **Single Cell Heterogeneity**: SCP identified 7 distinct functional clusters:
+    *   **Armed**: Most abundant, high granule content, motility proteins (integrins).
+    *   **Engaged**: Signs of degranulation (reduced MPO/S100A8), trajectory toward vital NETs.
+    *   **Vital NETs**: Loss of granule/nuclear membrane proteins but retained histones.
+    *   **Exhausted**: Retained histones but metabolic anergy (low glycolysis/glycogenolysis enzymes) and signaling dysfunction.
+    *   **Lytic NETs**: Massive loss of granules, histones, and nuclear envelope; high complement/coagulation factors (suggesting vascular occlusion).
+    *   **Immunosuppressive & Angiogenic**: High Arginase 1 (ARG1), pro-angiogenic factors (ECM1, S100A10), and enhanced lysosomal/phagocytic capacity.
+    *   **Vascular Immature**: Rare (8%), high ribosomal/mitochondrial content, vascular signature.
 
 ### Figures
 
 | Figure | Description |
 |--------|-------------|
-| **Fig 1** | Schematic of the mini-bulk and SCP workflows; comparison of protein coverage and copy number estimation against bulk proteomics. |
-| **Fig 2** | Proteomic comparison of mature (CD10+) and immature (CD10-) blood neutrophils vs. TANs using mini-bulk (500 cells). Shows immature cells have high ribosomal/mitochondrial content. |
-| **Fig 3** | Comparison of TANs to blood neutrophils. TANs resemble mature neutrophils but with elevated mitochondrial proteins and reduced proliferation markers compared to immature cells. |
-| **Fig 4** | SCP analysis of TANs (n=277) showing 7 clusters. Heatmaps and dot plots define signatures for immature (PCNA), NETotic (histone loss), and metabolic states. |
-| **Fig 5** | Functional trajectory analysis. Visualizes the transition from "Armed" to "Engaged" and potential endpoints of "Vital NETs" (histone loss) or "Exhausted" (metabolic anergy). |
-| **Fig 6** | Characterization of the "Immunosuppressive and Angiogenic" cluster, highlighting high ARG1, S100A7, ECM1, and lysosomal proteins. |
-| **Fig 7** | Schematic overview of the proposed neutrophil functional states and trajectories within the GBM tumor microenvironment. |
+| Fig 1 | Overview of low cell number workflows (Mini-bulk & SCP); comparison of protein coverage (granules, metabolism, signaling) against bulk proteomics. |
+| Fig 2 | Mini-bulk proteomic analysis defining signatures of mature (CD10+) and immature (CD10-) neutrophils in blood and tumor. |
+| Fig 3 | Comparison showing TANs resemble mature neutrophils (CD10+) but with increased mitochondrial phenotype and reduced proliferation markers. |
+| Fig 4 | SCP analysis of TANs identifying 7 functional clusters; heatmaps of maturity, mitochondrial, and ribosomal markers; characterization of Lytic NETs. |
+| Fig 5 | Predicted trajectory analysis: from Armed -> Engaged -> Vital NETs or Exhausted. Dot plots of metabolic enzymes (GLUT3, PYGL) and signaling proteins (RAC2). |
+| Fig 6 | Characterization of the "Immunosuppressive & Angiogenic" subset showing high ARG1, S100A7, MMPs, and lysosomal proteins. |
+| Fig 7 | Schematic summary of the proposed neutrophil functional states in human glioblastoma. |
 
 ## Discussion
 
 ### Strengths
-- **Single-cell resolution for low-protein cells**: Successfully applied SCP to neutrophils (~60pg protein/cell), a cell type typically excluded from SCP studies due to low protein content.
-- **Functional definition beyond mRNA**: Demonstrates that proteomic analysis captures functional states (e.g., degranulation, NETosis) that rely on pre-formed proteins and are therefore invisible to transcriptomic methods (scRNAseq).
-- **Novel cluster identification**: Differentiated between "Lytic NETosis" (vascular, necrotic) and "Vital NETosis" (tissue infiltrating), and identified a specific immunosuppressive/angiogenic subset.
+- **Sensitivity**: Achieved >1,100 proteins per single neutrophil (a cell with very low protein content, ~30-60pg), providing the first deep single-cell proteomic map of human neutrophils.
+- **Functional Insight**: Overcomes the limitations of transcriptomics in neutrophils (where mRNA correlates poorly with protein) to identify functional states like NETosis and degranulation based on actual protein abundance/loss.
+- **Novel Subsets**: Identification of specific "Exhausted" and "Lytic NETs" populations that are compartment-restricted or functionally distinct in ways not previously mapped in humans.
 
 ### Limitations
-- **Sample size**: Analysis was limited to 277 single cells after filtering, which is lower than typical scRNAseq throughput.
-- **Low abundance detection**: While coverage was high for granules/metabolism, low abundance proteins like chemokine receptors were difficult to detect even in mini-bulk.
-- **Missing immature/vascular context**: The immature population found in tumors was small (8%); it is unclear if they are actively excluded or rapidly differentiate.
+- **Low Abundance Detection**: While coverage was excellent for granules and histones, low abundance proteins like chemokine receptors were difficult to detect in mini-bulk and SCP compared to bulk.
+- **Sample Size**: The study analyzed a relatively small cohort (6 patients).
+- **Spatial Context**: The exact spatial location of these specific clusters within the tumor (e.g., necrotic core vs. perivascular) is inferred from protein signatures but not directly visualized.
 
 ### Future Work
-- Application of **spatial proteomics** to understand if specific neutrophil states (e.g., Lytic NETs) are spatially restricted to the perivascular niche or necrotic core.
-- Investigation into the drivers of these states (e.g., hypoxia, cell-cell interactions) and how they evolve during tumor progression and treatment.
+- Application of [[Spatial Proteomics]] to map these functional clusters to specific tumor niches (e.g., does the Lytic NETs cluster reside specifically in occluded vessels?).
+- Investigation of the drivers of these states (e.g., hypoxia, cell-cell interactions).
+- Determining if these states can be therapeutically targeted to shift pro-tumoral neutrophils toward anti-tumoral phenotypes.
 
 ## Personal Notes
 
 ## Related Papers
 
-- [Adrover, J. M. et al. Neutrophils drive vascular occlusion, tumour necrosis and metastasis. Nature (2025)](https://doi.org/10.1038/s41586-025-09278-3) - *Referred to in text regarding vascular occlusion by NETs.*
-- [Ng, M. S. F. et al. Deterministic reprogramming of neutrophils within tumors. Science (2024)](https://doi.org/10.1126/science.adf6493) - *Regarding neutrophil reprogramming in the tumor niche.*
-- [Bubis, J. A. et al. Challenging the Astral mass analyzer... Nat Methods (2025)](https://doi.org/10.1038/s41592-024-02559-1) - *Regarding Orbitrap Astral sensitivity for SCP.*
+- [[Hoogendijk et al. 2019]] - "Dynamic Transcriptome-Proteome Correlation Networks Reveal Human Myeloid Differentiation and Neutrophil-Specific Programming" (Regarding mRNA/protein discordance).
+- [[Ng et al. 2024]] - "Deterministic reprogramming of neutrophils within tumors" (Regarding neutrophil states in cancer).
+- [[Adrover et al. 2025]] - "Neutrophils drive vascular occlusion, tumour necrosis and metastasis" (Related to the Lytic NETs/vascular occlusion finding).

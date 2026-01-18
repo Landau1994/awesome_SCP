@@ -1,95 +1,125 @@
 ---
-title: nmeth 2025 Enhanced sensitivity and scalability with a Chip-Tip workflow enables deep single-cell proteomics
+title: Enhanced sensitivity and scalability with a Chip-Tip workflow enables deep single-cell proteomics
+authors:
+  - Zilu Ye
+  - Pierre Sabatier
+  - Leander van der Hoeven
+  - Maico Y. Lechner
+  - Teeradon Phlairaharn
+  - Ulises H. Guzman
+  - Zhen Liu
+  - Haoran Huang
+  - Min Huang
+  - Xiangjun Li
+  - David Hartlmayr
+  - Fabiana Izaguirre
+  - Anjali Seth
+  - Hiren J. Joshi
+  - Sergey Rodin
+  - Karl-Henrik Grinnemo
+  - Ole B. Hørning
+  - Dorte B. Bekker-Jensen
+  - Nicolai Bache
+  - Jesper V. Olsen
 aliases:
-  - <% tp.file.cursor(1) %>
-  - <article>
-  - <paper>
-  - <literature>
+   - <article>
+   - <paper>
+   - <literature>
 tags:
-  - methods
   - literature
   - paper
+  - proteomics
+  - single-cell
+  - PTMs
 category: literature
-url: <% tp.file.cursor(3) %>
-date_created: 2026-01-18
+date_created: 2025-05-22
 Journal: Nature Methods
-Year: "2025"
+Year: 2025
 ---
+
 # Enhanced sensitivity and scalability with a Chip-Tip workflow enables deep single-cell proteomics
 
 ## Citation
 
 > [!cite] Reference
+> **Title**：Enhanced sensitivity and scalability with a Chip-Tip workflow enables deep single-cell proteomics
 > **Authors**: Zilu Ye, Pierre Sabatier, Leander van der Hoeven, Maico Y. Lechner, Teeradon Phlairaharn, Ulises H. Guzman, Zhen Liu, Haoran Huang, Min Huang, Xiangjun Li, David Hartlmayr, Fabiana Izaguirre, Anjali Seth, Hiren J. Joshi, Sergey Rodin, Karl-Henrik Grinnemo, Ole B. Hørning, Dorte B. Bekker-Jensen, Nicolai Bache & Jesper V. Olsen
 > **Year**: 2025
 > **Journal**: Nature Methods
-> **DOI**: https://doi.org/10.1038/s41592-024-02558-2
+> **DOI**: 10.1038/s41592-024-02558-2
 
 ## Abstract
 
-Single-cell proteomics (SCP) promises to revolutionize biomedicine by providing an unparalleled view of the proteome in individual cells. Here, we present a high-sensitivity SCP workflow named Chip-Tip, identifying >5,000 proteins in individual HeLa cells. It also facilitated direct detection of post-translational modifications in single cells, making the need for specific post-translational modification-enrichment unnecessary. Our study demonstrates the feasibility of processing up to 120 label-free SCP samples per day. An optimized tissue dissociation buffer enabled effective single-cell disaggregation of drug-treated cancer cell spheroids, refining overall SCP analysis. Analyzing nondirected human-induced pluripotent stem cell differentiation, we consistently quantified stem cell markers OCT4 and SOX2 in human-induced pluripotent stem cells and lineage markers such as GATA4 (endoderm), HAND1 (mesoderm) and MAP2 (ectoderm) in different embryoid body cells. Our workflow sets a benchmark in SCP for sensitivity and throughput, with broad applications in basic biology and biomedicine for identification of cell type-specific markers and therapeutic targets.
+Single-cell proteomics (SCP) aims to provide a granular view of the proteome in individual cells, but faces challenges in sensitivity and throughput. The authors present "Chip-Tip," a high-sensitivity SCP workflow that identifies >5,000 proteins in individual HeLa cells. The method utilizes the cellenONE platform for cell isolation, a proteoCHIP EVO 96 for nanoliter-scale sample preparation, and direct transfer to Evotip trap columns for analysis on an Orbitrap Astral mass spectrometer using narrow-window data-independent acquisition (nDIA). This workflow enables the direct detection of post-translational modifications (PTMs), such as phosphorylation and glycosylation, without enrichment. The study demonstrates the feasibility of processing up to 120 label-free SCP samples per day and applies the workflow to analyze drug-treated cancer cell spheroids and human-induced pluripotent stem cell (hiPSC) differentiation.
 
 ## Key Points
 
-- Development of **Chip-Tip**, a nearly lossless label-free SCP workflow integrating [[cellenONE]] isolation, [[ProteoCHIP]], and [[Evotips]].
-- Achieved identification of **>5,000 proteins** and **>40,000 peptides** in single HeLa cells using the [[Orbitrap Astral]] mass spectrometer.
-- Demonstrated **direct detection of PTMs** (phosphorylation and glycosylation) in single cells without enrichment.
-- Validated workflow on biological models: drug response in cancer spheroids and lineage markers in human iPSC differentiation.
+- **Deep Proteome Coverage**: Achieves identification of over 5,000 proteins and 40,000 peptides from a single HeLa cell, setting a new benchmark for label-free SCP.
+- **PTM Detection without Enrichment**: Exceptional depth allows for the direct identification of phosphorylation (median 120 p-Ser, 28 p-Thr, 13 p-Tyr) and glycosylation patterns in single cells without specialized enrichment steps.
+- **High Throughput and Scalability**: Demonstrates successful workflows for 40, 80, and 120 samples per day (SPD) while maintaining high sensitivity (>4,500 proteins at 120 SPD).
+- **Application to Complex Systems**: Successfully used to profile heterogeneous cell populations in cancer spheroids (using a novel dissociation buffer) and hiPSC differentiation into multiple germ layers.
 
 ## Methods
 
 ### Sample Preparation
-- Method used: [[Chip-Tip]] ([[Label-free single-cell proteomics]] [[nDIA]])
-- Cell type: HeLa, HCT116 (spheroids), hiPSCs (human induced pluripotent stem cells), Embryoid Bodies (EBs), HEK293T
-- Number of cells: Single cells, 10, 20, 40 cells (up to 96 cells processed in parallel)
+- **Method used**: Chip-Tip (one-pot preparation in nanoliter volumes).
+- **Cell isolation**: cellenONE X1 platform for single-cell dispensing.
+- **Chip**: proteoCHIP EVO 96 (polypropylene or Teflon) using a hexadecane oil layer to prevent evaporation.
+- **Lysis/Digestion**: 0.2% DDM, 100 mM TEAB, Trypsin, and Lys-C.
+- **Cleanup**: Direct transfer from chip to Evotip disposal trap columns via centrifugation.
+- **Cell types**: HeLa, HCT116 (spheroids), hiPSCs (hi12), and HEK293T.
+- **Number of cells**: Single cells, 10, 20, and 40 cell batches.
 
 ### Data Analysis
-- Software: [[Spectronaut]] (v18), [[DIA-NN]] (v1.9)
-- Downstream: [[ClusterProfiler]], [[Enrichplot]], [[Pathview]], [[Imp4p]]
+- **MS Instrument**: Orbitrap Astral mass spectrometer coupled with Evosep One LC.
+- **Acquisition**: narrow-window DIA (nDIA) with various window settings (e.g., 4Th6ms).
+- **Software**: Spectronaut (v.18/19) using directDIA+; DIA-NN (v.1.9) with match-between-run (MBR).
+- **Downstream**: GO enrichment (Clusterprofiler), PTM site localization (Spectronaut), and FDR benchmarking via entrapment database strategies.
 
 ## Results
 
 ### Main Findings
-1. **Unprecedented Sensitivity**: Using the [[Orbitrap Astral]] and optimized [[nDIA]] settings (4Th6ms), the workflow identified a median of 5,204 proteins in single HeLa cells with high peptide coverage (median 41,700 peptides).
-2. **Carrier Proteome Effects**: Benchmarking between [[Spectronaut]] and [[DIA-NN]] showed that including carrier proteomes (e.g., 20-cell samples) increases identification numbers (~4,000 to ~5,000 proteins) but requires careful FDR control, which was validated using an entrapment database strategy.
-3. **Deep PTM Profiling**: The method allowed for the quantification of 168 protein kinases and the direct identification of phosphosites (median 120 pSer per cell) and glycans (via oxonium ions) without specific enrichment.
-4. **Biological Application**: 
-   - **Spheroids**: 5-FU treatment caused metabolic shifts (ribosome/purine synthesis) in HCT116 spheroids.
-   - **Stem Cells**: Successfully tracked low-abundance transcription factors (OCT4, SOX2) and lineage markers (GATA4, HAND1, MAP2) during hiPSC differentiation.
+1. **Optimization of nDIA**: Determined that 4-Th DIA windows and 6-ms injection times (4Th6ms) provided the highest proteome coverage for single cells.
+2. **Carrier Proteome Effect**: Systematic evaluation showed that using a carrier proteome (e.g., 20-cell samples) significantly increases protein IDs in single-cell files by enabling the identification of lower-abundance proteins.
+3. **PTM Profiling**: Quantified 168 protein kinases and identified hundreds of phosphorylation sites and multiple glycosylation pathways (e.g., O-GlcNAc, NeuAc) directly from single cells.
+4. **Biological Insights**: Consistently quantified low-abundance stem cell markers (OCT4, SOX2) and lineage-specific markers (GATA4, HAND1, MAP2) in hiPSC-derived embryoid bodies.
 
 ### Figures
 
 | Figure | Description |
 |--------|-------------|
-| Fig 1 | Schematic of the **Chip-Tip** workflow; Protein/peptide IDs in single HeLa cells (>5k proteins); Sequence coverage and subcellular localization. |
-| Fig 2 | Evaluation of the **carrier proteome effect** comparing [[Spectronaut]] and [[DIA-NN]]; Impact of search strategies on low-abundance protein detection. |
-| Fig 3 | Throughput optimization (40, 80, 120 SPD) using [[Evosep One]] Whisper methods; Performance enhancement with **FAIMS** interface. |
-| Fig 4 | **PTM profiling** in single cells: Kinome tree, phosphosite identification (pSer/pThr/pTyr), and glycan oxonium ion screening. |
-| Fig 5 | Analysis of **5-FU impact** on colorectal cancer spheroids: Morphology changes, metabolic pathway diagrams, and GO term enrichment. |
-| Fig 6 | Single-cell analysis of **hiPSC differentiation** into Embryoid Bodies (EBs): PCA plots, marker expression (OCT4, SOX2), and hierarchical clustering. |
+| Fig 1 | Schematic of Chip-Tip workflow and benchmark protein/peptide IDs across different nDIA settings and cell counts. |
+| Fig 2 | Evaluation of carrier proteome effects and search strategies (Spectronaut vs. DIA-NN) on protein identification and quantification. |
+| Fig 3 | Performance of high-throughput methods (80 and 120 SPD) and the effect of FAIMS interface on sensitivity. |
+| Fig 4 | Kinome tree representation and direct PTM profiling (phosphorylation and glycosylation) in single cells. |
+| Fig 5 | Impact of 5-FU drug treatment on cancer spheroids, showing metabolic pathway alterations and GO term enrichment. |
+| Fig 6 | Single-cell analysis of hiPSC differentiation into embryoid bodies, highlighting lineage-specific marker quantification. |
 
 ## Discussion
 
 ### Strengths
-- **Sensitivity**: Surpasses previous state-of-the-art (typically 1,500-2,500 proteins) by identifying >5,000 proteins per cell.
-- **Workflow Efficiency**: The [[ProteoCHIP]] and direct transfer to [[Evotips]] minimize sample loss and manual handling.
-- **PTM Capability**: Proves that deep coverage allows for "enrichment-free" PTM analysis in single cells.
-- **Robustness**: Validated across different cell types and commercial instruments (Orbitrap Astral, Fusion Lumos, timsTOF Ultra).
+- **Lossless Workflow**: Integration of nanoliter-scale preparation with direct-to-tip transfer minimizes peptide loss.
+- **High Sensitivity**: Utilization of the Orbitrap Astral allows for unprecedented depth in label-free SCP.
+- **Robustness**: Validated across multiple cell types and biological contexts (spheroids, differentiation).
+- **Accessibility**: Demonstrated performance on various commercial MS platforms (Orbitrap Astral, Fusion Lumos, timsTOF Ultra).
 
 ### Limitations
-- **Throughput Bottleneck**: Currently capped at 120 samples per day (SPD) due to MS run times, though faster than many deep-coverage methods.
-- **PTM Localization**: Precise identification of modified peptides is still limited by current database search algorithms.
-- **Dynamic Range**: While high, the dynamic range is not fully quantitative across all orders of magnitude.
+- **MS Throughput**: Currently capped at 120 SPD, which remains a bottleneck compared to single-cell RNA-seq.
+- **PTM Quantification**: While identification is possible, the entire dynamic range of modified peptides is not yet fully quantitative.
+- **Adsorption**: Surface adsorption and buffer evaporation still require meticulous control despite the oil-layer innovation.
 
 ### Future Work
-- Integration of [[nDIA]] with multiplexed approaches (e.g., [[TMT]] or [[plexDIA]]) to exponentially increase throughput.
-- Integrating single-cell genomic and proteomic measurements (multi-omics).
-- Investigation of non-MS techniques (e.g., nanopore sequencing) for protein identification.
+- **Multiplexing**: Integration of nDIA with multiplexed approaches (e.g., TMT, plexDIA) to exponentially increase throughput.
+- **Multi-omics**: Combining Chip-Tip SCP with single-cell genomic and transcriptomic measurements for a holistic view of cellular states.
+- **Hardware Optimization**: Further refinement of chip materials and processing volumes to enhance sensitivity.
 
 ## Personal Notes
 
+- The ability to detect PTMs without enrichment is a significant breakthrough for SCP, as enrichment is usually impossible at the single-cell level due to material loss.
+- The "one-pot" nature of the proteoCHIP EVO 96 combined with Evosep's "Whisper" methods provides a very streamlined path from cell to data.
+
 ## Related Papers
 
-- [[SCoPE2]]
-- [[plexDIA]]
-- [[nPOP]]
+- Li, Z.-Y. et al. (2018) Nanoliter-scale oil-air-droplet chip-based single cell proteomic analysis. *Anal. Chem.*
+- Brunner, A. D. et al. (2022) Ultra-high sensitivity mass spectrometry quantifies single-cell proteome changes upon perturbation. *Mol. Syst. Biol.*
+- Guzman, U. H. et al. (2024) Ultra-fast label-free quantification and comprehensive proteome coverage with narrow-window data-independent acquisition. *Nat. Biotechnol.*

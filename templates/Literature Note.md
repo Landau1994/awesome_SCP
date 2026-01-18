@@ -18,6 +18,7 @@ Year:
 ## Citation
 
 > [!cite] Reference
+> **Title**：
 > **Authors**: 
 > **Year**: 
 > **Journal**: 
