@@ -8,3 +8,6 @@ copilot/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Ignore Obsidian Copilot Index
+.obsidian/copilot-index-*.json
