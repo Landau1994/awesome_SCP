@@ -1,16 +1,17 @@
 ---
 title: <% tp.file.title %>
 aliases:
-   - <article>
-   - <paper>
-   - <literature>
+  - <article>
+  - <paper>
+  - <literature>
+authors:
 tags:
   - literature
   - paper
 category: literature
 date_created: <% tp.date.now("YYYY-MM-DD") %>
-Journal: 
-Year: 
+Journal:
+Year:
 ---
 
 # <% tp.file.title %>
