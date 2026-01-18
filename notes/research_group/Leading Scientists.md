@@ -94,11 +94,17 @@ if (sortedAuthors.length === 0) {
 
 ## Research Groups & Key Figures (Snapshot)
 
-While the table above updates dynamically, this section provides context on the major research clusters identified in the current literature (as of Jan 2026):
+While the table above updates dynamically, this section provides context on the major research clusters identified in the current literature (as of Jan 2026, **the list i no particular order**,**The statistics and research group assignments are automatically generated based on the current selection of literature notes in this vault and may not reflect the full scope of the field or real-world academic hierarchies**.):
+
+
+### 🇨‍🇳  Suzhou Institute of Systems6Medicine, Chinese Academy of Medical Sciences & Peking Union Medical College, Suzhou, China
++ **Key Figures:** Zilu Ye
++ Focus:High-sensitivity hardware workflows. They are the primary drivers behind the **Orbitrap Astral** methods, **SC-pSILAC** (turnover), and the **Chip-Tip** workflow
 
 ### 🇩🇰 Center for Protein Research (Copenhagen)
 * **Key Figures:** Pierre Sabatier, Maico Lechner, Jesper V. Olsen, Zilu Ye.
 * **Focus:** High-sensitivity hardware workflows. They are the primary drivers behind the **Orbitrap Astral** methods, **SC-pSILAC** (turnover), and the **Chip-Tip** workflow.
+
 
 ### 🇩🇪 Max Planck Institute (Biochemistry)
 * **Key Figures:** Matthias Mann.
