@@ -9,8 +9,8 @@ tags:
   - paper
 category: literature
 date_created: <% tp.date.now("YYYY-MM-DD") %>
-Journal: Nature Communications
-Year: "2025"
+Journal: 
+Year: 
 ---
 
 # <% tp.file.title %>
