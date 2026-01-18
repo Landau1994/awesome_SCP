@@ -10,6 +10,7 @@ tags:
 category: literature
 date_created: 2026-01-18
 related_topics: applications
+Journal: Nature Communications
 ---
 # Single cell proteomic analysis defines discrete neutrophil functional states in human glioblastoma
 

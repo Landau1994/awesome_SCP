@@ -1,16 +1,16 @@
 ---
-title: FAIMS Pro Duo
+title: ClusterProfiler
 aliases:
   - <% tp.file.cursor(1) %>
 tags:
   - tools
-  - equipment
+  - software
 category: tool
 url: <% tp.file.cursor(3) %>
 date_created: 2026-01-18
 ---
 
-# FAIMS Pro Duo
+# ClusterProfiler
 
 **<% tp.file.cursor(4) %>**
 
@@ -36,7 +36,7 @@ date_created: 2026-01-18
 
 ```r
 # Example code
-library(FAIMS Pro Duo)
+library(ClusterProfiler)
 ```
 
 ## Input/Output
