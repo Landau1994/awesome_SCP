@@ -1,5 +1,5 @@
 ---
-title: 未命名
+title: NC 2025 AlphaPeptDeep a modular deep learning framework to predict peptide properties for proteomics
 aliases:
   - <article>
   - <paper>
