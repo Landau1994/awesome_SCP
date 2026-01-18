@@ -42,6 +42,7 @@ Welcome to the Single-Cell Proteomics (SCP) knowledge base. This vault contains 
 | Method | Description | Throughput |
 |--------|-------------|------------|
 | [[plexDIA]] | Non-isobaric labels + DIA | 3x multiplier |
+| [[nDIA]] | Narrow-window DIA (Orbitrap Astral) | High |
 
 ### Sample Preparation
 
@@ -91,6 +92,14 @@ Welcome to the Single-Cell Proteomics (SCP) knowledge base. This vault contains 
 |------|------------|
 | [[Cancer Applications]] | Tumor heterogeneity, drug resistance, immune microenvironment |
 | [[Cell Differentiation]] | Lineage decisions, protein-RNA discordance |
+
+---
+
+## Research Groups
+
+| Resource | Description |
+|----------|-------------|
+| [[notes/research_group/Leading Scientists\|Leading Scientists]] | Key contributors and research clusters in SCP |
 
 ---
 
@@ -179,4 +188,4 @@ graph LR
 
 ---
 
-*Last updated: 2026-01-16*
+*Last updated: 2026-01-18*

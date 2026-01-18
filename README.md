@@ -30,10 +30,13 @@ Single-cell proteomics (SCP) enables the quantification of proteins at single-ce
 ### Label-Free & Multiplexed DIA
 
 - **[plexDIA](https://scp.slavovlab.net/plexDIA)** - Multiplexed data-independent acquisition using non-isobaric mass tags (mTRAQ, dimethyl, PSMtags). Achieves ~1,000 proteins per cell with 98% data completeness.
+- **[nDIA](notes/methods/nDIA.md)** - Narrow-window DIA (4 Th, 6 ms) optimized for the Orbitrap Astral. Achieves >5,000 proteins per HeLa cell with PTM detection capability.
 - **[diaPASEF](https://www.bruker.com/)** - Combines parallel accumulation–serial fragmentation with DIA for enhanced sensitivity.
+- **[SC-pSILAC](https://www.cell.com/cell/fulltext/S0092-8674(25)00000-0)** - Single-cell pulsed SILAC. Simultaneously analyzes protein abundance and **turnover dynamics** in single cells.
 
 ### Miniaturized Sample Preparation
 
+- **[Chip-Tip](https://www.nature.com/articles/s41592-024-02558-2)** - High-sensitivity "one-pot" workflow using the proteoCHIP EVO 96. Enables direct transfer to Evotips, identifying >5,000 proteins per HeLa cell.
 - **[nPOP](https://scp.slavovlab.net/)** - Nano-ProteOmic sample Preparation. Enables parallel preparation of thousands of cells in nanoliter droplets on glass slides. Quantifies 3,000-3,700 proteins per human cell.
 - **[nanoPOTS](https://www.pnnl.gov/)** - Nanodroplet Processing in One pot for Trace Samples. Chip-based platform using nanoliter reaction volumes.
 - **[Nested NanoPOTS (N2)](https://www.pnnl.gov/)** - Enhanced version accommodating 243 cells per chip with 10-fold improvement in throughput.
@@ -41,7 +44,7 @@ Single-cell proteomics (SCP) enables the quantification of proteins at single-ce
 
 ### Automated Platforms
 
-- **[CellenONE](https://www.scienion.com/)** - Single-cell isolation and dispensing platform widely used for SCP workflows.
+- **[CellenONE](https://www.scienion.com/)** - Single-cell isolation and dispensing platform widely used for SCP workflows (e.g., Chip-Tip, nPOP).
 - **[cellenONE + Evosep](https://www.evosep.com/)** - Integrated workflow combining cell dispensing with robust LC separation.
 
 ---
@@ -52,6 +55,7 @@ Single-cell proteomics (SCP) enables the quantification of proteins at single-ce
 |----------|-------------|------------|----------------|
 | **DDA** | Data-Dependent Acquisition | Moderate | High |
 | **DIA** | Data-Independent Acquisition | High | Very High |
+| **nDIA** | Narrow-window DIA (Orbitrap Astral) | High | Very High |
 | **plexDIA** | Multiplexed DIA | Very High | High |
 | **pSCoPE** | Targeted/Prioritized | Moderate | Focused |
 | **diaPASEF** | Ion mobility-enhanced DIA | High | Very High |
@@ -64,12 +68,12 @@ Single-cell proteomics (SCP) enables the quantification of proteins at single-ce
 
 - **[Bruker timsTOF SCP](https://www.bruker.com/)** - Purpose-built for single-cell proteomics with trapped ion mobility.
 - **[Bruker timsTOF Ultra 2](https://www.bruker.com/)** - Next-generation platform with enhanced sensitivity.
-- **[Thermo Orbitrap Astral](https://www.thermofisher.com/)** - High-resolution mass analyzer with exceptional sensitivity.
+- **[Thermo Orbitrap Astral](https://www.thermofisher.com/)** - High-resolution mass analyzer with exceptional sensitivity, key to recent deep SCP methods (Chip-Tip, SC-pSILAC).
 - **[Thermo Exploris Series](https://www.thermofisher.com/)** - Versatile Orbitrap platforms for SCP applications.
 
 ### LC Systems
 
-- **[Evosep One](https://www.evosep.com/)** - Robust LC platform with standardized gradients (e.g., 5-min Whisper methods).
+- **[Evosep One](https://www.evosep.com/)** - Robust LC platform with standardized gradients (e.g., Whisper methods).
 - **[IonOpticks Aurora Series](https://ionopticks.com/)** - High-performance columns optimized for low-flow proteomics.
 
 ---
@@ -82,9 +86,10 @@ Single-cell proteomics (SCP) enables the quantification of proteins at single-ce
 |------|----------|-------------|------|
 | **MaxQuant** | Windows | Quantitative proteomics with LFQ and TMT support | [Link](https://www.maxquant.org/) |
 | **DIA-NN** | Cross-platform | Deep learning-based DIA analysis, supports plexDIA | [Link](https://github.com/vdemichev/DiaNN) |
+| **Spectronaut** | Windows | Leading vendor software for DIA analysis (directDIA+) | [Link](https://biognosys.com/software/spectronaut/) |
 | **Proteome Discoverer** | Windows | Comprehensive MS data analysis | [Link](https://www.thermofisher.com/) |
 | **FragPipe** | Cross-platform | Fast peptide/protein identification | [Link](https://fragpipe.nesvilab.org/) |
-| **SCeptre** | Python | Pipeline for isobaric carrier-based SCP | [GitHub](https://github.com/schoof-lab/SCeptre) |
+| **AlphaPeptDeep** | Python | Modular deep learning framework for peptide property prediction | [GitHub](https://github.com/MannLabs/alphapeptdeep) |
 
 ### Quality Control
 
@@ -103,14 +108,15 @@ Single-cell proteomics (SCP) enables the quantification of proteins at single-ce
 | **scp** | Bioconductor package for MS-based SCP analysis | [Bioconductor](https://bioconductor.org/packages/scp/) |
 | **scpdata** | Curated SCP datasets in scp format | [Bioconductor](https://bioconductor.org/packages/scpdata/) |
 | **QFeatures** | Quantitative proteomics data management | [Bioconductor](https://bioconductor.org/packages/QFeatures/) |
+| **SCPDA** | Benchmarking framework for DIA-based SCP analysis | [GitHub/Link](https://github.com/) |
 | **SCPline** | Interactive Shiny framework for SCP preprocessing | [Oxford Academic](https://academic.oup.com/bib/article/26/3/bbaf256/8156470) |
-| **SCP (Single Cell Pipeline)** | Seurat-compatible analysis pipeline | [GitHub](https://zhanghao-njmu.github.io/SCP/) |
 
 #### Python Packages
 
 | Package | Description | Link |
 |---------|-------------|------|
 | **SCeptre** | Processing pipeline for isobaric carrier SCP | [GitHub](https://github.com/schoof-lab/SCeptre) |
+| **scProtVelo** | Modeling translation dynamics and cell velocity | [Science](https://www.science.org/doi/10.1126/science.adr8785) |
 | **pyteomics** | MS data parsing and analysis | [GitHub](https://github.com/levitsky/pyteomics) |
 | **alphapept** | DIA-NN integration for Python workflows | [GitHub](https://github.com/MannLabs/alphapept) |
 
@@ -154,29 +160,31 @@ Single-cell proteomics (SCP) enables the quantification of proteins at single-ce
 
 ## Key Publications
 
-### Foundational Methods
+### Foundational Methods & Workflows
 
-| Year | Title | Method | DOI |
-|------|-------|--------|-----|
-| 2018 | SCoPE-MS: mass spectrometry of single mammalian cells | SCoPE-MS | [10.1186/s13059-018-1547-5](https://doi.org/10.1186/s13059-018-1547-5) |
-| 2021 | Single-cell proteomic and transcriptomic analysis of macrophage heterogeneity using SCoPE2 | SCoPE2 | [10.1186/s13059-021-02267-5](https://doi.org/10.1186/s13059-021-02267-5) |
-| 2022 | Increasing the throughput of sensitive proteomics by plexDIA | plexDIA | [10.1038/s41587-022-01389-w](https://doi.org/10.1038/s41587-022-01389-w) |
-| 2023 | Massively parallel sample preparation for multiplexed single-cell proteomics using nPOP | nPOP | [10.1038/s41596-024-01033-8](https://doi.org/10.1038/s41596-024-01033-8) |
+| Year | Title                                                                            | Method    | Journal     |
+| ---- | -------------------------------------------------------------------------------- | --------- | ----------- |
+| 2018 | SCoPE-MS: mass spectrometry of single mammalian cells                            | SCoPE-MS  | Genome Biol |
+| 2021 | Single-cell proteomic and transcriptomic analysis of macrophage heterogeneity... | SCoPE2    | Genome Biol |
+| 2022 | Increasing the throughput of sensitive proteomics by plexDIA                     | plexDIA   | Nat Biotech |
+| 2025 | **Global analysis of protein turnover dynamics in single cells**                 | SC-pSILAC | Cell        |
+| 2025 | **Enhanced sensitivity and scalability with a Chip-Tip workflow...**             | Chip-Tip  | Nat Methods |
 
 ### Computational Methods
 
-| Year | Title | Focus | DOI |
-|------|-------|-------|-----|
-| 2021 | Replication of SCoPE2 analysis with scp | scp R package | [Bioconductor](https://uclouvain-cbio.github.io/SCP.replication/) |
-| 2024 | Standardized Workflow for Mass-Spectrometry-Based SCP Data Processing | scp workflow | [PubMed](https://pubmed.ncbi.nlm.nih.gov/38907155/) |
-| 2024 | Benchmark of Data Integration in Single-Cell Proteomics | Integration | [10.1021/acs.analchem.4c04933](https://doi.org/10.1021/acs.analchem.4c04933) |
+| Year | Title                                                                              | Focus                | Journal  |
+| ---- | ---------------------------------------------------------------------------------- | -------------------- | -------- |
+| 2022 | AlphaPeptDeep: a modular deep learning framework...                                | Peptide Prediction   | Nat Comm |
+| 2024 | Standardized Workflow for Mass-Spectrometry-Based SCP Data Processing              | scp workflow         | JPR      |
+| 2025 | **Benchmarking informatics workflows for data-independent acquisition SCP**        | SCPDA / Benchmarking | Nat Comm |
+| 2025 | **Mapping early human blood cell differentiation using single-cell proteomics...** | scProtVelo           | Science  |
 
 ### Applications
 
-| Year | Title | Application | DOI |
-|------|-------|-------------|-----|
-| 2021 | Quantitative single-cell proteomics as a tool to characterize cellular hierarchies | Cell differentiation | [10.1038/s41467-021-23667-y](https://doi.org/10.1038/s41467-021-23667-y) |
-| 2025 | Advancements in SCP for Triple Negative Breast Cancer | Cancer | [10.1002/prca.202400101](https://doi.org/10.1002/prca.202400101) |
+| Year | Title | Application | Journal |
+|------|-------|-------------|---------|
+| 2021 | Quantitative single-cell proteomics as a tool to characterize cellular hierarchies | Differentiation | Nat Comm |
+| 2025 | **Single cell proteomic analysis defines discrete neutrophil functional states...** | Glioblastoma/Neutrophils | Nat Comm |
 
 ---
 
@@ -184,9 +192,9 @@ Single-cell proteomics (SCP) enables the quantification of proteins at single-ce
 
 - **Single-molecule protein sequencing** - Nanopore-based approaches for PTM identification
 - **Spatial proteomics** - Combining SCP with spatial information
+- **Protein Turnover Analysis** - Measuring synthesis and degradation rates (e.g., SC-pSILAC)
 - **Multi-omics integration** - Linking SCP with scRNA-seq (CITE-seq, etc.)
-- **AI/ML applications** - Deep learning for peptide identification and data imputation
-- **Quantum computing** - Potential for overcoming computational bottlenecks
+- **AI/ML applications** - Deep learning for peptide identification (AlphaPeptDeep) and data imputation
 
 ---
 
@@ -203,10 +211,12 @@ awesome_SCP/
 │   ├── Methods Workflow.canvas  # Sample-to-data pipeline
 │   └── Tools and Software.canvas
 ├── notes/
-│   ├── methods/                 # SCoPE2, plexDIA, nPOP, etc.
-│   ├── tools/                   # MaxQuant, DIA-NN, scp, etc.
+│   ├── methods/                 # SCoPE2, plexDIA, Chip-Tip, SC-pSILAC, nDIA
+│   ├── tools/                   # MaxQuant, DIA-NN, SCPDA, AlphaPeptDeep
 │   ├── databases/               # SPDB, SingPro
-│   └── applications/            # Cancer, differentiation
+│   ├── applications/            # Cancer, differentiation
+│   ├── literature/              # Detailed paper notes
+│   └── research_group/          # Leading scientists & research groups
 ├── templates/                   # Templater templates
 └── Project Overview.base        # Dynamic Bases view
 ```

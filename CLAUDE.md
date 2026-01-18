@@ -17,7 +17,9 @@ awesome_SCP/
 │   ├── methods/                 # Experimental methods
 │   ├── tools/                   # Software & analysis tools
 │   ├── databases/               # Data resources
-│   └── applications/            # Research applications
+│   ├── applications/            # Research applications
+│   ├── literature/              # Paper annotations
+│   └── research_group/          # Leading scientists & research groups
 └── templates/                   # Templater templates
     ├── Method Template.md
     ├── Tool Template.md
@@ -56,7 +58,7 @@ Configure Templater plugin to use `templates/` folder:
 
 ## Key Topics
 
-- **Methods**: SCoPE2, plexDIA, nPOP, nanoPOTS, mPOP, pSCoPE
+- **Methods**: SCoPE2, plexDIA, nDIA, nPOP, nanoPOTS, mPOP, pSCoPE
 - **Tools**: MaxQuant, DIA-NN, scp (R), DO-MS, FragPipe
 - **Databases**: SPDB, SingPro, scpdata
 - **Applications**: Cancer, cell differentiation, immunology
