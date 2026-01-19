@@ -95,7 +95,7 @@ Missing values (MVs) remain a significant barrier to reliable proteomics analysi
 
 ## Related Papers
 
-- [[notes/methods/MsImpute]]: "MsImpute: Estimation of Missing Peptide Intensity Data in Label-Free Quantitative Mass Spectrometry" (Ref 23)
+- [[MsImpute]]: "MsImpute: Estimation of Missing Peptide Intensity Data in Label-Free Quantitative Mass Spectrometry" (Ref 23)
 - [[MissForest]]: "MissForest--non-parametric missing value imputation for mixed-type data" (Ref 16)
 - [[Perseus]]: "The Perseus computational platform for comprehensive analysis of (prote)omics data" (Ref 13)
 - [[MinProb]]: Discussed as a standard Left-censored method (Ref 17)
