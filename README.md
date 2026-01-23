@@ -151,6 +151,7 @@ Single-cell proteomics (SCP) enables the quantification of proteins at single-ce
 - [scp Bioconductor Workshop](https://github.com/lgatto/2024_scpworkshop_EUBIC) - Hands-on tutorial for SCP data analysis.
 - [Slavov Lab Protocols](https://scp.slavovlab.net/protocols) - Detailed experimental protocols for SCoPE2 and plexDIA.
 - [scp Package Vignette](https://uclouvain-cbio.github.io/scp/articles/scp.html) - Step-by-step data processing guide.
+- [Single cell proteomics Rescoring and comparison to single cell transcriptomics](https://www.mls.ls.tum.de/en/compms/teaching/sose-2026/advanced-practical-course-bioinformatics-2025-i/)-Advanced Practical Course Bioinformatics - 2026 - Advancing single-cell proteomics by foundational tools
 
 ### Guidelines
 
