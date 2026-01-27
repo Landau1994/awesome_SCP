@@ -30,7 +30,7 @@ The authors report a large-scale single-cell proteomics (SCP) characterization o
 
 ### Data Analysis
 - **Software**: [[DIA-NN]] (versions 1.8.1 and 1.8.2) for spectral library generation and search.
-- **Downstream**: [[SCANPY]] (Python) for clustering and visualization, [[UMAP]] for dimensionality reduction, [[Leiden clustering]], [[Monocle 3]] for trajectory analysis, and [[ClueGO]] for pathway enrichment.
+- **Downstream**: [[Scanpy]] (Python) for clustering and visualization, [[UMAP]] for dimensionality reduction, [[Leiden clustering]], [[Monocle 3]] for trajectory analysis, and [[ClueGO]] for pathway enrichment.
 
 ## Results
 
