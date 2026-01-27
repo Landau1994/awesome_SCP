@@ -1,3 +1,35 @@
+---
+title: Single-Cell Proteomics Reveals Specific Cellular Subtypes in Cardiomyocytes Derived From Human iPSCs and Adult Hearts
+authors:
+  - Lizhuo Ai
+  - Aleksandra Binek
+  - Vladimir Zhemkov
+  - Jae Hyung Cho
+  - Ali Haghani
+  - Simion Kreimer
+  - Edo Israely
+  - Madelyn Arzt
+  - Blandine Chazarin
+  - Niveda Sundararaman
+  - Jesse G. Meyer
+  - Arun Sharma
+  - Eduardo Marbán
+  - Clive N. Svendsen
+  - Jennifer E. Van Eyk
+aliases:
+   - Single-Cell Proteomics of Human Cardiomyocytes
+   - Ai et al. 2025
+tags:
+  - literature
+  - paper
+  - single-cell-proteomics
+  - cardiology
+  - stem-cells
+category: literature
+date_created: 2025-01-22
+Journal: Mol Cell Proteomics
+Year: 2025
+---
 
 # Single-Cell Proteomics Reveals Specific Cellular Subtypes in Cardiomyocytes Derived From Human iPSCs and Adult Hearts
 
@@ -30,7 +62,7 @@ The authors report a large-scale single-cell proteomics (SCP) characterization o
 
 ### Data Analysis
 - **Software**: [[DIA-NN]] (versions 1.8.1 and 1.8.2) for spectral library generation and search.
-- **Downstream**: [[Scanpy]] (Python) for clustering and visualization, [[UMAP]] for dimensionality reduction, [[Leiden clustering]], [[Monocle 3]] for trajectory analysis, and [[ClueGO]] for pathway enrichment.
+- **Downstream**: [[SCANPY]] (Python) for clustering and visualization, [[UMAP]] for dimensionality reduction, [[Leiden clustering]], [[Monocle 3]] for trajectory analysis, and [[ClueGO]] for pathway enrichment.
 
 ## Results
 
