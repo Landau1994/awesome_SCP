@@ -1,5 +1,5 @@
 ---
-title: " Site-saturation mutagenesis of 500 human protein dom"
+title: Site-saturation mutagenesis of 500 human protein dom
 authors:
   - Antoni Beltran
   - Xiang'er Jiang
