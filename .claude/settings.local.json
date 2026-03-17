@@ -10,7 +10,8 @@
       "Bash(do git diff $hash~1 $hash -- .obsidian/plugins/copilot/data.json)",
       "Bash(done)",
       "Bash(find:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(grep -E \"\\\\.\\(md|txt\\)$\")"
     ]
   }
 }
