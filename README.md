@@ -51,14 +51,14 @@ Single-cell proteomics (SCP) enables the quantification of proteins at single-ce
 
 ## Data Acquisition Strategies
 
-| Strategy | Description | Throughput | Proteome Depth |
-|----------|-------------|------------|----------------|
-| **DDA** | Data-Dependent Acquisition | Moderate | High |
-| **DIA** | Data-Independent Acquisition | High | Very High |
-| **nDIA** | Narrow-window DIA (Orbitrap Astral) | High | Very High |
-| **plexDIA** | Multiplexed DIA | Very High | High |
-| **pSCoPE** | Targeted/Prioritized | Moderate | Focused |
-| **diaPASEF** | Ion mobility-enhanced DIA | High | Very High |
+| Strategy     | Description                         | Throughput | Proteome Depth |
+| ------------ | ----------------------------------- | ---------- | -------------- |
+| **DDA**      | Data-Dependent Acquisition          | Moderate   | High           |
+| **DIA**      | Data-Independent Acquisition        | High       | Very High      |
+| **nDIA**     | Narrow-window DIA (Orbitrap Astral) | High       | Very High      |
+| **plexDIA**  | Multiplexed DIA                     | Very High  | High           |
+| **pSCoPE**   | Targeted/Prioritized                | Moderate   | Focused        |
+| **diaPASEF** | Ion mobility-enhanced DIA           | High       | Very High      |
 
 ---
 
