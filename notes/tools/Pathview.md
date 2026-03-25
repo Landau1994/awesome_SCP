@@ -1,35 +1,34 @@
 ---
 title: Pathview
 aliases:
-  - <% tp.file.cursor(1) %>
+  - Pathview
 tags:
   - tools
   - software
 category: tool
-url: <% tp.file.cursor(3) %>
+url: 
 date_created: 2026-01-18
 ---
 
 # Pathview
 
-**<% tp.file.cursor(4) %>**
+**An R package for pathway-based data integration and visualization on KEGG maps.**
 
 ## Overview
 
-<% tp.file.cursor(5) %>
+Pathview maps omics statistics or abundances onto biological pathways, enabling interpretable functional visualization.
 
 ## Key Features
 
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Cross-Platform**: Windows, Linux, macOS
+- **Pathway Mapping**: Projects quantitative data onto KEGG pathways.
+- **Integrated Visualization**: Combines statistics and network context.
+- **Omics Flexibility**: Supports transcriptomics/proteomics style inputs.
+- **R Workflow Integration**: Works with enrichment and differential pipelines.
 
 ## Installation
 
 ```bash
-# Installation commands
-<% tp.file.cursor(6) %>
+R -e "if (!requireNamespace('BiocManager', quietly=TRUE)) install.packages('BiocManager'); BiocManager::install('pathview')"
 ```
 
 ## Usage
@@ -43,7 +42,7 @@ library(Pathview)
 
 **Input:**
 - Raw files (.raw, .d, .mzML)
--
+- Differential expression/abundance tables
 
 **Output:**
 - Protein/peptide matrices
@@ -53,19 +52,17 @@ library(Pathview)
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
-| param1 | value | description |
-| param2 | value | description |
+| pathway_id | KEGG ID | Target pathway map |
+| species | organism code | Organism selection for mapping |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Author et al. (Year) *Journal*
-> DOI: [10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+> Luo and Brouwer (2013) *Bioinformatics*.
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Documentation: https://bioconductor.org/packages/pathview/
 
 ## Related Tools
 

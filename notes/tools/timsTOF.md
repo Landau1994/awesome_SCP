@@ -11,44 +11,43 @@ tags:
   - tools
   - software
 category: tool
-url: <% tp.file.cursor(3) %>
+url: 
 date_created: 2026-01-18
 ---
 
 # timsTOF
 
-**<% tp.file.cursor(4) %>**
+**A timsTOF-family mass spectrometry platform combining trapped ion mobility with fast acquisition for sensitive proteomics.**
 
 ## Overview
 
-<% tp.file.cursor(5) %>
+timsTOF instruments are widely used for high-sensitivity DIA/PASEF proteomics and are particularly effective in low-input and high-throughput workflows.
 
 ## Key Features
 
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Cross-Platform**: Windows, Linux, macOS
+- **Ion Mobility Separation**: Adds an orthogonal dimension for better selectivity.
+- **PASEF Compatibility**: Supports efficient, fast MS/MS acquisition.
+- **Low-Input Performance**: Strong sensitivity for SCP-adjacent applications.
+- **Workflow Breadth**: Supports discovery and targeted-style analyses.
 
 ## Installation
 
 ```bash
-# Installation commands
-<% tp.file.cursor(6) %>
+# Vendor-managed hardware/software installation
 ```
 
 ## Usage
 
 ```r
-# Example code
-library(timsTOF)
+# Acquisition is configured in instrument software.
+# Downstream analysis is handled by external tools.
 ```
 
 ## Input/Output
 
 **Input:**
 - Raw files (.raw, .d, .mzML)
--
+- Method settings (DIA/PASEF windows, cycle time)
 
 **Output:**
 - Protein/peptide matrices
@@ -58,19 +57,18 @@ library(timsTOF)
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
-| param1 | value | description |
-| param2 | value | description |
+| acquisition_mode | PASEF/diaPASEF | Selects acquisition strategy |
+| cycle_time | method-dependent | Balances depth and precision |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Author et al. (Year) *Journal*
-> DOI: [10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+> Meier et al. (2018, 2020) timsTOF/PASEF foundational papers.
 
 ## Links
 
 - GitHub:
-- Documentation:
+- Documentation: https://www.bruker.com
 
 ## Related Tools
 

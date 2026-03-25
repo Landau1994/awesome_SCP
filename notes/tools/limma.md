@@ -1,35 +1,34 @@
 ---
 title: limma
 aliases:
-  - <% tp.file.cursor(1) %>
+  - limma
 tags:
   - tools
   - software
 category: tool
-url: <% tp.file.cursor(3) %>
+url: https://bioconductor.org/packages/limma/
 date_created: 2026-01-18
 ---
 
 # limma
 
-**<% tp.file.cursor(4) %>**
+**A Bioconductor package for linear-model-based differential analysis in high-dimensional omics data.**
 
 ## Overview
 
-<% tp.file.cursor(5) %>
+limma is widely used for robust differential expression/abundance testing with empirical Bayes variance moderation.
 
 ## Key Features
 
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Cross-Platform**: Windows, Linux, macOS
+- **Linear Modeling Framework**: Handles complex designs and contrasts.
+- **Empirical Bayes Shrinkage**: Improves variance estimation stability.
+- **Omics-Ready**: Applicable to transcriptomics and proteomics matrices.
+- **Mature Ecosystem**: Standard component in reproducible R workflows.
 
 ## Installation
 
 ```bash
-# Installation commands
-<% tp.file.cursor(6) %>
+R -e "if (!requireNamespace('BiocManager', quietly=TRUE)) install.packages('BiocManager'); BiocManager::install('limma')"
 ```
 
 ## Usage
@@ -43,7 +42,7 @@ library(limma)
 
 **Input:**
 - Raw files (.raw, .d, .mzML)
--
+- Processed expression/abundance matrices with sample design metadata
 
 **Output:**
 - Protein/peptide matrices
@@ -53,19 +52,17 @@ library(limma)
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
-| param1 | value | description |
-| param2 | value | description |
+| design_matrix | user-defined | Experimental design specification |
+| contrast_matrix | user-defined | Hypothesis testing contrasts |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Author et al. (Year) *Journal*
-> DOI: [10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+> Ritchie et al. (2015) *Nucleic Acids Research*.
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Documentation: https://bioconductor.org/packages/limma/
 
 ## Related Tools
 

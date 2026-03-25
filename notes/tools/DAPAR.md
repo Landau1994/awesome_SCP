@@ -1,35 +1,34 @@
 ---
 title: DAPAR
 aliases:
-  - <% tp.file.cursor(1) %>
+  - DAPAR
 tags:
   - tools
   - software
 category: tool
-url: <% tp.file.cursor(3) %>
+url: 
 date_created: 2026-01-18
 ---
 
 # DAPAR
 
-**<% tp.file.cursor(4) %>**
+**An R package for preprocessing, normalization, and differential analysis of proteomics data.**
 
 ## Overview
 
-<% tp.file.cursor(5) %>
+DAPAR provides a workflow for quantitative proteomics matrix processing including filtering, normalization, imputation, and statistical testing.
 
 ## Key Features
 
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Cross-Platform**: Windows, Linux, macOS
+- **Data Preprocessing**: Filtering and quality control utilities.
+- **Normalization/Imputation**: Supports proteomics-specific handling strategies.
+- **Differential Analysis**: Integrates statistical comparison modules.
+- **R Ecosystem Integration**: Works with broader Bioconductor workflows.
 
 ## Installation
 
 ```bash
-# Installation commands
-<% tp.file.cursor(6) %>
+R -e "if (!requireNamespace('BiocManager', quietly=TRUE)) install.packages('BiocManager'); BiocManager::install('DAPAR')"
 ```
 
 ## Usage
@@ -43,7 +42,7 @@ library(DAPAR)
 
 **Input:**
 - Raw files (.raw, .d, .mzML)
--
+- Protein/peptide abundance tables
 
 **Output:**
 - Protein/peptide matrices
@@ -53,19 +52,18 @@ library(DAPAR)
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
-| param1 | value | description |
-| param2 | value | description |
+| normalization_method | workflow-dependent | Intensity normalization strategy |
+| imputation_method | workflow-dependent | Missing-value handling |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Author et al. (Year) *Journal*
-> DOI: [10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+> Wieczorek et al. DAPAR package documentation and methodology.
 
 ## Links
 
 - GitHub:
-- Documentation:
+- Documentation: https://bioconductor.org/packages/DAPAR/
 
 ## Related Tools
 

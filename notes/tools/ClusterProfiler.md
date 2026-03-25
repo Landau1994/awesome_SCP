@@ -7,30 +7,29 @@ tags:
   - tools
   - software
 category: tool
-url: <% tp.file.cursor(3) %>
+url: 
 date_created: 2026-01-18
 ---
 
 # ClusterProfiler
 
-**<% tp.file.cursor(4) %>**
+**An R/Bioconductor package for enrichment analysis and biological theme comparison.**
 
 ## Overview
 
-<% tp.file.cursor(5) %>
+ClusterProfiler supports GO/KEGG enrichment, GSEA-style analyses, and comparative interpretation across gene/protein sets.
 
 ## Key Features
 
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Cross-Platform**: Windows, Linux, macOS
+- **Enrichment Analysis**: Over-representation and rank-based methods.
+- **Multi-Database Support**: GO, KEGG and custom gene sets.
+- **Visualization Ecosystem**: Integrates with enrichplot and related tools.
+- **Reproducible R Workflow**: Scriptable and publication-friendly.
 
 ## Installation
 
 ```bash
-# Installation commands
-<% tp.file.cursor(6) %>
+R -e "if (!requireNamespace('BiocManager', quietly=TRUE)) install.packages('BiocManager'); BiocManager::install('clusterProfiler')"
 ```
 
 ## Usage
@@ -44,7 +43,7 @@ library(ClusterProfiler)
 
 **Input:**
 - Raw files (.raw, .d, .mzML)
--
+- Gene/protein lists and ranking statistics
 
 **Output:**
 - Protein/peptide matrices
@@ -54,19 +53,18 @@ library(ClusterProfiler)
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
-| param1 | value | description |
-| param2 | value | description |
+| pvalueCutoff | 0.05 | Significance threshold |
+| pAdjustMethod | BH | Multiple-testing correction |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Author et al. (Year) *Journal*
-> DOI: [10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+> Yu et al. (2012) *OMICS*.
 
 ## Links
 
-- GitHub:
-- Documentation:
+- GitHub: https://github.com/YuLab-SMU/clusterProfiler
+- Documentation: https://yulab-smu.top/biomedical-knowledge-mining-book/
 
 ## Related Tools
 

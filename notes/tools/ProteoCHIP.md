@@ -1,49 +1,48 @@
 ---
 title: proteoCHIP EVO
 aliases:
-  - <% tp.file.cursor(1) %>
+  - proteoCHIP EVO
+  - ProteoCHIP
 tags:
   - tools
   - software
 category: tool
-url: <% tp.file.cursor(3) %>
+url: 
 date_created: 2026-01-18
 ---
 
 # proteoCHIP EVO
 
-**<% tp.file.cursor(4) %>**
+**A low-volume sample handling platform/consumable system for single-cell and low-input proteomics preparation.**
 
 ## Overview
 
-<% tp.file.cursor(5) %>
+ProteoCHIP EVO is used to improve sample recovery and handling consistency in single-cell proteomics workflows.
 
 ## Key Features
 
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Cross-Platform**: Windows, Linux, macOS
+- **Low-Input Handling**: Designed for tiny sample volumes.
+- **Workflow Consistency**: Improves reproducibility in SCP prep.
+- **Compatibility**: Integrates with automated dispensing setups.
+- **Throughput Support**: Enables standardized multiwell processing.
 
 ## Installation
 
 ```bash
-# Installation commands
-<% tp.file.cursor(6) %>
+# Hardware/consumable setup per vendor instructions
 ```
 
 ## Usage
 
 ```r
-# Example code
-library(proteoCHIP EVO)
+# Used as part of experimental sample preparation workflow
 ```
 
 ## Input/Output
 
 **Input:**
 - Raw files (.raw, .d, .mzML)
--
+- Single-cell/low-input peptide samples
 
 **Output:**
 - Protein/peptide matrices
@@ -53,14 +52,13 @@ library(proteoCHIP EVO)
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
-| param1 | value | description |
-| param2 | value | description |
+| plate_format | protocol-dependent | Well format and capacity |
+| handling_volume | protocol-dependent | Processing volume range |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Author et al. (Year) *Journal*
-> DOI: [10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+> See recent SCP workflow papers using ProteoCHIP-style preparation.
 
 ## Links
 

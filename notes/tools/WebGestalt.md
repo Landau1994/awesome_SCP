@@ -1,35 +1,34 @@
 ---
 title: WebGestalt
 aliases:
-  - <% tp.file.cursor(1) %>
+  - WebGestalt
 tags:
   - tools
   - software
 category: tool
-url: <% tp.file.cursor(3) %>
+url: https://www.webgestalt.org/
 date_created: 2026-01-18
 ---
 
 # WebGestalt
 
-**<% tp.file.cursor(4) %>**
+**A web-based toolkit for gene/protein set enrichment and functional interpretation.**
 
 ## Overview
 
-<% tp.file.cursor(5) %>
+WebGestalt supports over-representation and network-based enrichment analyses across multiple organism and annotation databases.
 
 ## Key Features
 
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Cross-Platform**: Windows, Linux, macOS
+- **Web Interface**: Accessible enrichment analysis without heavy local setup.
+- **Broad Annotation Support**: Multiple pathway and ontology resources.
+- **Flexible Input Modes**: Ranked lists and unranked gene/protein sets.
+- **Visualization Utilities**: Interpretable summaries for downstream reporting.
 
 ## Installation
 
 ```bash
-# Installation commands
-<% tp.file.cursor(6) %>
+# Web service; no local installation required
 ```
 
 ## Usage
@@ -43,7 +42,7 @@ library(WebGestalt)
 
 **Input:**
 - Raw files (.raw, .d, .mzML)
--
+- Gene/protein identifiers or ranked feature lists
 
 **Output:**
 - Protein/peptide matrices
@@ -53,19 +52,17 @@ library(WebGestalt)
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
-| param1 | value | description |
-| param2 | value | description |
+| organism | user-defined | Target species database |
+| enrichment_method | ORA/GSEA variants | Statistical analysis mode |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Author et al. (Year) *Journal*
-> DOI: [10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+> Liao et al. WebGestalt platform publications.
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Documentation: https://www.webgestalt.org/
 
 ## Related Tools
 

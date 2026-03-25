@@ -1,49 +1,47 @@
 ---
 title: FAIMS Pro Duo
 aliases:
-  - <% tp.file.cursor(1) %>
+  - FAIMS Pro Duo
 tags:
   - tools
   - equipment
 category: tool
-url: <% tp.file.cursor(3) %>
+url: 
 date_created: 2026-01-18
 ---
 
 # FAIMS Pro Duo
 
-**<% tp.file.cursor(4) %>**
+**A FAIMS interface for gas-phase ion filtering that improves selectivity and sensitivity in LC-MS workflows.**
 
 ## Overview
 
-<% tp.file.cursor(5) %>
+FAIMS Pro Duo adds differential ion mobility separation before mass analysis, reducing chemical noise and improving detection of low-abundance peptides.
 
 ## Key Features
 
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Cross-Platform**: Windows, Linux, macOS
+- **Ion Mobility Filtering**: Improves spectral clarity and selectivity.
+- **Low-Abundance Support**: Enhances identification in complex samples.
+- **Workflow Compatibility**: Integrates with Orbitrap-class platforms.
+- **Method Flexibility**: Compensation voltage strategies for targeted goals.
 
 ## Installation
 
 ```bash
-# Installation commands
-<% tp.file.cursor(6) %>
+# Vendor-installed hardware accessory and control integration
 ```
 
 ## Usage
 
 ```r
-# Example code
-library(FAIMS Pro Duo)
+# Configure compensation voltage scheme in instrument methods
 ```
 
 ## Input/Output
 
 **Input:**
 - Raw files (.raw, .d, .mzML)
--
+- LC-MS methods with FAIMS compensation settings
 
 **Output:**
 - Protein/peptide matrices
@@ -53,19 +51,18 @@ library(FAIMS Pro Duo)
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
-| param1 | value | description |
-| param2 | value | description |
+| compensation_voltage | method-dependent | Ion filtering condition |
+| cv_cycle_scheme | method-dependent | Number and order of CV steps |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Author et al. (Year) *Journal*
-> DOI: [10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+> See FAIMS-enabled low-input proteomics studies in literature notes.
 
 ## Links
 
 - GitHub:
-- Documentation:
+- Documentation: https://www.thermofisher.com
 
 ## Related Tools
 

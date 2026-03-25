@@ -21,4 +21,4 @@ Python is a general-purpose programming language extensively used for proteomics
 
 ## Related
 
-- [[Home.md|Home]]
+- Home

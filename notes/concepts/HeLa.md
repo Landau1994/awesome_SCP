@@ -22,4 +22,4 @@ HeLa is a widely used human cervical cancer cell line and a common benchmark mat
 ## Related
 
 - [[293T]]
-- [[Home.md|Home]]
+- Home

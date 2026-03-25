@@ -1,57 +1,56 @@
 ---
 title: SC-pSILAC
 aliases:
-  - <% tp.file.cursor(1) %>
+  - SC-pSILAC
 tags:
   - methods
 category: method
-url: <% tp.file.cursor(3) %>
+url: 
 date_created: 2026-01-18
 ---
 
 # SC-pSILAC
 
-**<% tp.file.cursor(4) %>**
+**A single-cell adaptation of pulse SILAC for measuring protein synthesis and turnover dynamics.**
 
 ## Overview
 
-<% tp.file.cursor(5) %>
+SC-pSILAC combines stable isotope labeling with single-cell proteomics to estimate newly synthesized versus pre-existing protein pools. It is especially useful for studying temporal regulation, differentiation, and early developmental transitions.
 
 ## Key Features
 
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
+- **Dynamic Proteome Readout**: Captures synthesis/turnover rather than static abundance only.
+- **Single-Cell Resolution**: Resolves temporal heterogeneity across cell states.
+- **Mechanistic Insight**: Links protein kinetics to lineage progression and functional shifts.
 
 ## Workflow
 
-```
-Step 1 → Step 2 → Step 3 → Step 4
+```text
+Isotope pulse labeling -> Single-cell isolation -> LC-MS quantification of light/heavy peptides -> Turnover modeling
 ```
 
 ## Performance
 
-- **Proteins per cell**:
-- **Throughput**:
-- **Data completeness**:
+- **Proteins per cell**: Typically lower than static SCP due to kinetic quantification constraints.
+- **Throughput**: Moderate.
+- **Data completeness**: Depends on labeling efficiency and peptide detectability.
 
 ## Advantages
 
--
--
--
+- Directly measures proteome dynamics.
+- Complements transcriptomic velocity-style analyses.
+- Valuable for developmental and perturbation studies.
 
 ## Limitations
 
--
--
--
+- Experimental complexity (labeling design and timing).
+- Requires robust quantification of isotopologue pairs.
+- Can reduce depth compared to standard abundance-only workflows.
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Author et al. (Year) *Journal*
-> DOI: [10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+> Foundational pSILAC and single-cell turnover studies (see linked literature notes).
 
 ## Related Methods
 

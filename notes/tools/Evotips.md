@@ -7,44 +7,42 @@ tags:
   - tools
   - software
 category: tool
-url: <% tp.file.cursor(3) %>
+url: 
 date_created: 2026-01-18
 ---
 
 # Evotips
 
-**<% tp.file.cursor(4) %>**
+**Disposable tip-based sample loading consumables used in Evosep-compatible proteomics workflows.**
 
 ## Overview
 
-<% tp.file.cursor(5) %>
+Evotips are designed for robust, standardized peptide loading and cleanup before high-throughput LC-MS runs.
 
 ## Key Features
 
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Cross-Platform**: Windows, Linux, macOS
+- **Standardized Sample Handling**: Reduces run-to-run variability.
+- **High-Throughput Friendly**: Fits short-gradient clinical-style pipelines.
+- **Low-Input Compatible**: Useful in SCP and limited-sample contexts.
+- **Workflow Integration**: Commonly paired with Evosep systems.
 
 ## Installation
 
 ```bash
-# Installation commands
-<% tp.file.cursor(6) %>
+# Physical consumable; follow vendor preparation protocol
 ```
 
 ## Usage
 
 ```r
-# Example code
-library(Evotips)
+# Used as part of LC sample loading workflow
 ```
 
 ## Input/Output
 
 **Input:**
 - Raw files (.raw, .d, .mzML)
--
+- Peptide digests for cleanup/loading
 
 **Output:**
 - Protein/peptide matrices
@@ -54,19 +52,18 @@ library(Evotips)
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
-| param1 | value | description |
-| param2 | value | description |
+| loading_volume | protocol-dependent | Sample load amount per tip |
+| wash_steps | protocol-dependent | Cleanup stringency |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Author et al. (Year) *Journal*
-> DOI: [10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+> See Evosep-related methodology papers and benchmark literature notes.
 
 ## Links
 
 - GitHub:
-- Documentation:
+- Documentation: https://www.evosep.com
 
 ## Related Tools
 

@@ -11,28 +11,28 @@ date_created: 2026-01-18
 
 # Immunology
 
-**<% tp.file.cursor(3) %>**
+**Single-cell proteomics in immunology reveals functional immune states, activation programs, and clinically relevant biomarker panels.**
 
 ## Overview
 
-<% tp.file.cursor(4) %>
+Immunology is a major application area of single-cell proteomics because immune phenotypes are often governed by protein abundance, localization, and post-translational regulation that are not fully captured by transcriptomics.
 
 ## Key Applications
 
 ### Application Area 1
-- Finding 1
-- Finding 2
-- Finding 3
+- Resolve immune-cell functional heterogeneity in inflamed and tumor tissues.
+- Distinguish activation/exhaustion-like proteomic programs across immune subsets.
+- Identify disease-associated markers with improved diagnostic specificity.
 
 ### Application Area 2
-- Finding 1
-- Finding 2
+- Track treatment- and microenvironment-driven immune-state transitions.
+- Support translational biomarker panel development in clinical cohorts.
 
 ## Key Studies
 
 | Study | Method | Cells | Key Finding |
 |-------|--------|-------|-------------|
-| Author et al. | [[SCoPE2]] | 1,000 | Description |
+| Nat Commun 2025 glioblastoma neutrophil study | [[single-cell proteomics]] | Single-cell | Defined discrete neutrophil functional states in human GBM |
 
 ## Advantages Over Bulk/scRNA-seq
 
@@ -44,22 +44,20 @@ date_created: 2026-01-18
 
 ## Challenges
 
-- Challenge 1
-- Challenge 2
-- Challenge 3
+- Limited depth for very low-abundance cytokine/signaling proteins.
+- Cohort-scale standardization and batch control remain challenging.
+- Marker interpretation must integrate tissue context and cell-state dynamics.
 
 ## Future Directions
 
-- Direction 1
-- Direction 2
-- Direction 3
+- Integrate SCP with spatial and transcriptomic modalities for immune niches.
+- Develop robust targeted panels for routine clinical immune profiling.
+- Expand longitudinal SCP studies for therapy-response monitoring.
 
 ## Key Publications
 
 > [!cite] Primary References
-> - Author et al. (Year) *Journal*
->   DOI: [10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
-> - Sadiku, P., Brenes, A.J., Mayer, R.L. _et al._ Single cell proteomic analysis defines discrete neutrophil functional states in human glioblastoma. _Nat Commun_ (2025). https://doi.org/10.1038/s41467-025-67367-3
+> - Sadiku, P., Brenes, A.J., Mayer, R.L., et al. Single cell proteomic analysis defines discrete neutrophil functional states in human glioblastoma. *Nat Commun* (2025). DOI: [10.1038/s41467-025-67367-3](https://doi.org/10.1038/s41467-025-67367-3)
 >   
 
 ## Related Topics

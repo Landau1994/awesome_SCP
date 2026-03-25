@@ -7,44 +7,42 @@ tags:
   - tools
   - software
 category: tool
-url: <% tp.file.cursor(3) %>
+url: 
 date_created: 2026-01-18
 ---
 
 # cellenONE
 
-**<% tp.file.cursor(4) %>**
+**A high-precision single-cell dispensing platform for low-volume sample preparation workflows.**
 
 ## Overview
 
-<% tp.file.cursor(5) %>
+cellenONE is used for automated, image-guided single-cell isolation and nanoliter-scale dispensing in single-cell proteomics pipelines.
 
 ## Key Features
 
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Cross-Platform**: Windows, Linux, macOS
+- **Single-Cell Dispensing**: Accurate isolation into multiwell formats.
+- **Image-Guided Selection**: Improves quality control during sorting.
+- **Low-Volume Handling**: Supports nanoliter-scale workflows.
+- **Automation Ready**: Fits high-throughput SCP setups.
 
 ## Installation
 
 ```bash
-# Installation commands
-<% tp.file.cursor(6) %>
+# Vendor-managed hardware/software installation
 ```
 
 ## Usage
 
 ```r
-# Example code
-library(cellenONE)
+# Instrument operation is configured through vendor software
 ```
 
 ## Input/Output
 
 **Input:**
 - Raw files (.raw, .d, .mzML)
--
+- Cell suspensions and dispensing protocols
 
 **Output:**
 - Protein/peptide matrices
@@ -54,19 +52,18 @@ library(cellenONE)
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
-| param1 | value | description |
-| param2 | value | description |
+| droplet_volume | protocol-dependent | Dispensing volume per event |
+| selection_criteria | protocol-dependent | Image-based cell selection filters |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Author et al. (Year) *Journal*
-> DOI: [10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+> See nPOP and low-input SCP method literature notes.
 
 ## Links
 
 - GitHub:
-- Documentation:
+- Documentation: https://www.cellenion.com
 
 ## Related Tools
 

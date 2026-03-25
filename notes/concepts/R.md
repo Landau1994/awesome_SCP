@@ -22,4 +22,4 @@ R is a statistical programming language widely used for omics data analysis, vis
 ## Related
 
 - [[Python]]
-- [[Home.md|Home]]
+- Home

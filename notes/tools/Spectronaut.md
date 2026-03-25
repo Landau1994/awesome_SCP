@@ -1,49 +1,47 @@
 ---
 title: Spectronaut
 aliases:
-  - <% tp.file.cursor(1) %>
+  - Spectronaut
 tags:
   - tools
   - software
 category: tool
-url: <% tp.file.cursor(3) %>
+url: 
 date_created: 2026-01-18
 ---
 
 # Spectronaut
 
-**<% tp.file.cursor(4) %>**
+**A DIA proteomics software platform for peptide/protein identification and quantification.**
 
 ## Overview
 
-<% tp.file.cursor(5) %>
+Spectronaut is a widely used DIA analysis environment supporting library-based and library-free processing with strong quantitative reporting.
 
 ## Key Features
 
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Cross-Platform**: Windows, Linux, macOS
+- **DIA-Centric Processing**: Optimized algorithms for complex DIA data.
+- **Quantitative Robustness**: Rich reporting and QC outputs.
+- **Workflow Flexibility**: Supports multiple experimental scales and designs.
+- **Industry Adoption**: Common in benchmark and translational pipelines.
 
 ## Installation
 
 ```bash
-# Installation commands
-<% tp.file.cursor(6) %>
+# Vendor-distributed software installation
 ```
 
 ## Usage
 
 ```r
-# Example code
-library(Spectronaut)
+# Usage is primarily through Spectronaut GUI/workflow settings
 ```
 
 ## Input/Output
 
 **Input:**
 - Raw files (.raw, .d, .mzML)
--
+- DIA acquisition files and optional spectral libraries
 
 **Output:**
 - Protein/peptide matrices
@@ -53,14 +51,13 @@ library(Spectronaut)
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
-| param1 | value | description |
-| param2 | value | description |
+| qvalue_cutoff | user-defined | Identification confidence threshold |
+| quant_strategy | user-defined | Protein/peptide quantification mode |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Author et al. (Year) *Journal*
-> DOI: [10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+> See LFQ benchmark literature notes and Spectronaut documentation.
 
 ## Links
 

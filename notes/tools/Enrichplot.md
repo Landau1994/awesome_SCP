@@ -1,35 +1,34 @@
 ---
 title: Enrichplot
 aliases:
-  - <% tp.file.cursor(1) %>
+  - Enrichplot
 tags:
   - tools
   - software
 category: tool
-url: <% tp.file.cursor(3) %>
+url: 
 date_created: 2026-01-18
 ---
 
 # Enrichplot
 
-**<% tp.file.cursor(4) %>**
+**An R visualization package for enrichment analysis results from clusterProfiler-like workflows.**
 
 ## Overview
 
-<% tp.file.cursor(5) %>
+Enrichplot provides publication-ready plots for pathway and ontology enrichment outputs, including dot plots, cnetplots, and enrichment maps.
 
 ## Key Features
 
-- **Feature 1**: Description
-- **Feature 2**: Description
-- **Feature 3**: Description
-- **Cross-Platform**: Windows, Linux, macOS
+- **Enrichment Visualization**: Dot plots, ridge plots, cnetplots, and more.
+- **Ontology/Pathway Support**: Works with GO/KEGG enrichment outputs.
+- **Interpretability**: Helps summarize complex enrichment signatures.
+- **R Ecosystem Fit**: Integrates naturally with clusterProfiler outputs.
 
 ## Installation
 
 ```bash
-# Installation commands
-<% tp.file.cursor(6) %>
+R -e "if (!requireNamespace('BiocManager', quietly=TRUE)) install.packages('BiocManager'); BiocManager::install('enrichplot')"
 ```
 
 ## Usage
@@ -43,7 +42,7 @@ library(Enrichplot)
 
 **Input:**
 - Raw files (.raw, .d, .mzML)
--
+- Enrichment result objects/tables
 
 **Output:**
 - Protein/peptide matrices
@@ -53,19 +52,17 @@ library(Enrichplot)
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
-| param1 | value | description |
-| param2 | value | description |
+| showCategory | integer | Number of categories to display |
+| pvalueCutoff | 0.05 | Filter threshold for plotted terms |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Author et al. (Year) *Journal*
-> DOI: [10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
+> Yu et al. enrichplot package documentation.
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Documentation: https://bioconductor.org/packages/enrichplot/
 
 ## Related Tools
 
