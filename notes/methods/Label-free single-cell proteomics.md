@@ -1,7 +1,8 @@
 ---
 title: Label-free single-cell proteomics
 aliases:
-  - <% tp.file.cursor(1) %>
+  - Label-free single-cell proteomics
+  - label-free single-cell mass spectrometry
 tags:
   - methods
 category: method

@@ -1,7 +1,12 @@
 ---
 title: timsTOF
 aliases:
-  - <% tp.file.cursor(1) %>
+  - timsTOF
+  - timsTOF Ultra 2
+  - Bruker timsTOF Ultra 2
+  - timsTOF Ultra2
+  - Bruker timsTOF Ultra2
+  - timsTOF Pro 2
 tags:
   - tools
   - software

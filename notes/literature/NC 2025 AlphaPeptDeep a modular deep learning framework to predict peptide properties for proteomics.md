@@ -48,8 +48,8 @@ Machine learning, particularly deep learning (DL), has become essential in MS-ba
 ## Methods
 
 ### Sample Preparation
-- **Method used**: [[LC-MS/MS]] (DDA, DIA, dda-PASEF).
-- **Cell type**: [[HeLa]], [[U2OS]], [[RA957]] (HLA cell line), and model organisms ([[E. coli]], [[Yeast]], [[Drosophila]]).
+- **Method used**: [[LC-MS-MS|LC-MS/MS]] (DDA, DIA, dda-PASEF).
+- **Cell type**: [[HeLa]], [[U2OS]], [[RA957]] (HLA cell line), and model organisms ([[Escherichia coli|E. coli]], [[Saccharomyces cerevisiae|Yeast]], [[Drosophila]]).
 - **Number of cells**: N/A (Peptide inputs derived from bulk lysates and synthetic libraries like [[ProteomeTools]]).
 
 ### Data Analysis

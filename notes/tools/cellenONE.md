@@ -1,7 +1,8 @@
 ---
 title: cellenONE
 aliases:
-  - <% tp.file.cursor(1) %>
+  - cellenONE
+  - CellenONE
 tags:
   - tools
   - software

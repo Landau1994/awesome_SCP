@@ -51,13 +51,13 @@ Profiling protein abundance and dynamics at single-cell resolution in complex hu
 ## Methods
 
 ### Sample Preparation
-- Method used: [[Papain]] dissociation, [[FACS]] sorting into 384-well plates, miniaturized [[Trypsin]] digestion, and [[EvoTip]] desalting.
+- Method used: [[Papain]] dissociation, [[FACS]] sorting into 384-well plates, miniaturized [[Trypsin]] digestion, and [[Evotips|EvoTip]] desalting.
 - Cell type: Primary prenatal human brain cells (GW13, GW15, GW19), including radial glia, excitatory neurons, interneurons, and microglia.
 - Number of cells: 2,310 cells (after QC) for proteomics; ~31,000 paired cells for scRNA-seq.
 
 ### Data Analysis
 - Software: [[DIA-NN]] (for MS data processing), [[Seurat]] (clustering and dimensionality reduction), [[Scanpy]], [[Harmony]] (batch correction), [[QuPath]] (image analysis).
-- Downstream: [[WGCNA]] (Weighted Gene Co-expression Network Analysis), [[Gene Ontology]] enrichment, Pseudotime trajectory inference, [[ORBIT]] (custom method for proteome-transcriptome comparison).
+- Downstream: [[WGCNA]] (Weighted Gene Co-expression Network Analysis), [[GO|Gene Ontology]] enrichment, Pseudotime trajectory inference, [[ORBIT]] (custom method for proteome-transcriptome comparison).
 
 ## Results
 
@@ -99,6 +99,6 @@ Profiling protein abundance and dynamics at single-cell resolution in complex hu
 
 ## Related Papers
 
-- [[Wang et al. 2025]] (Molecular and cellular dynamics of the developing human neocortex - Reference scRNA-seq atlas)
-- [[Demichev et al. 2020]] (DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput)
-- [[Brunner et al. 2022]] (Ultra-high sensitivity mass spectrometry quantifies single-cell proteome changes upon perturbation)
+- Wang et al. 2025 (Molecular and cellular dynamics of the developing human neocortex - Reference scRNA-seq atlas)
+- Demichev et al. 2020 (DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput)
+- Brunner et al. 2022 (Ultra-high sensitivity mass spectrometry quantifies single-cell proteome changes upon perturbation)

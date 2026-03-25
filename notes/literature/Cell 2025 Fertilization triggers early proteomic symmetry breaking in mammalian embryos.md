@@ -73,7 +73,7 @@ This study challenges the long-held view that mammalian blastomeres are developm
 
 ### Data Analysis
 - **Software**: [[MaxQuant]], [[Proteome Discoverer]] (with [[Chimerys]]), [[Spectronaut]], [[DIA-NN]], [[R]], [[Python]].
-- **Downstream**: [[k-means clustering]], [[Principal Component Analysis (PCA)]], [[Protein Set Enrichment Analysis (PSEA)]], [[Hierarchical Clustering]], [[Gene Ontology (GO)]] analysis.
+- **Downstream**: [[k-means clustering]], [[Principal Component Analysis (PCA)]], [[Protein Set Enrichment Analysis (PSEA)]], [[Hierarchical Clustering]], [[GO|Gene Ontology (GO)]] analysis.
 
 ## Results
 
@@ -119,7 +119,7 @@ This study challenges the long-held view that mammalian blastomeres are developm
 
 ## Related Papers
 
-- [[Petelski et al., 2021]] - Multiplexed single-cell proteomics using SCoPE2.
-- [[Huffman et al., 2023]] - Prioritized mass spectrometry (pSCoPE).
-- [[Casser et al., 2017]] - Totipotency segregation in 2-cell mouse embryos.
-- [[Piotrowska & Zernicka-Goetz, 2001]] - Role for sperm in spatial patterning of the early mouse embryo.
+- Petelski et al., 2021 - Multiplexed single-cell proteomics using SCoPE2.
+- Huffman et al., 2023 - Prioritized mass spectrometry (pSCoPE).
+- Casser et al., 2017 - Totipotency segregation in 2-cell mouse embryos.
+- Piotrowska & Zernicka-Goetz, 2001 - Role for sperm in spatial patterning of the early mouse embryo.

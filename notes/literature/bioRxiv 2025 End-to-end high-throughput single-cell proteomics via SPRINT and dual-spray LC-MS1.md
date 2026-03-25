@@ -99,6 +99,6 @@ Single-cell proteomics (SCP) enables direct measurement of protein heterogeneity
 
 ## Related Papers
 
-- Budnik et al. (2018) *SCoPE-MS* (Foundational multiplexing SCP).
-- Woo et al. (2018) *nanoPOTS* (Foundational miniaturized prep).
+- Budnik et al. (2018) *SCoPE-MS* (Foundational multiplexing SCP).[[SCoPE2|SCoPE-MS2]]
+- Woo et al. (2018) *nanoPOTS* (Foundational miniaturized prep).[[nanoPOTS|Nested nanoPOTS]]
 - Ctortecka et al. (2024) *Automated single-cell proteomics* (Previous state-of-the-art benchmarks).

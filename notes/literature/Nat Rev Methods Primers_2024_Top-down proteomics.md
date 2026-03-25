@@ -13,6 +13,7 @@ authors:
   - Ying Ge
 aliases:
    - Top-down proteomics Primer
+   - Top-down proteomics
 tags:
   - literature
   - paper

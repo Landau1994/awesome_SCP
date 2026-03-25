@@ -116,6 +116,6 @@ Deep proteome profiling of over 5,000 cerebrospinal fluid samples by mass spectr
 
 ## Related Papers
 
-- [[Held et al. 2024]] - Proteomics reveals age as major modifier of inflammatory CSF signatures in MS.
-- [[Åkesson et al. 2023]] - Proteomics reveal biomarkers for diagnosis, disease activity and long-term disability outcomes in MS.
-- [[Teunissen and Khalil 2012]] - Neurofilaments as biomarkers in multiple sclerosis.
+- Held et al. 2024 - Proteomics reveals age as major modifier of inflammatory CSF signatures in MS.
+- Åkesson et al. 2023 - Proteomics reveal biomarkers for diagnosis, disease activity and long-term disability outcomes in MS.
+- Teunissen and Khalil 2012 - Neurofilaments as biomarkers in multiple sclerosis.

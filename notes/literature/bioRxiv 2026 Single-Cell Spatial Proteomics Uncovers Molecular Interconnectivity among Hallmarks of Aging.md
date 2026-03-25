@@ -98,7 +98,7 @@ Aging is accompanied by conserved hallmarks including genomic instability, epige
 
 ## Related Papers
 
-- [[Yoo et al., 2026a]] (Companion study establishing the single-cell atlas)
-- [[López-Otín et al., 2013]] / [[López-Otín et al., 2023]] (Hallmarks of Aging frameworks)
-- [[Janssens et al., 2015]] (Protein biogenesis machinery as a driver of aging)
-- [[Denoth Lippuner et al., 2014]] (Yeast as a model for aging)
+- Yoo et al., 2026a (Companion study establishing the single-cell atlas)
+- López-Otín et al., 2013 / López-Otín et al., 2023 (Hallmarks of Aging frameworks)
+- Janssens et al., 2015 (Protein biogenesis machinery as a driver of aging)
+- Denoth Lippuner et al., 2014 (Yeast as a model for aging)

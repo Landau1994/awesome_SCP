@@ -48,7 +48,7 @@ Missing values (MVs) remain a significant barrier to reliable proteomics analysi
 ## Methods
 
 ### Sample Preparation
-- Method used: [[LC-MS/MS]] (Bruker timsTOF Ultra2), [[dia-PASEF]], [[CellenONE]] (single-cell isolation), proteoCHIP EVO 96 nanowell plates.
+- Method used: [[LC-MS-MS|LC-MS/MS]] (Bruker timsTOF Ultra2), [[dia-PASEF]], [[cellenONE|CellenONE]] (single-cell isolation), proteoCHIP EVO 96 nanowell plates.
 - Cell type: E57 glioblastoma stem cells ([[GSC]]), astrocytes ([[AST]]), macrophages ([[MAC]]), microglia ([[MIC]]), and KOLF2.1S [[iPSC]]s. Three-species mix (Human, Yeast, *E. coli*).
 - Number of cells: Single cells (approx. 76-106 retained after QC) and 50-cell mini-bulk aggregates.
 

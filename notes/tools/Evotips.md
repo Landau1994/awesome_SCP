@@ -1,7 +1,8 @@
 ---
 title: Evotips
 aliases:
-  - <% tp.file.cursor(1) %>
+  - Evotips
+  - EvoTip
 tags:
   - tools
   - software

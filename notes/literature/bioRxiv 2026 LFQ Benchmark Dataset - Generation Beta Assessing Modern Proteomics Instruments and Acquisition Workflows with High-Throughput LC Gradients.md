@@ -60,7 +60,7 @@ Recent advances in liquid chromatography–mass spectrometry ([[LC-MS]]) have ac
 
 - Creation of a second-generation LFQ benchmark dataset (Generation Beta) designed for high-throughput and low-input proteomics (updating PXD028735).
 - Evaluation of four state-of-the-art MS platforms: [[SCIEX ZenoTOF 7600+]], [[SCIEX ZenoTOF 8600]], [[Thermo Scientific Orbitrap Astral]], and [[Bruker timsTOF Ultra 2]].
-- Implementation of standardized short gradients (5 and 15 minutes) and low sample loads ([[50 ng]] standard and [[250 pg]] single-cell equivalent).
+- Implementation of standardized short gradients (5 and 15 minutes) and low sample loads (50 ng standard and 250 pg single-cell equivalent).
 - Assessment of novel scanning quadrupole acquisition methods including [[ZT Scan DIA]] and [[diagonal-PASEF]].
 - Integration with [[ProteoBench]] to facilitate community-driven software benchmarking and transparent performance evaluation.
 
@@ -69,7 +69,7 @@ Recent advances in liquid chromatography–mass spectrometry ([[LC-MS]]) have ac
 ### Sample Preparation
 - Method used: Hybrid proteome mixtures created from commercially available digests.
 - Cell type: Human [[K562]], Yeast, and [[Escherichia coli]].
-- Number of cells: N/A (Protein digests used). Input loads were [[50 ng]] (standard) and [[250 pg]] (single-cell equivalent).
+- Number of cells: N/A (Protein digests used). Input loads were 50 ng (standard) and 250 pg (single-cell equivalent).
 - **Mixture Ratios (Human/Yeast/E. coli w/w%):**
     - Sample A: 65% / 30% / 5%
     - Sample B: 65% / 15% / 20%
@@ -112,6 +112,6 @@ Recent advances in liquid chromatography–mass spectrometry ([[LC-MS]]) have ac
 
 ## Related Papers
 
-- [[Navarro et al., 2016]] - A multicenter study benchmarks software tools for label-free proteome quantification (Original LFQ Benchmark).
-- [[Van Puyvelde et al., 2022]] - A comprehensive LFQ benchmark dataset on modern day acquisition strategies in proteomics (Generation Alpha/Previous version).
-- [[Guzman et al., 2024]] - Ultra-fast label-free quantification and comprehensive proteome coverage with narrow-window data-independent acquisition.
+- Navarro et al., 2016 - A multicenter study benchmarks software tools for label-free proteome quantification (Original LFQ Benchmark).
+- Van Puyvelde et al., 2022 - A comprehensive LFQ benchmark dataset on modern day acquisition strategies in proteomics (Generation Alpha/Previous version).
+- Guzman et al., 2024 - Ultra-fast label-free quantification and comprehensive proteome coverage with narrow-window data-independent acquisition.

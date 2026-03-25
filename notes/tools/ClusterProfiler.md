@@ -1,7 +1,8 @@
 ---
 title: ClusterProfiler
 aliases:
-  - <% tp.file.cursor(1) %>
+  - ClusterProfiler
+  - clusterProfiler
 tags:
   - tools
   - software
