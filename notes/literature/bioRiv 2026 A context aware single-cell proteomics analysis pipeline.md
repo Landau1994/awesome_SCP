@@ -92,7 +92,7 @@ Single-cell proteomics (SCP) by mass spectrometry can now quantify hundreds to t
 - Testing on substantially larger SCP datasets to identify and address any scaling constraints not captured in the 200-800 cell range tested.
 
 ## Personal Notes
-
+The pipeline uses Python 3.10+ with scanpy (1.9+), harmony-pytorch, scikit-learn, scipy, and statsmodels. Visualisation uses matplotlib (3.7+). Marker statistics use scipy.stats (Fisher’s exact, Wilcoxon rank-sum) with statsmodels for multiple testing correction. AUCell pathway scoring uses the decoupler package with MSigDB Hallmark gene sets. All code is available at https://github.com/vonkriegsheim/CASPA.
 
 
 ## Related Papers
