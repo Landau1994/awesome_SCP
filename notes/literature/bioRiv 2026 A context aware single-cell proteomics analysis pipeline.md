@@ -92,7 +92,11 @@ Single-cell proteomics (SCP) by mass spectrometry can now quantify hundreds to t
 - Testing on substantially larger SCP datasets to identify and address any scaling constraints not captured in the 200-800 cell range tested.
 
 ## Personal Notes
-The pipeline uses Python 3.10+ with scanpy (1.9+), harmony-pytorch, scikit-learn, scipy, and statsmodels. Visualisation uses matplotlib (3.7+). Marker statistics use scipy.stats (Fisher’s exact, Wilcoxon rank-sum) with statsmodels for multiple testing correction. AUCell pathway scoring uses the decoupler package with MSigDB Hallmark gene sets. All code is available at https://github.com/vonkriegsheim/CASPA.
+1. The pipeline uses Python 3.10+ with scanpy (1.9+), harmony-pytorch, scikit-learn, scipy, and statsmodels. Visualisation uses matplotlib (3.7+). Marker statistics use scipy.stats (Fisher’s exact, Wilcoxon rank-sum) with statsmodels for multiple testing correction. AUCell pathway scoring uses the decoupler package with MSigDB Hallmark gene sets. All code is available at https://github.com/vonkriegsheim/CASPA.
+2. Three published SCP datasets were used for validation and benchmarking. 
+	1. The caerulein injured mouse pancreas dataset (D2_SCP) comprised 361 cells from 4 independently processed libraries, searched with Spectronaut against UniProt mouse proteome (UP000000589) using the mz_300_1200_frag_200_2000 preset, trypsin digestion (K, R), 2 missed cleavages, and no carbamidomethylation; 234 cells passed QC ( ≥ 500 detected proteins). 
+	2. The developing human brain dataset (Wu et al., Nat Biotechnol 2026) comprised 2,310 cells from prenatal cortex at gestational weeks 13, 15, and 19, searched with DIA-NN (direct FASTA mode) against UniProt human proteome (UP000005640) with acetyl N-terminal and oxidised methionine variable modifications and carbamidomethyl cysteine as fixed modification; 819 cells from 26 batches passed QC, with 4,475 protein groups identified. 
+	3. The glioblastoma tumour-associated neutrophil dataset (Sadiku et al., Nat Commun 2026) comprised 330 FACS-sorted CD45+CD66b+CD49d− neutrophils from 6 GBM patients,
 
 
 ## Related Papers
