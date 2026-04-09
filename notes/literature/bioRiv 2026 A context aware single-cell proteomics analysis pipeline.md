@@ -21,6 +21,7 @@ category: literature
 date_created: 2026-04-09
 Journal: bioRxiv
 Year: 2026
+status: read
 ---
 
 # A Context-Aware Single-Cell Proteomics Analysis pipeline
