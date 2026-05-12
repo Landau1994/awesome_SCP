@@ -27,8 +27,8 @@ authors:
   - Karl Mechtler
   - Sarah R. Walmsley
 aliases:
-   - Single cell proteomic analysis defines discrete neutrophil functional states in human glioblastoma
-   - Sadiku et al. 2025
+  - Single cell proteomic analysis defines discrete neutrophil functional states in human glioblastoma
+  - Sadiku et al. 2025
 tags:
   - literature
   - paper
@@ -36,9 +36,9 @@ tags:
   - glioblastoma
   - neutrophils
 category: literature
-date_created: 2024-05-22
+date_created: 2026-05-12
 Journal: Nature Communications
-Year: 2025
+Year: 2026
 ---
 
 # Single cell proteomic analysis defines discrete neutrophil functional states in human glioblastoma
