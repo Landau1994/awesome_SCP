@@ -10,6 +10,7 @@ tags:
   - microfluidics
   - chip
 category: method
+url: https://www.nature.com/articles/s41467-018-03367-w
 ---
 
 # nanoPOTS
@@ -30,11 +31,11 @@ nanoPOTS is a chip-based microfluidic platform for processing ultra-low input sa
 
 ### Standard nanoPOTS
 - Individual nanowells
-- ~10-50 cells per chip
+- Chip capacity depends on layout; the 2021 comparison used a 44-well conventional nanoPOTS chip.
 
 ### Nested nanoPOTS (N2)
 - 243 cells per chip
-- 10-fold improvement in throughput
+- Tenfold increase in sample-processing throughput reported for the 2021 N2 design; this is not a tenfold increase in MS acquisition speed.
 - Hierarchical nanowell design
 
 ## Workflow
@@ -48,8 +49,8 @@ Direct injection or Collection → LC-MS/MS
 ## Performance
 
 - **Sensitivity**: Picogram-level protein input
-- **Proteins**: 1,000-3,000 per cell
-- **Recovery**: >80% peptide recovery
+- **Original 2018 benchmark**: approximately 1,500–3,000 proteins from approximately 10–140 mammalian cells; these are small-population, not single-cell, results.
+- **Recovery**: nanoliter processing reduces surface losses; recovery depends on the protocol and is not a universal >80% value.
 
 ## Advantages
 
@@ -69,9 +70,14 @@ Direct injection or Collection → LC-MS/MS
 > [!cite] Primary References
 > - Zhu et al. (2018) *Nature Communications* - Original nanoPOTS
 >   DOI: [10.1038/s41467-018-03367-w](https://doi.org/10.1038/s41467-018-03367-w)
-> - Williams et al. (2020) - Nested nanoPOTS
+> - Woo et al. (2021). High-throughput and high-efficiency sample preparation for single-cell proteomics using a nested nanowell chip. *Nature Communications* 12, 6246.
+>   DOI: [10.1038/s41467-021-26514-2](https://doi.org/10.1038/s41467-021-26514-2)
 
 ## Related Methods
 
 - [[nPOP]] - Slide-based alternative
 - [[mPOP]] - Simpler tube-based method
+
+## Sources
+
+- [Reference for nanoPOTS](https://www.nature.com/articles/s41467-018-03367-w)

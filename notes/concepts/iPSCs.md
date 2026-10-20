@@ -2,6 +2,8 @@
 title: iPSCs
 tags:
 date_created: 2026-03-25
+url: https://pubmed.ncbi.nlm.nih.gov/18035408/
+category: concept
 ---
 
 # iPSCs
@@ -23,3 +25,7 @@ iPSCs is the plural form of induced pluripotent stem cells and refers to populat
 
 - [[iPSC]]
 - [[Cell Differentiation]]
+
+## Sources
+
+- [Authoritative reference for iPSCs](https://pubmed.ncbi.nlm.nih.gov/18035408/)

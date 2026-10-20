@@ -2,6 +2,8 @@
 title: Network biology
 tags:
 date_created: 2026-03-25
+url: https://www.nature.com/articles/nrg1272
+category: concept
 ---
 
 # Network biology
@@ -23,3 +25,7 @@ Network biology studies biological systems through interaction networks among ge
 
 - [[Proteogenomics]]
 - [[WGCNA]]
+
+## Sources
+
+- [Authoritative reference for Network biology](https://www.nature.com/articles/nrg1272)

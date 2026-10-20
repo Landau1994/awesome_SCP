@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://sciex.com/applications/biomedical-and-omics-research/proteomics
 date_created: 2026-03-25
 ---
 
@@ -31,9 +31,7 @@ Sample prep → LC separation → Ionization → MS acquisition → Data analysi
 
 ## Performance
 
-- **Proteins per cell**: Method- and platform-dependent
-- **Throughput**: Moderate to high
-- **Data completeness**: Improved with optimized acquisition/software
+Sensitivity, separation and sample throughput depend on the chromatographic and MS configuration. LC-MS is a platform description, not a fixed protein-depth or completeness benchmark.
 
 ## Advantages
 
@@ -49,11 +47,14 @@ Sample prep → LC separation → Ionization → MS acquisition → Data analysi
 
 ## Key Publications
 
-> [!cite] Primary Reference
-> Standard platform in proteomics methodology literature.
+[SCIEX proteomics technical overview](https://sciex.com/applications/biomedical-and-omics-research/proteomics), official platform documentation.
 
 ## Related Methods
 
 - [[nanoLC-MS]]
 - [[LC-MS-MS|LC-MS/MS]]
 - [[DIA]]
+
+## Sources
+
+- [Reference for LC-MS](https://sciex.com/applications/biomedical-and-omics-research/proteomics)

@@ -5,6 +5,8 @@ aliases:
   - ESCs
 tags:
 date_created: 2026-03-25
+url: https://www.nature.com/articles/292154a0
+category: concept
 ---
 
 # mouse embryonic stem cells (ESCs)
@@ -17,3 +19,7 @@ Mouse embryonic stem cells are pluripotent stem cells used as a model system for
 
 - [[Cell Differentiation]]
 - [[iPSC]]
+
+## Sources
+
+- [Authoritative reference for mouse embryonic stem cells (ESCs)](https://www.nature.com/articles/292154a0)

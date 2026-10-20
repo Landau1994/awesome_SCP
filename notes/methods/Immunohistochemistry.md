@@ -6,7 +6,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/overview-immunohistochemistry.html
 date_created: 2026-03-25
 ---
 
@@ -20,3 +20,7 @@ Immunohistochemistry (IHC) is an antibody-based tissue staining method used to l
 
 - [[Spatial proteomics]]
 - [[RNAscope]]
+
+## Sources
+
+- [Reference for Immunohistochemistry](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/overview-immunohistochemistry.html)

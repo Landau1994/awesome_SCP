@@ -4,9 +4,9 @@ aliases:
   - Agilent Bravo
 tags:
   - tools
-  - software
+  - equipment
 category: tool
-url: 
+url: https://www.agilent.com/en/product/automated-liquid-handling/automated-liquid-handling-platforms/bravo-automated-liquid-handling-platform
 date_created: 2026-03-25
 ---
 
@@ -23,51 +23,36 @@ Agilent Bravo is used for high-throughput and standardized proteomics sample pro
 - **Automation**: Reduces manual pipetting variability.
 - **Scalable Throughput**: Supports larger sample batches.
 - **Protocol Reproducibility**: Improves inter-run consistency.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# Vendor-specific instrument/software setup
-```
-
-## Usage
-
-```r
-# Example code
-# Generally controlled via instrument software
-```
+- **System setup**: Instrument/consumable compatibility and control software depend on the vendor configuration.
 
 ## Input/Output
 
 **Input:**
+
 - Sample plates and reagents
 - Programmed preparation protocols
 
 **Output:**
+
 - Prepared LC-MS-ready samples
 - Run protocol logs
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| deck_layout | user-defined | Plate/tip/reagent arrangement |
-| protocol_steps | user-defined | Automated preparation sequence |
-
 ## Key Publications
 
-> [!cite] Primary Reference
+> [!cite] Related Study Context
 > See large-cohort CSF proteomics literature note.
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Source availability: See the official source below; no separate public repository was confirmed.
+- Documentation/source: https://www.agilent.com/en/product/automated-liquid-handling/automated-liquid-handling-platforms/bravo-automated-liquid-handling-platform
 
 ## Related Tools
 
 - [[Tecan UNO]]
 - [[cellenONE]]
 - [[Orbitrap Astral]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [Agilent Bravo documentation or source](https://www.agilent.com/en/product/automated-liquid-handling/automated-liquid-handling-platforms/bravo-automated-liquid-handling-platform).

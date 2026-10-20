@@ -5,6 +5,7 @@ aliases:
 tags:
   - methods
 category: method
+url: https://www.nature.com/articles/nbt.2999
 date_created: 2026-03-25
 ---
 
@@ -18,3 +19,7 @@ Structural proteomics focuses on protein structure, interaction interfaces, and 
 
 - [[Cross-linking mass spectrometry]]
 - [[Top-down proteomics]]
+
+## Sources
+
+- [Reference for Structural proteomics](https://www.nature.com/articles/nbt.2999)

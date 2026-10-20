@@ -1,12 +1,10 @@
 ---
 title: single-cell proteomics
-aliases:
-  - single-cell proteomics
-  - Single-cell proteomics
+aliases: ["single-cell proteomics"]
 tags:
   - methods
 category: method
-url: 
+url: https://doi.org/10.1186/s13059-021-02267-5
 date_created: 2026-03-25
 ---
 
@@ -16,7 +14,7 @@ date_created: 2026-03-25
 
 ## Overview
 
-Single-cell proteomics (SCP) quantifies proteins in individual cells using mass spectrometry and specialized low-input workflows.
+Single-cell proteomics measures proteins in individual cells. This vault emphasizes mass-spectrometry-based SCP with specialized low-input workflows; antibody-based methods such as [[CITE-seq]] provide complementary targeted protein measurements.
 
 ## Key Features
 
@@ -32,9 +30,7 @@ Single-cell isolation → Low-input sample prep → LC-MS/MS acquisition → Qua
 
 ## Performance
 
-- **Proteins per cell**: Typically hundreds to thousands
-- **Throughput**: Method/platform dependent
-- **Data completeness**: Improving with DIA and optimized preparation
+Coverage varies from a targeted antibody panel to thousands of proteins in specific MS workflows. Compare measured proteins, quantitative quality, cell recovery and throughput using the same definitions and experimental context.
 
 ## Advantages
 
@@ -50,11 +46,14 @@ Single-cell isolation → Low-input sample prep → LC-MS/MS acquisition → Qua
 
 ## Key Publications
 
-> [!cite] Primary Reference
-> See SCoPE2 and newer label-free SCP literature.
+Specht et al. (2021). [Single-cell proteomic and transcriptomic analysis of macrophage heterogeneity using SCoPE2](https://doi.org/10.1186/s13059-021-02267-5), one MS-based example.
 
 ## Related Methods
 
 - [[SCoPE2]]
 - [[plexDIA]]
 - [[Label-free single-cell proteomics]]
+
+## Sources
+
+- [Reference for single-cell proteomics](https://doi.org/10.1186/s13059-021-02267-5)

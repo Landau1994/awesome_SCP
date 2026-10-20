@@ -40,22 +40,30 @@ date_created: 2024-05-23
 Journal: Nature Protocols
 Year: 2026
 DOI: 10.1038/s41596-025-01257-2
+doi: "10.1038/s41596-025-01257-2"
+url: "https://doi.org/10.1038/s41596-025-01257-2"
+publication_status: "published"
+published_online: "2025-10-16"
+published_print: "2026-03"
 ---
 
 # Navigating the data processing for cytometry-based single-cell proteomics
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
 > [!cite] Reference
 > **Title**：Navigating the data processing for cytometry-based single-cell proteomics
 > **Authors**: Huaicheng Sun, Yuan Zhou, Ruoyu Jiang, et al.
-> **Year**: 2026
+> **Year**: 2026 (volume year; online 2025-10-16)
 > **Journal**: Nature Protocols
-> **DOI**: 10.1038/s41596-025-01257-2
-
+> **DOI**: [10.1038/s41596-025-01257-2](https://doi.org/10.1038/s41596-025-01257-2)
 ## Abstract
 
-基于细胞计数的单细胞蛋白质组学（SCP）已成为深入理解复杂生物系统的重要技术。虽然目前已开发出多种处理此类数据的方法，但为特定数据集确定表现最佳的处理工作流仍极具挑战。本研究开发了 **ANPELA**，一种开箱即用的方法，用于通过大规模筛选导航蛋白质组数据处理。它能够通过机器学习系统评估数千种处理工作流在识别细胞亚群（CSI）和推断伪时间轨迹（PTI）方面的性能。ANPELA 提供了桌面软件、R 包和在线服务器，具备多场景可用性、数据安全性和用户友好界面。该工具可供包括无编程基础在内的广泛受众使用，旨在帮助研究人员从 SCP 研究中获取可靠的生物学见解。
+基于细胞测定的单细胞蛋白质组学（SCP）已成为深入理解复杂生物系统的重要技术。虽然目前已开发出多种处理此类数据的方法，但为特定数据集确定表现最佳的处理工作流仍极具挑战。本研究开发了 **ANPELA**，一种开箱即用的方法，用于通过大规模筛选导航蛋白质组数据处理。它能够通过机器学习系统评估数千种处理工作流在识别细胞亚群（CSI）和推断伪时间轨迹（PTI）方面的性能。ANPELA 提供了桌面软件、R 包和在线服务器，具备多场景可用性、数据安全性和用户友好界面。该工具可供包括无编程基础在内的广泛受众使用，旨在帮助研究人员从 SCP 研究中获取可靠的生物学见解。
 
 ## Key Points
 

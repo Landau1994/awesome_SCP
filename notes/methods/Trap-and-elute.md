@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13118651/
 date_created: 2026-03-25
 ---
 
@@ -20,8 +20,8 @@ Trap-and-elute improves sample cleanup and concentration by first capturing pept
 ## Key Features
 
 - **On-line Cleanup**: Removes salts and contaminants before separation.
-- **Sensitivity Support**: Improves low-input peptide handling.
-- **Workflow Robustness**: Stabilizes injection and loading behavior.
+- **Low-Input Handling**: May support peptide loading; recovery must be evaluated for the chosen trap and sample.
+- **Loading Design**: Separates trap loading from analytical-column elution.
 
 ## Workflow
 
@@ -31,9 +31,7 @@ Sample loading on trap column → Wash/desalt → Elute to analytical column →
 
 ## Performance
 
-- **Proteins per cell**: Improved for low-input workflows
-- **Throughput**: High with optimized gradients
-- **Data completeness**: Better retention/reproducibility in many setups
+Trapping can support loading and desalting, particularly when injection volumes would otherwise impair separation. Recovery, carryover and depth depend on trap chemistry and loading/elution conditions; improvement over direct injection is not universal.
 
 ## Advantages
 
@@ -49,11 +47,14 @@ Sample loading on trap column → Wash/desalt → Elute to analytical column →
 
 ## Key Publications
 
-> [!cite] Primary Reference
-> See trap-column optimization studies in literature notes.
+[Trap-column optimization study](https://pmc.ncbi.nlm.nih.gov/articles/PMC13118651/), an experimental assessment of loading and low-input performance.
 
 ## Related Methods
 
 - [[nanoLC-MS]]
 - [[DIA]]
 - [[Label-free single-cell proteomics]]
+
+## Sources
+
+- [Reference for Trap-and-elute](https://pmc.ncbi.nlm.nih.gov/articles/PMC13118651/)

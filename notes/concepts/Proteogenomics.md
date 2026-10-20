@@ -2,6 +2,8 @@
 title: Proteogenomics
 tags:
 date_created: 2026-03-25
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4392723/
+category: concept
 ---
 
 # Proteogenomics
@@ -23,3 +25,7 @@ Proteogenomics integrates proteomics with genomics/transcriptomics to connect se
 
 - [[Network biology]]
 - [[CPTAC]]
+
+## Sources
+
+- [Authoritative reference for Proteogenomics](https://pmc.ncbi.nlm.nih.gov/articles/PMC4392723/)

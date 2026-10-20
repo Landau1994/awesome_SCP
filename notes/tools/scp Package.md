@@ -39,25 +39,7 @@ BiocManager::install("scp")
 
 ## Basic Workflow
 
-```r
-library(scp)
-library(QFeatures)
-
-# Read data
-scp <- readSCP(assayData, colData, ...)
-
-# Quality control
-scp <- filterFeatures(scp, ~ !is.na(intensity))
-
-# Normalization
-scp <- normalize(scp, method = "center.median")
-
-# Aggregation
-scp <- aggregateFeatures(scp, fcol = "protein")
-
-# Batch correction
-scp <- batchCorrect(scp, batch = "batch")
-```
+Import search-engine result tables and sample metadata into `scp`/`QFeatures`; inspect run and cell quality; filter features; normalize the appropriate assays; aggregate peptides to proteins; then fit statistical models or perform other downstream analysis. Required identifiers, assay names and function arguments depend on the data. Use the [official vignette](https://bioconductor.org/packages/scp/) for an executable example.
 
 ## Key Functions
 
@@ -83,8 +65,8 @@ scp <- batchCorrect(scp, batch = "batch")
 ## Key Publications
 
 > [!cite] Primary References
-> - Vanderaa & Gatto (2021) - scp package paper
-> - Vanderaa & Gatto (2024) - Standardized workflow
+> - Vanderaa & Gatto (2021) - Replication of single-cell proteomics data reveals important computational challenges.
+> - Vanderaa & Gatto (2023) - The current state of single-cell proteomics data analysis. *Current Protocols* 3(1), e658.
 >   DOI: [10.1002/cpz1.658](https://doi.org/10.1002/cpz1.658)
 
 ## Related Tools
@@ -92,3 +74,8 @@ scp <- batchCorrect(scp, batch = "batch")
 - [[MaxQuant]] - Upstream data processing
 - [[DIA-NN]] - DIA data processing
 - [[DO-MS]] - Quality control
+
+## Source Check
+
+- Source checked on 2026-10-20: [scp Package documentation or source](https://bioconductor.org/packages/scp/).
+- [Author conference abstract with publication list](https://eurobioc2023.bioconductor.org/abstracts/paper19/).

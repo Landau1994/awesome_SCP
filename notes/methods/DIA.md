@@ -1,12 +1,10 @@
 ---
 title: DIA
-aliases:
-  - Data-Independent Acquisition
-  - SWATH-MS
+aliases: ["SWATH-MS"]
 tags:
   - methods
 category: method
-url: 
+url: https://doi.org/10.1074/mcp.O111.016717
 date_created: 2026-03-02
 ---
 
@@ -16,15 +14,15 @@ date_created: 2026-03-02
 
 ## Overview
 
-**Data-Independent Acquisition (DIA)** is a tandem mass spectrometry (MS/MS) method. Unlike Data-Dependent Acquisition (DDA), which stochastically selects only the most abundant ions for fragmentation, DIA divides the entire mass range into smaller, consecutive isolation windows (e.g., 25 m/z wide). The mass spectrometer cycles through these windows, co-fragmenting **all** precursor ions contained within each window.
+**Data-Independent Acquisition (DIA)** is a tandem mass spectrometry (MS/MS) method. Unlike Data-Dependent Acquisition (DDA), which stochastically selects only the most abundant ions for fragmentation, DIA commonly divides a configured mass range into smaller, consecutive isolation windows (e.g., 25 m/z wide). The mass spectrometer cycles through these windows, co-fragmenting **all** precursor ions contained within each window.
 
-This approach eliminates the stochastic nature of sampling, theoretically recording fragment information for every peptide in the sample. Because the resulting MS2 spectra are highly complex (chimeric spectra containing fragments from multiple peptides), DIA data analysis typically requires spectral libraries or deep-learning-based signal deconvolution (e.g., using DIA-NN or Spectronaut) to identify and quantify peptides.
+Within the configured mass range, the acquisition systematically samples isolation windows without intensity-triggered precursor selection. This reduces stochastic sampling but does not guarantee that every peptide is detected or quantified. Because the resulting MS2 spectra are highly complex (chimeric spectra containing fragments from multiple peptides), DIA data analysis typically requires spectral libraries or deep-learning-based signal deconvolution (e.g., using DIA-NN or Spectronaut) to identify and quantify peptides.
 
 ## Key Features
 
-- **Unbiased Sampling**: Does not rely on precursor intensity to trigger acquisition, preventing the loss of low-abundance peptides and significantly reducing missing values.
-- **Windowed Acquisition**: Systematically steps through the m/z range (e.g., 400–1000 m/z) to cover the entire precursor space.
-- **Digital Archiving**: The data represents a complete digital map of the sample, allowing for **retrospective analysis** as libraries and algorithms improve without needing to re-acquire the sample.
+- **Systematic Sampling**: Does not rely on precursor intensity to trigger each isolation window; low-abundance peptides can still be missed.
+- **Windowed Acquisition**: Systematically steps through the m/z range (e.g., 400–1000 m/z) to sample the configured precursor range.
+- **Digital Archiving**: The recorded spectra allow **retrospective analysis** as libraries and algorithms improve, within the mass range, sensitivity and chromatographic sampling of the original acquisition.
 
 ## Workflow
 
@@ -34,15 +32,15 @@ LC Separation → MS1 Survey Scan → Sequential Window Isolation → Co-fragmen
 
 ## Performance
 
-- **Proteins per cell**: ~1,000–3,000+ (when combined with methods like [[plexDIA]]); >8,000 in bulk samples.
+- **Proteins per cell**: Dataset-dependent; see [[plexDIA]] and [[Chip-Tip]] for explicitly defined benchmarks.
 - **Throughput**: High; compatible with short LC gradients and fast cycle times.
-- **Data completeness**: Very high; offers superior consistency across large sample cohorts compared to DDA.
+- **Data completeness**: Depends on acquisition, sample and analysis settings; it must be measured within each study.
 
 ## Advantages
 
 - **High Reproducibility**: Excellent consistency between technical replicates due to the deterministic nature of acquisition.
-- **Few Missing Values**: Solves the "missing value problem" inherent to DDA, making it ideal for quantitative comparisons.
-- **Quantitative Accuracy**: Quantification is based on MS2 fragment ion peak areas (XIC), which are often more specific and interference-free than MS1 quantification.
+- **Fewer Missing Values in Suitable Comparisons**: Can improve completeness, but noise, interference, detection limits and error control still produce missing observations.
+- **Quantification**: Many workflows use MS2 fragment-ion chromatograms, sometimes with MS1 evidence. Selectivity and interference depend on acquisition and analysis settings.
 
 ## Limitations
 

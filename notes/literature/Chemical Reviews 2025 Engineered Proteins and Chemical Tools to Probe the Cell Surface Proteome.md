@@ -18,9 +18,18 @@ category: literature
 date_created: 2025-05-14
 Journal: Chemical Reviews
 Year: 2025
+doi: "10.1021/acs.chemrev.4c00554"
+url: "https://doi.org/10.1021/acs.chemrev.4c00554"
+publication_status: "published"
+published_online: "2025-04-03"
+published_print: "2025-04-23"
 ---
 
 # Engineered Proteins and Chemical Tools to Probe the Cell Surface Proteome
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -29,8 +38,7 @@ Year: 2025
 > **Authors**: Kevin K. Leung, Kaitlin Schaefer, Zhi Lin, Zi Yao, and James A. Wells
 > **Year**: 2025
 > **Journal**: Chemical Reviews
-> **DOI**: 10.1021/acs.chemrev.4c00554
-
+> **DOI**: [10.1021/acs.chemrev.4c00554](https://doi.org/10.1021/acs.chemrev.4c00554)
 ## Abstract
 
 The cell surface proteome, or surfaceome, acts as the primary hub for cellular communication with the external environment. Despite its functional importance in disease, it remains a "difficult-to-drug" compartment, with approved drugs targeting fewer than 50 surface proteins. In the past decade, advancements in proteomics have enabled researchers to study the surfaceome's complexity through specialized labeling, enrichment, and analytical strategies. This review provides an overview of surfaceomics methods for measuring protein expression and identifying novel targets. It highlights breakthroughs in proximity labeling proteomics (PLP)—including enzymatic and photoaffinity-based techniques—for mapping protein-protein interactions and membrane complexes in situ. Furthermore, the review covers the role of extracellular post-translational modifications (PTMs), specifically glycosylation and proteolytic remodeling, and discusses the emerging field of the immunopeptidome (MHC-I peptide presentation) and its therapeutic potential for neo-epitope discovery.
@@ -41,18 +49,18 @@ The cell surface proteome, or surfaceome, acts as the primary hub for cellular c
 - Membrane proteins operate in a two-dimensional environment, limiting their degrees of freedom compared to cytosolic proteins, which allows for faster association rates and enables rapid cellular signaling.
 - Proximity labeling proteomics (PLP) methods, such as [[APEX2]], [[TurboID]], and photocatalytic platforms like [[μMap]], allow for in situ "snapshot" mapping of protein neighborhoods without the need for membrane solubilization.
 - Unlike intracellular PTMs which are often reversible, extracellular PTMs (glycosylation, proteolysis) are predominantly irreversible and serve as critical regulators of cellular state and pathology.
-- Advances in [[Mass Spectrometry]] ([[DIA]], [[DIA-PASEF]]) and bioinformatics ([[NetMHCpan]], [[AlphaFold]]) have revolutionized the study of the immunopeptidome, enabling the discovery of disease-associated neo-antigens.
+- Advances in [[MS-based proteomics|Mass Spectrometry]] ([[DIA]], [[dia-PASEF]]) and bioinformatics ([[NetMHCpan]], [[AlphaFold]]) have revolutionized the study of the immunopeptidome, enabling the discovery of disease-associated neo-antigens.
 
 ## Methods
 
 ### Sample Preparation
-- Method used: [[Membrane Fractionation]], [[Chemical Labeling]] ([[sulfo-NHS-biotin]]), [[Proximity Labeling]] ([[APEX]], [[BioID]], [[TurboID]], [[miniSOG]], [[PUP-IT]], [[EMARS]], [[μMap]]), [[Glycoprotein Enrichment]] ([[CSC]], [[lectin pull-down]]), [[Mild-Acid Elution]], [[Immunoprecipitation]] ([[anti-MHC antibodies]]).
+- Method used: Membrane Fractionation, Chemical Labeling (sulfo-NHS-biotin), [[Proximity Labeling]] ([[APEX]], [[BioID]], [[TurboID]], miniSOG, PUP-IT, EMARS, [[μMap]]), Glycoprotein Enrichment (CSC, lectin pull-down), Mild-Acid Elution, Immunoprecipitation (anti-MHC antibodies).
 - Cell type: Mammalian cell lines, primary tissues, immune cells.
 - Number of cells: Varies by method; ranges from 0.5 × 10^6 to 10^9 cells for immunopeptidomics.
 
 ### Data Analysis
 - Software: [[NetMHCpan]], [[AlphaFold]], [[GSEA]], [[PSEA-quant]], [[PEAKS]], [[MHCquant]], [[SpectMHC]].
-- Downstream: [[Mass Spectrometry]] ([[DDA]], [[DIA]], [[DIA-PASEF]], [[MRM]], [[PRM]]), [[NGS]], [[transcriptomics]].
+- Downstream: [[MS-based proteomics|Mass Spectrometry]] ([[DDA]], [[DIA]], [[dia-PASEF]], [[MRM]], [[PRM]]), NGS, transcriptomics.
 
 ## Results
 

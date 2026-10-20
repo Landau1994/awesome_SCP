@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://github.com/MannLabs/alphabase
 date_created: 2026-03-25
 ---
 
@@ -29,3 +29,7 @@ AlphaBase supports peptide/proteomics data representations and shared utilities 
 - [[AlphaPeptDeep]]
 - [[AlphaPept]]
 - [[PyTorch]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [AlphaBase documentation or source](https://github.com/MannLabs/alphabase).

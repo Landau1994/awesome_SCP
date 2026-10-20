@@ -4,9 +4,9 @@ aliases:
   - SCIEX ZenoTOF 7600+
 tags:
   - tools
-  - software
+  - equipment
 category: tool
-url: 
+url: https://sciex.com/applications/biomedical-and-omics-research
 date_created: 2026-03-25
 ---
 
@@ -19,3 +19,7 @@ Compatibility page for model-specific links.
 ## Related Tools
 
 - [[ZenoTOF]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [SCIEX ZenoTOF 7600+ documentation or source](https://sciex.com/applications/biomedical-and-omics-research).

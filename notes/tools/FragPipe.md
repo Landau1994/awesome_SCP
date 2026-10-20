@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://fragpipe.nesvilab.org/
 date_created: 2026-03-25
 ---
 
@@ -23,51 +23,36 @@ FragPipe provides a unified interface and workflow ecosystem for MS-based proteo
 - **Integrated Pipeline**: Brings multiple proteomics engines into one workflow.
 - **Library/ID Support**: Useful for both discovery and targeted analysis.
 - **User-Friendly Operation**: Designed for practical analysis at scale.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# See official FragPipe releases
-```
-
-## Usage
-
-```r
-# Example code
-# FragPipe is typically run via GUI/CLI workflows
-```
+- **Environment**: Follow the official release requirements; operating-system support depends on the package and its dependencies.
 
 ## Input/Output
 
 **Input:**
+
 - Raw files (.raw, .d, .mzML)
 - FASTA database
 
 **Output:**
+
 - Peptide/protein identification tables
 - Quantification and QC outputs
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| fdr | 0.01 | Identification confidence threshold |
-| enzyme | trypsin | Digestion specificity |
-
 ## Key Publications
 
-> [!cite] Primary Reference
-> Author et al. (Year) *Journal*
+> [!cite] Project Documentation
+> Official project/source documentation: https://fragpipe.nesvilab.org/
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Source availability: See the official source below; no separate public repository was confirmed.
+- Documentation/source: https://fragpipe.nesvilab.org/
 
 ## Related Tools
 
 - [[MSFragger]]
 - [[DIA-NN]]
 - [[OpenSpec]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [FragPipe documentation or source](https://fragpipe.nesvilab.org/).

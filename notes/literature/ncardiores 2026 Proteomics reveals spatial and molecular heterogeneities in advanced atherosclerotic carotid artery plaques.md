@@ -21,8 +21,7 @@ authors:
   - Daniela Branzan
   - Lars Maegdefessel
   - Matthias Mann
-aliases:
-  - 
+aliases: []
 tags:
   - literature
   - paper
@@ -32,9 +31,17 @@ category: literature
 date_created: 2024-05-23
 Journal: Nature Cardiovascular Research
 Year: 2026
+doi: "10.1038/s44161-026-00827-1"
+url: "https://doi.org/10.1038/s44161-026-00827-1"
+publication_status: "published"
+published_online: "2026-06-22"
 ---
 
 # Proteomics reveals spatial and molecular heterogeneities in advanced atherosclerotic carotid artery plaques
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -43,11 +50,10 @@ Year: 2026
 > **Authors**: Ankit Sinha et al.
 > **Year**: 2026
 > **Journal**: Nature Cardiovascular Research
-> **DOI**: 10.1038/s44161-026-00827-1
-
+> **DOI**: [10.1038/s44161-026-00827-1](https://doi.org/10.1038/s44161-026-00827-1)
 ## Abstract
 
-Atherosclerotic plaque rupture is a primary cause of cerebrovascular events, but the molecular factors defining vulnerability-related plaque morphology—specifically fibrous-cap thickness—remain poorly understood. This study utilizes histomorphology-guided [[spatial proteomics]] on 112 carotid endarterectomy specimens to delineate molecular programs associated with plaque cap phenotypes across discrete subregions (media, necrotic core, and fibrous cap). The results reveal that differences between thin-cap (TnC) and thick-cap (TkC) plaques are primarily localized to the necrotic core and fibrous cap, showing significant enrichment for processes related to inflammation, lipid handling, extracellular matrix remodeling, and calcification. PCSK9 was identified as a key protein associated with TnC plaques. An in vitro model of necrotic core-like stress confirmed that oxidative and inflammatory environments increase PCSK9 secretion in primary vascular smooth muscle cells (VSMCs). These findings provide a spatial framework for biomarker discovery in advanced atherosclerosis.
+Atherosclerotic plaque rupture is a primary cause of cerebrovascular events, but the molecular factors defining vulnerability-related plaque morphology—specifically fibrous-cap thickness—remain poorly understood. This study utilizes histomorphology-guided [[Spatial proteomics]] on 112 carotid endarterectomy specimens to delineate molecular programs associated with plaque cap phenotypes across discrete subregions (media, necrotic core, and fibrous cap). The results reveal that differences between thin-cap (TnC) and thick-cap (TkC) plaques are primarily localized to the necrotic core and fibrous cap, showing significant enrichment for processes related to inflammation, lipid handling, extracellular matrix remodeling, and calcification. PCSK9 was identified as a key protein associated with TnC plaques. An in vitro model of necrotic core-like stress confirmed that oxidative and inflammatory environments increase PCSK9 secretion in primary vascular smooth muscle cells (VSMCs). These findings provide a spatial framework for biomarker discovery in advanced atherosclerosis.
 
 ## Key Points
 
@@ -59,13 +65,13 @@ Atherosclerotic plaque rupture is a primary cause of cerebrovascular events, but
 ## Methods
 
 ### Sample Preparation
-- Method used: [[Laser microdissection]] of FFPE plaque sections, followed by [[LC-MS/MS]].
+- Method used: [[Laser Microdissection]] of FFPE plaque sections, followed by [[LC-MS-MS|LC-MS/MS]].
 - Cell type: Primary human vascular smooth muscle cells (VSMCs).
 - Number of cells: 15,000 cells per well for in vitro culture.
 
 ### Data Analysis
-- Software: [[DIA-NN]], [[WGCNA]], [[XGBoost]], [[g:Profiler]], [[Cytoscape]].
-- Downstream: [[Differential expression analysis]] via LIMMA, consensus clustering, module enrichment analysis.
+- Software: [[DIA-NN]], [[WGCNA]], [[XGBoost]], [[gProfiler|g:Profiler]], [[Cytoscape]].
+- Downstream: Differential expression analysis via LIMMA, consensus clustering, module enrichment analysis.
 
 ## Results
 
@@ -90,7 +96,7 @@ Atherosclerotic plaque rupture is a primary cause of cerebrovascular events, but
 ## Discussion
 
 ### Strengths
-- Unprecedented spatial resolution of the plaque proteome via [[laser microdissection]].
+- Unprecedented spatial resolution of the plaque proteome via [[Laser Microdissection]].
 - Integration of human tissue findings with functional in vitro perturbation models.
 - Hierarchical machine learning approach for protein panel selection.
 

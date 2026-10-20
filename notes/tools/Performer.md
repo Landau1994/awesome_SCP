@@ -8,7 +8,7 @@ tags:
   - efficient-transformer
   - attention
 category: concept
-url: https://doi.org/10.48550/arXiv.2009.14794
+url: https://arxiv.org/abs/2009.14794
 date_created: 2026-03-17
 ---
 
@@ -22,9 +22,9 @@ The Performer (Choromanski et al., 2021) addresses the quadratic scaling bottlen
 
 ## Key Features
 
-- **Linear Attention**: $O(N)$ time and space complexity via FAVOR+ kernel approximation
-- **Drop-in Replacement**: Can replace standard attention in any Transformer architecture
-- **Unbiased Estimation**: Provides an unbiased approximation of softmax attention
+- **Linear Attention**: $O(N)$ scaling in sequence length at fixed feature count and dimensions via FAVOR+ approximation
+- **Drop-in Replacement**: Can be used in Transformer architectures, with implementation and approximation choices requiring validation
+- **Approximation Guarantees**: The paper distinguishes unbiased or nearly unbiased estimators; normalized softmax attention should not be described as universally unbiased.
 - **Backward Compatible**: Supports both causal (autoregressive) and bidirectional attention
 
 ## Application in SCP
@@ -42,3 +42,7 @@ scTranslator adopted the Performer's FAVOR+ mechanism to handle input sequences 
 - [[FAVOR+]] — The specific attention mechanism used in Performer
 - [[Transformer]] — The base architecture Performer optimizes
 - [[Transfer Learning]] — Common training paradigm for Performer models
+
+## Source Check
+
+- Source checked on 2026-10-20: [Performer documentation or source](https://arxiv.org/abs/2009.14794).

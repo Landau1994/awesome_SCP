@@ -5,17 +5,17 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://www.nature.com/articles/s41592-024-02558-2
 date_created: 2026-01-18
 ---
 
 # Chip-Tip
 
-**A low-loss sample handling strategy using chip-compatible tips for deep, scalable single-cell proteomics.**
+**An integrated chip-to-Evotip sample-preparation workflow for sensitive single-cell proteomics.**
 
 ## Overview
 
-Chip-Tip workflows are designed to reduce adsorption loss and improve transfer efficiency during low-input sample preparation. They are often coupled with high-sensitivity LC-MS pipelines to increase proteome depth per cell while maintaining scalability.
+Chip-Tip is the specific workflow described by Ye, Sabatier and colleagues in 2025. It combines cellenONE single-cell isolation, nanoliter preparation in proteoCHIP EVO 96, direct centrifugation-mediated transfer to Evotips, and sensitive LC–MS analysis. The principal deep-coverage benchmark used Evosep One with an Orbitrap Astral.
 
 ## Key Features
 
@@ -31,9 +31,9 @@ Single-cell capture -> Chip-Tip-assisted prep/cleanup -> LC-MS acquisition -> DI
 
 ## Performance
 
-- **Proteins per cell**: High for label-free SCP workflows with optimized acquisition.
-- **Throughput**: Moderate to high.
-- **Data completeness**: Improved compared to less optimized low-input handling methods.
+- **Depth**: in the paper's HeLa benchmark, the 4-Th/6-ms nDIA method yielded a median of 5,204 protein identifications per cell.
+- **Acquisition setting**: that comparison used the 40-samples-per-day Whisper workflow. The paper also evaluated 80 and 120 samples per day with different chromatographic settings; these settings should not be conflated with the deepest-coverage result.
+- **Transferability**: cell size, preparation, gradient, instrument and analysis settings affect both identification depth and quantitative accuracy.
 
 ## Advantages
 
@@ -50,10 +50,15 @@ Single-cell capture -> Chip-Tip-assisted prep/cleanup -> LC-MS acquisition -> DI
 ## Key Publications
 
 > [!cite] Primary Reference
-> Hartlmayr et al. (2025) *Nature Methods*.
+> Ye Z, Sabatier P, van der Hoeven L, et al. (2025). Enhanced sensitivity and scalability with a Chip-Tip workflow enables deep single-cell proteomics. *Nature Methods* 22, 499–509.
+> [10.1038/s41592-024-02558-2](https://doi.org/10.1038/s41592-024-02558-2)
 
 ## Related Methods
 
 - [[SCoPE2]]
 - [[plexDIA]]
 - [[nPOP]]
+
+## Sources
+
+- [Reference for Chip-Tip](https://www.nature.com/articles/s41592-024-02558-2)

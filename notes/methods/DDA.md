@@ -1,12 +1,10 @@
 ---
 title: DDA
-aliases:
-  - "Data-Dependent Acquisition"
-  - "Shotgun Proteomics"
+aliases: ["Shotgun Proteomics"]
 tags:
   - methods
 category: method
-url:
+url: https://doi.org/10.1146/annurev-bioeng-061008-124934
 date_created: 2026-03-02
 ---
 
@@ -33,15 +31,13 @@ LC Separation -> MS1 Survey Scan -> Selection of Top-N Ions -> MS2 Fragmentation
 
 ## Performance
 
-- **Proteins per cell**: Typically lower than DIA methods in single-cell contexts due to ion sampling limitations; highly dependent on carrier proteome usage (e.g., in SCoPE-MS).
-- **Throughput**: Moderate; limited by the cycle time required to sequentially isolate and fragment individual precursors.
-- **Data completeness**: Low to Moderate; suffers from high rates of missing values across replicates due to stochastic precursor selection.
+Proteomic depth and acquisition speed depend on sample, isolation strategy, accumulation time, chromatography and instrument. Intensity-triggered selection can create missing observations across runs; the extent must be measured rather than assigned a universal completeness category.
 
 ## Advantages
 
 - **Established Ecosystem**: Supported by mature software pipelines (e.g., MaxQuant, Proteome Discoverer) and spectral libraries are not required for identification.
 - **High Sensitivity**: Excellent for identifying high-abundance proteins and generating spectral libraries for downstream DIA analysis.
-- **Direct Identification**: Peptide sequences are identified directly from MS2 spectra via database searching, reducing false discovery rate (FDR) complexities compared to DIA.
+- **Database Searching**: MS2 spectra can be searched against peptide sequences; peptide- and protein-level false-discovery control remains necessary.
 
 ## Limitations
 
@@ -51,6 +47,6 @@ LC Separation -> MS1 Survey Scan -> Selection of Top-N Ions -> MS2 Fragmentation
 
 ## Key Publications
 
-> [!cite] Primary Reference
+> [!cite] Review Reference
 > Yates, J. R., Ruse, C. I., & Nakorchevsky, A. (2009). Proteomics by mass spectrometry: approaches, advances, and applications. *Annual Review of Biomedical Engineering*.
 > DOI: [10.1146/annurev-bioeng-061008-124934](https://doi.org/10.1146/annurev-bioeng-061008-124934)

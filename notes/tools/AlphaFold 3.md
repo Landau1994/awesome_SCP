@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://github.com/google-deepmind/alphafold3
 date_created: 2026-03-25
 ---
 
@@ -23,38 +23,19 @@ AlphaFold 3 is used for structural hypothesis generation and can support interpr
 - **Complex-Level Prediction**: Models interactions beyond single proteins.
 - **Structure-Guided Insight**: Supports mechanistic interpretation.
 - **Broad Biomolecular Scope**: Useful in multi-component systems.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# See official AlphaFold 3 access/documentation
-```
-
-## Usage
-
-```r
-# Example code
-# Platform/service specific usage
-```
+- **Environment**: Follow the official release requirements; operating-system support depends on the package and its dependencies.
 
 ## Input/Output
 
 **Input:**
+
 - Sequence/complex definitions
 - Modeling constraints where applicable
 
 **Output:**
+
 - Predicted structures and confidence estimates
 - Hypothesis-supporting structural models
-
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| input_complex | user-defined | Molecules included in prediction |
-| confidence_metric | user-defined | Output reliability indicator |
 
 ## Key Publications
 
@@ -63,11 +44,15 @@ AlphaFold 3 is used for structural hypothesis generation and can support interpr
 
 ## Links
 
-- GitHub:
-- Documentation:
+- GitHub: https://github.com/google-deepmind/alphafold3
+- Documentation/source: https://github.com/google-deepmind/alphafold3
 
 ## Related Tools
 
 - [[Deep Learning]]
 - [[Proteogenomics]]
 - [[Network biology]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [AlphaFold 3 documentation or source](https://github.com/google-deepmind/alphafold3).

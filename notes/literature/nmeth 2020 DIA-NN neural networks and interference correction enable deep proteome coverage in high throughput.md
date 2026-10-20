@@ -1,15 +1,12 @@
 ---
-title: DIA-NN:neural networks and interference correction enable deep proteome coverage in high throughput
+title: "DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput"
 authors:
   - Vadim Demichev
   - Christoph B. Messner
   - Spyros I. Vernardis
   - Kathryn S. Lilley
   - Markus Ralser
-aliases:
-   - DIA-NN
-   - neural networks proteomics
-   - interference correction DIA
+aliases: ["nmeth 2020 DIA-NN neural networks and interference correction enable deep proteom coverage in high throughput", "neural networks proteomics", "interference correction DIA"]
 tags:
   - literature
   - paper
@@ -20,19 +17,27 @@ category: literature
 date_created: 2024-05-22
 Journal: Nature Methods
 Year: 2020
+doi: "10.1038/s41592-019-0638-x"
+url: "https://doi.org/10.1038/s41592-019-0638-x"
+publication_status: "published"
+published_online: "2019-11-25"
+published_print: "2020-01"
 ---
 
 # DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. Library-free capability is supported by the linked DIA-NN documentation. Claims about specific retention-time calibration requirements remain release- and workflow-dependent.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
 > [!cite] Reference
 > **Title**：DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput
 > **Authors**: Vadim Demichev, Christoph B. Messner, Spyros I. Vernardis, Kathryn S. Lilley, Markus Ralser
-> **Year**: 2020
+> **Year**: 2020 (volume year; online 2019-11-25)
 > **Journal**: Nature Methods
-> **DOI**: 10.1038/s41592-019-0638-x
-
+> **DOI**: [10.1038/s41592-019-0638-x](https://doi.org/10.1038/s41592-019-0638-x)
 ## Abstract
 
 The computational processing of data-independent acquisition (DIA) mass spectrometry datasets is challenging due to inherent complexity and signal interference. DIA-NN is an integrated software suite that exploits deep neural networks (DNNs) and new quantification and signal correction strategies to improve the identification and quantification performance in conventional DIA proteomic applications. It is particularly beneficial for high-throughput applications, as it enables deep and confident proteome coverage when used with fast chromatographic methods. DIA-NN is easy to use, supports library-free searches through *in silico* spectral library generation, and does not require retention time standards.

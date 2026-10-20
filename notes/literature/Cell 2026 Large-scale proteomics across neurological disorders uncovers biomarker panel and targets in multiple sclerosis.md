@@ -34,9 +34,18 @@ category: literature
 date_created: 2026-04-02
 Journal: Cell
 Year: 2026
+doi: "10.1016/j.cell.2026.01.017"
+url: "https://doi.org/10.1016/j.cell.2026.01.017"
+publication_status: "published"
+published_print: "2026-04"
+published_online: "2026-02-25"
 ---
 
 # Large-scale proteomics across neurological disorders uncovers biomarker panel and targets in multiple sclerosis
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The detailed effect in the OCB-negative subgroup remains unverified.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -45,11 +54,10 @@ Year: 2026
 > **Authors**: Jakob Maximilian Bader, Christine Makarov, Sabrina Richter, et al., Christiane Gasperi, Bernhard Hemmer, Matthias Mann
 > **Year**: 2026
 > **Journal**: Cell
-> **DOI**: https://doi.org/10.1016/j.cell.2026.01.017
-
+> **DOI**: [10.1016/j.cell.2026.01.017](https://doi.org/10.1016/j.cell.2026.01.017)
 ## Abstract
 
-Deep proteome profiling of over 5,000 cerebrospinal fluid samples by mass spectrometry maps protein alterations across major neurological disorders, resolving key sources of variation as well as shared and disease-specific signatures. This framework yields a 22-protein assay that improves the differential diagnosis of multiple sclerosis from other inflammatory conditions, particularly in diagnostically challenging oligoclonal band-negative individuals.
+Deep proteome profiling of cerebrospinal fluid from approximately 5,000 individuals by mass spectrometry maps protein alterations across major neurological disorders, resolving key sources of variation as well as shared and disease-specific signatures. This framework yields a 22-protein assay that improves the differential diagnosis of multiple sclerosis from other inflammatory conditions, particularly in diagnostically challenging oligoclonal band-negative individuals.
 
 ## Key Points
 

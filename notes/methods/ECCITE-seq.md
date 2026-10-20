@@ -8,7 +8,7 @@ tags:
   - single-cell
   - CRISPR
 category: method
-url: https://doi.org/10.1038/s41592-019-0392-0
+url: https://pubmed.ncbi.nlm.nih.gov/31011186/
 date_created: 2026-03-17
 ---
 
@@ -36,7 +36,7 @@ Sequencing → Demultiplexing → Multi-modal analysis
 
 ## Advantages
 
-- Most comprehensive single-cell multi-modal readout available
+- Combines several complementary modalities in a single experiment
 - Enables pooled perturbation screens with protein-level readout
 - Sample multiplexing reduces batch effects and cost
 
@@ -57,3 +57,7 @@ Sequencing → Demultiplexing → Multi-modal analysis
 - [[CITE-seq]] — Surface protein + RNA; ECCITE-seq extends with CRISPR and hashing
 - [[Perturb-CITE-seq]] — Similar perturbation + multi-omics approach
 - [[REAP-seq]] — Alternative protein + RNA method
+
+## Sources
+
+- [Reference for ECCITE-seq](https://pubmed.ncbi.nlm.nih.gov/31011186/)

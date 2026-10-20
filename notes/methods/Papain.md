@@ -5,6 +5,7 @@ aliases:
 tags:
   - methods
 category: method
+url: https://www.worthington-biochem.com/products/papain/
 date_created: 2026-03-25
 ---
 
@@ -13,3 +14,7 @@ date_created: 2026-03-25
 ## Overview
 
 Papain is a protease commonly used for tissue dissociation and single-cell preparation workflows.
+
+## Sources
+
+- [Reference for Papain](https://www.worthington-biochem.com/products/papain/)

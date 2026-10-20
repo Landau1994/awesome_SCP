@@ -1,17 +1,11 @@
 ---
 title: timsTOF
-aliases:
-  - timsTOF
-  - timsTOF Ultra 2
-  - Bruker timsTOF Ultra 2
-  - timsTOF Ultra2
-  - Bruker timsTOF Ultra2
-  - timsTOF Pro 2
+aliases: ["timsTOF", "timsTOF Ultra2", "Bruker timsTOF Ultra2"]
 tags:
   - tools
-  - software
+  - equipment
 category: tool
-url: 
+url: https://www.bruker.com/en/products-and-solutions/mass-spectrometry/timstof.html
 date_created: 2026-01-18
 ---
 
@@ -30,35 +24,15 @@ timsTOF instruments are widely used for high-sensitivity DIA/PASEF proteomics an
 - **Low-Input Performance**: Strong sensitivity for SCP-adjacent applications.
 - **Workflow Breadth**: Supports discovery and targeted-style analyses.
 
-## Installation
-
-```bash
-# Vendor-managed hardware/software installation
-```
-
-## Usage
-
-```r
-# Acquisition is configured in instrument software.
-# Downstream analysis is handled by external tools.
-```
-
 ## Input/Output
 
 **Input:**
-- Raw files (.raw, .d, .mzML)
-- Method settings (DIA/PASEF windows, cycle time)
+
+- Ionized analytes, commonly from an LC-MS interface, and acquisition settings
 
 **Output:**
-- Protein/peptide matrices
-- Quality metrics
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| acquisition_mode | PASEF/diaPASEF | Selects acquisition strategy |
-| cycle_time | method-dependent | Balances depth and precision |
+- Mobility-resolved MS data (.d vendor data); protein quantities require downstream analysis
 
 ## Key Publications
 
@@ -67,7 +41,7 @@ timsTOF instruments are widely used for high-sensitivity DIA/PASEF proteomics an
 
 ## Links
 
-- GitHub:
+- Source availability: See the official source below; no separate public repository was confirmed.
 - Documentation: https://www.bruker.com
 
 ## Related Tools
@@ -75,3 +49,7 @@ timsTOF instruments are widely used for high-sensitivity DIA/PASEF proteomics an
 - [[MaxQuant]]
 - [[DIA-NN]]
 - [[scp Package]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [timsTOF documentation or source](https://www.bruker.com/en/products-and-solutions/mass-spectrometry/timstof.html).

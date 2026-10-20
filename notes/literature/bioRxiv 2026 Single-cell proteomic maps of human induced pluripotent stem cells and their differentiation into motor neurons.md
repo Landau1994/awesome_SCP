@@ -10,8 +10,7 @@ authors:
   - George Lawless
   - Jennifer Van Eyk
   - Clive N. Svendsen
-aliases:
-  - 
+aliases: []
 tags:
   - literature
   - paper
@@ -19,9 +18,17 @@ category: literature
 date_created: 2026-06-04
 Journal: bioRxiv
 Year: 2026
+doi: "10.64898/2026.05.29.728893"
+url: "https://doi.org/10.64898/2026.05.29.728893"
+publication_status: "preprint"
+posted: "2026-05-29"
 ---
 
 # Single-cell proteomic maps of human induced pluripotent stem cells and their differentiation into motor neurons
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The first-of-its-kind claim and detailed metabolic/organellar findings remain unverified.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -30,28 +37,27 @@ Year: 2026
 > **Authors**: Vladimir A. Zhemkov, Aleksandra Binek, Ali Haghani, Edo Israely, Shaughn Bell, Alba Sansa, George Lawless, Jennifer Van Eyk, Clive N. Svendsen
 > **Year**: 2026
 > **Journal**: bioRxiv
-> **DOI**: 10.64898/2026.05.29.728893
-
+> **DOI**: [10.64898/2026.05.29.728893](https://doi.org/10.64898/2026.05.29.728893)
 ## Abstract
 
-This paper presents the first single-cell proteomic maps of human induced pluripotent stem cells (iPSCs) and their differentiation into motor neurons (MNs). By utilizing a high-sensitivity [[MS-SCP]] (single-cell proteomics) approach, the study identifies proteomes of individual cells, effectively resolving iPSC and MN states, as well as their metabolic and organellar heterogeneity. The authors demonstrate significant, stage-specific discordance between the transcriptome and the proteome in differentiated neurons, suggesting that final cell states are largely defined by their dynamic protein composition rather than RNA.
+This paper presents the first single-cell proteomic maps of human induced pluripotent stem cells (iPSCs) and their differentiation into motor neurons (MNs). By utilizing a high-sensitivity [[single-cell proteomics|MS-SCP]] (single-cell proteomics) approach, the study identifies proteomes of individual cells, effectively resolving iPSC and MN states, as well as their metabolic and organellar heterogeneity. The authors demonstrate significant, stage-specific discordance between the transcriptome and the proteome in differentiated neurons, suggesting that final cell states are largely defined by their dynamic protein composition rather than RNA.
 
 ## Key Points
 
-- Establishment of high-sensitivity [[MS-SCP]] maps for characterizing iPSC pluripotency and motor neuron development.
+- Establishment of high-sensitivity [[single-cell proteomics|MS-SCP]] maps for characterizing iPSC pluripotency and motor neuron development.
 - Discovery of distinct iPSC subclusters (0-Hi, 1-Lo, 2-Dif) and a specific motor neuron-enriched cluster ("4-MN") that are otherwise obscured by bulk methods.
 - Demonstration of cell-type-specific RNA-protein discordance, revealing that mRNA levels often fail to accurately predict protein abundance during neuronal differentiation.
-- Integration of [[snRNA-seq]] with [[MS-SCP]] to validate cell identity and investigate regulatory dynamics.
+- Integration of [[snRNA-seq]] with [[single-cell proteomics|MS-SCP]] to validate cell identity and investigate regulatory dynamics.
 
 ## Methods
 
 ### Sample Preparation
-- Method used: [[FACS]] sorting into 384-well plates, "one-pot" [[MS-SCP]] protocol, and [[nano-DTSC]] (nanoflow dual-trap single-column) liquid chromatography.
+- Method used: [[FACS]] sorting into 384-well plates, "one-pot" [[single-cell proteomics|MS-SCP]] protocol, and [[nanoflow dual-trap single-column liquid chromatography|nano-DTSC]] (nanoflow dual-trap single-column) liquid chromatography.
 - Cell type: Human iPSCs and iPSC-derived motor neurons (d7 to d60).
 - Number of cells: 309 single iPSCs and 1634 single cells for differentiation timepoints.
 
 ### Data Analysis
-- Software: [[DIA-NN]], [[Seurat]], [[CellRank]], [[ClusterProfiler]], [[CellRanger]], [[Scanpy]].
+- Software: [[DIA-NN]], [[Seurat]], [[cellrank]], [[ClusterProfiler]], [[CellRanger]], [[Scanpy]].
 - Downstream: [[GSEA]] (Gene Set Enrichment Analysis), linear regression, [[UMAP]] embedding, trajectory inference via [[Palantir]].
 
 ## Results
@@ -65,9 +71,9 @@ This paper presents the first single-cell proteomic maps of human induced plurip
 
 | Figure | Description |
 |--------|-------------|
-| Fig 1 | Overview of [[MS-SCP]] pipeline, iPSC sub-clustering, and metabolic/cell-cycle fluctuations. |
+| Fig 1 | Overview of [[single-cell proteomics\|MS-SCP]] pipeline, iPSC sub-clustering, and metabolic/cell-cycle fluctuations. |
 | Fig 2 | Proteomic landscape of motor neuron differentiation and organelle abundance changes. |
-| Fig 3 | Identification of MN and glial clusters; comparison between [[MS-SCP]] and [[snRNA-seq]]. |
+| Fig 3 | Identification of MN and glial clusters; comparison between [[single-cell proteomics\|MS-SCP]] and [[snRNA-seq]]. |
 | Fig 4 | Analysis of dynamic RNA-protein discordance and lineage-specific regulation. |
 
 ## Discussion
@@ -92,5 +98,5 @@ This paper presents the first single-cell proteomic maps of human induced plurip
 ## Related Papers
 
 - [[SCoPE2]] (Multiplexed single-cell proteomics)
-- [[Wu et al., 2026]] (Single-cell proteomic landscape of the developing human brain)
-- [[Guise et al., 2024]] (TDP-43-stratified single-cell proteomics of postmortem human spinal motor neurons)
+- Wu et al., 2026 (Single-cell proteomic landscape of the developing human brain)
+- Guise et al., 2024 (TDP-43-stratified single-cell proteomics of postmortem human spinal motor neurons)

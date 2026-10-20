@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://doi.org/10.1016/j.jmoldx.2011.08.002
 date_created: 2026-03-25
 ---
 
@@ -19,3 +19,7 @@ RNAscope is an in situ hybridization method for sensitive and specific RNA detec
 
 - [[Immunohistochemistry]]
 - [[Spatial Transcriptomics]]
+
+## Sources
+
+- [Reference for RNAscope](https://doi.org/10.1016/j.jmoldx.2011.08.002)

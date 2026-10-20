@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://github.com/MannLabs/alphadia
 date_created: 2026-03-25
 ---
 
@@ -23,51 +23,36 @@ AlphaDIA is referenced in benchmark studies as a modern DIA data analysis option
 - **DIA-Centric Processing**: Designed for DIA workflows.
 - **Benchmark Presence**: Frequently compared in modern evaluations.
 - **Quantification Pipeline**: Supports peptide/protein output generation.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# Refer to AlphaDIA project documentation
-```
-
-## Usage
-
-```r
-# Example code
-# Typically via CLI/Python workflow
-```
+- **Environment**: Follow the official release requirements; operating-system support depends on the package and its dependencies.
 
 ## Input/Output
 
 **Input:**
+
 - DIA raw/mzML files
 - Library or library-free configurations
 
 **Output:**
+
 - Peptide/protein quantification matrices
 - Analysis metrics and reports
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| library_mode | user-defined | Library-based or library-free mode |
-| fdr | 0.01 | Confidence threshold |
-
 ## Key Publications
 
-> [!cite] Primary Reference
+> [!cite] Related Study Context
 > See LFQ benchmark literature note.
 
 ## Links
 
-- GitHub:
-- Documentation:
+- GitHub: https://github.com/MannLabs/alphadia
+- Documentation/source: https://github.com/MannLabs/alphadia
 
 ## Related Tools
 
 - [[DIA-NN]]
 - [[Spectronaut]]
 - [[ProteoBench]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [AlphaDIA documentation or source](https://github.com/MannLabs/alphadia).

@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://www.nature.com/articles/nmeth.3255
 date_created: 2026-03-25
 ---
 
@@ -31,9 +31,7 @@ Raw spectra → Feature extraction → Deconvolution model → Peptide assignmen
 
 ## Performance
 
-- **Proteins per cell**: Method-dependent
-- **Throughput**: High (computationally scalable)
-- **Data completeness**: Improved in complex DIA datasets
+Identification yield and quantitative performance depend on spectral complexity, chromatographic evidence, model assumptions and error control. Deconvolution does not recover information that was never recorded.
 
 ## Advantages
 
@@ -49,11 +47,14 @@ Raw spectra → Feature extraction → Deconvolution model → Peptide assignmen
 
 ## Key Publications
 
-> [!cite] Primary Reference
-> See DIA-related software/method papers.
+Tsou et al. (2015). [DIA-Umpire: comprehensive computational framework for data-independent acquisition proteomics](https://www.nature.com/articles/nmeth.3255).
 
 ## Related Methods
 
 - [[DIA]]
 - [[nDIA]]
 - [[Open Search]]
+
+## Sources
+
+- [Reference for Spectral Deconvolution](https://www.nature.com/articles/nmeth.3255)

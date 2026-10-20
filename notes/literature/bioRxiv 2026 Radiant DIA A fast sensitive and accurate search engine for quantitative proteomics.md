@@ -1,5 +1,5 @@
 ---
-title: Radiant DIA:A Fast, Sensitive, and Accurate Search Engine for Quantitative Proteomics
+title: "Radiant DIA: A Fast, Sensitive, and Accurate Search Engine for Quantitative Proteomics"
 authors:
   - Seth Just
   - Lee S. Cantrell
@@ -10,8 +10,7 @@ authors:
   - Theodore Platt
   - Omid Farokhzad
   - Serafim Batzoglou
-aliases:
-  - Radiant DIA
+aliases: []
 tags:
   - literature
   - paper
@@ -22,9 +21,17 @@ category: literature
 date_created: 2026-05-12
 Journal: bioRxiv
 Year: 2026
+doi: "10.64898/2026.04.29.721743"
+url: "https://doi.org/10.64898/2026.04.29.721743"
+publication_status: "preprint"
+posted: "2026-05-04"
 ---
 
 # Radiant DIA: A Fast, Sensitive, and Accurate Search Engine for Quantitative Proteomics
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -33,8 +40,7 @@ Year: 2026
 > **Authors**: Seth Just, Lee S. Cantrell, Andrew Nichols, Jian Wang, Janos Kis, Iman Mohtashemi, Theodore Platt, Omid Farokhzad, Serafim Batzoglou
 > **Year**: 2026
 > **Journal**: bioRxiv
-> **DOI**: 10.64898/2026.04.29.721743
-
+> **DOI**: [10.64898/2026.04.29.721743](https://doi.org/10.64898/2026.04.29.721743)
 ## Abstract
 
 In mass spectrometry-based proteomics, robust and efficient search engines are essential for accurate peptide and protein identification and quantification. Advances in sample preparation and instrumentation have increased the demand for highly scalable processing tools, with datasets comprising hundreds or thousands of samples in single-cell and population studies. Here we present Radiant DIA, a novel Data-Independent Acquisition search engine which achieves 4x faster processing and 10x lower cloud compute costs for large experiments while ensuring rigorous control of false discovery rate (FDR) and maintaining similar sensitivity, precision, and quantitative accuracy. The Radiant DIA search engine is paired with a modular pipeline deployable on cloud and desktop environments comprising individual modules for distributed re-scoring, FDR estimation, protein inference and quantification. Unlike traditional monolithic applications, this architecture enables high-performance, cloud-scale analysis without sacrificing local usability. Together, the Radiant DIA and Fulcrum Pipeline tools enhance computational efficiency to facilitate biological discovery in large-scale proteomics, as demonstrated by analyses of real-world experiments up to thousands of MS acquisitions.
@@ -42,20 +48,20 @@ In mass spectrometry-based proteomics, robust and efficient search engines are e
 ## Key Points
 
 - Introduces [[Radiant DIA]], a fast, C++-based search engine optimized for scoring peptide-spectrum matches (PSMs) in parallel.
-- Pairs the search engine with [[Fulcrum Pipeline]], a modular, Apache Spark-based pipeline for distributed post-processing (FDR, protein inference, quantification).
+- Pairs the search engine with Fulcrum Pipeline, a modular, Apache Spark-based pipeline for distributed post-processing (FDR, protein inference, quantification).
 - Achieves 4x faster processing and 10x lower cloud computing costs compared to state-of-the-art tools like DIA-NN, scaling efficiently to datasets exceeding 2,500 runs.
 - Maintains high sensitivity and precise FDR control, demonstrating robust handling of complex PTMs (e.g., deamidation) and deep quantitative reproducibility.
 
 ## Methods
 
 ### Sample Preparation
-- Method used: [[DIA]] (Data-Independent Acquisition), Matrix-Matched Calibration Curve ([[MMCC]]), [[Proteograph XT]] assay for plasma.
+- Method used: [[DIA]] (Data-Independent Acquisition), Matrix-Matched Calibration Curve (MMCC), [[Proteograph XT]] assay for plasma.
 - Cell type: HeLa, human plasma, human eye lens tissue, mixed human peptide libraries.
 - Number of cells: N/A (Population and tissue cohorts up to 2,561 MS acquisitions)
 
 ### Data Analysis
-- Software: [[Radiant DIA]], [[Fulcrum Pipeline]], [[DIA-NN]], [[mokapot]], [[Proffer]], [[Preppers]], [[DirectLFQ]], [[Apache Spark]], [[Skyline]]
-- Downstream: Distributed re-scoring, [[MixMax]] (Blocking MixMax) for FDR estimation, linear discriminant analysis (LDA) and neural network (NN) classifiers, Match-Between-Runs ([[MBR]]), Differential Abundance (DA) analysis.
+- Software: [[Radiant DIA]], Fulcrum Pipeline, [[DIA-NN]], [[mokapot]], Proffer, Preppers, [[DirectLFQ]], Apache Spark, [[Skyline]]
+- Downstream: Distributed re-scoring, MixMax (Blocking MixMax) for FDR estimation, linear discriminant analysis (LDA) and neural network (NN) classifiers, Match-Between-Runs (MBR), Differential Abundance (DA) analysis.
 
 ## Results
 
@@ -77,7 +83,7 @@ In mass spectrometry-based proteomics, robust and efficient search engines are e
 ## Discussion
 
 ### Strengths
-- Unprecedented scalability allowing processing of massive cohorts (>2,500 runs) efficiently via distributed cloud frameworks ([[Apache Spark]]).
+- Unprecedented scalability allowing processing of massive cohorts (>2,500 runs) efficiently via distributed cloud frameworks (Apache Spark).
 - Cost-effective architecture reducing computing expenditure by up to 10-fold on platforms like AWS.
 - Highly modular and transparent pipeline (Fulcrum), enabling the integration of custom algorithms for re-scoring, normalization, and protein inference without rewriting monolithic codebases.
 - Native support for ARM architectures, allowing for further compute cost reductions.

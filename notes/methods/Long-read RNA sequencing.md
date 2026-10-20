@@ -5,6 +5,7 @@ aliases:
 tags:
   - methods
 category: method
+url: https://www.pacb.com/products-and-services/analytical-software/rna-sequencing/
 date_created: 2026-03-25
 ---
 
@@ -13,3 +14,7 @@ date_created: 2026-03-25
 ## Overview
 
 Long-read RNA sequencing captures full-length transcript structures for isoform and splice-level analysis.
+
+## Sources
+
+- [Reference for Long-read RNA sequencing](https://www.pacb.com/products-and-services/analytical-software/rna-sequencing/)

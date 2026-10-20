@@ -7,7 +7,7 @@ tags:
   - multi-omics
   - single-cell
 category: method
-url: https://doi.org/10.1038/nmeth.4380
+url: https://www.nature.com/articles/nmeth.4380
 date_created: 2026-01-19
 ---
 
@@ -17,14 +17,14 @@ date_created: 2026-01-19
 
 ## Overview
 
-CITE-seq was developed by Stoeckius et al. (2017) at the New York Genome Center. Cells are stained with antibodies conjugated to unique DNA oligonucleotide tags (Antibody-Derived Tags, ADTs). After droplet-based single-cell capture (e.g., 10x Genomics), both mRNA and ADT sequences are captured and sequenced, providing paired protein and RNA measurements for each cell. CITE-seq data serves as the primary training data for transcriptome-to-proteome translation models such as scTranslator, [[sciPENN]], [[totalVI]], and [[cTP-net]].
+CITE-seq was developed by Stoeckius et al. (2017) at the New York Genome Center. Cells are stained with antibodies conjugated to unique DNA oligonucleotide tags (Antibody-Derived Tags, ADTs). After droplet-based single-cell capture (e.g., 10x Genomics), both mRNA and ADT sequences are captured and sequenced, providing paired protein and RNA measurements for each cell. The paired RNA and antibody-derived measurements can support joint modeling, for example with [[totalVI]], [[sciPENN]] and [[cTP-net]]; individual models use different training data and assumptions.
 
 ## Key Features
 
 - **Dual Readout**: mRNA transcriptome + surface protein abundance per cell
 - **DNA-Barcoded Antibodies**: Antibodies conjugated to unique oligo tags via streptavidin chemistry
 - **Platform Compatibility**: Works with 10x Genomics, Drop-seq, and other droplet platforms
-- **Scalable Protein Panels**: TotalSeq panels from BioLegend with >200 antibodies available
+- **Scalable Protein Panels**: Panel size depends on antibody availability, validation and the specific protocol.
 
 ## Workflow
 
@@ -37,9 +37,9 @@ Separate RNA & ADT libraries → Sequencing → Joint analysis
 
 ## Performance
 
-- **Proteins per cell**: Routinely 100–250+ surface proteins (TotalSeq panels)
-- **Throughput**: 1,000–50,000+ cells per experiment
-- **Data completeness**: Near-complete for targeted protein panel; genome-wide for RNA
+- **Protein coverage**: Targeted antibody-panel coverage, not an untargeted whole-proteome measurement; panel size differs from proteins detected in each cell.
+- **Throughput**: Depends on capture platform, loading, recovery and sequencing depth.
+- **Data completeness**: Neither antibody nor RNA measurements are guaranteed complete; background and sampling must be evaluated.
 
 ## Advantages
 
@@ -53,7 +53,7 @@ Separate RNA & ADT libraries → Sequencing → Joint analysis
 - Limited to surface and extracellular epitopes (antibody-accessible)
 - Non-specific antibody binding generates background noise
 - Cost scales with antibody panel size
-- Cannot measure intracellular proteins (see [[NEAT-seq]] for nuclear proteins)
+- The original surface-staining protocol does not measure intracellular epitopes; related protocols such as [[NEAT-seq]] address nuclear proteins.
 
 ## Key Publications
 
@@ -68,3 +68,7 @@ Separate RNA & ADT libraries → Sequencing → Joint analysis
 - [[Perturb-CITE-seq]] — Combines CRISPR perturbation screening with CITE-seq
 - [[NEAT-seq]] — Extends to intranuclear proteins + chromatin accessibility
 - [[Spatial CITE-seq]] — Adds spatial resolution to CITE-seq
+
+## Sources
+
+- [Reference for CITE-seq](https://www.nature.com/articles/nmeth.4380)

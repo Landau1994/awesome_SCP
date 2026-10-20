@@ -6,6 +6,7 @@ tags:
   - tools
   - software
 category: tool
+url: https://posit.co/products/open-source/rstudio/
 date_created: 2026-03-25
 ---
 
@@ -19,3 +20,7 @@ RStudio is an integrated development environment for R-based data analysis workf
 
 - [[R]]
 - [[Bioconductor]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [RStudio documentation or source](https://posit.co/products/open-source/rstudio/).

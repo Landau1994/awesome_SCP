@@ -2,6 +2,8 @@
 title: XGBoost
 tags:
 date_created: 2026-03-25
+url: https://xgboost.readthedocs.io/en/stable/
+category: concept
 ---
 
 # XGBoost
@@ -23,3 +25,7 @@ XGBoost is a gradient boosting framework widely used for high-performance classi
 
 - [[SHAP]]
 - [[Random Forest]]
+
+## Sources
+
+- [Authoritative reference for XGBoost](https://xgboost.readthedocs.io/en/stable/)

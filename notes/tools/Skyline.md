@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://skyline.ms/project/home/software/Skyline/begin.view
 date_created: 2026-03-25
 ---
 
@@ -23,51 +23,38 @@ Skyline is commonly used for PRM/SRM method setup, chromatogram inspection, and 
 - **Targeted Quantification**: Supports SRM/PRM style workflows.
 - **Method Building**: Facilitates transition list and assay development.
 - **QC-Friendly**: Strong visualization and validation utilities.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# See official Skyline distribution
-```
-
-## Usage
-
-```r
-# Example code
-# Skyline is primarily GUI-driven
-```
+- **Environment**: Skyline is a Windows client application; follow the official installation requirements.
 
 ## Input/Output
 
 **Input:**
+
 - Raw files (.raw, .mzML)
 - Target peptide/protein lists
 
 **Output:**
+
 - Quantification reports
 - Chromatogram and peak integration summaries
-
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| mass_accuracy | user-defined | Tolerance for peak extraction |
-| transition_set | user-defined | Target transitions and ions |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> MacLean et al. (2010) *Bioinformatics*
+> MacLean et al. (2010). Skyline: an open source document editor for creating and analyzing targeted proteomics experiments. *Bioinformatics*.
+> DOI: [10.1093/bioinformatics/btq054](https://doi.org/10.1093/bioinformatics/btq054)
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Source availability: See the official source below; no separate public repository was confirmed.
+- Documentation/source: https://skyline.ms/project/home/software/Skyline/begin.view
 
 ## Related Tools
 
 - [[DIA-NN]]
 - [[Spectronaut]]
 - [[DO-MS]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [Skyline documentation or source](https://skyline.ms/project/home/software/Skyline/begin.view).
+- [Developer documentation of Skyline scope and Windows client](https://skyline.ms/home/software/Skyline/wiki-download.view?entityId=ac4c6cc4-97c6-1038-8aae-e465a393ee52&name=NicholasShulman2020ASMSPoster.pdf).

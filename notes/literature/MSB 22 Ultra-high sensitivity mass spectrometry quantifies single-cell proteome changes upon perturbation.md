@@ -1,5 +1,5 @@
 ---
-title: Ultra-high sensitivity mass spectrometry quantifies single-cell proteome changes upon perturbation
+title: "Ultra‐high sensitivity mass spectrometry quantifies single‐cell proteome changes upon perturbation"
 authors:
   - Andreas-David Brunner
   - Marvin Thielert
@@ -31,9 +31,18 @@ category: literature
 date_created: 2024-05-22
 Journal: Molecular Systems Biology
 Year: 2022
+doi: "10.15252/msb.202110798"
+url: "https://doi.org/10.15252/msb.202110798"
+publication_status: "published"
+published_online: "2022-02-28"
+published_print: "2022-03-01"
 ---
 
 # Ultra-high sensitivity mass spectrometry quantifies single-cell proteome changes upon perturbation
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The T-SCP label and exact instrument-model attribution require full-text confirmation.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -42,8 +51,7 @@ Year: 2022
 > **Authors**: Andreas-David Brunner, Marvin Thielert, Catherine Vasilopoulou, Constantin Ammar, Fabian Coscia, Andreas Mund, Ole B Hoerning, Nicolai Bache, Amalia Apalategui, Markus Lubeck, Sabrina Richter, David S Fischer, Oliver Raether, Melvin A Park, Florian Meier, Fabian J Theis, Matthias Mann
 > **Year**: 2022
 > **Journal**: Molecular Systems Biology
-> **DOI**: 10.15252/msb.202110798
-
+> **DOI**: [10.15252/msb.202110798](https://doi.org/10.15252/msb.202110798)
 ## Abstract
 
 Single-cell technologies are currently dominated by imaging and sequencing, but proteins are the primary functional drivers of cells. This paper describes the development of a robust workflow (T-SCP: true single-cell-derived proteomics) combining miniaturized sample preparation, very low flow-rate chromatography, and a novel trapped ion mobility mass spectrometer (timsTOF SCP). The technology achieves a 10-fold improvement in sensitivity, allowing the quantification of proteomes in single FACS-isolated cells. By studying HeLa cells arrested at different cell cycle stages, the authors identified key regulators and predicted cell phases. A comparison of over 430 single-cell proteomes with transcriptomic data revealed a "stable-core" proteome despite perturbations, contrasted against a more stochastic transcriptome.

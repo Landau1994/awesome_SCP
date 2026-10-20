@@ -2,6 +2,8 @@
 title: CTSW
 tags:
 date_created: 2026-03-25
+url: https://www.uniprot.org/uniprotkb/P56202/entry
+category: concept
 ---
 
 # CTSW
@@ -23,3 +25,7 @@ CTSW encodes cathepsin W, a cysteine protease associated with immune cell biolog
 
 - [[single-cell proteomics]]
 - [[Immunology]]
+
+## Sources
+
+- [UniProt reviewed human reference: CTSW](https://www.uniprot.org/uniprotkb/P56202/entry)

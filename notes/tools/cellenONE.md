@@ -1,13 +1,11 @@
 ---
 title: cellenONE
-aliases:
-  - cellenONE
-  - CellenONE
+aliases: ["cellenONE"]
 tags:
   - tools
-  - software
+  - equipment
 category: tool
-url: 
+url: https://www.scienion.com/products/single-cell-dispensers/
 date_created: 2026-01-18
 ---
 
@@ -26,43 +24,24 @@ cellenONE is used for automated, image-guided single-cell isolation and nanolite
 - **Low-Volume Handling**: Supports nanoliter-scale workflows.
 - **Automation Ready**: Fits high-throughput SCP setups.
 
-## Installation
-
-```bash
-# Vendor-managed hardware/software installation
-```
-
-## Usage
-
-```r
-# Instrument operation is configured through vendor software
-```
-
 ## Input/Output
 
 **Input:**
-- Raw files (.raw, .d, .mzML)
-- Cell suspensions and dispensing protocols
+
+- Cell suspension, suitable dispensing media and destination plates/chips
 
 **Output:**
-- Protein/peptide matrices
-- Quality metrics
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| droplet_volume | protocol-dependent | Dispensing volume per event |
-| selection_criteria | protocol-dependent | Image-based cell selection filters |
+- Isolated/dispensed cells and dispensing/image records
 
 ## Key Publications
 
-> [!cite] Primary Reference
+> [!cite] Related Study Context
 > See nPOP and low-input SCP method literature notes.
 
 ## Links
 
-- GitHub:
+- Source availability: See the official source below; no separate public repository was confirmed.
 - Documentation: https://www.cellenion.com
 
 ## Related Tools
@@ -70,3 +49,7 @@ cellenONE is used for automated, image-guided single-cell isolation and nanolite
 - [[MaxQuant]]
 - [[DIA-NN]]
 - [[scp Package]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [cellenONE documentation or source](https://www.scienion.com/products/single-cell-dispensers/).

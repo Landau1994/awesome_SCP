@@ -5,6 +5,7 @@ aliases:
 tags:
   - methods
 category: method
+url: https://sciex.com/applications/biomedical-and-omics-research/proteomics
 date_created: 2026-03-25
 ---
 
@@ -13,3 +14,7 @@ date_created: 2026-03-25
 ## Overview
 
 MS-based proteomics encompasses mass spectrometry workflows for identification and quantification of proteins and proteoforms.
+
+## Sources
+
+- [Reference for MS-based proteomics](https://sciex.com/applications/biomedical-and-omics-research/proteomics)

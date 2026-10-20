@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://qupath.github.io/
 date_created: 2026-03-25
 ---
 
@@ -23,51 +23,37 @@ QuPath is used for tissue image processing, segmentation, and annotation, often 
 - **Whole-Slide Analysis**: Handles large pathology images.
 - **Segmentation & Annotation**: Cell/object detection and labeling.
 - **Interoperability**: Supports export for downstream computational analysis.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# Download from official QuPath releases
-```
-
-## Usage
-
-```r
-# Example code
-# QuPath is primarily GUI/script based
-```
+- **Environment**: Follow the official release requirements; operating-system support depends on the package and its dependencies.
 
 ## Input/Output
 
 **Input:**
+
 - Microscopy image files
 - Annotation/ROI definitions
 
 **Output:**
+
 - Segmentation masks
 - Object-level measurement tables
-
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| pixel_size | user-defined | Spatial scaling of analysis |
-| detection_threshold | user-defined | Object detection sensitivity |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Bankhead et al. (2017) *Scientific Reports*
+> Bankhead et al. (2017). QuPath: Open source software for digital pathology image analysis. *Scientific Reports*.
+> DOI: [10.1038/s41598-017-17204-5](https://doi.org/10.1038/s41598-017-17204-5)
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Source availability: See the official source below; no separate public repository was confirmed.
+- Documentation/source: https://qupath.github.io/
 
 ## Related Tools
 
 - [[Fiji]]
 - [[ImageJ]]
 - [[Deep Visual Proteomics]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [QuPath documentation or source](https://qupath.github.io/).

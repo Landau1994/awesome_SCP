@@ -34,21 +34,21 @@ Welcome to the Single-Cell Proteomics (SCP) knowledge base. This vault contains 
 
 | Method | Description | Throughput |
 |--------|-------------|------------|
-| [[SCoPE2]] | TMT-based SCP with carrier channel | ~200 cells/day |
-| [[pSCoPE]] | Targeted/prioritized acquisition | Focused |
+| [[SCoPE2]] | TMT-based SCP with carrier channel | Study-dependent; see source |
+| [[pSCoPE]] | Prioritized acquisition retaining broad coverage | Protocol-dependent |
 
-### Multiplexed DIA
+### Label-Free & Multiplexed DIA
 
 | Method | Description | Throughput |
 |--------|-------------|------------|
-| [[plexDIA]] | Non-isobaric labels + DIA | 3x multiplier |
-| [[nDIA]] | Narrow-window DIA (Orbitrap Astral) | High |
+| [[plexDIA]] | Non-isobaric labels + DIA | 3 samples/run in original mTRAQ study |
+| [[nDIA]] | Narrow-window DIA; cited studies use Orbitrap Astral | Depends on acquisition and gradient |
 
 ### Sample Preparation
 
 | Method | Platform | Volume |
 |--------|----------|--------|
-| [[nPOP]] | CellenONE slides | 8-20 nL |
+| [[nPOP]] | CellenONE slides | Step-dependent nL droplets |
 | [[nanoPOTS]] | Microfluidic chips | nL |
 | [[mPOP]] | PCR tubes | µL |
 
@@ -60,8 +60,8 @@ Welcome to the Single-Cell Proteomics (SCP) knowledge base. This vault contains 
 
 | Tool | Use Case | Platform |
 |------|----------|----------|
-| [[MaxQuant]] | TMT/DDA data | Windows |
-| [[DIA-NN]] | DIA/plexDIA data | Cross-platform |
+| [[MaxQuant]] | TMT/DDA data | Windows GUI; Linux CLI support |
+| [[DIA-NN]] | DIA/plexDIA data | Windows / Linux |
 
 ### Quality Control
 
@@ -81,8 +81,8 @@ Welcome to the Single-Cell Proteomics (SCP) knowledge base. This vault contains 
 
 | Database | Content | Access |
 |----------|---------|--------|
-| [[SPDB]] | 143 datasets, 300M+ cells | [scproteomicsdb.com](https://scproteomicsdb.com/) |
-| [[SingPro]] | Raw data + detailed protocols | NAR 2024 |
+| [[SPDB]] | 143 datasets; mixed MS/antibody modalities (2026-10-20 snapshot) | [scproteomicsdb.com](https://scproteomicsdb.com/) |
+| [[SingPro]] | Study metadata, original-data links and profiles | [Official portal](https://singpro.idrblab.net/) |
 
 ---
 
@@ -180,6 +180,14 @@ graph LR
 
 ---
 
+## Recently Completed Reference Notes
+
+- [[CRISPRa]] — includes the name CRISPR activation (CRISPRa)
+- [[gProfiler|g:Profiler]], [[GSVA]], [[Single-sample GSEA]] and [[Cytoscape]] — enrichment and network analysis
+- [[MRM]], [[PRM]], [[De novo peptide sequencing]], [[RNA-Seq]] and [[snRNA-seq]] — related measurement concepts
+- [[MsImpute]] — missing-value imputation with model assumptions
+- [核查报告](audit/knowledge-base-audit.md) — coverage, evidence and unresolved items
+
 ## Quick Links
 
 - [[README]] - GitHub awesome-list
@@ -188,4 +196,4 @@ graph LR
 
 ---
 
-*Last updated: 2026-01-18*
+*Last updated: 2026-10-20*

@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://www.nature.com/articles/s41587-022-01302-5
 date_created: 2026-03-25
 ---
 
@@ -15,7 +15,7 @@ date_created: 2026-03-25
 
 ## Overview
 
-Spatial proteomics maps protein expression to physical locations in tissue, enabling microenvironment and zonation analyses beyond dissociated-cell workflows.
+Spatial proteomics maps protein localization within cells or tissues. This note focuses on tissue-resolved workflows for microenvironment and zonation analysis; subcellular localization is another major use of the term.
 
 ## Key Features
 
@@ -31,9 +31,7 @@ Tissue preparation → Spatially informed sampling/imaging → Proteomics acquis
 
 ## Performance
 
-- **Proteins per cell**: Depends on platform and sampling strategy
-- **Throughput**: Moderate
-- **Data completeness**: Platform- and analysis-dependent
+Resolution, coverage and throughput depend on whether the sample is a tissue region, pooled selected cells or an individual cell slice, as well as the readout platform. Spatial precision and proteome depth are separate properties.
 
 ## Advantages
 
@@ -49,11 +47,14 @@ Tissue preparation → Spatially informed sampling/imaging → Proteomics acquis
 
 ## Key Publications
 
-> [!cite] Primary Reference
-> See Deep Visual Proteomics and scDVP studies.
+Mund et al. (2022). [Deep Visual Proteomics defines single-cell identity and heterogeneity](https://www.nature.com/articles/s41587-022-01302-5), a tissue-focused example.
 
 ## Related Methods
 
 - [[Deep Visual Proteomics]]
 - [[scDVP]]
 - [[Spatial Transcriptomics]]
+
+## Sources
+
+- [Reference for Spatial proteomics](https://www.nature.com/articles/s41587-022-01302-5)

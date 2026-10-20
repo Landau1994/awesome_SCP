@@ -22,9 +22,17 @@ category: literature
 date_created: 2024-05-22
 Journal: Nature Communications
 Year: 2025
+doi: "10.1038/s41467-025-58866-4"
+url: "https://doi.org/10.1038/s41467-025-58866-4"
+publication_status: "published"
+published_online: "2025-04-14"
 ---
 
 # DIA-BERT: pre-trained end-to-end transformer models for enhanced DIA proteomics data analysis
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The stated 952-file count and detailed low-abundance advantage remain unverified here.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -33,11 +41,10 @@ Year: 2025
 > **Authors**: Zhiwei Liu, Pu Liu, Yingying Sun, Zongxiang Nie, Xiaofan Zhang, Yuqi Zhang, Yi Chen, & Tiannan Guo
 > **Year**: 2025
 > **Journal**: Nature Communications
-> **DOI**: https://doi.org/10.1038/s41467-025-58866-4
-
+> **DOI**: [10.1038/s41467-025-58866-4](https://doi.org/10.1038/s41467-025-58866-4)
 ## Abstract
 
-Data-independent acquisition mass spectrometry (DIA-MS) is essential for quantitative proteomics, but current analysis tools often rely on file-specific scoring models and handcrafted features. In this study, the authors present **DIA-BERT**, a transformer-based pre-trained AI model for end-to-end DIA data analysis. The identification model was pre-trained on over 276 million peptide precursors from 952 DIA-MS files, while the quantification model utilized 34 million synthetic peptide precursors. Compared to the current state-of-the-art tool DIA-NN, DIA-BERT achieved a 51% increase in protein identifications and 22% more peptide precursors on average across multiple human cancer datasets, while maintaining high quantitative accuracy and enhancing the detection of low-abundance proteins.
+Data-independent acquisition mass spectrometry (DIA-MS) is essential for quantitative proteomics, but current analysis tools often rely on file-specific scoring models and handcrafted features. In this study, the authors present **DIA-BERT**, a transformer-based pre-trained AI model for end-to-end DIA data analysis. The identification model was pre-trained on over 276 million peptide precursors from 952 DIA-MS files, while the quantification model utilized 34 million peptide precursors from synthetic DIA-MS files. Compared to the current state-of-the-art tool DIA-NN, DIA-BERT achieved a 51% increase in protein identifications and 22% more peptide precursors on average across five human cancer sample sets, while maintaining high quantitative accuracy and enhancing the detection of low-abundance proteins.
 
 ## Key Points
 

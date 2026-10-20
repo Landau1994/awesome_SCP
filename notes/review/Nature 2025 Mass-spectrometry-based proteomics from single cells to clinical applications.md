@@ -1,5 +1,5 @@
 ---
-title: Mass spectrometry based proteomics:from single cells to clinical applications
+title: "Mass-spectrometry-based proteomics: from single cells to clinical applications"
 authors: Tiannan Guo, Judith A. Steen, Matthias Mann 
 aliases:
   - MS-based proteomics review 2025
@@ -17,10 +17,20 @@ category: literature
 date_created: 2025-02-27
 Journal: Nature
 Year: 2025
+doi: "10.1038/s41586-025-08584-0"
+url: "https://doi.org/10.1038/s41586-025-08584-0"
+publication_status: "published"
+published_online: "2025-02-26"
+published_print: "2025-02-27"
 ---
 
 
 # Mass-spectrometry-based proteomics: from single cells to clinical applications
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> Detailed review-specific performance and clinical comparisons remain unverified; the comparison below is a qualified overview, not a benchmark.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -29,18 +39,17 @@ Year: 2025
 > **Authors**: Tiannan Guo, Judith A. Steen & Matthias Mann
 > **Year**: 2025
 > **Journal**: Nature
-> **DOI**: https://doi.org/10.1038/s41586-025-08584-0
-
+> **DOI**: [10.1038/s41586-025-08584-0](https://doi.org/10.1038/s41586-025-08584-0)
 ## Abstract
 
-Mass-spectrometry (MS)-based proteomics has evolved into a robust tool for comprehensive biological analysis. This review highlights recent technological advances in sensitivity, throughput, and robustness that now enable [[Single-cell proteomics]] and [[Spatial proteomics]]. The authors discuss novel sample preparation, advanced instrumentation (such as [[timsTOF]] and [[Astral]] analyzers), and data acquisition strategies like [[Data-independent acquisition]] (DIA). The review explores applications in [[Protein-protein interactions]], [[Post-translational modifications]] (PTMs), and [[Structural proteomics]]. A significant focus is placed on the integration of [[Artificial Intelligence]] to accelerate data analysis and the transition of proteomics from basic research to clinical practice, particularly in biomarker discovery and diagnostics using body fluids.
+Mass-spectrometry (MS)-based proteomics has evolved into a robust tool for comprehensive biological analysis. This review highlights recent technological advances in sensitivity, throughput, and robustness that now enable [[single-cell proteomics|Single-cell proteomics]] and [[Spatial proteomics]]. The authors discuss novel sample preparation, advanced instrumentation (such as [[timsTOF]] and [[Astral]] analyzers), and data acquisition strategies like [[Data-independent acquisition]] (DIA). The review explores applications in [[Protein-protein interactions]], [[Post-translational modifications]] (PTMs), and [[Structural proteomics]]. A significant focus is placed on the integration of [[Artificial Intelligence]] to accelerate data analysis and the transition of proteomics from basic research to clinical practice, particularly in biomarker discovery and diagnostics using body fluids.
 
 ## Key Takeaways
 
 - **Technological Revolution**: Advances in instrumentation (e.g., [[Orbitrap Astral]], [[timsTOF]]) and data acquisition ([[DIA]]) have dramatically increased sensitivity and throughput, enabling the analysis of thousands of proteins from minute samples.
-- **New Dimensions**: The field has expanded from bulk analysis to [[Single-cell proteomics]] (revealing cellular heterogeneity) and [[Spatial proteomics]] (preserving tissue context via methods like [[Deep Visual Proteomics]]).
-- **AI Integration**: [[Deep Learning]] and [[Large Language Models]] (LLMs) are now integral to the workflow, enhancing peptide identification, PTM prediction, structural analysis (e.g., [[AlphaFold]]), and data interpretation.
-- **Clinical Transition**: While plasma proteomics shows promise for diagnostics (outperforming some standard clinical tests), challenges remain in regulatory approval, standardization, and the development of robust, cost-effective assays for clinical deployment.
+- **New Dimensions**: The field has expanded from bulk analysis to [[single-cell proteomics|Single-cell proteomics]] (revealing cellular heterogeneity) and [[Spatial proteomics]] (preserving tissue context via methods like [[Deep Visual Proteomics]]).
+- **AI Integration**: [[Deep Learning]] supports tasks such as peptide-property prediction, identification and structural analysis (e.g., [[AlphaFold]]). These applications do not make [[Large Language Models]] a required component of every proteomics workflow.
+- **Clinical Transition**: Plasma proteomics is being investigated for diagnostic applications. Any advantage over a standard clinical test requires an indication-specific cohort and comparator; regulatory approval, standardization and assay validation remain important.
 
 ## Scope & Methodology
 
@@ -62,25 +71,27 @@ Mass-spectrometry (MS)-based proteomics has evolved into a robust tool for compr
 - **Acquisition**: Move from [[Data-dependent acquisition]] (DDA) to [[Data-independent acquisition]] (DIA) as the method of choice for comprehensive coverage and reproducibility.
 
 ### Theme 2: Emerging Applications
-- **Single-cell Proteomics**: Overcoming sensitivity limits (50-500 pg protein/cell) using nanolitre droplets, [[SCoPE2]] (isobaric labeling with carrier), and ultra-sensitive label-free methods.
+- **Single-cell Proteomics**: Protein content varies by cell type and size. Nanolitre preparation, [[SCoPE2]] (isobaric labeling with carrier), and sensitive label-free workflows address low starting amounts; a fixed protein mass is not a universal sensitivity threshold.
 - **Spatial Proteomics**: Techniques like [[Deep Visual Proteomics]] (DVP) combine high-resolution imaging with AI-driven laser capture microdissection and MS to map proteomes to specific tissue phenotypes.
 - **Structural & Interaction Proteomics**: Utilization of [[Cross-linking mass spectrometry]] (XL-MS), [[Hydrogen-deuterium exchange]] (HDX-MS), and [[Limited proteolysis]] to study protein structures and complexes in native environments.
 - **Chemoproteomics**: Methods like [[Activity-based protein profiling]] (ABPP) and [[Thermal protein profiling]] (TPP) for drug target discovery.
 
 ### Theme 3: Clinical Proteomics
-- **Body Fluids**: Plasma proteomics can now measure ~1,000 proteins in high throughput. Strategies to handle the dynamic range include deep learning deconvolution and enrichment of protein coronas or extracellular vesicles.
-- **Biomarkers**: Transitioning from discovery (unbiased, thousands of proteins) to targeted validation (quantifiable panels).
-- **Challenges**: Requires absolute quantification (spike-in standards), regulatory compliance (IVD/CLIA), and reduction of costs/turnaround time.
+- **Body Fluids**: Plasma coverage and throughput depend on preparation, enrichment, instrument and analysis settings. An exact protein count requires the corresponding experiment and definition of coverage.
+- **Biomarkers**: Moving from broad discovery profiling to focused, independently validated assays.
+- **Challenges**: Clinical translation requires a defined intended use, analytical and clinical validation, reproducibility and feasible costs/turnaround time. Absolute quantification and spike-in standards are assay-dependent choices.
 
 ### Comparison of Approaches
+
+Single-cell MS remains subject to ion-sampling and background noise; see the experimental quantification assessment in [Schoof et al. (2021)](https://doi.org/10.1038/s41467-021-23667-y).
 
 | Approach/Theory | Key Features | Strengths | Weaknesses |
 |-----------------|--------------|-----------|------------|
 | **[[Data-dependent acquisition]] (DDA)** | Selects most abundant ions for fragmentation. | Intuitive data interpretation; standard for spectral libraries. | Stochastic sampling leads to missing values; bias toward high-abundance proteins. |
-| **[[Data-independent acquisition]] (DIA)** | Fragments all ions in sequential mass windows. | Comprehensive coverage; reproducible; retrospective analysis possible. | Complex spectra require advanced deconvolution algorithms/libraries. |
-| **[[Single-cell proteomics]]** | Analyzes proteins in individual cells. | Functional readout of cell state; no Poisson noise (unlike RNA). | Lower throughput than transcriptomics; cannot amplify proteins (sensitivity limits). |
-| **Affinity-based methods** (e.g., Olink) | Uses antibodies/aptamers for detection. | High sensitivity; low sample volume; established in clinics. | Epitope masking issues; cross-reactivity; limited to available binders. |
-| **MS-based Proteomics** | Direct sequencing of peptides. | Unbiased; detects PTMs and isoforms; high specificity. | Higher equipment cost; lower sensitivity than PCR/affinity methods; complex workflow. |
+| **[[Data-independent acquisition]] (DIA)** | Fragments co-isolated ions across programmed mass windows. | Systematic sampling; retrospective analysis of acquired signals is possible. | Complex spectra require appropriate scoring and interference control; library-free workflows also exist. |
+| **[[single-cell proteomics\|Single-cell proteomics]]** | Analyzes proteins in individual cells. | Measures protein abundance directly; complements transcript-level measurements. | Ion sampling noise, incomplete coverage and limited starting material; throughput depends on workflow. |
+| **Affinity-based methods** (e.g., Olink) | Uses antibodies/aptamers for detection. | Sensitive measurement of selected targets from limited material; clinical validation is assay-specific. | Epitope masking issues; cross-reactivity; limited to available binders. |
+| **MS-based Proteomics** | Infers peptide identities from mass spectra; targeted and discovery modes are available. | Broad coverage without selecting an antibody panel; suitable workflows can characterize PTMs and some isoforms. | Coverage depends on abundance, preparation and acquisition; peptide-to-protein inference and PTM localization require care. |
 
 ## Critical Analysis
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13118651/
 date_created: 2026-03-25
 ---
 
@@ -31,9 +31,7 @@ Sample prep → nanoLC separation → Electrospray ionization → MS/MS acquisit
 
 ## Performance
 
-- **Proteins per cell**: Workflow- and instrument-dependent
-- **Throughput**: Moderate to high (short-gradient setups)
-- **Data completeness**: High with optimized gradients/software
+Depth and completeness depend on sample preparation, loading losses, column, flow rate, gradient, instrument and analysis. Shorter gradients increase nominal throughput but can alter separation and detection.
 
 ## Advantages
 
@@ -49,11 +47,14 @@ Sample prep → nanoLC separation → Electrospray ionization → MS/MS acquisit
 
 ## Key Publications
 
-> [!cite] Primary Reference
-> See SCP and LFQ benchmark literature notes.
+[Trap-column optimization study](https://pmc.ncbi.nlm.nih.gov/articles/PMC13118651/), an example of how loading and chromatography affect low-input proteomics.
 
 ## Related Methods
 
 - [[Trap-and-elute]]
 - [[DIA]]
 - [[Label-free single-cell proteomics]]
+
+## Sources
+
+- [Reference for nanoLC-MS](https://pmc.ncbi.nlm.nih.gov/articles/PMC13118651/)

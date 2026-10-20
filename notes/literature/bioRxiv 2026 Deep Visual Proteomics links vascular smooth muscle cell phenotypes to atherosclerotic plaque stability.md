@@ -26,9 +26,17 @@ category: literature
 date_created: 2025-05-14
 Journal: bioRxiv
 Year: 2026
+doi: "10.64898/2026.07.17.738909"
+url: "https://doi.org/10.64898/2026.07.17.738909"
+publication_status: "preprint"
+posted: "2026-07-17"
 ---
 
 # Deep Visual Proteomics links vascular smooth muscle cell phenotypes to atherosclerotic plaque stability
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -37,8 +45,7 @@ Year: 2026
 > **Authors**: Elena Kratz, Ankit Sinha, Trusha Adeshara, Valentina Paloschi, Nadja Sachs, Jessica Pauli, Nadyia Glukha, Annalena Huber, Sara Schanda, Andreas Metousis, Tim Heymann, Daniela Branzan, Tore Bleckwehl, Sikander Hayat, Lars Maegdefessel, Matthias Mann
 > **Year**: 2026
 > **Journal**: bioRxiv
-> **DOI**: https://doi.org/10.64898/2026.07.17.738909
-
+> **DOI**: [10.64898/2026.07.17.738909](https://doi.org/10.64898/2026.07.17.738909)
 ## Abstract
 
 Vascular smooth muscle cells (VSMCs) drive atherosclerosis through phenotypic switching, yet their spatial organization and protein signatures within plaques remain poorly characterized. Here, we applied Deep Visual Proteomics (DVP) to dissect more than 500 VSMC neighborhoods across 24 human carotid plaques and profile VSMC plasticity in disease. To functionally interpret these tissue proteomes, we built a reference atlas of primary VSMCs driven toward five phenotypes by TGF-β, PDGF-BB, osteogenic stimuli, IL-1β, or cholesterol, quantifying over 10,000 proteins. We integrated tissue and reference proteomes with a deep-learning framework that assigns functional phenotypes to each neighborhood. This revealed spatially distinct phenotype distributions and a shift toward dedifferentiated states in unstable plaques. Knockdown of four candidates (TNC, TNFAIP2, AEBP1, PLK1) validated operational roles during phenotypic switching. Our approach functionally annotates spatial proteomes and links VSMC plasticity to plaque instability in carotid artery disease.
@@ -46,21 +53,21 @@ Vascular smooth muscle cells (VSMCs) drive atherosclerosis through phenotypic sw
 ## Key Points
 
 - Applied [[Deep Visual Proteomics]] (DVP) to profile over 500 VSMC-enriched neighborhoods from 24 human carotid plaques.
-- Developed a reference atlas of five VSMC functional phenotypes (contractile, proliferative, osteogenic, inflammatory, foam cell-like) using [[LC-MS/MS]].
-- Implemented a semi-supervised [[Conditional Variational Autoencoder]] (CVAE) to integrate tissue and in vitro proteomes for functional annotation.
+- Developed a reference atlas of five VSMC functional phenotypes (contractile, proliferative, osteogenic, inflammatory, foam cell-like) using [[LC-MS-MS|LC-MS/MS]].
+- Implemented a semi-supervised Conditional Variational Autoencoder (CVAE) to integrate tissue and in vitro proteomes for functional annotation.
 - Identified a clear contractile-to-dedifferentiated continuum in plaque VSMCs, with unstable plaques showing significantly reduced contractile VSMC proportions.
-- Validated key regulators of phenotypic switching (TNC, TNFAIP2, AEBP1, PLK1) via siRNA-mediated [[knockdown]] experiments.
+- Validated key regulators of phenotypic switching (TNC, TNFAIP2, AEBP1, PLK1) via siRNA-mediated knockdown experiments.
 
 ## Methods
 
 ### Sample Preparation
-- Method used: [[Deep Visual Proteomics]] (DVP) combining [[Immunofluorescence]] (IF), [[Laser Microdissection]], and [[Data-Independent Acquisition]] (DIA) mass spectrometry.
+- Method used: [[Deep Visual Proteomics]] (DVP) combining [[Immunofluorescence]] (IF), [[Laser Microdissection]], and [[Data-independent acquisition]] (DIA) mass spectrometry.
 - Cell type: Vascular smooth muscle cells (VSMCs).
 - Number of cells: 400 ACTA2+ shapes per neighborhood (545 neighborhoods total).
 
 ### Data Analysis
-- Software: [[DIA-NN]], [[Python]], [[R]], [[GraphPad Prism]], [[Perseus]], [[QuPath]], [[Hyperopt]].
-- Downstream: [[Principal Component Analysis]] (PCA), [[Gene Set Enrichment Analysis]] (GSEA), [[Single-sample GSEA]] (ssGSEA), [[Conditional Variational Autoencoder]] (CVAE), [[Ingenuity Pathway Analysis]] (IPA).
+- Software: [[DIA-NN]], [[Python]], [[R]], GraphPad Prism, [[Perseus]], [[QuPath]], Hyperopt.
+- Downstream: [[PCA|Principal Component Analysis]] (PCA), [[GSEA|Gene Set Enrichment Analysis]] (GSEA), [[Single-sample GSEA]] (ssGSEA), Conditional Variational Autoencoder (CVAE), Ingenuity Pathway Analysis (IPA).
 
 ## Results
 

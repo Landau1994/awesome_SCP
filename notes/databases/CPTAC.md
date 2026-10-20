@@ -9,7 +9,7 @@ tags:
   - proteomics
   - proteogenomics
 category: database
-url: https://proteomics.cancer.gov/programs/cptac
+url: https://dctd.cancer.gov/research/networks/cptac
 date_created: 2026-03-17
 ---
 
@@ -23,27 +23,35 @@ CPTAC extends [[TCGA]]'s genomic analyses with deep mass-spectrometry-based prot
 
 ## Statistics
 
-- **Cancer Types**: >10 (breast, ovarian, colon, lung, pancreas, brain, kidney, head/neck, etc.)
-- **Data Types**: TMT-based quantitative proteomics, phosphoproteomics, acetylproteomics, glycoproteomics, WGS/WES, RNA-seq, methylation
-- **Samples**: Hundreds of tumor + matched normal per cancer type
-- **Species**: Human
+CPTAC is a research program, not a single uniform dataset. Its studies cover multiple human cancer types and include proteomics, phosphoproteomics and matched genomic/transcriptomic measurements. Sample numbers, tumor/normal matching, assay types and access conditions vary by cohort; consult the study record in the Proteomic Data Commons (PDC).
 
 ## Access
 
-**Portal**: https://pdc.cancer.gov/
-**CPTAC Data Portal**: https://cptac-data-portal.georgetown.edu/
+- [CPTAC program](https://dctd.cancer.gov/research/networks/cptac)
+- [Proteomic Data Commons](https://pdc.cancer.gov/)
+- [NCI proteomics data resources](https://proteomics.cancer.gov/data-portal)
 
 ## Application in SCP
 
-In scTranslator, CPTAC bulk RNA-protein paired data contributed to the Stage 1 pre-training corpus alongside [[TCGA]], [[MSKCC]], and Broad Institute datasets for learning RNA-to-protein translation patterns.
+Paired bulk data from CPTAC can support RNA–protein modeling and comparison with single-cell results. scTranslator reports a multi-source bulk corpus; its aggregate sample count must not be attributed to CPTAC alone. Cohort-level contributions and pairing should be checked against the original study supplement.
 
 ## Key Publications
 
 > [!cite] Primary Reference
 > Edwards NJ, Oberti M, Thangudu RR, et al. (2015) *Journal of Proteome Research* 14, 2707–2713
-> DOI: [10.1021/acs.jproteome.5b00056](https://doi.org/10.1021/acs.jproteome.5b00056)
+> DOI: [10.1021/pr501254j](https://doi.org/10.1021/pr501254j)
 
 ## Related Resources
 
 - [[TCGA]] — Genomic characterization program; CPTAC adds proteomics to TCGA tumors
 - [[MSKCC]] — Clinical genomics resource
+
+## Portal History
+
+The historical CPTAC Data Portal was retired in February 2022; NCI directs users to PDC for the data. The 2015 Edwards et al. article documents the historical portal.
+
+## Sources
+
+- [NCI CPTAC program](https://dctd.cancer.gov/research/networks/cptac)
+- [PDC: historical CPTAC portal retired in February 2022](https://pdc.cancer.gov/pdc/faq/Files_Download)
+- [Edwards et al. (2015), The CPTAC Data Portal](https://doi.org/10.1021/pr501254j)

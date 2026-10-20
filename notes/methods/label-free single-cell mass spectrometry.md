@@ -5,6 +5,7 @@ aliases:
 tags:
   - methods
 category: method
+url: https://www.nature.com/articles/s41592-024-02558-2
 date_created: 2026-03-25
 ---
 
@@ -17,3 +18,7 @@ Compatibility page for long-form label-free SCP links.
 ## Related Methods
 
 - [[Label-free single-cell proteomics]]
+
+## Sources
+
+- [Reference for label-free single-cell mass spectrometry](https://www.nature.com/articles/s41592-024-02558-2)

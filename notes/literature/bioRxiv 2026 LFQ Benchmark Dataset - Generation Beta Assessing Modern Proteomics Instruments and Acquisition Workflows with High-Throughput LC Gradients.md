@@ -1,5 +1,5 @@
 ---
-title: LFQ Benchmark Dataset - Generation Beta Assessing Modern Proteomics Instruments and Acquisition Workflows with High-Throughput LC Gradients
+title: "LFQ Benchmark Dataset - Generation Beta: Assessing Modern Proteomics Instruments and Acquisition Workflows with High-Throughput LC Gradients"
 authors:
   - Bart Van Puyvelde
   - Robbe Devreese
@@ -39,9 +39,17 @@ category: literature
 date_created: 2026-02-09
 Journal: bioRxiv
 Year: 2026
+doi: "10.64898/2026.01.29.702266"
+url: "https://doi.org/10.64898/2026.01.29.702266"
+publication_status: "preprint"
+posted: "2026-02-02"
 ---
 
 # LFQ Benchmark Dataset - Generation Beta: Assessing Modern Proteomics Instruments and Acquisition Workflows with High-Throughput LC Gradients
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -50,8 +58,7 @@ Year: 2026
 > **Authors**: Bart Van Puyvelde, Robbe Devreese, et al.
 > **Year**: 2026
 > **Journal**: bioRxiv
-> **DOI**: 10.64898/2026.01.29.702266
-
+> **DOI**: [10.64898/2026.01.29.702266](https://doi.org/10.64898/2026.01.29.702266)
 ## Abstract
 
 Recent advances in liquid chromatography–mass spectrometry ([[LC-MS]]) have accelerated the adoption of high-throughput workflows that deliver deep proteome coverage using minimal sample amounts. This trend is largely driven by clinical and [[single-cell proteomics]], where sensitivity and reproducibility are essential. Here, we extend our previous benchmark dataset (PXD028735) using next-generation LC-MS platforms optimized for rapid proteome analysis. We generated an extensive [[DDA]]/[[DIA]] dataset using a human-yeast-E. coli hybrid proteome. The proteome sample was distributed across multiple laboratories together with standardized analytical protocols specifying two short LC gradients (5 and 15 min) and low sample input amounts. This dataset includes data acquired on four different platforms, and features new scanning quadrupole-based implementations, extending coverage across different instruments and acquisition strategies. Our comprehensive evaluation highlights how technological advances and reduced LC gradients may affect proteome depth, quantitative precision, and cross-instrument consistency. The release of this benchmark dataset via [[ProteomeXchange]] (PXD070049 and PXD071205), allows for the acceleration of cross-platform algorithm development, enhance data mining strategies, and supports standardization of short-gradient, high-throughput LC-MS-based proteomics.

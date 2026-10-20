@@ -1,22 +1,20 @@
 ---
 title: Label-free single-cell proteomics
-aliases:
-  - Label-free single-cell proteomics
-  - label-free single-cell mass spectrometry
+aliases: ["Label-free single-cell proteomics"]
 tags:
   - methods
 category: method
-url: 
+url: https://www.nature.com/articles/s41592-024-02558-2
 date_created: 2026-01-18
 ---
 
 # Label-free single-cell proteomics
 
-**A single-cell proteomics strategy without isobaric carrier labeling, relying on high-sensitivity LC-MS workflows for direct quantification.**
+**A single-cell proteomics strategy without sample-multiplexing isotope or isobaric labels, relying on high-sensitivity LC-MS workflows for direct quantification.**
 
 ## Overview
 
-Label-free single-cell proteomics quantifies proteins in individual cells without multiplexed isobaric tags. It emphasizes sample recovery, low-background processing, and highly sensitive MS acquisition (often DIA-based) to improve protein coverage and quantitative fidelity at very low input amounts.
+Label-free single-cell proteomics quantifies proteins in individual cells without sample-multiplexing isotope or isobaric tags. It emphasizes sample recovery, low-background processing, and highly sensitive MS acquisition (often DIA-based) to improve protein coverage and quantitative fidelity at very low input amounts.
 
 ## Key Features
 
@@ -32,9 +30,9 @@ Single-cell isolation -> Low-loss lysis/digestion -> Cleanup/desalting -> LC-MS/
 
 ## Performance
 
-- **Proteins per cell**: Typically hundreds to ~1,500+ depending on workflow and instrument.
+- **Proteins per cell**: Highly workflow-dependent; the 2025 [[Chip-Tip]] HeLa benchmark exceeds 5,000 protein identifications per cell.
 - **Throughput**: Moderate to high with short-gradient optimized methods.
-- **Data completeness**: Improves with DIA and robust normalization/imputation strategies.
+- **Data completeness**: Must distinguish directly measured values from imputed estimates; imputation does not create experimental detections.
 
 ## Advantages
 
@@ -51,11 +49,15 @@ Single-cell isolation -> Low-loss lysis/digestion -> Cleanup/desalting -> LC-MS/
 ## Key Publications
 
 > [!cite] Primary Reference
-> Brunner et al. (2022) *Molecular Systems Biology*.
-> Zhu et al. (2026) label-free SCP studies in developing brain contexts.
+> Brunner et al. (2022). Ultra-high sensitivity mass spectrometry quantifies single-cell proteome changes upon perturbation. *Molecular Systems Biology* 18, e10798. [10.15252/msb.202110798](https://doi.org/10.15252/msb.202110798)
+> Ye et al. (2025). Chip-Tip workflow. [10.1038/s41592-024-02558-2](https://doi.org/10.1038/s41592-024-02558-2)
 
 ## Related Methods
 
 - [[SCoPE2]]
 - [[plexDIA]]
 - [[nPOP]]
+
+## Sources
+
+- [Reference for Label-free single-cell proteomics](https://www.nature.com/articles/s41592-024-02558-2)

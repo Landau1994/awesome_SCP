@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://github.com/compomics/DeepLC
 date_created: 2026-03-25
 ---
 
@@ -23,51 +23,37 @@ DeepLC predicts peptide retention times to improve identification confidence, li
 - **Retention Time Prediction**: Improves alignment and confidence.
 - **ML-Driven Calibration**: Adapts to specific LC setups.
 - **Workflow Integration**: Useful in both DDA and DIA pipelines.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# pip install deeplc
-```
-
-## Usage
-
-```r
-# Example code
-# Typically used in Python-based pipelines
-```
+- **Environment**: Follow the official release requirements; operating-system support depends on the package and its dependencies.
 
 ## Input/Output
 
 **Input:**
+
 - Peptide sequences/modifications
 - Calibration peptides (optional)
 
 **Output:**
+
 - Predicted retention times
 - RT features for downstream scoring
-
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| calibration_set | user-defined | Peptides used for RT calibration |
-| model_profile | user-defined | Retention time prediction profile |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Bouwmeester et al. (2021) *Nature Methods*
+> Bouwmeester et al. (2021). DeepLC can predict retention times for peptides that carry as-yet unseen modifications. *Nature Methods*.
+> DOI: [10.1038/s41592-021-01301-5](https://doi.org/10.1038/s41592-021-01301-5)
 
 ## Links
 
-- GitHub:
-- Documentation:
+- GitHub: https://github.com/compomics/DeepLC
+- Documentation/source: https://github.com/compomics/DeepLC
 
 ## Related Tools
 
 - [[AlphaPeptDeep]]
 - [[Prosit]]
 - [[Percolator]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [DeepLC documentation or source](https://github.com/compomics/DeepLC).

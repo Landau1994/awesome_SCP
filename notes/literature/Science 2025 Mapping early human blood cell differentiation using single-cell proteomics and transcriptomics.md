@@ -27,9 +27,17 @@ category: literature
 date_created: 2025-08-21
 Journal: Science
 Year: 2025
+doi: "10.1126/science.adr8785"
+url: "https://doi.org/10.1126/science.adr8785"
+publication_status: "published"
+published_print: "2025-10-16"
 ---
 
 # Mapping early human blood cell differentiation using single-cell proteomics and transcriptomics
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -38,8 +46,7 @@ Year: 2025
 > **Authors**: Benjamin Furtwängler, Nil Üresin, Sabrina Richter, Mikkel Bruhn Schuster, Despoina Barmpouri, Henrietta Holze, Anne Wenzel, Kirsten Grønbæk, Kim Theilgaard-Mönch, Fabian J. Theis, Erwin M. Schoof, Bo T Porse
 > **Year**: 2025
 > **Journal**: Science
-> **DOI**: 10.1126/science.adr8785
-
+> **DOI**: [10.1126/science.adr8785](https://doi.org/10.1126/science.adr8785)
 ## Abstract
 
 Single-cell transcriptomics (scRNA-seq) has revolutionized the characterization of cell state heterogeneity and differentiation trajectories. However, mRNA measurements miss important biological information regarding the proteome. Here, the authors leveraged recent advances in single-cell proteomics by Mass Spectrometry ([[scp-MS]]) to generate a dataset of an in vivo differentiation hierarchy encompassing over 2500 human CD34+ hematopoietic stem and progenitor cells (HSPCs). Through integration with scRNA-seq, they identified proteins important for stem cell function not indicated by mRNA transcripts. Furthermore, they showed that modeling translation dynamics can infer cell progression during differentiation and explain substantially more protein variation than linear correlation. This work offers a framework for single-cell multi-omics studies across biological systems.

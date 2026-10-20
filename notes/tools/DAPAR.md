@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://bioconductor.org/packages/DAPAR/
 date_created: 2026-01-18
 ---
 
@@ -41,19 +41,12 @@ library(DAPAR)
 ## Input/Output
 
 **Input:**
-- Raw files (.raw, .d, .mzML)
-- Protein/peptide abundance tables
+
+- Quantified peptide/protein abundance tables and sample metadata
 
 **Output:**
-- Protein/peptide matrices
-- Quality metrics
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| normalization_method | workflow-dependent | Intensity normalization strategy |
-| imputation_method | workflow-dependent | Missing-value handling |
+- Processed quantitative data, diagnostic plots and statistical results
 
 ## Key Publications
 
@@ -62,7 +55,7 @@ library(DAPAR)
 
 ## Links
 
-- GitHub:
+- Source availability: See the official source below; no separate public repository was confirmed.
 - Documentation: https://bioconductor.org/packages/DAPAR/
 
 ## Related Tools
@@ -70,3 +63,7 @@ library(DAPAR)
 - [[MaxQuant]]
 - [[DIA-NN]]
 - [[scp Package]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [DAPAR documentation or source](https://bioconductor.org/packages/DAPAR/).

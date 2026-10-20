@@ -9,8 +9,7 @@ authors:
   - Neil Rajan
   - Simon Wilkinson
   - Alex von Kriegsheim
-aliases:
-  - CASPA
+aliases: ["bioRiv 2026 A context aware single-cell proteomics analysis pipeline"]
 tags:
   - literature
   - paper
@@ -18,13 +17,21 @@ tags:
   - bioinformatics
   - LLM
 category: literature
-date_created: 2026-04-09
+date_created: 2026-10-20
 Journal: bioRxiv
 Year: 2026
 status: read
+doi: "10.64898/2026.04.03.716382"
+url: "https://doi.org/10.64898/2026.04.03.716382"
+publication_status: "preprint"
+posted: "2026-04-07"
 ---
 
 # A Context-Aware Single-Cell Proteomics Analysis pipeline
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. Detailed validation-set performance remains unverified.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -33,8 +40,7 @@ status: read
 > **Authors**: Carla Salomó Coll, Agata N Makar, Alejandro J Brenes, Joseph Inns, Matthias Trost, Neil Rajan, Simon Wilkinson, Alex von Kriegsheim
 > **Year**: 2026
 > **Journal**: bioRxiv
-> **DOI**: 10.64898/2026.04.03.716382
-
+> **DOI**: [10.64898/2026.04.03.716382](https://doi.org/10.64898/2026.04.03.716382)
 ## Abstract
 
 Single-cell proteomics (SCP) by mass spectrometry can now quantify hundreds to thousands of proteins per cell, but the field still lacks standardised analytical pipelines that accommodate the diversity of instruments, sample preparation workflows and biological contexts encountered in practice. Existing workflows, largely adapted from single-cell transcriptomics, do not account for the informative missingness, pervasive ambient protein contamination and limited feature space that distinguish proteomic from transcriptomic data. In addition, cell type annotation remains a manual bottleneck that is subjective, difficult to reproduce and hard to scale. Here we present an end-to-end pipeline that integrates adaptive quality control, entropy-guided iterative batch correction, multi-modal marker discovery that exploits detection patterns unique to proteomics, and context-aware annotation by large language models (LLMs) coupled to structured contradiction reasoning and orthogonal data-driven validation. 
@@ -43,19 +49,19 @@ Single-cell proteomics (SCP) by mass spectrometry can now quantify hundreds to t
 
 - Introduces Context-Aware Single-Cell Proteomics Analysis ([[CASPA]]), a fully automated end-to-end pipeline for SCP data.
 - Employs adaptive quality control, iterative batch correction (via [[Harmony]]), and multi-modal marker discovery tailored for SCP (incorporating missingness and intensity metrics).
-- Utilizes a novel three-round context-aware [[LLM]] annotation architecture to interpret ambiguous cell states (e.g., phagocytosis, lytic cell death) while minimizing hallucination and misclassification of ambient proteins.
+- Utilizes a novel three-round context-aware [[Large Language Models|LLM]] annotation architecture to interpret ambiguous cell states (e.g., phagocytosis, lytic cell death) while minimizing hallucination and misclassification of ambient proteins.
 - Validated across diverse tissues (human brain, GBM neutrophils, skin tumor, injured pancreas) showing high concordance with FACS ground truth and orthogonal IHC validation.
 
 ## Methods
 
 ### Sample Preparation
-- Method used: [[CellenONE]] single-cell isolation, [[diaPASEF]], [[timsTOF]] SCP mass spectrometer.
+- Method used: [[cellenONE]] single-cell isolation, [[diaPASEF]], [[timsTOF]] SCP mass spectrometer.
 - Cell type: Developing human brain cells, glioblastoma tumor-associated neutrophils, CYLD cutaneous syndrome skin tumor cells, and caerulein-injured mouse pancreas cells.
 - Number of cells: 819 (brain), 330 (neutrophils), 249 (skin tumor), 234 (pancreas).
 
 ### Data Analysis
-- Software: [[DIA-NN]], [[Spectronaut]], [[FragPipe]], [[Snakemake]], [[Python]], [[scanpy]], [[scikit-learn]], [[Claude Sonnet]], [[GPT-5.2]].
-- Downstream: [[Harmony]] (adaptive batch correction), [[Leiden]] clustering, AUCell pathway scoring, scplainer (LME model), PanglaoDB validation, Multi-modal marker mining.
+- Software: [[DIA-NN]], [[Spectronaut]], [[FragPipe]], [[Snakemake]], [[Python]], [[Scanpy]], [[scikit-learn]], Claude Sonnet, GPT-5.2.
+- Downstream: [[Harmony]] (adaptive batch correction), [[Leiden clustering|Leiden]] clustering, AUCell pathway scoring, scplainer (LME model), PanglaoDB validation, Multi-modal marker mining.
 
 ## Results
 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://www.nature.com/articles/nmeth.4256
 date_created: 2026-03-25
 ---
 
@@ -31,9 +31,7 @@ MS/MS data → Open search engine → Mass shift clustering → Annotation/valid
 
 ## Performance
 
-- **Proteins per cell**: Dataset-dependent
-- **Throughput**: Moderate to high (engine-dependent)
-- **Data completeness**: Good for discovery workflows
+Runtime and identification yield depend on the search engine, database and allowed mass-shift range. An open search is a modification-discovery strategy, not a guarantee of more complete protein quantification.
 
 ## Advantages
 
@@ -49,11 +47,14 @@ MS/MS data → Open search engine → Mass shift clustering → Annotation/valid
 
 ## Key Publications
 
-> [!cite] Primary Reference
-> See OpenSpec and related literature notes.
+Kong et al. (2017). [MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry–based proteomics](https://www.nature.com/articles/nmeth.4256).
 
 ## Related Methods
 
 - [[Spectral Deconvolution]]
 - [[Hybrid Spectral Library]]
 - [[DIA]]
+
+## Sources
+
+- [Reference for Open Search](https://www.nature.com/articles/nmeth.4256)

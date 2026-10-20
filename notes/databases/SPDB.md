@@ -18,15 +18,19 @@ url: https://scproteomicsdb.com/
 
 ## Overview
 
-SPDB is the most comprehensive database for single-cell proteomics data, integrating datasets from both mass spectrometry-based and antibody-based technologies.
+SPDB is a database for single-cell proteomics data, integrating datasets from both mass spectrometry-based and antibody-based technologies.
 
 ## Statistics
 
-- **Datasets**: 143 curated datasets
-- **Cells**: >300 million cells
-- **Proteins**: 8,000+ unique proteins
-- **Species**: 4 (Human, Mouse, others)
-- **Technologies**: 12 different platforms
+Snapshot of the public homepage, checked 2026-10-20:
+
+- **Datasets**: 143
+- **Cells**: 398,038,707
+- **Proteins**: 8,304
+- **Species**: Human, mouse, rhesus macaque and pig
+- **Technologies**: 12
+
+These are database-wide totals across mass-spectrometry and antibody-based technologies. They are not the number of MS-measured single-cell proteomes, and the protein total is not a per-cell depth.
 
 ## Technologies Covered
 
@@ -47,11 +51,10 @@ SPDB is the most comprehensive database for single-cell proteomics data, integra
 - **Search**: Query by protein, cell type, tissue
 - **Visualization**: Interactive plots
 - **Download**: Bulk data export
-- **API Access**: Programmatic queries
 
 ## Data Format
 
-All datasets processed through standardized pipelines:
+Dataset downloads include expression data and annotations. Processing and normalization should be checked for each study and technology; a single universal analysis pipeline should not be assumed. Available data include:
 - Normalized expression matrices
 - Annotated metadata
 - Quality metrics
@@ -70,10 +73,15 @@ All datasets processed through standardized pipelines:
 ## Key Publications
 
 > [!cite] Primary Reference
-> Liu et al. (2024) *Nucleic Acids Research*
-> DOI: [10.1093/nar/gkad910](https://doi.org/10.1093/nar/gkad910)
+> Wang et al. (2024) *Nucleic Acids Research*
+> DOI: [10.1093/nar/gkad1018](https://doi.org/10.1093/nar/gkad1018)
 
 ## Related Resources
 
-- [[SingPro]] - Alternative database with raw data
+- [[SingPro]] - Related resource with its own scope and release history
 - scpdata - Bioconductor datasets
+
+## Sources
+
+- [SPDB official homepage, checked 2026-10-20](https://scproteomicsdb.com/)
+- [SPDB original database paper](https://doi.org/10.1093/nar/gkad1018)

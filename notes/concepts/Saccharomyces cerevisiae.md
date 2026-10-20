@@ -4,6 +4,8 @@ aliases:
   - Yeast
 tags:
 date_created: 2026-03-25
+url: https://www.yeastgenome.org/
+category: concept
 ---
 
 # Saccharomyces cerevisiae
@@ -25,3 +27,7 @@ Saccharomyces cerevisiae is budding yeast, a major model organism in cell biolog
 
 - [[single-cell proteomics]]
 - [[Deep Learning]]
+
+## Sources
+
+- [Authoritative reference for Saccharomyces cerevisiae](https://www.yeastgenome.org/)

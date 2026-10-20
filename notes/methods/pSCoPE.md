@@ -9,52 +9,45 @@ tags:
   - TMT
   - validation
 category: method
+url: https://www.nature.com/articles/s41592-023-01830-1
 ---
 
 # pSCoPE
 
-**Prioritized SCoPE (Targeted Proteomics)**
+**Prioritized Single-Cell ProtEomics**
 
 ## Overview
 
-pSCoPE is a targeted acquisition method that prioritizes specific peptides for quantification, enabling deeper coverage of selected proteins in single cells.
+pSCoPE schedules previously identified peptides by priority and retention time to improve the consistency and efficiency of MS/MS sampling. It combines targeted prioritization with broad proteome coverage; it is not restricted to a small validation panel.
 
 ## Key Features
 
-- **Targeted Selection**: Prioritizes pre-selected peptides
-- **Inclusion Lists**: Uses mass/RT windows
-- **Higher Sensitivity**: More scans per target
-- **Complement to SCoPE2**: Same sample prep
+- Prioritizes thousands of peptides rather than selecting precursors solely by instantaneous intensity.
+- Uses real-time acquisition control implemented with MaxQuant.Live.
+- Can improve sensitivity, completeness and depth together; gains depend on the priority list and instrument settings.
 
 ## Workflow
 
-```
-SCoPE2 Sample Prep → TMT Labeling →
-Targeted Acquisition (inclusion list) →
-MaxQuant Analysis
+```text
+Single-cell preparation and TMT labeling → Priority-list construction → MaxQuant.Live acquisition → Identification and quantitative QC
 ```
 
-## Use Cases
+## Reported Benchmark
 
-1. **Pathway-focused**: Target specific signaling pathways
-2. **Validation**: Confirm discovery results
-3. **Low-abundance**: Increase sensitivity for specific proteins
+Huffman et al. evaluated HEK and melanoma cells prepared using nPOP, with 60-minute active gradients and 0.5-Th isolation windows. Relative to the compared shotgun workflow, the study reported more than twofold improvements in several sampling and coverage metrics. These results describe that experiment and are not a fixed per-cell protein count.
 
-## Comparison with SCoPE2
+## Limitations
 
-| Aspect | [[SCoPE2]] | pSCoPE |
-|--------|--------|--------|
-| Approach | Discovery | Targeted |
-| Proteins | ~3000 | Selected subset |
-| Depth | Broad | Deep (targeted) |
-| Use case | Exploration | Validation |
+Priority lists can bias coverage toward previously observed peptides. Transfer to another instrument, sample type or gradient requires acquisition and quantitative validation.
 
-## Key Publications
+## Primary Reference
 
-> [!cite] Reference
-> Specht et al. - pSCoPE method (part of SCoPE2 framework)
+> [!cite]
+> Huffman RG, Leduc A, Wichmann C, et al. (2023). Prioritized mass spectrometry increases the depth, sensitivity and data completeness of single-cell proteomics. *Nature Methods* 20, 714–722.
+> [10.1038/s41592-023-01830-1](https://doi.org/10.1038/s41592-023-01830-1)
 
 ## Related Methods
 
-- [[SCoPE2]] - Parent method
-- [[plexDIA]] - Alternative approach
+- [[SCoPE2]]
+- [[nPOP]]
+- [[plexDIA]]

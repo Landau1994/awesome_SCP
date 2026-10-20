@@ -21,10 +21,7 @@ authors:
   - Dorte B. Bekker-Jensen
   - Nicolai Bache
   - Jesper V. Olsen
-aliases:
-   - <article>
-   - <paper>
-   - <literature>
+aliases: []
 tags:
   - literature
   - paper
@@ -35,9 +32,18 @@ category: literature
 date_created: 2025-05-22
 Journal: Nature Methods
 Year: 2025
+doi: "10.1038/s41592-024-02558-2"
+url: "https://doi.org/10.1038/s41592-024-02558-2"
+publication_status: "published"
+published_online: "2025-01-16"
+published_print: "2025-03"
 ---
 
 # Enhanced sensitivity and scalability with a Chip-Tip workflow enables deep single-cell proteomics
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. Study-specific instrument conditions are documented in the linked Chip-Tip method note; the detailed PTM-type list here remains to be checked against the full text.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -46,8 +52,7 @@ Year: 2025
 > **Authors**: Zilu Ye, Pierre Sabatier, Leander van der Hoeven, Maico Y. Lechner, Teeradon Phlairaharn, Ulises H. Guzman, Zhen Liu, Haoran Huang, Min Huang, Xiangjun Li, David Hartlmayr, Fabiana Izaguirre, Anjali Seth, Hiren J. Joshi, Sergey Rodin, Karl-Henrik Grinnemo, Ole B. Hørning, Dorte B. Bekker-Jensen, Nicolai Bache & Jesper V. Olsen
 > **Year**: 2025
 > **Journal**: Nature Methods
-> **DOI**: 10.1038/s41592-024-02558-2
-
+> **DOI**: [10.1038/s41592-024-02558-2](https://doi.org/10.1038/s41592-024-02558-2)
 ## Abstract
 
 Single-cell proteomics (SCP) aims to provide a granular view of the proteome in individual cells, but faces challenges in sensitivity and throughput. The authors present "Chip-Tip," a high-sensitivity SCP workflow that identifies >5,000 proteins in individual HeLa cells. The method utilizes the cellenONE platform for cell isolation, a proteoCHIP EVO 96 for nanoliter-scale sample preparation, and direct transfer to Evotip trap columns for analysis on an Orbitrap Astral mass spectrometer using narrow-window data-independent acquisition (nDIA). This workflow enables the direct detection of post-translational modifications (PTMs), such as phosphorylation and glycosylation, without enrichment. The study demonstrates the feasibility of processing up to 120 label-free SCP samples per day and applies the workflow to analyze drug-treated cancer cell spheroids and human-induced pluripotent stem cell (hiPSC) differentiation.

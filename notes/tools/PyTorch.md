@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://pytorch.org/
 date_created: 2026-03-25
 ---
 
@@ -23,38 +23,19 @@ PyTorch is a core ML framework behind many proteomics AI tools, including peptid
 - **Flexible Model Development**: Dynamic graph programming for research.
 - **GPU Acceleration**: Efficient training/inference for large datasets.
 - **Ecosystem Adoption**: Widely used in computational biology pipelines.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# pip install torch
-```
-
-## Usage
-
-```r
-# Example code
-# Typically used via Python
-```
+- **Environment**: Follow the official release requirements; operating-system support depends on the package and its dependencies.
 
 ## Input/Output
 
 **Input:**
+
 - Numerical tensors and labeled datasets
 - Model architectures and hyperparameters
 
 **Output:**
+
 - Trained neural network models
 - Predictions and embeddings
-
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| learning_rate | user-defined | Optimization step size |
-| batch_size | user-defined | Samples per training update |
 
 ## Key Publications
 
@@ -63,11 +44,15 @@ PyTorch is a core ML framework behind many proteomics AI tools, including peptid
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Source availability: See the official source below; no separate public repository was confirmed.
+- Documentation/source: https://pytorch.org/
 
 ## Related Tools
 
 - [[AlphaPeptDeep]]
 - [[scvi-tools]]
 - [[Python]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [PyTorch documentation or source](https://pytorch.org/).

@@ -9,7 +9,7 @@ tags:
   - lysis
   - tube-based
 category: method
-url: https://scp.slavovlab.net/mPOP
+url: https://doi.org/10.1101/399774
 ---
 
 # mPOP
@@ -30,11 +30,11 @@ mPOP (Minimal ProteOmic sample Preparation) is a simple, cost-effective method f
 ## Protocol Steps
 
 ```
-1. Sort cells into 1 µL PBS in PCR plate
-2. Freeze at -80°C (≥30 min)
-3. Heat at 90°C for 10 min (lysis)
+1. Sort cells into a small volume of pure water in a PCR plate (use the selected protocol's specified volume).
+2. Freeze at -80°C according to the validated protocol.
+3. Heat at 90°C for lysis, following the protocol's timing.
 4. Add trypsin (digest)
-5. Add TMT reagents (label)
+5. If using an isobaric workflow, add TMT reagents (label).
 6. Pool and analyze
 ```
 
@@ -61,3 +61,7 @@ mPOP (Minimal ProteOmic sample Preparation) is a simple, cost-effective method f
 - [[nPOP]] - Nanoliter version
 - [[nanoPOTS]] - Chip-based alternative
 - [[SCoPE2]] - Often used together
+
+## Sources
+
+- [Reference for mPOP](https://doi.org/10.1101/399774)

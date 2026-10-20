@@ -8,7 +8,7 @@ tags:
   - single-cell
   - spatial
 category: method
-url: https://doi.org/10.1038/s41592-023-01809-2
+url: https://www.nature.com/articles/s41587-023-01676-0
 date_created: 2026-03-17
 ---
 
@@ -30,15 +30,15 @@ Spatial CITE-seq extends the [[CITE-seq]] framework to tissue sections, enabling
 
 ```
 Tissue sectioning → Antibody staining (DNA-barcoded) →
-Spatial capture (slide-based) → Library prep (RNA + ADT) →
+Deterministic spatial barcoding with microfluidic channels → Library prep (RNA + ADT) →
 Sequencing → Spatial deconvolution & integration
 ```
 
 ## Performance
 
 - **Proteins**: Panel of surface proteins (DNA-barcoded antibody panel)
-- **Throughput**: Tissue section-level, spot-based resolution
-- **Data completeness**: Dual readout per spatial spot
+- **Spatial sampling**: Tissue sections are mapped to barcoded pixels; the study demonstrated 25-µm pixels with a 189-antibody mouse panel.
+- **Readout design**: Protein and RNA measurements per spatial pixel; pixel composition and detection completeness require QC.
 
 ## Advantages
 
@@ -55,11 +55,15 @@ Sequencing → Spatial deconvolution & integration
 ## Key Publications
 
 > [!cite] Primary Reference
-> Liu Y, DiStasio M, Su G, et al. (2023) *Nature Methods* 20, 1078–1082
-> DOI: [10.1038/s41592-023-01809-2](https://doi.org/10.1038/s41592-023-01809-2)
+> Liu Y, DiStasio M, Su G, et al. (2023) *Nature Biotechnology* 41, 1405–1409
+> DOI: [10.1038/s41587-023-01676-0](https://doi.org/10.1038/s41587-023-01676-0)
 
 ## Related Methods
 
 - [[CITE-seq]] — Dissociation-based multi-omics; no spatial information
 - [[Spatial Transcriptomics]] — RNA-only spatial profiling
 - [[NEAT-seq]] — Nuclear protein + ATAC + RNA (non-spatial)
+
+## Sources
+
+- [Reference for Spatial CITE-seq](https://www.nature.com/articles/s41587-023-01676-0)

@@ -10,7 +10,7 @@ tags:
   - DDA
   - quantification
 category: tool
-url: https://www.maxquant.org/
+url: https://maxquant.org/
 ---
 
 # MaxQuant
@@ -31,7 +31,7 @@ MaxQuant is a comprehensive software platform for mass spectrometry-based proteo
 
 ## SCoPE2 Analysis Settings
 
-Key parameters for single-cell TMT data:
+The following retained values are illustrative study settings, not universal SCoPE2 defaults. Match the labeling chemistry, instrument and protocol before use:
 - Reporter ion quantification: TMTpro 16-plex
 - MS/MS tolerance: 20 ppm
 - Minimum peptide length: 7
@@ -49,21 +49,21 @@ evidence.txt / proteinGroups.txt
 
 | File | Description |
 |------|-------------|
-| evidence.txt | PSM-level data |
+| evidence.txt | Peptide-feature/evidence-level records, which may combine supporting spectra |
 | peptides.txt | Peptide summaries |
 | proteinGroups.txt | Protein-level data |
-| msms.txt | MS/MS spectra info |
+| msms.txt | MS/MS identification (spectrum/PSM-level) records |
 
 ## Limitations for SCP
 
-- Windows only
-- Can be slow for large datasets
-- Memory intensive
-- Less optimal for DIA data
+- GUI and command-line platform support differ; Linux command-line workflows are available. Check the selected release.
+- Runtime depends on dataset size, search space and hardware
+- Memory requirements depend on the selected workflow
+- DIA workflows use [[MaxDIA]]; suitability depends on acquisition and analysis settings.
 
 ## Installation
 
-Download from: https://www.maxquant.org/
+Download from: https://maxquant.org/
 
 ## Key Publications
 
@@ -76,3 +76,8 @@ Download from: https://www.maxquant.org/
 - [[DIA-NN]] - For DIA data
 - [[scp Package]] - Downstream analysis in R
 - [[DO-MS]] - Quality control
+
+## Source Check
+
+- Source checked on 2026-10-20: [MaxQuant documentation or source](https://maxquant.org/).
+- [Official Linux installation guide](https://www.maxquant.org/static/main/pdf/Linux_MQ_Installation.pdf).

@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://imagej.net/software/fiji/
 date_created: 2026-03-25
 ---
 
@@ -23,51 +23,37 @@ Fiji ("Fiji Is Just ImageJ") is a common environment for microscopy preprocessin
 - **Plugin-Rich Ecosystem**: Extensive image analysis extensions.
 - **Microscopy-Oriented**: Strong support for biological imaging workflows.
 - **Scripting Support**: Automates repetitive analysis steps.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# Download Fiji package from official site
-```
-
-## Usage
-
-```r
-# Example code
-# Mainly used via GUI/macros
-```
+- **Environment**: Follow the official release requirements; operating-system support depends on the package and its dependencies.
 
 ## Input/Output
 
 **Input:**
+
 - Microscopy images
 - ROI/mask definitions
 
 **Output:**
+
 - Processed images
 - Quantitative feature tables
-
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| filter_size | user-defined | Smoothing/denoising level |
-| threshold_method | user-defined | Segmentation threshold strategy |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Schindelin et al. (2012) *Nature Methods*
+> Schindelin et al. (2012). Fiji: an open-source platform for biological-image analysis. *Nature Methods*.
+> DOI: [10.1038/nmeth.2019](https://doi.org/10.1038/nmeth.2019)
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Source availability: See the official source below; no separate public repository was confirmed.
+- Documentation/source: https://imagej.net/software/fiji/
 
 ## Related Tools
 
 - [[ImageJ]]
 - [[QuPath]]
 - [[Python]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [Fiji documentation or source](https://imagej.net/software/fiji/).

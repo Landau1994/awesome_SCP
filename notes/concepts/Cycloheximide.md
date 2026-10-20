@@ -2,6 +2,8 @@
 title: Cycloheximide
 tags:
 date_created: 2026-03-25
+url: https://pubmed.ncbi.nlm.nih.gov/30916348/
+category: concept
 ---
 
 # Cycloheximide
@@ -23,3 +25,7 @@ Cycloheximide is a translation inhibitor commonly used to study protein synthesi
 
 - [[RNA Velocity]]
 - [[scProtVelo]]
+
+## Sources
+
+- [Authoritative reference for Cycloheximide](https://pubmed.ncbi.nlm.nih.gov/30916348/)

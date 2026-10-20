@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://bioconductor.org/packages/enrichplot/
 date_created: 2026-01-18
 ---
 
@@ -35,25 +35,18 @@ R -e "if (!requireNamespace('BiocManager', quietly=TRUE)) install.packages('Bioc
 
 ```r
 # Example code
-library(Enrichplot)
+library(enrichplot)
 ```
 
 ## Input/Output
 
 **Input:**
-- Raw files (.raw, .d, .mzML)
-- Enrichment result objects/tables
+
+- Supported enrichment/GSEA result objects (for example from clusterProfiler)
 
 **Output:**
-- Protein/peptide matrices
-- Quality metrics
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| showCategory | integer | Number of categories to display |
-| pvalueCutoff | 0.05 | Filter threshold for plotted terms |
+- Visualizations of enrichment results
 
 ## Key Publications
 
@@ -69,3 +62,7 @@ library(Enrichplot)
 - [[MaxQuant]]
 - [[DIA-NN]]
 - [[scp Package]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [Enrichplot documentation or source](https://bioconductor.org/packages/enrichplot/).

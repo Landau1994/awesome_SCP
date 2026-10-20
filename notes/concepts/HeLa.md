@@ -2,6 +2,8 @@
 title: HeLa
 tags:
 date_created: 2026-03-25
+url: https://www.atcc.org/products/ccl-2
+category: concept
 ---
 
 # HeLa
@@ -23,3 +25,7 @@ HeLa is a widely used human cervical cancer cell line and a common benchmark mat
 
 - [[293T]]
 - Home
+
+## Sources
+
+- [Authoritative reference for HeLa](https://www.atcc.org/products/ccl-2)

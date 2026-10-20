@@ -7,7 +7,7 @@ tags:
   - multi-omics
   - single-cell
 category: method
-url: https://doi.org/10.1038/nbt.3973
+url: https://www.nature.com/articles/nbt.3973
 date_created: 2026-03-17
 ---
 
@@ -17,12 +17,12 @@ date_created: 2026-03-17
 
 ## Overview
 
-REAP-seq (RNA Expression And Protein sequencing) was developed by Peterson et al. (2017) at the New York Genome Center. It enables simultaneous measurement of protein and RNA expression in single cells by conjugating DNA-barcoded antibodies to cell surface proteins, followed by droplet-based single-cell sequencing. It is conceptually similar to [[CITE-seq]], both published in the same year, but uses a different antibody-DNA conjugation chemistry.
+REAP-seq (RNA Expression And Protein sequencing) was developed by Peterson et al. (2017) at Merck. It enables simultaneous measurement of protein and RNA expression in single cells by staining cell-surface proteins with antibodies covalently conjugated to DNA barcodes, followed by droplet-based single-cell sequencing. It is conceptually similar to [[CITE-seq]], both published in the same year, but uses a different antibody-DNA conjugation chemistry.
 
 ## Key Features
 
 - **Dual Readout**: Simultaneous capture of mRNA transcriptome and surface protein abundance from the same single cell
-- **DNA-Barcoded Antibodies**: Antibodies conjugated to unique DNA tags via a streptavidin-biotin linkage
+- **DNA-Barcoded Antibodies**: Antibodies covalently conjugated to aminated DNA barcodes; this differs from the original CITE-seq streptavidin–biotin linkage
 - **Droplet Compatibility**: Compatible with droplet-based single-cell platforms (10x Genomics, Drop-seq)
 
 ## Workflow
@@ -34,9 +34,9 @@ Lysis & RT → cDNA + ADT library prep → Sequencing → Deconvolution
 
 ## Performance
 
-- **Proteins per cell**: Up to 82 proteins demonstrated
+- **Protein panel**: The original study used 82 barcoded antibodies; panel size is not the number of proteins confidently detected in every cell.
 - **Throughput**: Thousands of cells per experiment
-- **Data completeness**: High for targeted protein panel; genome-wide for RNA
+- **Data completeness**: Both modalities are measured, but detection and quantitative quality vary by cell and target.
 
 ## Advantages
 
@@ -61,3 +61,7 @@ Lysis & RT → cDNA + ADT library prep → Sequencing → Deconvolution
 - [[CITE-seq]] — Conceptually similar; uses different conjugation chemistry
 - [[ECCITE-seq]] — Extended version supporting CRISPR guide detection
 - [[Perturb-CITE-seq]] — Combines perturbation screening with CITE-seq
+
+## Sources
+
+- [Reference for REAP-seq](https://www.nature.com/articles/nbt.3973)

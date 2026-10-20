@@ -12,8 +12,9 @@ authors:
   - Rodolfo Ciuffa
   - Matthias Gstaiger
 aliases:
-   - DIP-MS paper
-   - Frommelt et al. 2024
+  - "nmeth 2024 DIP-MS ultra depp interaction prtoemics"
+  - DIP-MS paper
+  - Frommelt et al. 2024
 tags:
   - literature
   - paper
@@ -24,9 +25,18 @@ category: literature
 date_created: 2024-05-22
 Journal: Nature Methods
 Year: 2024
+doi: "10.1038/s41592-024-02211-y"
+url: "https://doi.org/10.1038/s41592-024-02211-y"
+publication_status: "published"
+published_online: "2024-03-26"
+published_print: "2024-04"
 ---
 
 # DIP-MS: ultra-deep interaction proteomics for the deconvolution of protein complexes
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The specific PPIprophet, PFDh and PDRG1 attribution remains unverified here.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -35,8 +45,7 @@ Year: 2024
 > **Authors**: Fabian Frommelt, Andrea Fossati, Federico Uliana, Fabian Wendt, Peng Xue, Moritz Heusel, Bernd Wollscheid, Ruedi Aebersold, Rodolfo Ciuffa & Matthias Gstaiger
 > **Year**: 2024
 > **Journal**: Nature Methods
-> **DOI**: 10.1038/s41592-024-02211-y
-
+> **DOI**: [10.1038/s41592-024-02211-y](https://doi.org/10.1038/s41592-024-02211-y)
 ## Abstract
 
 Most proteins are organized in macromolecular assemblies, which represent key functional units regulating and catalyzing most cellular processes. Affinity purification combined with mass spectrometry (AP–MS) is the standard for identifying interacting proteins but cannot resolve complex isoforms concurrently present in a sample from a single experiment. Here the authors introduce **deep interactome profiling by mass spectrometry (DIP-MS)**, which combines AP with blue-native-PAGE (BNP) separation, data-independent acquisition (DIA) mass spectrometry, and deep-learning-based signal processing (**PPIprophet**). This method resolves complex isoforms sharing the same bait protein in a single experiment. Applied to the human prefoldin family, DIP-MS resolved distinct prefoldin holo- and subcomplex variants, complex–complex interactions, and a novel prefoldin homolog (PFDh) containing the subunit PDRG1.

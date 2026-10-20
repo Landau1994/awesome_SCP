@@ -27,8 +27,7 @@ authors:
   - Bogdan Budnik
   - Erwin M. Schoof
   - Claudia Ctortecka
-aliases:
-  - 
+aliases: []
 tags:
   - literature
   - paper
@@ -39,9 +38,17 @@ category: literature
 date_created: 2026-07-20
 Journal: bioRxiv
 Year: 2026
+doi: "10.64898/2026.07.13.738155"
+url: "https://doi.org/10.64898/2026.07.13.738155"
+publication_status: "preprint"
+posted: "2026-07-14"
 ---
 
 # Defining Quality Control Standards for Single-Cell Proteomics by Inter-Laboratory Benchmarking
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The claim that a uniform instrument vendor alone is insufficient is an interpretation in this note, not a directly tested conclusion established by the checked abstract.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -50,11 +57,10 @@ Year: 2026
 > **Authors**: Sam van Puyenbroeck et al.
 > **Year**: 2026
 > **Journal**: bioRxiv
-> **DOI**: 10.64898/2026.07.13.738155
-
+> **DOI**: [10.64898/2026.07.13.738155](https://doi.org/10.64898/2026.07.13.738155)
 ## Abstract
 
-Single-cell proteomics (SCP) can quantify thousands of proteins, yet the absence of community-wide quality control limits interpretability. The HUPO Single Cell Initiative presents the first inter-laboratory benchmarking study across seven laboratories using standardized 384-well plates acquired on [[Orbitrap Astral]] and [[timsTOF Ultra2]] instruments. Centralized analysis across six [[DIA]] software tools revealed that software choice impacts identification depth and quantitative accuracy more than instrument vendor. A multi-layered quality control framework enabled the detection of technical failures including cell-leakage, column degradation, and pipetting errors. The study demonstrates that instrument-vendor harmonization is insufficient for inter-laboratory reproducibility without rigorous batch correction. Sequential correction for plate identity and well position allowed for clean cell-type separation and confident downstream differential expression analysis.
+Single-cell proteomics (SCP) can quantify thousands of proteins, yet the absence of community-wide quality control limits interpretability. The HUPO Single Cell Initiative presents the first inter-laboratory benchmarking study across seven laboratories using standardized 384-well plates acquired on [[Orbitrap Astral]] and [[timsTOF Ultra 2|timsTOF Ultra2]] instruments. Centralized analysis across six [[DIA]] software tools revealed that software choice impacts identification depth and quantitative accuracy more than instrument vendor. A multi-layered quality control framework enabled the detection of technical failures including cell-leakage, column degradation, and pipetting errors. The study demonstrates that instrument-vendor harmonization is insufficient for inter-laboratory reproducibility without rigorous batch correction. Sequential correction for plate identity and well position allowed for clean cell-type separation and confident downstream differential expression analysis.
 
 ## Key Points
 
@@ -66,12 +72,12 @@ Single-cell proteomics (SCP) can quantify thousands of proteins, yet the absence
 ## Methods
 
 ### Sample Preparation
-- Method used: [[cellenONE]] picolitre dispensing, [[DDM]] lysis, [[Trypsin]]/[[Lys-C]] dual-protease digestion.
+- Method used: [[cellenONE]] picolitre dispensing, DDM lysis, [[Trypsin]]/[[Lys-C]] dual-protease digestion.
 - Cell type: [[HEK293T]] and [[K562]].
 - Number of cells: 108 single cells per cell type (216 total) per plate.
 
 ### Data Analysis
-- Software: [[Spectronaut]], [[DIA-NN]], [[CHIMERYS]], [[PEAKS]], [[FragPipe]], [[alphaDIA]].
+- Software: [[Spectronaut]], [[DIA-NN]], [[Chimerys]], [[PEAKS]], [[FragPipe]], [[AlphaDIA]].
 - Downstream: [[msqrob2]] for differential expression analysis, [[scplainer]] for variance partitioning, [[omicsGMF]] for dimensionality reduction.
 
 ## Results

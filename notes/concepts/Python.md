@@ -2,6 +2,8 @@
 title: Python
 tags:
 date_created: 2026-03-25
+url: https://www.python.org/about/
+category: concept
 ---
 
 # Python
@@ -22,3 +24,7 @@ Python is a general-purpose programming language extensively used for proteomics
 ## Related
 
 - Home
+
+## Sources
+
+- [Authoritative reference for Python](https://www.python.org/about/)

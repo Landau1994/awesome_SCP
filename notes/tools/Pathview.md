@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://bioconductor.org/packages/pathview/
 date_created: 2026-01-18
 ---
 
@@ -35,30 +35,24 @@ R -e "if (!requireNamespace('BiocManager', quietly=TRUE)) install.packages('Bioc
 
 ```r
 # Example code
-library(Pathview)
+library(pathview)
 ```
 
 ## Input/Output
 
 **Input:**
-- Raw files (.raw, .d, .mzML)
-- Differential expression/abundance tables
+
+- Gene or compound measurements and pathway/organism identifiers
 
 **Output:**
-- Protein/peptide matrices
-- Quality metrics
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| pathway_id | KEGG ID | Target pathway map |
-| species | organism code | Organism selection for mapping |
+- Pathway diagrams with mapped data
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Luo and Brouwer (2013) *Bioinformatics*.
+> Luo et al. (2013). Pathview: an R/Bioconductor package for pathway-based data integration and visualization. *Bioinformatics*.
+> DOI: [10.1093/bioinformatics/btt285](https://doi.org/10.1093/bioinformatics/btt285)
 
 ## Links
 
@@ -69,3 +63,7 @@ library(Pathview)
 - [[MaxQuant]]
 - [[DIA-NN]]
 - [[scp Package]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [Pathview documentation or source](https://bioconductor.org/packages/pathview/).

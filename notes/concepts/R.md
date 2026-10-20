@@ -2,6 +2,8 @@
 title: R
 tags:
 date_created: 2026-03-25
+url: https://www.r-project.org/about.html
+category: concept
 ---
 
 # R
@@ -23,3 +25,7 @@ R is a statistical programming language widely used for omics data analysis, vis
 
 - [[Python]]
 - Home
+
+## Sources
+
+- [Authoritative reference for R](https://www.r-project.org/about.html)

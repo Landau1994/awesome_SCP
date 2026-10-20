@@ -25,9 +25,18 @@ authors:
   - Karl-Henrik Grinnemo
   - Zilu Ye
   - Jesper V. Olsen
+doi: "10.1016/j.cell.2025.03.002"
+url: "https://doi.org/10.1016/j.cell.2025.03.002"
+publication_status: "published"
+published_print: "2025-05"
+published_online: "2025-03-31"
 ---
 
 # Global analysis of protein turnover dynamics in single cells
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The Orbitrap Astral context is cross-checked in the linked SC-pSILAC method note; the remaining detailed figures and parameters have not been fully re-audited.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -36,8 +45,7 @@ authors:
 > **Authors**: Pierre Sabatier, Maico Lechner, Ulises H. Guzmán, et al.
 > **Year**: 2025
 > **Journal**: Cell
-> **DOI**: 10.1016/j.cell.2025.03.002
-
+> **DOI**: [10.1016/j.cell.2025.03.002](https://doi.org/10.1016/j.cell.2025.03.002)
 ## Abstract
 
 Single-cell proteomics (SCPs) has advanced significantly, yet it remains largely unidimensional, focusing primarily on protein abundances. In this study, the authors employed a pulsed stable isotope labeling by amino acids in cell culture ([[pSILAC]]) approach to simultaneously analyze protein abundance and turnover in single cells ([[SC-pSILAC]]). Using a state-of-the-art SCP workflow involving the [[Orbitrap Astral]], they demonstrated that two SILAC labels are detectable from ~4,000 proteins in single [[HeLa]] cells. They performed a large-scale time-series SC-pSILAC analysis of undirected differentiation of human induced pluripotent stem cells ([[iPSCs]]) encompassing 6 sampling times over 2 months and analyzed >1,000 cells. Protein turnover dynamics highlighted differentiation-specific co-regulation of protein complexes with core histone turnover, discriminating dividing and non-dividing cells. Lastly, correlating cell diameter with the abundance of individual proteins showed that histones and some cell-cycle proteins do not scale with cell size.
@@ -57,7 +65,7 @@ Single-cell proteomics (SCPs) has advanced significantly, yet it remains largely
 
 ### Data Analysis
 - Software: [[Spectronaut]] (v18/v19) using [[directDIA+]], [[R]], [[RStudio]].
-- Downstream: [[DAPAR]], [[Pracma]], [[ComplexHeatmap]], [[clusterProfiler]], [[Seurat]]-based workflow for clustering.
+- Downstream: [[DAPAR]], [[Pracma]], [[ComplexHeatmap]], [[ClusterProfiler]], [[Seurat]]-based workflow for clustering.
 
 ## Results
 

@@ -6,7 +6,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://www.nature.com/articles/s41587-022-01302-5
 date_created: 2026-03-25
 ---
 
@@ -16,7 +16,7 @@ date_created: 2026-03-25
 
 ## Overview
 
-Deep Visual Proteomics (DVP) combines microscopy-based phenotyping with targeted microdissection and LC-MS analysis to map proteomes in tissue context.
+Deep Visual Proteomics (DVP) combines microscopy-based phenotyping with targeted microdissection and LC-MS analysis to map proteomes in tissue context. The original workflow pools cells with similar image-derived phenotypes for proteomic measurement; imaging at cellular resolution does not by itself mean that every MS sample is a single cell. [[scDVP]] extends the approach to individual microdissected cell slices.
 
 ## Key Features
 
@@ -32,9 +32,7 @@ Tissue imaging → Computational phenotyping → Targeted microdissection → LC
 
 ## Performance
 
-- **Proteins per cell**: High for selected microdissected targets
-- **Throughput**: Moderate
-- **Data completeness**: Good with optimized selection and acquisition
+Coverage depends on the number and size of pooled targets, tissue preparation and MS settings. Protein depth from a pooled DVP sample must not be reported as a per-cell measurement. Throughput includes imaging, selection, microdissection and MS acquisition.
 
 ## Advantages
 
@@ -51,10 +49,17 @@ Tissue imaging → Computational phenotyping → Targeted microdissection → LC
 ## Key Publications
 
 > [!cite] Primary Reference
-> Mund et al. (2022) *Nature Biotechnology*
+> Mund et al. (2022), *Deep Visual Proteomics defines single-cell identity and heterogeneity*. [Nature Biotechnology](https://www.nature.com/articles/s41587-022-01302-5).
+
+> [!cite] Single-cell extension
+> *Spatial single-cell mass spectrometry defines zonation of the hepatocyte proteome* (2023). [Nature Methods](https://www.nature.com/articles/s41592-023-02007-6).
 
 ## Related Methods
 
 - [[scDVP]]
 - [[Laser Microdissection]]
 - [[Spatial proteomics]]
+
+## Sources
+
+- [Reference for Deep Visual Proteomics](https://www.nature.com/articles/s41587-022-01302-5)

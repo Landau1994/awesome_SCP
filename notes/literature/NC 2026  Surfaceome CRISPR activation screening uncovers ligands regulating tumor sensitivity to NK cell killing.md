@@ -20,9 +20,17 @@ category: literature
 date_created: 2025-05-14
 Journal: Nature Communications
 Year: 2026
+doi: "10.1038/s41467-026-76374-x"
+url: "https://doi.org/10.1038/s41467-026-76374-x"
+publication_status: "published"
+published_online: "2026-08-06"
 ---
 
 # Surfaceome CRISPR activation screening uncovers ligands regulating tumor sensitivity to NK cell killing
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The physical-barrier interpretation involving bulky glycosylated proteins was not established by the checked abstract.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -31,8 +39,7 @@ Year: 2026
 > **Authors**: Ravi K. Dinesh, Xiaotong Wang, Imran A. Mohammad, Pari Gunasekaran, Kostas Stiklioraitis, Jeremy R. Villafuerte, Anirudh Rao, Rogelio A. Hernandez-Lopez, John B. Sunwoo, Le Cong
 > **Year**: 2026
 > **Journal**: Nature Communications
-> **DOI**: https://doi.org/10.1038/s41467-026-76374-x
-
+> **DOI**: [10.1038/s41467-026-76374-x](https://doi.org/10.1038/s41467-026-76374-x)
 ## Abstract
 
 Natural killer (NK) cell-based immunotherapies are promising for cancer treatment, but the molecular determinants governing tumor susceptibility to NK cytotoxicity remain incompletely understood. In this study, the authors employ [[CRISPRa]] (CRISPR activation) screening with a surfaceome-focused library to identify cancer cell surface regulators of NK killing. Screening in human and murine cancer cell lines identified both established factors (e.g., [[CD43]]) and previously uncharacterized regulators (e.g., [[CD44]], [[PDPN]], [[Siglec-1]]). Validation confirms that these factors alter NK killing susceptibility in vitro and in humanized mouse models. Mechanistically, the authors find that [[CD43]]-mediated resistance functions independently of its interaction with [[Siglec-7]], acting instead as a large, glycosylated physical barrier to NK-target interactions. Furthermore, targeting [[CD43]] on [[NK cells]] or [[CAR T cells]] significantly enhances cytotoxic activity against leukemia. These results establish gain-of-function surfaceome screening as a robust strategy for identifying therapeutic targets in immunotherapy.
@@ -47,13 +54,13 @@ Natural killer (NK) cell-based immunotherapies are promising for cancer treatmen
 ## Methods
 
 ### Sample Preparation
-- Method used: [[CRISPR activation (CRISPRa)]], [[flow cytometry]], [[in vivo cytotoxicity assays]], [[CIBERSORTx]].
+- Method used: [[CRISPRa|CRISPR activation (CRISPRa)]], [[FACS|flow cytometry]], in vivo cytotoxicity assays, [[CIBERSORTx]].
 - Cell type: K562, HGC-27, YAC-1, B16F0, OCI-AML2, MV4-11, HAP1, SUPB15, Nalm6.
 - Number of cells: Typically 10^6 cells per condition/well for screening.
 
 ### Data Analysis
-- Software: [[R]] (packages: [[ggplot2]], [[pheatmap]], [[DESeq2]], [[TCGAbiolinks]], [[dplyr]]), [[MAGeCK]], [[CIBERSORTx]], [[IncuCyte]].
-- Downstream: [[RNA-Seq]] normalization, [[survival analysis]] using Kaplan-Meier method, [[Cox proportional hazards regression]], and correlation analysis with immune infiltration.
+- Software: [[R]] (packages: ggplot2, pheatmap, [[DESeq2]], TCGAbiolinks, dplyr), [[MAGeCK]], [[CIBERSORTx]], IncuCyte.
+- Downstream: [[RNA-Seq]] normalization, survival analysis using Kaplan-Meier method, Cox proportional hazards regression, and correlation analysis with immune infiltration.
 
 ## Results
 
@@ -82,12 +89,12 @@ Natural killer (NK) cell-based immunotherapies are promising for cancer treatmen
 
 ### Future Work
 - Investigate the potential for combining targeting of multiple ligands (e.g., CD43 and CD44) to further enhance immunotherapeutic responses.
-- Further explore the role of [[Siglec-1]]/[[CD169]] in tumor stroma as a potential therapeutic target in solid tumors.
+- Further explore the role of [[Siglec-1]]/[[Siglec-1|CD169]] in tumor stroma as a potential therapeutic target in solid tumors.
 
 ## Personal Notes
 
 ## Related Papers
 
-- [[Sheffer et al. (2021)]] - Genome-scale screens identify factors regulating tumor cell responses to natural killer cells.
-- [[Dufva et al. (2023)]] - Single-cell functional genomics reveals determinants of sensitivity and resistance to natural killer cells in blood cancers.
-- [[Wisnovsky et al. (2021)]] - Genome-wide CRISPR screens reveal a specific ligand for the glycan-binding immune checkpoint receptor Siglec-7.
+- Sheffer et al. (2021) - Genome-scale screens identify factors regulating tumor cell responses to natural killer cells.
+- Dufva et al. (2023) - Single-cell functional genomics reveals determinants of sensitivity and resistance to natural killer cells in blood cancers.
+- Wisnovsky et al. (2021) - Genome-wide CRISPR screens reveal a specific ligand for the glycan-binding immune checkpoint receptor Siglec-7.

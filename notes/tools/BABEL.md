@@ -10,7 +10,7 @@ tags:
   - single-cell
   - translation
 category: tool
-url: https://doi.org/10.1073/pnas.2023070118
+url: https://github.com/wukevin/babel
 date_created: 2026-03-17
 ---
 
@@ -20,24 +20,22 @@ date_created: 2026-03-17
 
 ## Overview
 
-BABEL (Wu KE et al., 2021) trains paired autoencoders on multi-modal single-cell data (e.g., paired RNA + ATAC from 10x Multiome, or RNA + Protein from [[CITE-seq]]) to learn a shared latent space. Once trained, it can translate from one modality to another bidirectionally, enabling prediction of missing modalities in unimodal datasets.
+BABEL (Wu et al., 2021) learns a shared latent representation from paired RNA and chromatin-accessibility measurements. It supports RNA-to-ATAC and ATAC-to-RNA prediction; the paper also demonstrates an extension for predicting surface proteins from RNA. These results do not establish arbitrary bidirectional translation between every pair of modalities.
 
 ## Key Features
 
-- **Bidirectional Translation**: Predicts ATAC from RNA and RNA from ATAC; also supports RNA ↔ Protein
+- **Bidirectional Translation**: Predicts ATAC from RNA and RNA from ATAC; RNA-to-protein prediction is an extension
 - **Paired Autoencoder Architecture**: Two modality-specific encoders/decoders with a shared latent space
 - **Cross-Dataset Generalization**: Trained on one tissue/condition, applied to others
 
 ## Installation
 
-```bash
-pip install babel-sc
-```
+Use the [repository environment and installation instructions](https://github.com/wukevin/babel). The previous `pip install babel-sc` command was not supported by the project instructions.
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Wu KE, Katzen J, Bhatt RS, et al. (2021) *PNAS* 118(15), e2023070118
+> Wu KE, Yost KE, Chang HY, Zou J (2021) *PNAS* 118(15), e2023070118
 > DOI: [10.1073/pnas.2023070118](https://doi.org/10.1073/pnas.2023070118)
 
 ## Links
@@ -49,3 +47,7 @@ pip install babel-sc
 - [[totalVI]] — Probabilistic joint model for CITE-seq data
 - [[sciPENN]] — Unidirectional protein imputation from RNA
 - [[cTP-net]] — Earlier protein prediction model
+
+## Source Check
+
+- Source checked on 2026-10-20: [BABEL documentation or source](https://github.com/wukevin/babel).

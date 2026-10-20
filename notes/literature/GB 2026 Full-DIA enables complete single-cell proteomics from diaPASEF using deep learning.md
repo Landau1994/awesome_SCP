@@ -7,8 +7,7 @@ authors:
   - Chengpin Shen
   - Jesse G. Meyer
   - Xiaohui Wu
-aliases:
-  - Full-DIA
+aliases: []
 tags:
   - literature
   - paper
@@ -19,9 +18,17 @@ category: literature
 date_created: 2024-10-24
 Journal: Genome Biology
 Year: 2026
+doi: "10.1186/s13059-026-04087-x"
+url: "https://doi.org/10.1186/s13059-026-04087-x"
+publication_status: "published"
+published_online: "2026-04-21"
 ---
 
 # Full-DIA enables complete single-cell proteomics from diaPASEF using deep learning
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -30,8 +37,7 @@ Year: 2026
 > **Authors**: Jian Song, Amanda Momenzadeh, Hebin Liu, Chengpin Shen, Jesse G. Meyer & Xiaohui Wu
 > **Year**: 2026
 > **Journal**: Genome Biology
-> **DOI**: 10.1186/s13059-026-04087-x
-
+> **DOI**: [10.1186/s13059-026-04087-x](https://doi.org/10.1186/s13059-026-04087-x)
 ## Abstract
 
 diaPASEF improves ion utilization and sensitivity by synchronizing quadrupole isolation with trapped ion mobility separation, making it suitable for single-cell proteomics. The authors present Full-DIA, a deep learning–driven software that enhances proteome coverage, quantitative accuracy, and analysis speed over DIA-NN for single-cell diaPASEF data. Notably, Full-DIA generates a missing-value-free protein matrix under stringent global FDR control, enabling downstream analyses without data gaps. Applied to LPS-treated and cell-cycle datasets, this matrix yields pathway enrichment results with fewer off-target and more biologically relevant pathways, highlighting the potential of deep learning for four-dimensional diaPASEF analysis.
@@ -52,7 +58,7 @@ diaPASEF improves ion utilization and sensitivity by synchronizing quadrupole is
 
 ### Data Analysis
 - Software: [[Full-DIA]], [[DIA-NN]] (v2.2.0), [[AlphaTims]]
-- Downstream: [[limma]] for differential expression, [[SCnorm]] for normalization, [[gseapy]] for Reactome pathway enrichment.
+- Downstream: [[limma]] for differential expression, [[SCnorm]] for normalization, gseapy for Reactome pathway enrichment.
 
 ## Results
 

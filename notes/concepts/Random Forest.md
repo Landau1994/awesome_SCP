@@ -2,6 +2,8 @@
 title: Random Forest
 tags:
 date_created: 2026-03-25
+url: https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees
+category: concept
 ---
 
 # Random Forest
@@ -23,3 +25,7 @@ Random Forest is an ensemble learning method that combines many decision trees f
 
 - [[XGBoost]]
 - [[SHAP]]
+
+## Sources
+
+- [Authoritative reference for Random Forest](https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees)

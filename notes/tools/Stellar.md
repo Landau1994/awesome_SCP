@@ -4,9 +4,9 @@ aliases:
   - Stellar
 tags:
   - tools
-  - software
+  - equipment
 category: tool
-url: 
+url: https://docs.thermofisher.com/v/u/Stellar-Mass-Spectrometer-Operating-Manual
 date_created: 2026-03-25
 ---
 
@@ -16,58 +16,41 @@ date_created: 2026-03-25
 
 ## Overview
 
-Stellar is used in targeted proteomics contexts to validate biomarker panels in independent cohorts.
+Stellar is a Thermo Scientific quadrupole/dual-pressure linear-ion-trap mass spectrometer designed for rapid targeted MSn quantitation. It is used in biomarker-verification workflows; panel performance must be assessed in the study's own samples.
 
 ## Key Features
 
 - **Targeted Assay Focus**: Supports validation-oriented workflows.
 - **Translational Utility**: Applied in clinical biomarker verification.
 - **High-Confidence Quantification**: Suitable for panel-based analyses.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# Vendor-specific deployment
-```
-
-## Usage
-
-```r
-# Example code
-# Typically configured through instrument software
-```
+- **System setup**: Instrument/consumable compatibility and control software depend on the vendor configuration.
 
 ## Input/Output
 
 **Input:**
-- Target peptide panels
-- Processed LC-MS samples
+
+- LC-separated target analytes and a targeted acquisition method
 
 **Output:**
-- Targeted quantification tables
-- Validation and QC summaries
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| target_panel | user-defined | Monitored peptides/proteins |
-| cycle_time | user-defined | Acquisition timing strategy |
+- Acquired MS/MS or MSn data; quantitative tables and QC summaries are produced by downstream processing
 
 ## Key Publications
 
-> [!cite] Primary Reference
+> [!cite] Related Study Context
 > See Cell 2026 neurodegeneration literature note.
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Source availability: See the official source below; no separate public repository was confirmed.
+- Documentation/source: https://docs.thermofisher.com/v/u/Stellar-Mass-Spectrometer-Operating-Manual
 
 ## Related Tools
 
 - [[Skyline]]
 - [[Orbitrap Astral]]
 - [[DIA-NN]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [Stellar documentation or source](https://docs.thermofisher.com/v/u/Stellar-Mass-Spectrometer-Operating-Manual).

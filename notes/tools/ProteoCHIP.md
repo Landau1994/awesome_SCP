@@ -5,9 +5,9 @@ aliases:
   - ProteoCHIP
 tags:
   - tools
-  - software
+  - equipment
 category: tool
-url: 
+url: https://www.cellenion.com/products/proteochip/evo-96/
 date_created: 2026-01-18
 ---
 
@@ -26,47 +26,33 @@ ProteoCHIP EVO is used to improve sample recovery and handling consistency in si
 - **Compatibility**: Integrates with automated dispensing setups.
 - **Throughput Support**: Enables standardized multiwell processing.
 
-## Installation
-
-```bash
-# Hardware/consumable setup per vendor instructions
-```
-
-## Usage
-
-```r
-# Used as part of experimental sample preparation workflow
-```
-
 ## Input/Output
 
 **Input:**
-- Raw files (.raw, .d, .mzML)
-- Single-cell/low-input peptide samples
+
+- Single cells, preparation reagents and compatible chip/dispensing equipment
 
 **Output:**
-- Protein/peptide matrices
-- Quality metrics
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| plate_format | protocol-dependent | Well format and capacity |
-| handling_volume | protocol-dependent | Processing volume range |
+- Prepared peptide samples for downstream LC-MS, including Chip-Tip transfer to Evotips where specified
 
 ## Key Publications
 
-> [!cite] Primary Reference
-> See recent SCP workflow papers using ProteoCHIP-style preparation.
+> [!cite] Workflow References
+> [proteoCHIP EVO 96 automated workflow](https://www.nature.com/articles/s41467-024-49651-w) (2024).
+> [Chip-Tip single-cell workflow](https://www.nature.com/articles/s41592-024-02558-2), Ye et al. (2025).
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Source availability: See the official source below; no separate public repository was confirmed.
+- Documentation/source: https://www.cellenion.com/products/proteochip/evo-96/
 
 ## Related Tools
 
 - [[MaxQuant]]
 - [[DIA-NN]]
 - [[scp Package]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [ProteoCHIP documentation or source](https://www.cellenion.com/products/proteochip/evo-96/).

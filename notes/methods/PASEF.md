@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://pubmed.ncbi.nlm.nih.gov/30385480/
 date_created: 2026-03-25
 ---
 
@@ -31,9 +31,7 @@ Ion accumulation → Mobility separation → Serial MS/MS fragmentation → Comp
 
 ## Performance
 
-- **Proteins per cell**: Improved compared with conventional modes in many settings
-- **Throughput**: High
-- **Data completeness**: Improved with optimized workflows
+The original work demonstrated gains in sequencing efficiency with mobility-synchronized precursor scheduling. Protein depth and completeness depend on sample, chromatography, accumulation settings and analysis; they are not fixed properties of the PASEF name.
 
 ## Advantages
 
@@ -50,10 +48,15 @@ Ion accumulation → Mobility separation → Serial MS/MS fragmentation → Comp
 ## Key Publications
 
 > [!cite] Primary Reference
-> Meier et al. (2018) *Journal of Proteome Research*
+> Meier F, Brunner AD, Koch S, et al. (2018). Online Parallel Accumulation–Serial Fragmentation (PASEF) with a Novel Trapped Ion Mobility Mass Spectrometer. *Molecular & Cellular Proteomics* 17, 2534–2545.
+> [Primary publication record](https://pubmed.ncbi.nlm.nih.gov/30385480/)
 
 ## Related Methods
 
 - [[diaPASEF]]
 - [[diagonal-PASEF]]
 - [[DIA]]
+
+## Sources
+
+- [Reference for PASEF](https://pubmed.ncbi.nlm.nih.gov/30385480/)

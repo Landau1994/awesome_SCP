@@ -37,9 +37,18 @@ category: literature
 date_created: 2025-01-01
 Journal: Cell
 Year: 2025
+doi: "10.1016/j.cell.2025.11.006"
+url: "https://doi.org/10.1016/j.cell.2025.11.006"
+publication_status: "published"
+published_print: "2025-12"
+published_online: "2025-12-03"
 ---
 
 # Fertilization triggers early proteomic symmetry breaking in mammalian embryos
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The detailed 8–16-cell timing and epiblast-contribution statements remain to be checked against the full text.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -48,11 +57,10 @@ Year: 2025
 > **Authors**: Lisa K. Iwamoto-Stohl, Aleksandra A. Petelski, Baiyi Quan, et al.
 > **Year**: 2025
 > **Journal**: Cell
-> **DOI**: 10.1016/j.cell.2025.11.006
-
+> **DOI**: [10.1016/j.cell.2025.11.006](https://doi.org/10.1016/j.cell.2025.11.006)
 ## Abstract
 
-This study challenges the long-held view that mammalian blastomeres are developmentally equivalent until the 8-to-16-cell stage. Using multiplexed and label-free single-cell proteomics, the authors identify over 300 asymmetrically abundant proteins in mouse 2-cell embryos, classifying blastomeres into two distinct proteomic states: "alpha" and "beta." These asymmetries are detectable in the zygote, intensify by the 4-cell stage, and are triggered by fertilization, correlating with the sperm entry site. Functional analysis reveals that beta blastomeres possess greater developmental potential, contributing more significantly to the epiblast. This proteomic pre-patterning is conserved in human embryos, suggesting a fundamental mechanism of early symmetry breaking and lineage bias in mammalian development.
+This study challenges the long-held view that mammalian blastomeres are developmentally equivalent until the 8-to-16-cell stage. Using multiplexed and label-free single-cell proteomics, the authors identify over 300 asymmetrically abundant proteins in mouse 2-cell embryos, classifying blastomeres into two distinct proteomic states: "alpha" and "beta." These asymmetries are detectable in the zygote, intensify by the 4-cell stage, and are triggered by fertilization, correlating with the sperm entry site. Functional analysis reveals that beta blastomeres possess greater developmental potential, contributing more significantly to the epiblast. Similar clustering and enrichment patterns in human 2-cell embryos suggest that this early proteomic asymmetry may be conserved, with implications for early symmetry breaking and lineage bias in mammalian development.
 
 ## Key Points
 

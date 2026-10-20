@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://github.com/MannLabs/alphapeptdeep
 date_created: 2026-03-25
 ---
 
@@ -23,51 +23,42 @@ AlphaPeptDeep provides model components for predicting fragmentation patterns, r
 - **Deep Learning Models**: Predicts MS-relevant peptide properties.
 - **Modular Design**: Supports extensible model development.
 - **Workflow Utility**: Useful for spectral library generation and rescoring.
-- **Cross-Platform**: Windows, Linux, macOS
+- **Environment**: Follow the official release requirements; operating-system support depends on the package and its dependencies.
 
 ## Installation
 
-```bash
-# Installation commands
-# pip install alphapeptdeep
-```
-
-## Usage
-
-```r
-# Example code
-# Primarily used via Python APIs/CLI
-```
+The Python distribution is named `peptdeep`. Follow the [official repository installation instructions](https://github.com/MannLabs/alphapeptdeep) for the selected release and its dependencies.
 
 ## Input/Output
 
 **Input:**
+
 - Peptide sequences / modifications
 - Training or calibration datasets
 
 **Output:**
+
 - Predicted spectra / RT / CCS
 - Model-assisted identification support files
-
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| model_type | user-defined | Prediction task/model selection |
-| fine_tune | true/false | Whether to adapt to local data |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> See NC 2025 AlphaPeptDeep literature note.
+> Zeng et al. (2022). AlphaPeptDeep: a modular deep learning framework to predict peptide properties for proteomics. *Nature Communications* 13, 7238.
+> DOI: [10.1038/s41467-022-34904-3](https://doi.org/10.1038/s41467-022-34904-3)
 
 ## Links
 
-- GitHub:
-- Documentation:
+- GitHub: https://github.com/MannLabs/alphapeptdeep
+- Documentation/source: https://github.com/MannLabs/alphapeptdeep
 
 ## Related Tools
 
 - [[AlphaPept]]
 - [[DIA-NN]]
 - [[PyTorch]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [AlphaPeptDeep documentation or source](https://github.com/MannLabs/alphapeptdeep).
+- [Original AlphaPeptDeep article](https://www.nature.com/articles/s41467-022-34904-3).

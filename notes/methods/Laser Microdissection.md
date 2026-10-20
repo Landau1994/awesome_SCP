@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://www.nature.com/articles/s41587-022-01302-5
 date_created: 2026-03-25
 ---
 
@@ -31,9 +31,7 @@ Tissue staining/imaging → ROI definition → Laser capture/dissection → Samp
 
 ## Performance
 
-- **Proteins per cell**: Depends on captured material and workflow sensitivity
-- **Throughput**: Moderate
-- **Data completeness**: Improved by careful ROI selection
+Proteomic depth depends on captured cell number or tissue area, section thickness, preparation and MS sensitivity. Selecting a region changes the biological sampling unit; it does not by itself ensure more complete protein detection.
 
 ## Advantages
 
@@ -49,11 +47,14 @@ Tissue staining/imaging → ROI definition → Laser capture/dissection → Samp
 
 ## Key Publications
 
-> [!cite] Primary Reference
-> See DVP/scDVP and spatial liver proteomics studies.
+Mund et al. (2022). [Deep Visual Proteomics defines single-cell identity and heterogeneity](https://www.nature.com/articles/s41587-022-01302-5), an application integrating microdissection with proteomics.
 
 ## Related Methods
 
 - [[Deep Visual Proteomics]]
 - [[scDVP]]
 - [[Spatial proteomics]]
+
+## Sources
+
+- [Reference for Laser Microdissection](https://www.nature.com/articles/s41587-022-01302-5)

@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://www.nature.com/articles/nmeth.2834
 date_created: 2026-03-25
 ---
 
@@ -20,3 +20,7 @@ SDB-RPS is a mixed-mode sorbent chemistry commonly used in peptide cleanup/desal
 - [[StageTips]]
 - [[LC-MS]]
 - [[single-cell proteomics]]
+
+## Sources
+
+- [Reference for SDB-RPS](https://www.nature.com/articles/nmeth.2834)

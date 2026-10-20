@@ -6,7 +6,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC24710/
 date_created: 2026-03-25
 ---
 
@@ -33,3 +33,7 @@ Probe labeling → Enrichment/detection → LC-MS analysis → Activity-centric 
 - [[single-cell proteomics]]
 - [[DIA]]
 - [[LC-MS-MS|LC-MS/MS]]
+
+## Sources
+
+- [Reference for Activity-based protein profiling](https://pmc.ncbi.nlm.nih.gov/articles/PMC24710/)

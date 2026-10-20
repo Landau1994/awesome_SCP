@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://doi.org/10.1016/j.cell.2025.03.002
 date_created: 2026-01-18
 ---
 
@@ -31,9 +31,9 @@ Isotope pulse labeling -> Single-cell isolation -> LC-MS quantification of light
 
 ## Performance
 
-- **Proteins per cell**: Typically lower than static SCP due to kinetic quantification constraints.
-- **Throughput**: Moderate.
-- **Data completeness**: Depends on labeling efficiency and peptide detectability.
+- The 2025 study demonstrated detection of two SILAC labels in up to approximately 4,000 proteins in individual HeLa cells; this is not the average in every benchmark.
+- In the initial single-HeLa-cell experiment, the paper reported averages of 3,041 quantified proteins and 2,781 proteins with both labels quantified.
+- A single-cell endpoint gives a relative turnover readout from light/heavy ratios; it does not directly provide a longitudinal half-life for that same cell.
 
 ## Advantages
 
@@ -50,10 +50,15 @@ Isotope pulse labeling -> Single-cell isolation -> LC-MS quantification of light
 ## Key Publications
 
 > [!cite] Primary Reference
-> Foundational pSILAC and single-cell turnover studies (see linked literature notes).
+> Sabatier P, Ye Z, et al. (2025). Global analysis of protein turnover dynamics in single cells. *Cell* 188, 2433–2450.e21.
+> [10.1016/j.cell.2025.03.002](https://doi.org/10.1016/j.cell.2025.03.002)
 
 ## Related Methods
 
 - [[SCoPE2]]
 - [[plexDIA]]
 - [[nPOP]]
+
+## Sources
+
+- [Reference for SC-pSILAC](https://doi.org/10.1016/j.cell.2025.03.002)

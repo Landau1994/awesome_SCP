@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://www.nature.com/articles/s41586-018-0414-6
 date_created: 2026-03-25
 ---
 
@@ -15,11 +15,11 @@ date_created: 2026-03-25
 
 ## Overview
 
-RNA Velocity estimates directional trajectories in single-cell data and serves as a conceptual basis for protein-velocity approaches.
+RNA Velocity estimates local RNA expression-change rates from spliced and unspliced RNA. Projected directions can inform trajectory hypotheses and motivate protein-velocity approaches, but do not directly measure time or establish lineage.
 
 ## Key Features
 
-- **Directionality Inference**: Predicts near-future cell transitions.
+- **Directionality Inference**: Estimates local expression-change direction under a kinetic model; this is not a deterministic prediction of cell transitions.
 - **Dynamic Interpretation**: Adds temporal context to static embeddings.
 - **Trajectory Analysis Utility**: Complements pseudotime approaches.
 
@@ -31,9 +31,7 @@ Quantify spliced/unspliced RNA → Fit kinetic model → Compute velocity vector
 
 ## Performance
 
-- **Proteins per cell**: Not directly applicable
-- **Throughput**: High (computational)
-- **Data completeness**: Depends on RNA quantification quality
+Velocity vectors are model-based estimates from spliced/unspliced RNA measurements. Reliability depends on kinetic assumptions, gene selection and preprocessing; an embedding arrow is not a directly observed cell fate.
 
 ## Advantages
 
@@ -57,3 +55,7 @@ Quantify spliced/unspliced RNA → Fit kinetic model → Compute velocity vector
 - [[scProtVelo]]
 - [[cellrank]]
 - [[Scanpy]]
+
+## Sources
+
+- [Reference for RNA Velocity](https://www.nature.com/articles/s41586-018-0414-6)

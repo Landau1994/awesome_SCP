@@ -9,7 +9,7 @@ tags:
   - architecture
   - attention
 category: concept
-url: https://doi.org/10.48550/arXiv.1706.03762
+url: https://arxiv.org/abs/1706.03762
 date_created: 2026-03-17
 ---
 
@@ -53,3 +53,7 @@ The Transformer was introduced by Vaswani et al. (2017) in "Attention Is All You
 - [[FAVOR+]] — Linear attention approximation for efficient Transformers
 - [[Performer]] — Transformer variant using FAVOR+ attention
 - [[Transfer Learning]] — Common training paradigm for Transformer models
+
+## Source Check
+
+- Source checked on 2026-10-20: [Transformer documentation or source](https://arxiv.org/abs/1706.03762).

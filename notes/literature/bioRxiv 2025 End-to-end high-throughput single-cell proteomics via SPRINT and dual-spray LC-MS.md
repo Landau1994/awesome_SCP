@@ -9,10 +9,7 @@ authors:
   - Jingwen Deng
   - Haoran Zhang
   - Zilu Ye
-aliases:
-   - <article>
-   - <paper>
-   - <literature>
+aliases: ["bioRxiv 2025 End-to-end high-throughput single-cell proteomics via SPRINT and dual-spray LC-MS1"]
 tags:
   - literature
   - paper
@@ -22,9 +19,17 @@ category: literature
 date_created: 2024-05-22
 Journal: bioRxiv (Preprint)
 Year: 2025
+doi: "10.1101/2025.11.03.686420"
+url: "https://doi.org/10.1101/2025.11.03.686420"
+publication_status: "preprint"
+posted: "2025-11-05"
 ---
 
 # End-to-end high-throughput single-cell proteomics via SPRINT and dual-spray LC-MS
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. Performance multipliers and priority claims are preprint-author reports, not independently reproduced results.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -33,8 +38,7 @@ Year: 2025
 > **Authors**: Zhen Liu, Wenbo Dong, Lei Gu, Ruicheng Ge, Xinlei Zeng, Jingwen Deng, Haoran Zhang, Zilu Ye
 > **Year**: 2025
 > **Journal**: bioRxiv
-> **DOI**: 10.1101/2025.11.03.686420
-
+> **DOI**: [10.1101/2025.11.03.686420](https://doi.org/10.1101/2025.11.03.686420)
 ## Abstract
 
 Single-cell proteomics (SCP) enables direct measurement of protein heterogeneity but remains constrained by throughput and limited applicability to primary tissues. Here, the authors present an integrated workflow to address these challenges. They engineered **SPRINT**, an AI-powered bioprinting platform that prepares more than 10,000 single cells per day (tenfold faster than existing systems) while identifying over 6,000 proteins from individual HeLa cells. To expand analytical capacity, they designed a **dual-spray tandem direct injection (TDI) LC system** that parallelizes non-analytical steps, doubling MS utilization efficiency and enabling 168 label-free SCP runs per day. Combined with optimized tissue dissociation protocols, this workflow enabled the creation of the first mouse tissue-derived SCP atlas, profiling >1,000 single cells across six organs.

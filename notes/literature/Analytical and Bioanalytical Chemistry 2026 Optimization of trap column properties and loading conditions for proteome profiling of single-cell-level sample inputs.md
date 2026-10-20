@@ -8,6 +8,7 @@ authors:
   - H.-J. Lavender Lin
   - Ryan T. Kelly
 aliases:
+  - "Analytical and bioanlytical chemistry 2026 Optimization of trap column properties and loading conditions for proteome profiling of single-cell-level sample inputs"
   - trap-colum-optimize
 tags:
   - literature
@@ -16,9 +17,18 @@ category: literature
 date_created: 2026-03-25
 Journal: Analytical and Bioanalytical Chemistry
 Year: 2026
+doi: "10.1007/s00216-026-06440-2"
+url: "https://doi.org/10.1007/s00216-026-06440-2"
+publication_status: "published"
+published_online: "2026-03-19"
+published_print: "2026-08"
 ---
 
 # Optimization of trap column properties and loading conditions for proteome profiling of single-cell-level sample inputs
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -27,8 +37,7 @@ Year: 2026
 > **Authors**: Siqi Huang, Thy Truong, Chao Wang, Xiaofeng Xie, H.-J. Lavender Lin, Ryan T. Kelly
 > **Year**: 2026
 > **Journal**: Analytical and Bioanalytical Chemistry
-> **DOI**: 10.1007/s00216-026-06440-2
-
+> **DOI**: [10.1007/s00216-026-06440-2](https://doi.org/10.1007/s00216-026-06440-2)
 ## Abstract
 
 Nanoflow liquid chromatography-mass spectrometry has become indispensable for profiling limited and heterogeneous biological samples, yet overall analytical sensitivity, robustness, and throughput often remain constrained by the mechanisms used to transfer samples onto the analytical column. Although trap-and-elute workflows are widely deployed to improve loading efficiency, sample cleanup, and column longevity, a systematic evaluation of how trap column properties and loading parameters influence proteome coverage, particularly under low-input and high-throughput conditions, is needed. **Here, we assess trap column inner diameter, particle size, packing material, loading flow rate, and sample concentration using both bulk-prepared digests and single cells. We demonstrate that incorporating a trap column markedly mitigates performance losses associated with large-volume loading with minimal impact on peak width, peak area, or identification depth**. Notably, variations in trap column geometry and loading speed exert only minimal influence on chromatographic quality or proteome depth, indicating that trap-and-elute workflows afford considerable flexibility in the LC system design. These findings establish practical guidelines for optimizing trap column configurations and highlight the suitability of trap-and-elute strategies for high-sensitivity, high-throughput proteomics.

@@ -1,0 +1,3055 @@
+[
+  {
+    "path": "notes/tools/Agilent Bravo.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Vendor documentation: automated liquid handling and sample-preparation role; instrument setup rather than a cross-platform analysis package.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://www.agilent.com/en/product/automated-liquid-handling/automated-liquid-handling-platforms/bravo-automated-liquid-handling-platform",
+        "note": "Vendor documentation: automated liquid handling and sample-preparation role; instrument setup rather than a cross-platform analysis package."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/AlphaBase.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official README: shared data structures and utility functions for the AlphaPept ecosystem.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/MannLabs/alphabase",
+        "note": "Official README: shared data structures and utility functions for the AlphaPept ecosystem."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/AlphaDIA.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official README: modular DIA search and quantification workflow.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/MannLabs/alphadia",
+        "note": "Official README: modular DIA search and quantification workflow."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/AlphaFold 3.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official inference repository: structure prediction of biomolecular complexes; model/runtime and access requirements are version specific.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/google-deepmind/alphafold3",
+        "note": "Official inference repository: structure prediction of biomolecular complexes; model/runtime and access requirements are version specific."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/AlphaFold.md",
+    "date": "2026-10-20",
+    "status": "compatibility",
+    "checked": "Official AlphaFold repository identity; distinction from AlphaFold 3.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/google-deepmind/alphafold",
+        "note": "Official AlphaFold repository identity; distinction from AlphaFold 3."
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/AlphaPept.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository: Python proteomics processing/identification/quantification framework and 2024 publication.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Corrected publication year, journal and DOI.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/MannLabs/alphapept",
+        "note": "Official repository: Python proteomics processing/identification/quantification framework and 2024 publication."
+      },
+      {
+        "url": "https://www.nature.com/articles/s41467-024-46485-4",
+        "note": "Original AlphaPept article"
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/AlphaPeptDeep.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository and original paper: peptide MS2, retention-time and CCS prediction, transfer learning; peptdeep package identity and 2022 citation.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Corrected AlphaPeptDeep original article.",
+      "Corrected Python distribution identity.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/MannLabs/alphapeptdeep",
+        "note": "Official repository and original paper: peptide MS2, retention-time and CCS prediction, transfer learning; peptdeep package identity and 2022 citation."
+      },
+      {
+        "url": "https://www.nature.com/articles/s41467-022-34904-3",
+        "note": "Original AlphaPeptDeep article"
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/AlphaTims.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official README: access and visualization of Bruker timsTOF raw data.",
+    "changes": [],
+    "sources": [
+      {
+        "url": "https://github.com/MannLabs/alphatims",
+        "note": "Official README: access and visualization of Bruker timsTOF raw data."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Astral.md",
+    "date": "2026-10-20",
+    "status": "compatibility",
+    "checked": "Compatibility page retained; canonical instrument-family/source destination checked.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source."
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41587-023-02099-7",
+        "note": "Canonical family or model reference; compatibility-page destination."
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/AutoQC Loader.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Original pipeline paper: automated Skyline import and upload to Panorama for longitudinal instrument QC.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Distinguished raw-file loading from Panorama dashboard interpretation.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5406750/",
+        "note": "Original pipeline paper: automated Skyline import and upload to Panorama for longitudinal instrument QC."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/BABEL.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository: paired RNA/ATAC modality translation and RNA-to-protein extension; original author list; repository installation.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Restricted bidirectional-translation claim to supported modalities.",
+      "Corrected original author list.",
+      "Removed unsupported pip distribution."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/wukevin/babel",
+        "note": "Official repository: paired RNA/ATAC modality translation and RNA-to-protein extension; original author list; repository installation."
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/BIAS.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Deep Visual Proteomics original paper: Biology Image Analysis Software for image segmentation/classification and selection in spatial proteomics.",
+    "changes": [
+      "Added source URL.",
+      "Expanded vague identity using primary paper."
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41587-022-01302-5",
+        "note": "Deep Visual Proteomics original paper: Biology Image Analysis Software for image segmentation/classification and selection in spatial proteomics."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Bioconductor.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official website: R/Bioconductor life-science analysis software and versioned release system.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://www.bioconductor.org/",
+        "note": "Official website: R/Bioconductor life-science analysis software and versioned release system."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Bruker timsTOF Ultra 2.md",
+    "date": "2026-10-20",
+    "status": "compatibility",
+    "checked": "Compatibility page retained; canonical instrument-family/source destination checked.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source."
+    ],
+    "sources": [
+      {
+        "url": "https://www.bruker.com/en/products-and-solutions/mass-spectrometry/timstof.html",
+        "note": "Canonical family or model reference; compatibility-page destination."
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/CASPA.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official README: context-aware SCP matrix processing with a Snakemake workflow and LLM-assisted decisions; input result tables.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Clarified result-table input and preprint status.",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/vonkriegsheim/CASPA",
+        "note": "Official README: context-aware SCP matrix processing with a Snakemake workflow and LLM-assisted decisions; input result tables."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/cellenONE.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official vendor product description: image-guided single-cell isolation and dispensing.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Corrected the actual input/output domain.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.scienion.com/products/single-cell-dispensers/",
+        "note": "Official vendor product description: image-guided single-cell isolation and dispensing."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Cellpose.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official repository: general-purpose image-based cell segmentation.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/MouseLand/cellpose",
+        "note": "Official repository: general-purpose image-based cell segmentation."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/CellRanger.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "10x documentation: supported assay pipelines and sequencing-read processing.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://www.10xgenomics.com/support/software/cell-ranger/latest",
+        "note": "10x documentation: supported assay pipelines and sequencing-read processing."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/cellrank.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official documentation: probabilistic cell fate analysis with transition models; not an absolute time measurement. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "Completed the confirmed original publication citation and DOI.",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://cellrank.readthedocs.io/en/stable/",
+        "note": "Official documentation: probabilistic cell fate analysis with transition models; not an absolute time measurement."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1038/s41592-021-01346-6",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Chimerys.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Vendor description: AI-assisted peptide identification and deconvolution of co-isolated peptide spectra.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://www.msaid.de/chimerys",
+        "note": "Vendor description: AI-assisted peptide identification and deconvolution of co-isolated peptide spectra."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/CIBERSORTx.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official service description: expression deconvolution and reference-based composition estimation.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://cibersortx.stanford.edu/",
+        "note": "Official service description: expression deconvolution and reference-based composition estimation."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/ClueGO.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official Cytoscape app description: functional enrichment and functionally grouped annotation networks.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://apps.cytoscape.org/apps/cluego",
+        "note": "Official Cytoscape app description: functional enrichment and functionally grouped annotation networks."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/ClusterProfiler.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Bioconductor package description: gene-set enrichment/comparison; lower-case clusterProfiler R package and gene-level input. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Corrected R package name/case.",
+      "Corrected the actual input/output domain.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Completed the confirmed original publication citation and DOI.",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://bioconductor.org/packages/clusterProfiler/",
+        "note": "Bioconductor package description: gene-set enrichment/comparison; lower-case clusterProfiler R package and gene-level input."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1089/omi.2011.0118",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/ComplexHeatmap.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Bioconductor package description: annotated heatmap construction and visualization.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://bioconductor.org/packages/ComplexHeatmap/",
+        "note": "Bioconductor package description: annotated heatmap construction and visualization."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/cTP-net.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository: single-cell Transcriptome to Protein prediction; paired reference surface-protein imputation; R notebooks and corrected Nature Communications 2020 citation.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Corrected name expansion.",
+      "Replaced guessed pip installation with documented interfaces.",
+      "Removed unsupported load_model/predict example.",
+      "Corrected mismatched cTP-net DOI/journal/pages.",
+      "Removed unsupported successor relationship."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/zhouzilu/cTPnet",
+        "note": "Official repository: single-cell Transcriptome to Protein prediction; paired reference surface-protein imputation; R notebooks and corrected Nature Communications 2020 citation."
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-020-14391-0",
+        "note": "Original cTP-net paper"
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Cytoscape.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official Cytoscape description: network visualization, attribute integration and apps.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://cytoscape.org/what_is_cytoscape.html",
+        "note": "Official Cytoscape description: network visualization, attribute integration and apps."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/DAPAR.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Bioconductor package description: downstream quantitative proteomics processing and statistical analysis from quantified tables.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Corrected the actual input/output domain.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings."
+    ],
+    "sources": [
+      {
+        "url": "https://bioconductor.org/packages/DAPAR/",
+        "note": "Bioconductor package description: downstream quantitative proteomics processing and statistical analysis from quantified tables."
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/DART-ID.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official repository and linked paper: retention-time alignment and peptide identification confidence updates; corrected acronym.",
+    "changes": [
+      "Corrected false acronym expansion."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/SlavovLab/DART-ID",
+        "note": "Official repository and linked paper: retention-time alignment and peptide identification confidence updates; corrected acronym."
+      },
+      {
+        "url": "https://doi.org/10.1371/journal.pcbi.1007082",
+        "note": "Original DART-ID paper"
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/DeepLC.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository: retention-time prediction, including modified peptides, and calibration; original 2021 publication. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "Completed the confirmed original publication citation and DOI."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/compomics/DeepLC",
+        "note": "Official repository: retention-time prediction, including modified peptides, and calibration; original 2021 publication."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1038/s41592-021-01301-5",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/DeepLoc.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "DTU service description: sequence-based protein subcellular localization prediction.",
+    "changes": [
+      "Added source URL.",
+      "Corrected sequence-versus-image task identity."
+    ],
+    "sources": [
+      {
+        "url": "https://services.healthtech.dtu.dk/services/DeepLoc-2.1/",
+        "note": "DTU service description: sequence-based protein subcellular localization prediction."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/DESeq2.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Bioconductor package definition and count-data/statistical-model scope.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://bioconductor.org/packages/DESeq2/",
+        "note": "Bioconductor package definition and count-data/statistical-model scope."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/DIA-NN.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository: DIA identification/quantification and library-free mode; Windows/Linux distributions.",
+    "changes": [
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unverified CLI flags/defaults.",
+      "Corrected native platform claim.",
+      "Replaced unverified algorithmic sequence with documented scope.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/vdemichev/DiaNN",
+        "note": "Official repository: DIA identification/quantification and library-free mode; Windows/Linux distributions."
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/DIA-Umpire.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository: DIA signal extraction/deconvolution and pseudo-MS/MS generation for database search.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Replaced fabricated citation placeholder with identified source.",
+      "Corrected raw/mzML input claim to documented mzXML workflow.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/Nesvilab/DIA-Umpire",
+        "note": "Official repository: DIA signal extraction/deconvolution and pseudo-MS/MS generation for database search."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/DiMSum.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official README: processing and error-aware fitness inference for deep mutational scanning data.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/lehner-lab/DiMSum",
+        "note": "Official README: processing and error-aware fitness inference for deep mutational scanning data."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/directDIA+.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Vendor documentation: direct DIA analysis mode in Spectronaut.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://biognosys.com/software/spectronaut/",
+        "note": "Vendor documentation: direct DIA analysis mode in Spectronaut."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/DirectLFQ.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official README: protein quantification using aligned peptide intensity traces.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/MannLabs/directlfq",
+        "note": "Official README: protein quantification using aligned peptide intensity traces."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/DO-MS.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository: modular R Shiny app; supported result-file modules and documented launch procedure; 2019 DOI verified in PubMed.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Corrected app deployment and removed unsupported R package call."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/SlavovLab/DO-MS",
+        "note": "Official repository: modular R Shiny app; supported result-file modules and documented launch procedure; 2019 DOI verified in PubMed."
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Enrichplot.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Bioconductor description: visualization of enrichment result objects; lower-case enrichplot package.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Corrected R package name/case.",
+      "Corrected the actual input/output domain.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings."
+    ],
+    "sources": [
+      {
+        "url": "https://bioconductor.org/packages/enrichplot/",
+        "note": "Bioconductor description: visualization of enrichment result objects; lower-case enrichplot package."
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/ESM1v.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official ESM repository: protein language models and ESM-1v variant-effect scoring.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/facebookresearch/esm",
+        "note": "Official ESM repository: protein language models and ESM-1v variant-effect scoring."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Evosep One.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official vendor description: LC sample separation and delivery system.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://www.evosep.com/evosep-one/",
+        "note": "Official vendor description: LC sample separation and delivery system."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Evotips.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official vendor description: disposable peptide trapping/cleanup consumables for Evosep workflows.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Corrected the actual input/output domain.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://www.evosep.com/evotip/",
+        "note": "Official vendor description: disposable peptide trapping/cleanup consumables for Evosep workflows."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/FAIMS Pro Duo.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Vendor catalog and manual: differential-ion-mobility interface with compensation-voltage-based ion transmission.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Corrected the actual input/output domain.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://www.thermofisher.com/order/catalog/product/FMS03-10001",
+        "note": "Vendor catalog and manual: differential-ion-mobility interface with compensation-voltage-based ion transmission."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/FAVOR+.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Original Performer paper: positive orthogonal random-feature attention approximation; linear scaling holds at fixed feature count.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Qualified unbiasedness and fixed-dimension complexity claims."
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2009.14794",
+        "note": "Original Performer paper: positive orthogonal random-feature attention approximation; linear scaling holds at fixed feature count."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Fiji.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official ImageJ site: distribution bundling ImageJ with image-analysis plugins. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "Completed the confirmed original publication citation and DOI."
+    ],
+    "sources": [
+      {
+        "url": "https://imagej.net/software/fiji/",
+        "note": "Official ImageJ site: distribution bundling ImageJ with image-analysis plugins."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1038/nmeth.2019",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Foldseek.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official repository: protein structure similarity search.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/steineggerlab/foldseek",
+        "note": "Official repository: protein structure similarity search."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/FragPipe.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official documentation: MSFragger-centered proteomics workflow; supported Windows/Linux environment.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Replaced fabricated citation placeholder with identified source.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://fragpipe.nesvilab.org/",
+        "note": "Official documentation: MSFragger-centered proteomics workflow; supported Windows/Linux environment."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Full-DIA.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository: deep-learning diaPASEF processing; completeness concerns a selected matrix under FDR control.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Qualified complete-proteome claim."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/xomicsdatascience/full_dia",
+        "note": "Official repository: deep-learning diaPASEF processing; completeness concerns a selected matrix under FDR control."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/GeneMANIA.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official service: gene-function prediction and gene association networks.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://genemania.org/",
+        "note": "Official service: gene-function prediction and gene association networks."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/GLUE.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository: graph-linked integration of unpaired single-cell modalities with a guidance graph; principal RNA/ATAC setting. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Qualified RNA/protein integration scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "Completed the confirmed original publication citation and DOI."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/gao-lab/GLUE",
+        "note": "Official repository: graph-linked integration of unpaired single-cell modalities with a guidance graph; principal RNA/ATAC setting."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1038/s41587-022-01284-4",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/gProfiler.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official g:Profiler service/API documentation: gene-list functions and client names.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://biit.cs.ut.ee/gprofiler/",
+        "note": "Official g:Profiler service/API documentation: gene-list functions and client names."
+      },
+      {
+        "url": "https://biit.cs.ut.ee/gprofiler/page/apis",
+        "note": "Official gprofiler2 and gprofiler-official API client names."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/GSVA.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Bioconductor definition, expression/gene-set inputs and score output.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://bioconductor.org/packages/GSVA/",
+        "note": "Bioconductor definition, expression/gene-set inputs and score output."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Harmony.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official repository: integration/batch correction of low-dimensional single-cell embeddings.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/immunogenomics/harmony",
+        "note": "Official repository: integration/batch correction of low-dimensional single-cell embeddings."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/ImageJ.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official website: image processing and analysis software. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "Completed the confirmed original publication citation and DOI."
+    ],
+    "sources": [
+      {
+        "url": "https://imagej.net/",
+        "note": "Official website: image processing and analysis software."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1038/nmeth.2089",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/limma.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Bioconductor description: linear-model differential analysis and empirical Bayes methods for processed expression matrices. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Corrected the actual input/output domain.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Completed the confirmed original publication citation and DOI."
+    ],
+    "sources": [
+      {
+        "url": "https://bioconductor.org/packages/limma/",
+        "note": "Bioconductor description: linear-model differential analysis and empirical Bayes methods for processed expression matrices."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1093/nar/gkv007",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/MAGeCK.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official wiki: acronym, FASTQ/count input, gene-level screen testing.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://sourceforge.net/p/mageck/wiki/Home/",
+        "note": "Official wiki: acronym, FASTQ/count input, gene-level screen testing."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Mascot Daemon.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official documentation: automated submission of searches to Mascot Server.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://www.matrixscience.com/daemon.html",
+        "note": "Official documentation: automated submission of searches to Mascot Server."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/MaxDIA.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Original paper: DIA analysis in MaxQuant, with library-based and discovery/library-free modes.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Separated library-free mode from diaPASEF acquisition compatibility.",
+      "Corrected original predicted-library method attribution."
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41587-021-00968-7",
+        "note": "Original paper: DIA analysis in MaxQuant, with library-based and discovery/library-free modes."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/MaxQuant.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Original software description and MaxDIA context: peptide/protein identification and quantification; evidence-level vs MS/MS outputs. Current official Windows/Linux setup links inspected.",
+    "changes": [
+      "Corrected evidence.txt granularity.",
+      "Used the current reachable official page."
+    ],
+    "sources": [
+      {
+        "url": "https://maxquant.org/",
+        "note": "Original software description and MaxDIA context: peptide/protein identification and quantification; evidence-level vs MS/MS outputs."
+      },
+      {
+        "url": "https://www.maxquant.org/static/main/pdf/Linux_MQ_Installation.pdf",
+        "note": "Official Linux installation guide"
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/MetaMorpheus-TC.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Review explicitly mentions MetaMorpheus-TC in top-down proteomics; separate official TC release identity was not established.",
+    "changes": [
+      "Added source URL.",
+      "Linked introducing literature and made unresolved tool identity explicit."
+    ],
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12970000/",
+        "note": "Review explicitly mentions MetaMorpheus-TC in top-down proteomics; separate official TC release identity was not established."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established.",
+      "Exact standalone tool identity, repository, platform and implementation remain unconfirmed."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/MHCquant.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official nf-core documentation: immunopeptidomics workflow and required inputs.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://nf-co.re/mhcquant",
+        "note": "Official nf-core documentation: immunopeptidomics workflow and required inputs."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/MissForest.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "CRAN description: random-forest imputation for mixed continuous/categorical tabular data.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://cran.r-project.org/package=missForest",
+        "note": "CRAN description: random-forest imputation for mixed continuous/categorical tabular data."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/MoCHI.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official README: interpretable models of deep mutational scanning and energetic/phenotypic effects.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/lehner-lab/MoCHI",
+        "note": "Official README: interpretable models of deep mutational scanning and energetic/phenotypic effects."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/mokapot.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official repository: semi-supervised PSM rescoring, target-decoy confidence and Python implementation.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/wfondrie/mokapot",
+        "note": "Official repository: semi-supervised PSM rescoring, target-decoy confidence and Python implementation."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Monocle 3.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official tutorial: single-cell trajectory/pseudotime analysis.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://cole-trapnell-lab.github.io/monocle3/",
+        "note": "Official tutorial: single-cell trajectory/pseudotime analysis."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/MSFragger.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository: peptide identification search engine; Windows/Linux FragPipe distributions. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "Completed the confirmed original publication citation and DOI."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/Nesvilab/MSFragger",
+        "note": "Official repository: peptide identification search engine; Windows/Linux FragPipe distributions."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1038/nmeth.4256",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/MsImpute.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Bioconductor package description/manual and original paper: peptide-intensity imputation, MAR/MNAR distinction, setup and interpretation limitations.",
+    "changes": [
+      "Rebuilt previously empty note with official sources and related tools.",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://bioconductor.org/packages/msImpute/",
+        "note": "Official package description, installation and documentation."
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10368900/",
+        "note": "Original methodology paper."
+      }
+    ],
+    "unresolved": [
+      "Installation and imputation were not executed locally."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/msqrob2.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Bioconductor description: robust statistical models for quantitative proteomics.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source."
+    ],
+    "sources": [
+      {
+        "url": "https://bioconductor.org/packages/msqrob2/",
+        "note": "Bioconductor description: robust statistical models for quantitative proteomics."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/NetMHCpan.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "NetMHCpan 4.1 service description, input/output and class-I scope.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/",
+        "note": "NetMHCpan 4.1 service description, input/output and class-I scope."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/omicsGMF.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official repository: generalized matrix factorization and omics analysis tasks.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/statOmics/omicsGMF",
+        "note": "Official repository: generalized matrix factorization and omics analysis tasks."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Open-pFind.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official pFind 3 site: Open-pFind is the default open-search workflow in pFind 3; Windows 64-bit requirements. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Corrected unsupported Linux/macOS platform claim.",
+      "Clarified algorithm/product relationship.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "Completed the confirmed original publication citation and DOI."
+    ],
+    "sources": [
+      {
+        "url": "https://pfind.ict.ac.cn/se/pfind/index.html",
+        "note": "Official pFind 3 site: Open-pFind is the default open-search workflow in pFind 3; Windows 64-bit requirements."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1038/nbt.4236",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/OpenSpec.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository: Astral-DIA deconvolution to DDA-like spectra for open searches.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Added verified acquisition and output scope.",
+      "Removed unverified generic DIA/DDA compatibility.",
+      "Corrected acquisition/input and intermediate output.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/BUAA-LiuLab/OpenSpec",
+        "note": "Official repository: Astral-DIA deconvolution to DDA-like spectra for open searches."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/ORBIT.md",
+    "date": "2026-10-20",
+    "status": "unverified",
+    "checked": "Introducing brain-study article located; acronym-specific implementation and official standalone repository not confirmed.",
+    "changes": [
+      "Added source URL.",
+      "Linked introducing literature and made unresolved tool identity explicit."
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41587-025-02980-7",
+        "note": "Introducing brain-study article located; acronym-specific implementation and official standalone repository not confirmed."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established.",
+      "Exact standalone tool identity, repository, platform and implementation remain unconfirmed."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Orbitrap Astral.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Original nDIA paper: Orbitrap/Astral hybrid MS and proteomics application; corrected publication context.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Removed unrelated pre-Astral benchmark attribution.",
+      "Replaced generic vendor-homepage links with specific source and family note.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。",
+      "末轮交叉复核：按原论文核对并更正nDIA论文完整标题。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41587-023-02099-7",
+        "note": "Original nDIA paper: Orbitrap/Astral hybrid MS and proteomics application; corrected publication context."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Orbitrap.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Vendor instrument-family comparison: family/model distinction and application scope.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://www.thermofisher.com/us/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-systems/orbitrap-lc-ms/orbitrap-lc-ms-comparison-chart.html",
+        "note": "Vendor instrument-family comparison: family/model distinction and application scope."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Palantir.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official repository: trajectory, pseudotime and fate-probability outputs.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/dpeerlab/Palantir",
+        "note": "Official repository: trajectory, pseudotime and fate-probability outputs."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Pathview.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Bioconductor description: mapping gene/compound measurements onto pathway diagrams. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Corrected R package name/case.",
+      "Corrected the actual input/output domain.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Completed the confirmed original publication citation and DOI."
+    ],
+    "sources": [
+      {
+        "url": "https://bioconductor.org/packages/pathview/",
+        "note": "Bioconductor description: mapping gene/compound measurements onto pathway diagrams."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1093/bioinformatics/btt285",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/pDeep.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official repository: peptide tandem mass spectrum prediction.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/pFindStudio/pDeep",
+        "note": "Official repository: peptide tandem mass spectrum prediction."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/PEAKS-Online.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Vendor description: network/distributed proteomics processing platform.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://www.bioinfor.com/peaks-online/",
+        "note": "Vendor description: network/distributed proteomics processing platform."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/PEAKS.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Vendor description: de novo peptide sequencing, database searching and quantitative analysis. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "Completed the confirmed original publication citation and DOI."
+    ],
+    "sources": [
+      {
+        "url": "https://www.bioinfor.com/peaks-studio/",
+        "note": "Vendor description: de novo peptide sequencing, database searching and quantitative analysis."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1002/rcm.1196",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/PepPre.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official site abstract, release notes and citation: linear-programming precursor detection/ranking, intermediate outputs, available platforms and original DOI.",
+    "changes": [
+      "Replaced incorrect generic preprocessing/imputation description and invented parameters with the actual precursor-analysis method; preserved related links."
+    ],
+    "sources": [
+      {
+        "url": "https://peppre.ctarn.io/",
+        "note": "Official abstract, formats, platforms and citation."
+      },
+      {
+        "url": "https://doi.org/10.1021/acs.jproteome.3c00293",
+        "note": "Original paper identified by official site."
+      }
+    ],
+    "unresolved": [
+      "No local execution or reproduction of paper benchmarks."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Percolator.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official README: semi-supervised post-processing of peptide-spectrum matches and confidence estimation. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "Completed the confirmed original publication citation and DOI."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/percolator/percolator",
+        "note": "Official README: semi-supervised post-processing of peptide-spectrum matches and confidence estimation."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1038/nmeth1113",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Performer.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Original paper: random-feature approximation to attention; qualified unbiasedness and linear-complexity assumptions.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Qualified attention estimator claim."
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2009.14794",
+        "note": "Original paper: random-feature approximation to attention; qualified unbiasedness and linear-complexity assumptions."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Perseus.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official MaxQuant ecosystem: downstream statistical analysis of omics quantitative tables. Original Tyanova et al. 2016 paper matched.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Used the current reachable official page.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://maxquant.org/perseus/",
+        "note": "Official MaxQuant ecosystem: downstream statistical analysis of omics quantitative tables."
+      },
+      {
+        "url": "https://www.nature.com/articles/nmeth.3901",
+        "note": "Original Perseus paper"
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/pFind3.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official site: search suite incorporating Open-pFind and restricted search; Windows 64-bit requirements.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Replaced fabricated citation placeholder with identified source.",
+      "Corrected unsupported Linux/macOS platform claim.",
+      "Replaced fabricated citation placeholder with official citation destination.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://pfind.ict.ac.cn/se/pfind/index.html",
+        "note": "Official site: search suite incorporating Open-pFind and restricted search; Windows 64-bit requirements."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/PolyPhen.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official PolyPhen-2 service: prediction of effects of human missense substitutions.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "http://genetics.bwh.harvard.edu/pph2/",
+        "note": "Official PolyPhen-2 service: prediction of effects of human missense substitutions."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Pracma.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "CRAN description: practical numerical mathematics routines.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://cran.r-project.org/package=pracma",
+        "note": "CRAN description: practical numerical mathematics routines."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/ProSight Native.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Vendor product description: intact/top-down/native-protein analysis scope.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://www.proteinaceous.net/prosightnative",
+        "note": "Vendor product description: intact/top-down/native-protein analysis scope."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/ProSightPD.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Current vendor site: top-down proteoform identification within Proteome Discoverer.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://www.proteinaceous.net/prosightpd",
+        "note": "Current vendor site: top-down proteoform identification within Proteome Discoverer."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Prosit.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official service identity: prediction of peptide MS/MS and retention-time properties for proteomics; full interface requires JavaScript. Gessulat et al. 2019 original paper and DOI matched.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://www.proteomicsdb.org/prosit/",
+        "note": "Official service identity: prediction of peptide MS/MS and retention-time properties for proteomics; full interface requires JavaScript."
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31133760/",
+        "note": "Original Prosit paper and DOI"
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/ProteoBench.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository: open community proteomics benchmarking platform.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/ProteoBench/ProteoBench",
+        "note": "Official repository: open community proteomics benchmarking platform."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/ProteoCHIP.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Original Chip-Tip paper: single-cell sample preparation and transfer to Evotips; consumable/workflow identity. Vendor EVO 96 page and 2024 original workflow confirm consumable/model identity.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Corrected the actual input/output domain.",
+      "Linked exact consumable model and supporting original workflows.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://www.cellenion.com/products/proteochip/evo-96/",
+        "note": "Vendor EVO 96 product page: single-cell preparation and centrifugal transfer to Evotips."
+      },
+      {
+        "url": "https://www.nature.com/articles/s41592-024-02558-2",
+        "note": "Original Chip-Tip paper: single-cell sample preparation and transfer to Evotips; consumable/workflow identity."
+      },
+      {
+        "url": "https://www.nature.com/articles/s41467-024-49651-w",
+        "note": "Original automated proteoCHIP EVO 96 workflow"
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Proteograph XT.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Vendor assay user guide: kit, SP100 preparation workflow and LC-MS sample outputs.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://media.seer.bio/uploads/2023/06/ProteographXTAssay_User_Guide.pdf",
+        "note": "Vendor assay user guide: kit, SP100 preparation workflow and LC-MS sample outputs."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Proteome Discoverer.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Vendor documentation: modular identification/quantification workflows and search nodes.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://www.thermofisher.com/us/en/home/industrial/mass-spectrometry/liquid-chromatography-mass-spectrometry-lc-ms/lc-ms-software/multi-omics-data-analysis/proteome-discoverer-software.html",
+        "note": "Vendor documentation: modular identification/quantification workflows and search nodes."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/ProteomeXchange.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official consortium site: coordinated deposition/access of proteomics datasets and PXD identifiers.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Clarified consortium/service identity.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://www.proteomexchange.org/",
+        "note": "Official consortium site: coordinated deposition/access of proteomics datasets and PXD identifiers."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established.",
+      "Historical citation DOI metadata lookup was rate-limited; this does not invalidate the separately checked project description."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/PSEA-quant.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Original paper: protein-set enrichment for quantitative proteomics; historical Java/web implementation.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4258137/",
+        "note": "Original paper: protein-set enrichment for quantitative proteomics; historical Java/web implementation."
+      }
+    ],
+    "unresolved": [
+      "Current availability/runtime of historical web/Java implementation was not confirmed."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/PyTorch.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official documentation: tensor computation and deep-learning framework.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://pytorch.org/",
+        "note": "Official documentation: tensor computation and deep-learning framework."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/QuPath.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official project: bioimage and digital-pathology analysis software. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "Completed the confirmed original publication citation and DOI."
+    ],
+    "sources": [
+      {
+        "url": "https://qupath.github.io/",
+        "note": "Official project: bioimage and digital-pathology analysis software."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1038/s41598-017-17204-5",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Radiant DIA.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official Seer repository: DIA search engine and Fulcrum workflow; linked 2026 preprint status.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Clarified preprint and benchmark scope."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/seerbio/radiant",
+        "note": "Official Seer repository: DIA search engine and Fulcrum workflow; linked 2026 preprint status."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/RETICLE.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Original paper and repository: real-time-search-assisted single-cell TMT acquisition on a Tribrid mass spectrometer.",
+    "changes": [
+      "Added source URL.",
+      "Added original method role."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/bfurtwa/RETICLE",
+        "note": "Original paper and repository: real-time-search-assisted single-cell TMT acquisition on a Tribrid mass spectrometer."
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8961214/",
+        "note": "Original RETICLE acquisition paper"
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/RStudio.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Posit official description: IDE for R and related data-science workflows.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://posit.co/products/open-source/rstudio/",
+        "note": "Posit official description: IDE for R and related data-science workflows."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Sage.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official repository and documentation: peptide-spectrum search and proteomics identity.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/lazear/sage",
+        "note": "Official repository and documentation: peptide-spectrum search and proteomics identity."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Scanpy.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official docs: AnnData-based single-cell RNA analysis; proteomics requires adapted preprocessing. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "Completed the confirmed original publication citation and DOI.",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://scanpy.readthedocs.io/en/stable/",
+        "note": "Official docs: AnnData-based single-cell RNA analysis; proteomics requires adapted preprocessing."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1186/s13059-017-1382-0",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/SCeptre.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official bfurtwa repository: Scanpy extension for multiplexed SCP; tested historical Ubuntu environment and local repository installation.",
+    "changes": [
+      "Added source URL.",
+      "Corrected repository identity and warned about homonymous package."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/bfurtwa/SCeptre",
+        "note": "Official bfurtwa repository: Scanpy extension for multiplexed SCP; tested historical Ubuntu environment and local repository installation."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/SCIEX ZenoTOF 7600+.md",
+    "date": "2026-10-20",
+    "status": "compatibility",
+    "checked": "Compatibility page retained; canonical instrument-family/source destination checked.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source."
+    ],
+    "sources": [
+      {
+        "url": "https://sciex.com/applications/biomedical-and-omics-research",
+        "note": "Canonical family or model reference; compatibility-page destination."
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/SCIEX ZenoTOF 8600.md",
+    "date": "2026-10-20",
+    "status": "compatibility",
+    "checked": "Compatibility page retained; canonical instrument-family/source destination checked.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source."
+    ],
+    "sources": [
+      {
+        "url": "https://sciex.com/about-us/press-releases/2025/zenotof-8600-system-press-release-5-dot-27-dot-25",
+        "note": "Canonical family or model reference; compatibility-page destination."
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/scikit-learn.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official documentation: Python machine-learning algorithms and model evaluation.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source."
+    ],
+    "sources": [
+      {
+        "url": "https://scikit-learn.org/stable/",
+        "note": "Official documentation: Python machine-learning algorithms and model evaluation."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/sciPENN.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository and original Nature Machine Intelligence paper: protein prediction/imputation and uncertainty; corrected authors/journal/DOI.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Replaced unsupported executable-looking example with task-specific documentation.",
+      "Corrected mismatched authors, journal, pages and DOI."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/jlakkis/sciPENN",
+        "note": "Official repository and original Nature Machine Intelligence paper: protein prediction/imputation and uncertainty; corrected authors/journal/DOI."
+      },
+      {
+        "url": "https://www.nature.com/articles/s42256-022-00545-w",
+        "note": "Original sciPENN paper"
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/SCnorm.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Bioconductor package description: count-data normalization and sequencing-depth dependence.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://bioconductor.org/packages/SCnorm/",
+        "note": "Bioconductor package description: count-data normalization and sequencing-depth dependence."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/scp Package.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Bioconductor description/vignette: QFeatures and SingleCellExperiment-based SCP processing; conceptual workflow and corrected 2023 Current Protocols citation.",
+    "changes": [
+      "Replaced non-runnable pseudo-API pipeline including unsupported batchCorrect call.",
+      "Corrected year/title for cpz1.658 citation."
+    ],
+    "sources": [
+      {
+        "url": "https://bioconductor.org/packages/scp/",
+        "note": "Bioconductor description/vignette: QFeatures and SingleCellExperiment-based SCP processing; conceptual workflow and corrected 2023 Current Protocols citation."
+      },
+      {
+        "url": "https://eurobioc2023.bioconductor.org/abstracts/paper19/",
+        "note": "Author conference abstract with publication list"
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/scp-MS.md",
+    "date": "2026-10-20",
+    "status": "compatibility",
+    "checked": "Science study context: MS-based single-cell proteomics is a workflow description, not a standalone software package.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://www.science.org/doi/10.1126/science.adr8785",
+        "note": "Science study context: MS-based single-cell proteomics is a workflow description, not a standalone software package."
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/scplainer.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official scp repository and cited paper context: linear-model-based interpretation of SCP. Exact acronym and peptide-level linear-model input verified in the original paper.",
+    "changes": [
+      "Corrected method acronym expansion."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/UCLouvain-CBIO/scp",
+        "note": "Official scp repository and cited paper context: linear-model-based interpretation of SCP."
+      },
+      {
+        "url": "https://link.springer.com/article/10.1186/s13059-025-03713-4",
+        "note": "Original scplainer methods paper"
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/SCPline.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Original paper abstract: interactive framework for single-cell proteomics preprocessing.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Added original paper identity and preprocessing scope."
+    ],
+    "sources": [
+      {
+        "url": "https://academic.oup.com/bib/article/26/3/bbaf256/8156470",
+        "note": "Original paper abstract: interactive framework for single-cell proteomics preprocessing."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/scPROTEIN.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official repository: graph-contrastive representation learning with peptide uncertainty modelling for SCP.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Qualified universal robustness claim."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/TencentAILabHealthcare/scPROTEIN",
+        "note": "Official repository: graph-contrastive representation learning with peptide uncertainty modelling for SCP."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/scProtVelo.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official README: protein-velocity analysis of paired mRNA and MS protein measurements; pairing/integration requirement.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Corrected the actual input/output domain.",
+      "Corrected requirement for joint mRNA/protein input.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/theislab/scProtVelo",
+        "note": "Official README: protein-velocity analysis of paired mRNA and MS protein measurements; pairing/integration requirement."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/scvi-tools.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official docs: probabilistic single-cell models with modality-specific observation assumptions. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "Completed the confirmed original publication citation and DOI.",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://docs.scvi-tools.org/en/stable/",
+        "note": "Official docs: probabilistic single-cell models with modality-specific observation assumptions."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1038/s41587-021-01206-w",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/scVI.md",
+    "date": "2026-10-20",
+    "status": "compatibility",
+    "checked": "Official model docs: variational model for single-cell RNA count data, within scvi-tools.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://docs.scvi-tools.org/en/stable/user_guide/models/scvi.html",
+        "note": "Official model docs: variational model for single-cell RNA count data, within scvi-tools."
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Seurat.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official website: single-cell and multimodal analysis; ADT protein assays do not establish suitability of RNA count models for MS intensities.",
+    "changes": [],
+    "sources": [
+      {
+        "url": "https://satijalab.org/seurat/",
+        "note": "Official website: single-cell and multimodal analysis; ADT protein assays do not establish suitability of RNA count models for MS intensities."
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Skyline.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official project: targeted proteomics method development and quantitative data analysis. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Recorded documented Windows client scope.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "Completed the confirmed original publication citation and DOI."
+    ],
+    "sources": [
+      {
+        "url": "https://skyline.ms/project/home/software/Skyline/begin.view",
+        "note": "Official project: targeted proteomics method development and quantitative data analysis."
+      },
+      {
+        "url": "https://skyline.ms/home/software/Skyline/wiki-download.view?entityId=ac4c6cc4-97c6-1038-8aae-e465a393ee52&name=NicholasShulman2020ASMSPoster.pdf",
+        "note": "Developer documentation of Skyline scope and Windows client"
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1093/bioinformatics/btq054",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Snakemake.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Official docs: rule-based reproducible workflow management.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source."
+    ],
+    "sources": [
+      {
+        "url": "https://snakemake.readthedocs.io/en/stable/",
+        "note": "Official docs: rule-based reproducible workflow management."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/SpectMHC.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Author repository: database-generation role, FASTA and external netMHC dependency.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/Prathyusha-konda/SpectMHC",
+        "note": "Author repository: database-generation role, FASTA and external netMHC dependency."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Spectronaut.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Vendor documentation: DIA proteomics identification and quantification.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://biognosys.com/software/spectronaut/",
+        "note": "Vendor documentation: DIA proteomics identification and quantification."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Stellar.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Vendor documentation: quadrupole/linear-ion-trap mass spectrometer for targeted quantitation, not an Orbitrap instrument.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Corrected the actual input/output domain.",
+      "Clarified analyzer architecture and verification scope.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://docs.thermofisher.com/v/u/Stellar-Mass-Spectrometer-Operating-Manual",
+        "note": "Vendor documentation: quadrupole/linear-ion-trap mass spectrometer for targeted quantitation, not an Orbitrap instrument."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/TDValidator.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Current vendor page: TDValidator integration into ProSight Native.",
+    "changes": [
+      "Created missing note with source-backed definition, scope, limitations and local literature context."
+    ],
+    "sources": [
+      {
+        "url": "https://www.proteinaceous.net/tdvalidator",
+        "note": "Current vendor page: TDValidator integration into ProSight Native."
+      }
+    ],
+    "unresolved": [
+      "No software or assay execution was performed; verification covers the concise descriptive claims, not a local deployment."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Tecan UNO.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official Tecan site: single-cell and low-volume liquid dispensing instrument.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://lifesciences.tecan.com/products/liquid_handling_and_automation",
+        "note": "Official Tecan site: single-cell and low-volume liquid dispensing instrument."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Thermo Scientific Orbitrap Astral.md",
+    "date": "2026-10-20",
+    "status": "compatibility",
+    "checked": "Compatibility page retained; canonical instrument-family/source destination checked.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source."
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41587-023-02099-7",
+        "note": "Canonical family or model reference; compatibility-page destination."
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Thermo Scientific Vanquish Neo UHPLC.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Vendor user guide: nano/capillary/micro-flow LC sample separation, not MS data analysis.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Corrected the actual input/output domain.",
+      "Distinguished contextual literature pointers from a primary tool publication.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://docs.thermofisher.com/v/u/Vanquish-Neo-System-VN-A10-VN-C10-VN-P10-VN-S10-User-Guide",
+        "note": "Vendor user guide: nano/capillary/micro-flow LC sample separation, not MS data analysis."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/timsTOF Pro 2.md",
+    "date": "2026-10-20",
+    "status": "compatibility",
+    "checked": "Compatibility page retained; canonical instrument-family/source destination checked.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://www.bruker.com/en/products-and-solutions/mass-spectrometry/timstof.html",
+        "note": "Canonical family or model reference; compatibility-page destination."
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/timsTOF Ultra 2.md",
+    "date": "2026-10-20",
+    "status": "compatibility",
+    "checked": "Compatibility page retained; canonical instrument-family/source destination checked.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source."
+    ],
+    "sources": [
+      {
+        "url": "https://www.bruker.com/en/products-and-solutions/mass-spectrometry/timstof.html",
+        "note": "Canonical family or model reference; compatibility-page destination."
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/timsTOF.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Vendor product family: trapped-ion-mobility spectrometry coupled to TOF mass spectrometry.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Corrected the actual input/output domain.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bruker.com/en/products-and-solutions/mass-spectrometry/timstof.html",
+        "note": "Vendor product family: trapped-ion-mobility spectrometry coupled to TOF mass spectrometry."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/totalVI.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official model docs: joint RNA/ADT count model; normalized-expression API returns RNA and protein outputs.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Corrected normalized-expression return value unpacking.",
+      "Qualified deterministic batch-effect removal claim.",
+      "Added modality/count-model and imputation limitations."
+    ],
+    "sources": [
+      {
+        "url": "https://docs.scvi-tools.org/en/stable/user_guide/models/totalvi.html",
+        "note": "Official model docs: joint RNA/ADT count model; normalized-expression API returns RNA and protein outputs."
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/Transformer.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Original paper: scaled dot-product attention and encoder-decoder Transformer architecture.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source."
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1706.03762",
+        "note": "Original paper: scaled dot-product attention and encoder-decoder Transformer architecture."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/uPAC.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Vendor column specification: microfabricated pillar-array chromatography consumable; specifications are model specific.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://www.thermofisher.com/order/catalog/product/jp/en/OS-UPAC005CAP",
+        "note": "Vendor column specification: microfabricated pillar-array chromatography consumable; specifications are model specific."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/VEP.md",
+    "date": "2026-10-20",
+    "status": "verified",
+    "checked": "Ensembl documentation: genomic variant annotation and predicted transcript/protein consequences.",
+    "changes": [
+      "Added source URL."
+    ],
+    "sources": [
+      {
+        "url": "https://static.ensembl.org/info/docs/tools/vep/online/index.html",
+        "note": "Ensembl documentation: genomic variant annotation and predicted transcript/protein consequences."
+      }
+    ],
+    "unresolved": [
+      "Verification covers the concise definition and stated task; no runtime or local installation was tested."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/WebGestalt.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official service: functional enrichment analysis; R client is WebGestaltR.",
+    "changes": [
+      "Corrected R package name/case.",
+      "Corrected the actual input/output domain.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links."
+    ],
+    "sources": [
+      {
+        "url": "https://www.webgestalt.org/",
+        "note": "Official service: functional enrichment analysis; R client is WebGestaltR."
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/WGCNA.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "CRAN description: weighted co-expression network analysis; correlation networks do not establish causal regulation. Original abbreviated citation matched to Crossref title/author/year/journal.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "Resolved blank GitHub placeholder without inventing a repository.",
+      "Filled documentation/source placeholder.",
+      "Replaced unsupported blanket platform claim with release-specific setup scope.",
+      "Qualified biological interpretation of correlation modules.",
+      "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
+      "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
+      "Completed the confirmed original publication citation and DOI."
+    ],
+    "sources": [
+      {
+        "url": "https://cran.r-project.org/package=WGCNA",
+        "note": "CRAN description: weighted co-expression network analysis; correlation networks do not establish causal regulation."
+      },
+      {
+        "url": "https://api.crossref.org/works/10.1186/1471-2105-9-559",
+        "note": "Crossref registry metadata matched title, first author, publication year and journal; not a full-text methods check."
+      }
+    ],
+    "unresolved": [
+      "Code examples were reviewed as text but not executed against a pinned software version.",
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/tools/ZenoTOF.md",
+    "date": "2026-10-20",
+    "status": "partial",
+    "checked": "Official SCIEX family overview: Zeno-trap-enabled QTOF instruments; model performance is configuration specific.",
+    "changes": [
+      "Filled or replaced front-matter URL with the checked source.",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://sciex.com/applications/biomedical-and-omics-research",
+        "note": "Official SCIEX family overview: Zeno-trap-enabled QTOF instruments; model performance is configuration specific."
+      }
+    ],
+    "unresolved": [
+      "No new benchmark or reproduction run; literature-specific performance and compatibility beyond the checked scope are not established."
+    ],
+    "checked_on": "2026-10-20"
+  }
+]

@@ -1,15 +1,12 @@
 ---
-title:Proteoform medicine: characterizing and targeting protein forms in human disease
+title: "Proteoform medicine: characterizing and targeting protein forms in human disease"
 authors:
   - Jennifer A. Korchak
   - S. Stephen Yi
   - Neil L. Kelleher
   - Nidhi Sahni
   - Gloria M. Sheynkman
-aliases:
-   - <article>
-   - <paper>
-   - <literature>
+aliases: ["nrg 2025 Proteoform medicine characterizing and targeting protein forms in human disease"]
 tags:
   - literature
   - paper
@@ -20,20 +17,28 @@ tags:
 category: literature
 date_created: 2023-10-24
 Journal: Nature Reviews Genetics
-Year: 2025
+Year: 2026
+doi: "10.1038/s41576-025-00915-1"
+url: "https://doi.org/10.1038/s41576-025-00915-1"
+publication_status: "published"
+published_online: "2026-01-05"
+published_print: "2026-04"
 ---
 
 # Proteoform medicine: characterizing and targeting protein forms in human disease
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
 > [!cite] Reference
 > **Title**: Proteoform medicine: characterizing and targeting protein forms in human disease
 > **Authors**: Jennifer A. Korchak, S. Stephen Yi, Neil L. Kelleher, Nidhi Sahni & Gloria M. Sheynkman
-> **Year**: 2025
+> **Year**: 2026
 > **Journal**: Nature Reviews Genetics
-> **DOI**: 10.1038/s41576-025-00915-1
-
+> **DOI**: [10.1038/s41576-025-00915-1](https://doi.org/10.1038/s41576-025-00915-1)
 ## Abstract
 
 Proteoforms are the diverse molecular protein species produced from a single gene through genetic variation, alternative splicing and post-translational modifications. They are the crucial link between genotype and phenotype. There are estimated to be more than one million distinct protein variants produced from ~20,000 protein-coding genes in a given cell, making these proteoforms a vast and largely uncharacterized dimension in biomedical research. This Review focuses on the role of proteoforms in human genetic diseases. We highlight cutting-edge technologies for the identification and characterization of proteoforms, including long-read transcriptomics and emerging methods for direct protein sequencing, and we present a network biology framework to explain how proteoforms can perturb the molecular interactions and cellular pathways underlying disease phenotypes. We believe that precision medicine will require precision proteomics. An increasing knowledge of proteoform biology from molecular, systems and clinical perspectives will guide future research, ultimately contributing to a more precise understanding of the molecular basis of disease and refined therapeutic interventions.
@@ -50,7 +55,7 @@ Proteoforms are the diverse molecular protein species produced from a single gen
 ### Sample Preparation
 - Method used: N/A (Review Article). Discusses various techniques including [[Top-down proteomics]], [[Bottom-up proteomics]], [[Long-read RNA sequencing]], and emerging [[Single-molecule protein sequencing]].
 - Cell type: N/A (Discusses applications across human cell lines, healthy tissues, biofluids, and cancers).
-- Number of cells: N/A (Discusses bulk to [[Single-cell proteomics]]).
+- Number of cells: N/A (Discusses bulk to [[single-cell proteomics|Single-cell proteomics]]).
 
 ### Data Analysis
 - Software: N/A (Review Article). Highlights computational tools such as [[ProSightPD]], [[MetaMorpheus-TC]], [[AlphaFold 3]], and variant effect predictors like [[PolyPhen]] and [[VEP]].

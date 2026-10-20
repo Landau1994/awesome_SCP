@@ -13,8 +13,8 @@ authors:
   - Jianhua Yao
 year: 2025
 journal: Nature Biomedical Engineering
-doi: 10.1038/s41551-025-01528-z
-url: https://doi.org/10.1038/s41551-025-01528-z
+doi: "10.1038/s41551-025-01528-z"
+url: "https://doi.org/10.1038/s41551-025-01528-z"
 tags:
   - paper
   - AIVC
@@ -27,9 +27,15 @@ status: unread
 rating:
 date_added: 2025-11-05
 date_read:
+publication_status: "published"
+published_online: "2025-11-05"
 ---
 
 # A pre-trained large generative model for translating single-cell transcriptomes to proteomes
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The precise pretraining stages, unaligned-feature handling and few-shot settings in the Quick Summary remain unverified.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Quick Summary
 > The authors propose **scTranslator**, a large-scale generative model based on the [[Transformer]] architecture, designed to translate single-cell transcriptomic data (scRNA-seq) into proteomic data. Inspired by the central dogma and natural language translation, the model uses a two-stage pre-training strategy on extensive paired bulk and single-cell datasets. It demonstrates superior performance over state-of-the-art methods in predicting protein abundance, handling unaligned features, and performing few-shot learning, while enabling downstream applications like perturbation prediction and gene regulatory network inference.

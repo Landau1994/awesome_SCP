@@ -1,14 +1,11 @@
 ---
-title: Site-saturation mutagenesis of 500 human protein dom
+title: "Site-saturation mutagenesis of 500 human protein domains"
 authors:
   - Antoni Beltran
   - Xiang'er Jiang
   - Yue Shen
   - Ben Lehner
-aliases:
-  - <article>
-  - <paper>
-  - <literature>
+aliases: ["nature 2025  Site-saturation mutagenesis of 500 human protein dom"]
 tags:
   - literature
   - paper
@@ -16,9 +13,18 @@ category: literature
 date_created: 2026-03-09
 Journal: Nature
 Year: 2025
+doi: "10.1038/s41586-024-08370-4"
+url: "https://doi.org/10.1038/s41586-024-08370-4"
+publication_status: "published"
+published_online: "2025-01-08"
+published_print: "2025-01-23"
 ---
 
 # Site-saturation mutagenesis of 500 human protein domains
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -27,8 +33,7 @@ Year: 2025
 > **Authors**: Antoni Beltran, Xiang'er Jiang, Yue Shen & Ben Lehner
 > **Year**: 2025
 > **Journal**: Nature
-> **DOI**: 10.1038/s41586-024-08370-4
-
+> **DOI**: [10.1038/s41586-024-08370-4](https://doi.org/10.1038/s41586-024-08370-4)
 ## Abstract
 
 Missense variants that change the amino acid sequences of proteins cause one-third of human genetic diseases. Tens of millions of missense variants exist in the current human population, and the vast majority of these have unknown functional consequences. Here we present a large-scale experimental analysis of human missense variants across many different proteins. Using DNA synthesis and cellular selection experiments we quantify the effect of more than 500,000 variants on the abundance of more than 500 human protein domains. This dataset reveals that 60% of pathogenic missense variants reduce protein stability. The contribution of stability to protein fitness varies across proteins and diseases and is particularly important in recessive disorders. We combine stability measurements with protein language models to annotate functional sites across proteins. Mutational effects on stability are largely conserved in homologous domains, enabling accurate stability prediction across entire protein families using energy models. Our data demonstrate the feasibility of assaying human protein variants at scale and provides a large consistent reference dataset for clinical variant interpretation and training and benchmarking of computational methods.

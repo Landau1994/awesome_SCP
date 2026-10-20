@@ -2,6 +2,8 @@
 title: iPSC
 tags:
 date_created: 2026-03-25
+url: https://pubmed.ncbi.nlm.nih.gov/18035408/
+category: concept
 ---
 
 # iPSC
@@ -23,3 +25,7 @@ iPSC stands for induced pluripotent stem cell, a reprogrammed cell type with plu
 
 - [[iPSCs]]
 - [[Cell Differentiation]]
+
+## Sources
+
+- [Authoritative reference for iPSC](https://pubmed.ncbi.nlm.nih.gov/18035408/)

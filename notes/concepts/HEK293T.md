@@ -2,6 +2,8 @@
 title: HEK293T
 tags:
 date_created: 2026-03-25
+url: https://www.atcc.org/products/crl-3216
+category: concept
 ---
 
 # HEK293T
@@ -23,3 +25,7 @@ HEK293T is a human embryonic kidney-derived cell line commonly used in molecular
 
 - [[293T]]
 - [[HeLa]]
+
+## Sources
+
+- [Authoritative reference for HEK293T](https://www.atcc.org/products/crl-3216)

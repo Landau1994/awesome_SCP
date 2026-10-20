@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5406750/
 date_created: 2026-03-25
 ---
 
@@ -23,51 +23,36 @@ AutoQC Loader is used with Skyline ecosystems to automatically ingest QC runs an
 - **Automated QC Ingestion**: Continuous import of QC files.
 - **Trend Monitoring**: Tracks longitudinal performance metrics.
 - **Workflow Integration**: Fits targeted assay operations.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# See Skyline/Panorama ecosystem documentation
-```
-
-## Usage
-
-```r
-# Example code
-# Configured through dedicated utility interfaces
-```
+- **Environment**: Follow the official release requirements; operating-system support depends on the package and its dependencies.
 
 ## Input/Output
 
 **Input:**
-- QC run result files
-- Monitoring configuration profiles
+
+- Newly acquired QC raw files in a watched folder
+- A configured Skyline template document and a Panorama destination
 
 **Output:**
-- QC trend datasets
-- Alerts/flags for performance drift
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| watch_path | user-defined | Directory monitored for incoming QC files |
-| upload_interval | user-defined | Frequency of QC data synchronization |
+- Skyline documents with imported QC results, uploaded to Panorama
+- Longitudinal QC metrics/flags viewed through the Panorama QC dashboard
 
 ## Key Publications
 
-> [!cite] Primary Reference
+> [!cite] Related Study Context
 > See LFQ benchmark-related resource notes.
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Source availability: See the official source below; no separate public repository was confirmed.
+- Documentation/source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5406750/
 
 ## Related Tools
 
 - [[Skyline]]
 - [[Panorama Web]]
 - [[ProteoBench]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [AutoQC Loader documentation or source](https://pmc.ncbi.nlm.nih.gov/articles/PMC5406750/).

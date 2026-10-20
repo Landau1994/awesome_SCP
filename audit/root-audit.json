@@ -1,0 +1,1878 @@
+[
+  {
+    "path": "notes/concepts/Siglec-7.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/Q9Y286/entry",
+        "note": "UniProt reviewed human reference: SIGLEC7"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/H1F0.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P07305/entry",
+        "note": "UniProt reviewed human reference: H1-0"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/FCRL5.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/Q96RD9/entry",
+        "note": "UniProt reviewed human reference: FCRL5"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/CD27.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P26842/entry",
+        "note": "UniProt reviewed human reference: CD27"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/CD43.md",
+    "status": "partial",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P16150/entry",
+        "note": "UniProt reviewed human reference: SPN"
+      }
+    ],
+    "unresolved": [
+      "具体论文中的细胞标志物表现或配体作用仍以该实验的证据为准。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/CTSW.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P56202/entry",
+        "note": "UniProt reviewed human reference: CTSW"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Siglec-1.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/Q9BZZ2/entry",
+        "note": "UniProt reviewed human reference: SIGLEC1"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/CD7.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P09564/entry",
+        "note": "UniProt reviewed human reference: CD7"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/PSMC4.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P43686/entry",
+        "note": "UniProt reviewed human reference: PSMC4"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Nedd8.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/Q15843/entry",
+        "note": "UniProt reviewed human reference: NEDD8"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/PDPN.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/Q86YL7/entry",
+        "note": "UniProt reviewed human reference: PDPN"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Lin28a.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/Q9H9Z2/entry",
+        "note": "UniProt reviewed human reference: LIN28A"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Endomucin.md",
+    "status": "partial",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/Q9ULC0/entry",
+        "note": "UniProt reviewed human reference: EMCN"
+      }
+    ],
+    "unresolved": [
+      "具体论文中的细胞标志物表现或配体作用仍以该实验的证据为准。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/SDC1.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P18827/entry",
+        "note": "UniProt reviewed human reference: SDC1"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/TALDO1.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P37837/entry",
+        "note": "UniProt reviewed human reference: TALDO1"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/RYR2.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/Q92736/entry",
+        "note": "UniProt reviewed human reference: RYR2"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/NPTN.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/Q9Y639/entry",
+        "note": "UniProt reviewed human reference: NPTN"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/CSF1R.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P07333/entry",
+        "note": "UniProt reviewed human reference: CSF1R"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/MYH6.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P13533/entry",
+        "note": "UniProt reviewed human reference: MYH6"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/CALD1.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/Q05682/entry",
+        "note": "UniProt reviewed human reference: CALD1"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/MYH11.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P35749/entry",
+        "note": "UniProt reviewed human reference: MYH11"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/SOD1.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P00441/entry",
+        "note": "UniProt reviewed human reference: SOD1"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/MBP.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P02686/entry",
+        "note": "UniProt reviewed human reference: MBP"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/ENO2.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P09104/entry",
+        "note": "UniProt reviewed human reference: ENO2"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Beta-catenin.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P35222/entry",
+        "note": "UniProt reviewed human reference: CTNNB1"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/CD44.md",
+    "status": "verified",
+    "checked": "核对基因与蛋白名称、基本功能；人类参考条目不替代其他物种或特定实验的验证。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P16070/entry",
+        "note": "UniProt reviewed human reference: CD44"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/293T.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.atcc.org/products/crl-3216",
+        "note": "Authoritative reference for 293T"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/HEK293T.md",
+    "status": "compatibility",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.atcc.org/products/crl-3216",
+        "note": "Authoritative reference for HEK293T"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/HeLa.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.atcc.org/products/ccl-2",
+        "note": "Authoritative reference for HeLa"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/K562.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.atcc.org/products/ccl-243",
+        "note": "Authoritative reference for K562"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/U2OS.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.atcc.org/products/htb-96",
+        "note": "Authoritative reference for U2OS"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/hFF.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.atcc.org/products/scrc-1041",
+        "note": "Authoritative reference for hFF"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/hFF-1.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.atcc.org/products/scrc-1041",
+        "note": "Authoritative reference for hFF-1"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/iPSC.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18035408/",
+        "note": "Authoritative reference for iPSC"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/iPSCs.md",
+    "status": "compatibility",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18035408/",
+        "note": "Authoritative reference for iPSCs"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/adult cardiomyocytes.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39855627/",
+        "note": "Authoritative reference for adult cardiomyocytes"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/iCMs.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39855627/",
+        "note": "Authoritative reference for iCMs"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Hepatocytes.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s42255-026-01459-2",
+        "note": "Authoritative reference for Hepatocytes"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/mouse embryonic stem cells (ESCs).md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/292154a0",
+        "note": "Authoritative reference for mouse embryonic stem cells (ESCs)"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Escherichia coli.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562",
+        "note": "Authoritative reference for Escherichia coli"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Saccharomyces cerevisiae.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.yeastgenome.org/",
+        "note": "Authoritative reference for Saccharomyces cerevisiae"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/CHIR99021.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22540008/",
+        "note": "Authoritative reference for CHIR99021"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Bortezomib.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cancer.gov/about-cancer/treatment/drugs/bortezomib",
+        "note": "Authoritative reference for Bortezomib"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Cycloheximide.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30916348/",
+        "note": "Authoritative reference for Cycloheximide"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Deep Learning.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/nature14539",
+        "note": "Authoritative reference for Deep Learning"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Adjusted Rand Index.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.adjusted_rand_score.html",
+        "note": "Authoritative reference for Adjusted Rand Index"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/PCA.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html",
+        "note": "Authoritative reference for PCA"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Principal Component Analysis (PCA).md",
+    "status": "compatibility",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html",
+        "note": "Authoritative reference for Principal Component Analysis (PCA)"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/KNN.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://scikit-learn.org/stable/modules/neighbors.html",
+        "note": "Authoritative reference for KNN"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/k-means clustering.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html",
+        "note": "Authoritative reference for k-means clustering"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Hierarchical Clustering.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering",
+        "note": "Authoritative reference for Hierarchical Clustering"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Random Forest.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees",
+        "note": "Authoritative reference for Random Forest"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Gaussian.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.norm.html",
+        "note": "Authoritative reference for Gaussian"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Leiden clustering.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41598-019-41695-z",
+        "note": "Authoritative reference for Leiden clustering"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/SHAP.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://shap.readthedocs.io/en/latest/",
+        "note": "Authoritative reference for SHAP"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/XGBoost.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://xgboost.readthedocs.io/en/stable/",
+        "note": "Authoritative reference for XGBoost"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/t-SNE.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.jmlr.org/papers/v9/vandermaaten08a.html",
+        "note": "Authoritative reference for t-SNE"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/UMAP.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://umap-learn.readthedocs.io/en/latest/",
+        "note": "Authoritative reference for UMAP"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/GO.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://geneontology.org/docs/ontology-documentation/",
+        "note": "Authoritative reference for GO"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/R.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.r-project.org/about.html",
+        "note": "Authoritative reference for R"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Python.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.python.org/about/",
+        "note": "Authoritative reference for Python"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Large Language Models.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2005.14165",
+        "note": "Authoritative reference for Large Language Models"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Network biology.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/nrg1272",
+        "note": "Authoritative reference for Network biology"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Interactome mapping.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/nrg1272",
+        "note": "Authoritative reference for Interactome mapping"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Proteogenomics.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4392723/",
+        "note": "Authoritative reference for Proteogenomics"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Protein Set Enrichment Analysis (PSEA).md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2984225/",
+        "note": "Authoritative reference for Protein Set Enrichment Analysis (PSEA)"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/H4.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P62805/entry",
+        "note": "Authoritative reference for H4"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/ZGA.md",
+    "status": "verified",
+    "checked": "核对本页核心定义、名称与引用对象；未作实验操作或临床使用建议。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41576-018-0087-x",
+        "note": "Authoritative reference for ZGA"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Artificial Intelligence.md",
+    "status": "verified",
+    "checked": "核对名称、核心定义及当前知识库语境；纠正歧义或过度概括。",
+    "changes": [
+      "补充权威来源；改写定义以明确术语边界和适用语境。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/artificial-intelligence-machine-learning-and-genomics",
+        "note": "Authoritative reference for Artificial Intelligence"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Drosophila.md",
+    "status": "verified",
+    "checked": "核对名称、核心定义及当前知识库语境；纠正歧义或过度概括。",
+    "changes": [
+      "补充权威来源；改写定义以明确术语边界和适用语境。"
+    ],
+    "sources": [
+      {
+        "url": "https://flybase.org/reports/FBsp00000001.html",
+        "note": "Authoritative reference for Drosophila"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/RA957.md",
+    "status": "verified",
+    "checked": "核对名称、核心定义及当前知识库语境；纠正歧义或过度概括。",
+    "changes": [
+      "补充权威来源；改写定义以明确术语边界和适用语境。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cellosaurus.org/CVCL_B4UJ",
+        "note": "Authoritative reference for RA957"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/hi12.md",
+    "status": "partial",
+    "checked": "核对hi12为hFF来源的人类iPSC系；识别不同论文所写成纤维细胞编号的差别。",
+    "changes": [
+      "明确iPSC身份；保留亲本细胞来源编号差异，不将hFF与hFF-1直接等同。"
+    ],
+    "sources": [
+      {
+        "url": "https://doi.org/10.1016/j.cell.2025.03.002",
+        "note": "SC-pSILAC study"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8590018/",
+        "note": "Original hi11/hi12/hi13 reprogramming study"
+      }
+    ],
+    "unresolved": [
+      "2021与2025来源对亲本hFF细胞库编号的记载需进一步核对，不能据此直接认定为同一库存细胞系。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/mMPS.md",
+    "status": "verified",
+    "checked": "核对全称及合成对象，区分DNA寡核苷酸库与蛋白表达。",
+    "changes": [
+      "补全原文全称；明确实际合成DNA寡核苷酸而非直接合成蛋白。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41586-024-08370-4.pdf",
+        "note": "Original domainome paper: mMPS expansion"
+      },
+      {
+        "url": "https://mavedb.org/experiments/urn%3Amavedb%3A00001104-a",
+        "note": "Deposited experiment: oligonucleotide library provenance"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/minProb.md",
+    "status": "verified",
+    "checked": "核对 MinProb 的低分位随机插补定义及 MNAR 假设。",
+    "changes": [
+      "补充可追溯来源及来源网址；核对核心定义。",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://rformassspectrometry.github.io/MsCoreUtils/reference/imputation.html",
+        "note": "MsCoreUtils: imputation methods"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Protein-protein interactions.md",
+    "status": "verified",
+    "checked": "核对名称、核心定义及当前知识库语境；纠正歧义或过度概括。",
+    "changes": [
+      "补充权威来源；改写定义以明确术语边界和适用语境。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/nrg1272",
+        "note": "Authoritative reference for Protein-protein interactions"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Ribosomal Proteins.md",
+    "status": "verified",
+    "checked": "核对名称、核心定义及当前知识库语境；纠正歧义或过度概括。",
+    "changes": [
+      "补充权威来源；改写定义以明确术语边界和适用语境。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26829/",
+        "note": "Authoritative reference for Ribosomal Proteins"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Proteoform.md",
+    "status": "verified",
+    "checked": "核对名称、核心定义及当前知识库语境；纠正歧义或过度概括。",
+    "changes": [
+      "补充权威来源；改写定义以明确术语边界和适用语境。",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4114032/",
+        "note": "Authoritative reference for Proteoform"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Post-translational modifications.md",
+    "status": "verified",
+    "checked": "核对名称、核心定义及当前知识库语境；纠正歧义或过度概括。",
+    "changes": [
+      "补充权威来源；改写定义以明确术语边界和适用语境。"
+    ],
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4114032/",
+        "note": "Authoritative reference for Post-translational modifications"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/CAR T cells.md",
+    "status": "verified",
+    "checked": "核对名称、核心定义及当前知识库语境；纠正歧义或过度概括。",
+    "changes": [
+      "补充权威来源；改写定义以明确术语边界和适用语境。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+        "note": "Authoritative reference for CAR T cells"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/NK cells.md",
+    "status": "verified",
+    "checked": "核对名称、核心定义及当前知识库语境；纠正歧义或过度概括。",
+    "changes": [
+      "补充权威来源；改写定义以明确术语边界和适用语境。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/natural-killer-cell",
+        "note": "Authoritative reference for NK cells"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Gps1.md",
+    "status": "verified",
+    "checked": "核对本库原始胚胎论文的物种语境和基因身份。",
+    "changes": [
+      "纠正将小鼠 Gps1 解释为酵母标志物的物种错配；补充来源。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.informatics.jax.org/marker/MGI%3A2384801",
+        "note": "MGI: mouse Gps1"
+      },
+      {
+        "url": "https://doi.org/10.1016/j.cell.2025.11.006",
+        "note": "Linked mammalian embryo study"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/AST.md",
+    "status": "partial",
+    "checked": "核对关联 SoftHybrid 笔记中的缩写语境；公共预印本摘要可检索，细胞标签的完整方法表尚待独立核对。",
+    "changes": [
+      "将无信息占位定义改为关联研究的明确语境，并标记外部完整表核查限制。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.biorxiv.org/content/10.64898/2026.01.13.699212v2",
+        "note": "SoftHybrid preprint, version 2"
+      }
+    ],
+    "unresolved": [
+      "缩写展开与库内原始笔记一致；仍需对照原论文完整样本表复核。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/GSC.md",
+    "status": "partial",
+    "checked": "核对关联 SoftHybrid 笔记中的缩写语境；公共预印本摘要可检索，细胞标签的完整方法表尚待独立核对。",
+    "changes": [
+      "将无信息占位定义改为关联研究的明确语境，并标记外部完整表核查限制。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.biorxiv.org/content/10.64898/2026.01.13.699212v2",
+        "note": "SoftHybrid preprint, version 2"
+      }
+    ],
+    "unresolved": [
+      "缩写展开与库内原始笔记一致；仍需对照原论文完整样本表复核。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/MAC.md",
+    "status": "partial",
+    "checked": "核对关联 SoftHybrid 笔记中的缩写语境；公共预印本摘要可检索，细胞标签的完整方法表尚待独立核对。",
+    "changes": [
+      "将无信息占位定义改为关联研究的明确语境，并标记外部完整表核查限制。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.biorxiv.org/content/10.64898/2026.01.13.699212v2",
+        "note": "SoftHybrid preprint, version 2"
+      }
+    ],
+    "unresolved": [
+      "缩写展开与库内原始笔记一致；仍需对照原论文完整样本表复核。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/MIC.md",
+    "status": "partial",
+    "checked": "核对关联 SoftHybrid 笔记中的缩写语境；公共预印本摘要可检索，细胞标签的完整方法表尚待独立核对。",
+    "changes": [
+      "将无信息占位定义改为关联研究的明确语境，并标记外部完整表核查限制。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.biorxiv.org/content/10.64898/2026.01.13.699212v2",
+        "note": "SoftHybrid preprint, version 2"
+      }
+    ],
+    "unresolved": [
+      "缩写展开与库内原始笔记一致；仍需对照原论文完整样本表复核。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/hEF.md",
+    "status": "unverified",
+    "checked": "检查本库所有引用及别名；未找到能够唯一确认 hEF 身份的原始文献。",
+    "changes": [
+      "删除无证据的正式名称断言；明确身份待核实并保留原页。"
+    ],
+    "sources": [],
+    "unresolved": [
+      "缺少原始文献或细胞库编号，不能可靠补充实体网址。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Central Dogma.md",
+    "status": "verified",
+    "checked": "核对中心法则原始定义与 RNA–蛋白定量关系的区别。",
+    "changes": [
+      "纠正单向信息流和反转录“例外”的表述；删除深度学习必需性的无依据断言。"
+    ],
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/227561a0",
+        "note": "Crick (1970), Central dogma of molecular biology"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/MSE.md",
+    "status": "partial",
+    "checked": "核对 MSE 定义、量纲和相关指标；修复表格中的数学竖线。",
+    "changes": [
+      "补充定义来源；修复 Markdown 表格；收窄 MAE 的稳健性表述。",
+      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+    ],
+    "sources": [
+      {
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html",
+        "note": "scikit-learn: mean_squared_error"
+      },
+      {
+        "url": "https://github.com/TencentAILabHealthcare/sctranslator",
+        "note": "scTranslator official implementation"
+      }
+    ],
+    "unresolved": [
+      "scTranslator 的具体损失权重、版本及训练细节未逐项核对。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Transfer Learning.md",
+    "status": "partial",
+    "checked": "核对迁移学习与领域适配、少样本学习的关系；去除本页未经独立核验的训练数量。",
+    "changes": [
+      "移除 domain adaptation 的同义别名；纠正样本量等同训练量的表述。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.tensorflow.org/tutorials/images/transfer_learning",
+        "note": "TensorFlow: transfer learning and fine-tuning"
+      },
+      {
+        "url": "https://github.com/TencentAILabHealthcare/sctranslator",
+        "note": "scTranslator official repository"
+      }
+    ],
+    "unresolved": [
+      "scTranslator 各阶段的精确训练样本量与划分需对照原文补充表。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/concepts/Zero-shot Learning.md",
+    "status": "partial",
+    "checked": "核对零样本定义与广义零样本、少样本的区别；收窄模型泛化断言。",
+    "changes": [
+      "删除把 few-shot 列作零样本类型的错误；限定未见基因/跨物种泛化的含义。"
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1707.00600",
+        "note": "Xian et al.: zero-shot learning evaluation"
+      },
+      {
+        "url": "https://github.com/TencentAILabHealthcare/sctranslator",
+        "note": "scTranslator official repository"
+      }
+    ],
+    "unresolved": [
+      "scTranslator 的每项零样本评估划分未逐项重建。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/databases/SPDB.md",
+    "status": "verified",
+    "checked": "核对数据库身份、主页统计口径、原始论文和访问入口。",
+    "changes": [
+      "更正错配 DOI 和作者；注明主页统计日期、跨技术汇总及非单细胞深度；删除未证实的 API 功能。"
+    ],
+    "sources": [
+      {
+        "url": "https://scproteomicsdb.com/",
+        "note": "SPDB official homepage, checked 2026-10-20"
+      },
+      {
+        "url": "https://doi.org/10.1093/nar/gkad1018",
+        "note": "SPDB original database paper"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/databases/SingPro.md",
+    "status": "verified",
+    "checked": "核对数据库原始论文、当前版本及跨技术统计。",
+    "changes": [
+      "更正错配 DOI；补主页网址；分开2024论文与当前2.0主页数据；删除无依据的两库优劣表。"
+    ],
+    "sources": [
+      {
+        "url": "https://singpro.idrblab.net/",
+        "note": "SingPro official homepage and release description, checked 2026-10-20"
+      },
+      {
+        "url": "https://doi.org/10.1093/nar/gkad830",
+        "note": "SingPro original database paper"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/databases/CPTAC.md",
+    "status": "partial",
+    "checked": "核对项目、PDC入口及历史数据门户论文的题名/作者/DOI。",
+    "changes": [
+      "更正错误DOI为10.1021/pr501254j；更新入口；注明旧门户已退休及项目统计边界。"
+    ],
+    "sources": [
+      {
+        "url": "https://dctd.cancer.gov/research/networks/cptac",
+        "note": "NCI CPTAC program"
+      },
+      {
+        "url": "https://pdc.cancer.gov/pdc/faq/Files_Download",
+        "note": "PDC: historical CPTAC portal retired in February 2022"
+      },
+      {
+        "url": "https://doi.org/10.1021/pr501254j",
+        "note": "Edwards et al. (2015), The CPTAC Data Portal"
+      }
+    ],
+    "unresolved": [
+      "scTranslator中队列贡献和样本配对未逐项重建。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/databases/TCGA.md",
+    "status": "partial",
+    "checked": "核对20,000余样本/33癌种的项目统计、GDC入口与研究特定语料的归属。",
+    "changes": [
+      "纠正把多来源语料全部归于TCGA；补官方现行入口；明确项目样本统计口径。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.cancer.gov/ccg/research/genome-sequencing/tcga",
+        "note": "NCI TCGA overview"
+      },
+      {
+        "url": "https://doi.org/10.1038/ng.2764",
+        "note": "TCGA pan-cancer analysis project"
+      },
+      {
+        "url": "https://github.com/TencentAILabHealthcare/sctranslator",
+        "note": "scTranslator official repository"
+      }
+    ],
+    "unresolved": [
+      "scTranslator 多来源语料的队列级配对与划分未逐项验证。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/databases/MSKCC.md",
+    "status": "partial",
+    "checked": "核对机构、MSK-IMPACT检测和cBioPortal平台三者边界。",
+    "changes": [
+      "移除cBioPortal错误同义别名；区分机构、DNA检测与多来源数据平台。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.mskcc.org/msk-impact",
+        "note": "MSK official MSK-IMPACT description"
+      },
+      {
+        "url": "https://www.cbioportal.org/about",
+        "note": "cBioPortal project description"
+      },
+      {
+        "url": "https://doi.org/10.1158/2159-8290.CD-12-0095",
+        "note": "Cerami et al. (2012), cBioPortal"
+      }
+    ],
+    "unresolved": [
+      "尚无充分证据确认库内提到的MSKCC RNA–蛋白预训练队列身份。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/databases/Panorama Web.md",
+    "status": "verified",
+    "checked": "核对资源用途、数据类型及官方入口。",
+    "changes": [
+      "填补空白网址；补充官方来源并核对核心用途。"
+    ],
+    "sources": [
+      {
+        "url": "https://panoramaweb.org/home/wiki-page.view?name=default",
+        "note": "Panorama Web official project"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/databases/ProteomeTools.md",
+    "status": "verified",
+    "checked": "核对资源用途、数据类型及官方入口。",
+    "changes": [
+      "填补空白网址；补充官方来源并核对核心用途。"
+    ],
+    "sources": [
+      {
+        "url": "https://www.proteometools.org/",
+        "note": "ProteomeTools official project"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/applications/Cancer Applications.md",
+    "status": "verified",
+    "checked": "核对应用例证与论文对应关系、综述/原始研究区别及性能限制。",
+    "changes": [
+      "纠正白血病例证错引；删除无出处的癌种结果；区分综述与原始证据；限定稀有细胞、伪时间和样本条件。"
+    ],
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-23667-y",
+        "note": "Schoof et al. (2021), cellular hierarchies"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-67367-3",
+        "note": "Sadiku et al., online 2025 / volume 2026"
+      },
+      {
+        "url": "https://doi.org/10.1002/prca.202400101",
+        "note": "Nalla et al. (2025), TNBC review"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41587-022-01302-5",
+        "note": "Deep Visual Proteomics, including fixed tissue"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/applications/Cell Differentiation.md",
+    "status": "verified",
+    "checked": "核对SCoPE2研究的矩阵维度和应用引用；区分蛋白丰度、功能与伪时间。",
+    "changes": [
+      "明确3042蛋白是全矩阵而非每个细胞；替换错配文献；限定功能与轨迹推断。"
+    ],
+    "sources": [
+      {
+        "url": "https://doi.org/10.1186/s13059-021-02267-5",
+        "note": "Specht et al. (2021), SCoPE2"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-021-23667-y",
+        "note": "Schoof et al. (2021), cellular hierarchies"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/applications/Immunology.md",
+    "status": "verified",
+    "checked": "核对例证论文和发表年份；纠正诊断性能与替代技术的过度概括。",
+    "changes": [
+      "清除模板别名和标题；删除未经临床验证的诊断优势；纠正bulk不能测PTM的错误。"
+    ],
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-67367-3",
+        "note": "Sadiku et al.: human glioblastoma neutrophils, online 2025 / volume 2026"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41592-023-01785-3",
+        "note": "Single-cell proteomics reporting recommendations"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "notes/research_group/Leading Scientists.md",
+    "status": "partial",
+    "checked": "核对静态作者例证；区分库内笔记计数、独立论文数和真实学术排名。",
+    "changes": [
+      "以可追溯作者例证替代不可靠机构和“主要推动者”归属；把统计标签改为笔记数，保留既有计算方式。"
+    ],
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41467-022-34904-3",
+        "note": "AlphaPeptDeep author list"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-67367-3",
+        "note": "Neutrophil study author list"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-021-23667-y",
+        "note": "Cellular hierarchies author list"
+      }
+    ],
+    "unresolved": [
+      "动态统计未按DOI和版本去重；作者同名消歧与当前任职不在本次已验证范围。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "README.md",
+    "status": "partial",
+    "checked": "核对导航引用及索引中重复的定义、软件分类、统计口径和性能描述；来源与相应笔记交叉对照。",
+    "changes": [
+      "更正SC-pSILAC占位地址、SCeptre和SCPDA仓库；把SCPDA归入Python；纠正AlphaPept用途。",
+      "核对综述年份和预印本身份；用有条件的性能描述取代统一排名；同步数据库及单细胞统计口径。",
+      "末轮修正2024 scp标准化工作流为Methods in Molecular Biology书章，并补DOI。"
+    ],
+    "sources": [
+      {
+        "url": "https://doi.org/10.1016/j.cell.2025.03.002",
+        "note": "SC-pSILAC"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41592-024-02558-2",
+        "note": "Chip-Tip"
+      },
+      {
+        "url": "https://github.com/WangJianwei1991/SCPDA",
+        "note": "SCPDA"
+      },
+      {
+        "url": "https://github.com/bfurtwa/SCeptre",
+        "note": "SCeptre"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10749393/",
+        "note": "2023 review"
+      },
+      {
+        "url": "https://arxiv.org/abs/2502.11982",
+        "note": "2025 preprint"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39088833/",
+        "note": "Acquisition review dates"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38907155/",
+        "note": "核对完整书章标题、作者、2024年与DOI。"
+      }
+    ],
+    "unresolved": [
+      "厂商平台支持、性能和安装要求仍应以所选版本的官方文档为准；不能据本索引直接设定实验参数。"
+    ],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "Home.md",
+    "status": "verified",
+    "checked": "核对导航引用及索引中重复的定义、软件分类、统计口径和性能描述；来源与相应笔记交叉对照。",
+    "changes": [
+      "同步方法性能口径和软件平台支持；补新增条目导航与审计报告；更新日期。",
+      "将nDIA从纯多重标记分类改为Label-Free & Multiplexed DIA，并移除固定High吞吐等级。",
+      "收尾将pSCoPE统一为保留广泛覆盖的优先采集；吞吐量注明依协议而定。"
+    ],
+    "sources": [
+      {
+        "url": "https://scproteomicsdb.com/",
+        "note": "SPDB snapshot"
+      },
+      {
+        "url": "https://github.com/vdemichev/DiaNN",
+        "note": "Platform support"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41587-022-01389-w",
+        "note": "Original plexDIA"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "canvas/Methods Workflow.canvas",
+    "status": "verified",
+    "checked": "核对导航引用及索引中重复的定义、软件分类、统计口径和性能描述；来源与相应笔记交叉对照。",
+    "changes": [
+      "同步已核对的方法/工具定义；删除无来源的统一性能或设置；修正画布中的错误分类与软件引用。"
+    ],
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41592-023-01785-3",
+        "note": "Reporting recommendations"
+      },
+      {
+        "url": "https://github.com/vdemichev/DiaNN",
+        "note": "DIA-NN"
+      },
+      {
+        "url": "https://github.com/bfurtwa/SCeptre",
+        "note": "SCeptre"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "canvas/SCP Overview.canvas",
+    "status": "verified",
+    "checked": "核对导航引用及索引中重复的定义、软件分类、统计口径和性能描述；来源与相应笔记交叉对照。",
+    "changes": [
+      "同步已核对的方法/工具定义；删除无来源的统一性能或设置；修正画布中的错误分类与软件引用。"
+    ],
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41592-023-01785-3",
+        "note": "Reporting recommendations"
+      },
+      {
+        "url": "https://github.com/vdemichev/DiaNN",
+        "note": "DIA-NN"
+      },
+      {
+        "url": "https://github.com/bfurtwa/SCeptre",
+        "note": "SCeptre"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  },
+  {
+    "path": "canvas/Tools and Software.canvas",
+    "status": "verified",
+    "checked": "核对导航引用及索引中重复的定义、软件分类、统计口径和性能描述；来源与相应笔记交叉对照。",
+    "changes": [
+      "同步已核对的方法/工具定义；删除无来源的统一性能或设置；修正画布中的错误分类与软件引用。"
+    ],
+    "sources": [
+      {
+        "url": "https://doi.org/10.1038/s41592-023-01785-3",
+        "note": "Reporting recommendations"
+      },
+      {
+        "url": "https://github.com/vdemichev/DiaNN",
+        "note": "DIA-NN"
+      },
+      {
+        "url": "https://github.com/bfurtwa/SCeptre",
+        "note": "SCeptre"
+      }
+    ],
+    "unresolved": [],
+    "checked_on": "2026-10-20"
+  }
+]

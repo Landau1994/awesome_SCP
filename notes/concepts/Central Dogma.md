@@ -8,33 +8,33 @@ tags:
   - molecular-biology
 category: concept
 date_created: 2026-03-17
+url: https://doi.org/10.1038/227561a0
 ---
 
 # Central Dogma
 
-**The central dogma of molecular biology describes the flow of genetic information: DNA → RNA → Protein. This unidirectional information transfer is the biological foundation for computational methods that predict protein abundance from transcriptomic data.**
+**The central dogma describes constraints on the transfer of sequence information, not a universal one-way path or a quantitative law relating RNA and protein abundance.**
 
 ## Overview
 
-Proposed by Francis Crick in 1958, the central dogma states that sequence information flows from nucleic acids to proteins but not in reverse. In practice:
-
-1. **Transcription**: DNA → mRNA (in the nucleus)
-2. **Translation**: mRNA → Protein (at ribosomes)
-
-While there are exceptions (reverse transcription, RNA replication), the general DNA → RNA → Protein flow holds for protein-coding genes.
+The central dogma concerns transfer of biological sequence information: information transferred into protein does not flow back from protein into nucleic acid or into another protein sequence. DNA → RNA → protein is a common route, but reverse transcription and RNA replication are compatible with the dogma. It does not assert that RNA abundance quantitatively determines protein abundance.
 
 ## Relevance to SCP
 
-The central dogma provides the theoretical basis for transcriptome-to-proteome translation models like **scTranslator**. However, the relationship between mRNA and protein levels is not perfectly linear due to:
+RNA-to-protein prediction models such as **scTranslator** estimate a statistical relationship. Several processes can decouple mRNA and protein abundance:
 
 - **Post-transcriptional regulation**: miRNA silencing, RNA stability, alternative splicing
 - **Translational regulation**: Ribosome occupancy, codon usage, initiation factors
 - **Post-translational modification**: Phosphorylation, ubiquitination, protein degradation rates
 - **Temporal dynamics**: mRNA and protein half-lives differ substantially
 
-These complexities are why deep learning models (rather than simple linear regression) are needed to capture the mRNA-protein relationship at single-cell resolution.
+These processes motivate explicit evaluation of predictive models. The central dogma does not establish that deep learning is necessary or that it will outperform simpler models.
 
 ## Related Concepts
 
 - [[Transfer Learning]] — ML strategy used to learn this biological relationship at scale
 - [[CITE-seq]] — Experimental method providing paired RNA-protein ground truth
+
+## Sources
+
+- [Crick (1970), Central dogma of molecular biology](https://doi.org/10.1038/227561a0)

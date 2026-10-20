@@ -6,7 +6,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://sciex.com/applications/biomedical-and-omics-research/proteomics
 date_created: 2026-03-25
 ---
 
@@ -32,9 +32,7 @@ LC separation → MS1 survey → Precursor selection/windowing → MS2 fragmenta
 
 ## Performance
 
-- **Proteins per cell**: Strongly depends on acquisition strategy
-- **Throughput**: Moderate to high
-- **Data completeness**: Better in DIA-like implementations
+Proteome depth, acquisition time and measurement completeness depend on sample input, chromatography, instrument, acquisition and analysis. DDA and DIA should be compared under specified experimental conditions.
 
 ## Advantages
 
@@ -50,11 +48,14 @@ LC separation → MS1 survey → Precursor selection/windowing → MS2 fragmenta
 
 ## Key Publications
 
-> [!cite] Primary Reference
-> Foundational platform across modern proteomics studies.
+[SCIEX proteomics technical overview](https://sciex.com/applications/biomedical-and-omics-research/proteomics), official platform documentation.
 
 ## Related Methods
 
 - [[LC-MS]]
 - [[DDA]]
 - [[DIA]]
+
+## Sources
+
+- [Reference for LC-MS-MS](https://sciex.com/applications/biomedical-and-omics-research/proteomics)

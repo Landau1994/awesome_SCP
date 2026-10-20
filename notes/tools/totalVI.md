@@ -11,7 +11,7 @@ tags:
   - single-cell
   - variational-inference
 category: tool
-url: https://doi.org/10.1038/s41592-020-01050-x
+url: https://docs.scvi-tools.org/en/stable/user_guide/models/totalvi.html
 date_created: 2026-03-17
 ---
 
@@ -26,7 +26,7 @@ totalVI (Gayoso et al., 2021) is part of the [[scvi-tools]] ecosystem. It models
 ## Key Features
 
 - **Joint Probabilistic Model**: Simultaneously models RNA (negative binomial) and protein (negative binomial mixture) distributions
-- **Batch Correction**: Removes batch effects across multiple CITE-seq experiments
+- **Batch Correction**: Models batch-associated variation across multiple CITE-seq experiments
 - **Protein Imputation**: Denoises protein measurements and imputes missing values
 - **Differential Expression**: Bayesian differential expression testing for both modalities
 
@@ -44,7 +44,7 @@ scvi.model.TOTALVI.setup_anndata(adata, protein_expression_obsm_key="protein")
 model = scvi.model.TOTALVI(adata)
 model.train()
 latent = model.get_latent_representation()
-denoised_proteins = model.get_normalized_expression(n_samples=25, include_protein_background=False)
+denoised_rna, denoised_proteins = model.get_normalized_expression(n_samples=25, include_protein_background=False)
 ```
 
 ## Key Publications
@@ -64,3 +64,9 @@ denoised_proteins = model.get_normalized_expression(n_samples=25, include_protei
 - [[cTP-net]] — Earlier protein prediction approach
 - [[Seurat]] — WNN-based multi-omics integration
 - [[BABEL]] — Bidirectional modality translation
+
+## Source Check
+
+- Source checked on 2026-10-20: [totalVI documentation or source](https://docs.scvi-tools.org/en/stable/user_guide/models/totalvi.html).
+
+The observation model is designed for RNA and antibody-derived protein counts, such as CITE-seq. Applying it to MS intensity measurements requires a justified model adaptation; imputed values remain predictions.

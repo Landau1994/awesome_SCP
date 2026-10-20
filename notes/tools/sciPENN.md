@@ -9,7 +9,7 @@ tags:
   - multi-omics
   - single-cell
 category: tool
-url: https://doi.org/10.1038/s41592-022-01728-4
+url: https://github.com/jlakkis/sciPENN
 date_created: 2026-03-17
 ---
 
@@ -36,18 +36,13 @@ pip install sciPENN
 
 ## Usage
 
-```python
-from sciPENN.API import sciPENN_API
-sciPENN = sciPENN_API(gene_trainsets, protein_trainsets, gene_test)
-sciPENN.train(n_epochs=10000, ES_max=12, decay_max=6)
-imputed_proteins = sciPENN.impute()
-```
+The [official repository](https://github.com/jlakkis/sciPENN) provides `sciPENN_API` tutorials for training, prediction and imputation. Follow the tutorial matching the task and supply the required AnnData/reference inputs. The previously shown abbreviated constructor and `impute()` call were not validated as a runnable workflow.
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Lakkis J, Wang D, Zhang Y, et al. (2022) *Nature Methods* 19, 1534–1541
-> DOI: [10.1038/s41592-022-01728-4](https://doi.org/10.1038/s41592-022-01728-4)
+> Lakkis J, Schroeder A, Su K, et al. (2022). A multi-use deep learning method for CITE-seq and single-cell RNA-seq data integration with cell surface protein prediction and imputation. *Nature Machine Intelligence* 4, 940–952.
+> DOI: [10.1038/s42256-022-00545-w](https://doi.org/10.1038/s42256-022-00545-w)
 
 ## Links
 
@@ -58,3 +53,8 @@ imputed_proteins = sciPENN.impute()
 - [[totalVI]] — Probabilistic multi-omics integration
 - [[cTP-net]] — Earlier protein imputation method
 - [[Seurat]] — General single-cell toolkit with WNN integration
+
+## Source Check
+
+- Source checked on 2026-10-20: [sciPENN documentation or source](https://github.com/jlakkis/sciPENN).
+- [Original sciPENN paper](https://www.nature.com/articles/s42256-022-00545-w).

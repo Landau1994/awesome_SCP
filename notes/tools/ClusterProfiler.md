@@ -1,13 +1,11 @@
 ---
 title: ClusterProfiler
-aliases:
-  - ClusterProfiler
-  - clusterProfiler
+aliases: ["ClusterProfiler"]
 tags:
   - tools
   - software
 category: tool
-url: 
+url: https://bioconductor.org/packages/clusterProfiler/
 date_created: 2026-01-18
 ---
 
@@ -36,30 +34,24 @@ R -e "if (!requireNamespace('BiocManager', quietly=TRUE)) install.packages('Bioc
 
 ```r
 # Example code
-library(ClusterProfiler)
+library(clusterProfiler)
 ```
 
 ## Input/Output
 
 **Input:**
-- Raw files (.raw, .d, .mzML)
-- Gene/protein lists and ranking statistics
+
+- Gene identifiers, ranked gene statistics and an organism/annotation or user gene sets
 
 **Output:**
-- Protein/peptide matrices
-- Quality metrics
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| pvalueCutoff | 0.05 | Significance threshold |
-| pAdjustMethod | BH | Multiple-testing correction |
+- Enrichment or gene-set test results and comparison objects
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Yu et al. (2012) *OMICS*.
+> Yu et al. (2012). clusterProfiler: an R Package for Comparing Biological Themes Among Gene Clusters. *OMICS: A Journal of Integrative Biology*.
+> DOI: [10.1089/omi.2011.0118](https://doi.org/10.1089/omi.2011.0118)
 
 ## Links
 
@@ -71,3 +63,7 @@ library(ClusterProfiler)
 - [[MaxQuant]]
 - [[DIA-NN]]
 - [[scp Package]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [ClusterProfiler documentation or source](https://bioconductor.org/packages/clusterProfiler/).

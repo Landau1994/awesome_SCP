@@ -2,6 +2,8 @@
 title: SHAP
 tags:
 date_created: 2026-03-25
+url: https://shap.readthedocs.io/en/latest/
+category: concept
 ---
 
 # SHAP
@@ -23,3 +25,7 @@ SHAP is an explainability method that attributes model predictions to feature co
 
 - [[XGBoost]]
 - [[Random Forest]]
+
+## Sources
+
+- [Authoritative reference for SHAP](https://shap.readthedocs.io/en/latest/)

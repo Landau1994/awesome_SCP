@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://www.matrixscience.com/daemon.html
 date_created: 2026-03-25
 ---
 
@@ -23,51 +23,36 @@ Mascot Daemon is used to automate batch search submission and processing, often 
 - **Batch Automation**: Handles repeated search tasks.
 - **Pipeline Integration**: Supports routine processing and QC.
 - **Legacy Compatibility**: Common in established Mascot workflows.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# Install via Mascot software package
-```
-
-## Usage
-
-```r
-# Example code
-# Typically configured through Mascot interfaces
-```
+- **Environment**: Follow the official release requirements; operating-system support depends on the package and its dependencies.
 
 ## Input/Output
 
 **Input:**
+
 - Raw/converted MS files
 - Mascot search templates and databases
 
 **Output:**
+
 - Automated search results
 - Batch logs and QC summaries
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| queue_profile | user-defined | Batch submission settings |
-| database | user-defined | Sequence database target |
-
 ## Key Publications
 
-> [!cite] Primary Reference
+> [!cite] Project Documentation
 > Vendor documentation and application notes.
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Source availability: See the official source below; no separate public repository was confirmed.
+- Documentation/source: https://www.matrixscience.com/daemon.html
 
 ## Related Tools
 
 - [[MaxQuant]]
 - [[DIA-NN]]
 - [[Proteome Discoverer]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [Mascot Daemon documentation or source](https://www.matrixscience.com/daemon.html).

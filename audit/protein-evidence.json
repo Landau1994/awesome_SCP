@@ -1,0 +1,210 @@
+[
+  {
+    "gene": "SIGLEC7",
+    "accession": "Q9Y286",
+    "url": "https://www.uniprot.org/uniprotkb/Q9Y286/entry",
+    "name": "Sialic acid-binding Ig-like lectin 7",
+    "function_excerpt": "Putative adhesion molecule that mediates sialic-acid dependent binding to cells. Preferentially binds to alpha-2,3- and alpha-2,6-linked sialic acid. Also binds disialogangliosides (disialogalactosyl globoside, disialyl lactotetraosylceramide and disialyl GalNAc lactotetraoslylceramide). The sialic acid recognition site may be masked by cis interactions with sialic acids on the same cell surface. In the immune response, may act as an inhibitory receptor upon ligand induced tyrosine phosphorylation by recruiting cytoplasmic phosphatase(s) via their SH2 domain(s) that block signal transduction through dephosphorylation of signaling molecules. Mediates inhibition of natural killer cells cytotox",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "H1-0",
+    "accession": "P07305",
+    "url": "https://www.uniprot.org/uniprotkb/P07305/entry",
+    "name": "Histone H1.0",
+    "function_excerpt": "Histone H1 protein binds to linker DNA between nucleosomes forming the macromolecular structure known as the chromatin fiber (PubMed:33238161). Histones H1 are necessary for the condensation of nucleosome chains into higher-order structured fibers and promote formation of the H3K27me3 mark by the PRC2/EED-EZH2 complex (PubMed:33238161). The histones H1.0 are found in cells that are in terminal stages of differentiation or that have low rates of cell division (PubMed:7374750)",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "FCRL5",
+    "accession": "Q96RD9",
+    "url": "https://www.uniprot.org/uniprotkb/Q96RD9/entry",
+    "name": "Fc receptor-like protein 5",
+    "function_excerpt": "Plays an important role in B-cell response to antigen that acts both as a negative or positive coreceptor. Inhibits B-cell receptor (BCR) signaling in the absence of CR2 stimulation but engagement with CR2 and the BCR lead to a superior calcium response compared to CR2 and BCR costimulation (PubMed:30107486). May be involved in B-cell development and differentiation in peripheral lymphoid organs and may be useful markers of B-cell stages. May have an immunoregulatory role in marginal zone B-cells. May play a role in fertilization (By similarity)",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "CD27",
+    "accession": "P26842",
+    "url": "https://www.uniprot.org/uniprotkb/P26842/entry",
+    "name": "CD27 antigen",
+    "function_excerpt": "Costimulatory immune-checkpoint receptor expressed at the surface of T-cells, NK-cells and B-cells which binds to and is activated by its ligand CD70/CD27L expressed by B-cells (PubMed:28011863). The CD70-CD27 signaling pathway mediates antigen-specific T-cell activation and expansion which in turn provides immune surveillance of B-cells (PubMed:28011863). Mechanistically, CD70 ligation activates the TRAF2-PTPN6 axis that subsequently inhibits LCK phosphorylation to promote phenotypic and transcriptional adaptations of T-cell memory (PubMed:38354704). In addition, activation by CD70 on early progenitor cells provides a negative feedback signal to leukocyte differentiation during immune activ",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "SPN",
+    "accession": "P16150",
+    "url": "https://www.uniprot.org/uniprotkb/P16150/entry",
+    "name": "Leukosialin",
+    "function_excerpt": "Predominant cell surface sialoprotein of leukocytes which regulates multiple T-cell functions, including T-cell activation, proliferation, differentiation, trafficking and migration. Positively regulates T-cell trafficking to lymph-nodes via its association with ERM proteins (EZR, RDX and MSN) (By similarity). Negatively regulates Th2 cell differentiation and predisposes the differentiation of T-cells towards a Th1 lineage commitment. Promotes the expression of IFN-gamma by T-cells during T-cell receptor (TCR) activation of naive cells and induces the expression of IFN-gamma by CD4(+) T-cells and to a lesser extent by CD8(+) T-cells (PubMed:18036228). Plays a role in preparing T-cells for cy",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "CTSW",
+    "accession": "P56202",
+    "url": "https://www.uniprot.org/uniprotkb/P56202/entry",
+    "name": "Cathepsin W",
+    "function_excerpt": "May have a specific function in the mechanism or regulation of T-cell cytolytic activity (Microbial infection) Plays a role during influenza virus infection in lungs cells ex vivo. Acts at the level of virus entering host cytoplasm from late endosome",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "SIGLEC1",
+    "accession": "Q9BZZ2",
+    "url": "https://www.uniprot.org/uniprotkb/Q9BZZ2/entry",
+    "name": "Sialoadhesin",
+    "function_excerpt": "Macrophage-restricted adhesion molecule that mediates sialic-acid dependent binding to lymphocytes, including granulocytes, monocytes, natural killer cells, B-cells and CD8 T-cells. Plays a crucial role in limiting bacterial dissemination by engaging sialylated bacteria to promote effective phagocytosis and antigen presentation for the adaptive immune response (PubMed:12940982, PubMed:33489013). Mediates the uptake of various enveloped viruses via sialic acid recognition and subsequently induces the formation of intracellular compartments filled with virions (VCCs) (PubMed:28129379). In turn, enhances macrophage-to-T-cell transmission of several viruses including HIV-1 or SARS-CoV-2 (PubMed:",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "CD7",
+    "accession": "P09564",
+    "url": "https://www.uniprot.org/uniprotkb/P09564/entry",
+    "name": "T-cell antigen CD7",
+    "function_excerpt": "Transmembrane glycoprotein expressed by T-cells and natural killer (NK) cells and their precursors (PubMed:7506726). Plays a costimulatory role in T-cell activation upon binding to its ligand K12/SECTM1 (PubMed:10652336). In turn, mediates the production of cytokines such as IL-2 (PubMed:1709867). On resting NK-cells, CD7 activation results in a significant induction of interferon-gamma levels (PubMed:7506726)",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "PSMC4",
+    "accession": "P43686",
+    "url": "https://www.uniprot.org/uniprotkb/P43686/entry",
+    "name": "26S proteasome regulatory subunit 6B",
+    "function_excerpt": "Component of the 26S proteasome, a multiprotein complex involved in the ATP-dependent degradation of ubiquitinated proteins. This complex plays a key role in the maintenance of protein homeostasis by removing misfolded or damaged proteins, which could impair cellular functions, and by removing proteins whose functions are no longer required. Therefore, the proteasome participates in numerous cellular processes, including cell cycle progression, apoptosis, or DNA damage repair. PSMC4 belongs to the heterohexameric ring of AAA (ATPases associated with diverse cellular activities) proteins that unfolds ubiquitinated target proteins that are concurrently translocated into a proteolytic chamber a",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "NEDD8",
+    "accession": "Q15843",
+    "url": "https://www.uniprot.org/uniprotkb/Q15843/entry",
+    "name": "Ubiquitin-like protein NEDD8",
+    "function_excerpt": "Ubiquitin-like protein which plays an important role in cell cycle control and embryogenesis via its conjugation to a limited number of cellular proteins, such as cullins or p53/TP53 (PubMed:10318914, PubMed:10597293, PubMed:11953428, PubMed:14690597, PubMed:15242646, PubMed:9694792, PubMed:38605244, PubMed:38316879). Attachment of NEDD8 to cullins is critical for the recruitment of E2 to the cullin-RING-based E3 ubiquitin-protein ligase complex, thus facilitating polyubiquitination and proteasomal degradation of cyclins and other regulatory proteins (PubMed:10318914, PubMed:10597293, PubMed:11953428, PubMed:20688984, PubMed:9694792, PubMed:38605244, PubMed:38316879). Attachment of NEDD8 to ",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "PDPN",
+    "accession": "Q86YL7",
+    "url": "https://www.uniprot.org/uniprotkb/Q86YL7/entry",
+    "name": "Podoplanin",
+    "function_excerpt": "Mediates effects on cell migration and adhesion through its different partners. During development plays a role in blood and lymphatic vessels separation by binding CLEC1B, triggering CLEC1B activation in platelets and leading to platelet activation and/or aggregation (PubMed:14522983, PubMed:15231832, PubMed:17222411, PubMed:17616532, PubMed:18215137). Interaction with CD9, on the contrary, attenuates platelet aggregation induced by PDPN (PubMed:18541721). Through MSN or EZR interaction promotes epithelial-mesenchymal transition (EMT) leading to ERZ phosphorylation and triggering RHOA activation leading to cell migration increase and invasiveness (PubMed:17046996, PubMed:21376833). Interact",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "LIN28A",
+    "accession": "Q9H9Z2",
+    "url": "https://www.uniprot.org/uniprotkb/Q9H9Z2/entry",
+    "name": "Protein lin-28 homolog A",
+    "function_excerpt": "RNA-binding protein that inhibits processing of pre-let-7 miRNAs and regulates translation of mRNAs that control developmental timing, pluripotency and metabolism (PubMed:21247876). Seems to recognize a common structural G-quartet (G4) feature in its miRNA and mRNA targets (Probable). 'Translational enhancer' that drives specific mRNAs to polysomes and increases the efficiency of protein synthesis. Its association with the translational machinery and target mRNAs results in an increased number of initiation events per molecule of mRNA and, indirectly, in mRNA stabilization. Binds IGF2 mRNA, MYOD1 mRNA, ARBP/36B4 ribosomal protein mRNA and its own mRNA. Essential for skeletal muscle different",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "EMCN",
+    "accession": "Q9ULC0",
+    "url": "https://www.uniprot.org/uniprotkb/Q9ULC0/entry",
+    "name": "Endomucin",
+    "function_excerpt": "Endothelial sialomucin, also called endomucin or mucin-like sialoglycoprotein, which interferes with the assembly of focal adhesion complexes and inhibits interaction between cells and the extracellular matrix",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "SDC1",
+    "accession": "P18827",
+    "url": "https://www.uniprot.org/uniprotkb/P18827/entry",
+    "name": "Syndecan-1",
+    "function_excerpt": "Cell surface proteoglycan that contains both heparan sulfate and chondroitin sulfate and that links the cytoskeleton to the interstitial matrix (By similarity). Regulates exosome biogenesis in concert with SDCBP and PDCD6IP (PubMed:22660413). Able to induce its own expression in dental mesenchymal cells and also in the neighboring dental epithelial cells via an MSX1-mediated pathway (By similarity)",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "TALDO1",
+    "accession": "P37837",
+    "url": "https://www.uniprot.org/uniprotkb/P37837/entry",
+    "name": "Transaldolase",
+    "function_excerpt": "Catalyzes the rate-limiting step of the non-oxidative phase in the pentose phosphate pathway. Catalyzes the reversible conversion of sedoheptulose-7-phosphate and D-glyceraldehyde 3-phosphate into erythrose-4-phosphate and beta-D-fructose 6-phosphate (PubMed:18687684, PubMed:8955144). Not only acts as a pentose phosphate pathway enzyme, but also affects other metabolite pathways by altering its subcellular localization between the nucleus and the cytoplasm (By similarity)",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "RYR2",
+    "accession": "Q92736",
+    "url": "https://www.uniprot.org/uniprotkb/Q92736/entry",
+    "name": "Ryanodine receptor 2",
+    "function_excerpt": "Cytosolic calcium-activated calcium channel that mediates the release of Ca(2+) from the sarcoplasmic reticulum into the cytosol and thereby plays a key role in triggering cardiac muscle contraction. Aberrant channel activation can lead to cardiac arrhythmia. In cardiac myocytes, calcium release is triggered by increased Ca(2+) cytosolic levels due to activation of the L-type calcium channel CACNA1C. The calcium channel activity is modulated by formation of heterotetramers with RYR3. Required for cellular calcium ion homeostasis. Required for embryonic heart development",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "NPTN",
+    "accession": "Q9Y639",
+    "url": "https://www.uniprot.org/uniprotkb/Q9Y639/entry",
+    "name": "Neuroplastin",
+    "function_excerpt": "Accessory subunit of plasma membrane calcium-transporting ATPase ATP2B2/PMCA2 that stabilizes the transporter at the cell surface (By similarity). Also acts as a chaperone for ATP2B1; stabilizes ATP2B1 and increases its ATPase activity (PubMed:30190470). Probable homophilic and heterophilic cell adhesion molecule involved in long term potentiation at hippocampal excitatory synapses through activation of p38MAPK (By similarity). May also regulate neurite outgrowth by activating the FGFR1 signaling pathway (By similarity). May play a role in synaptic plasticity (By similarity). Promotes localization of XKR8 at the cell membrane (PubMed:27503893)",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "CSF1R",
+    "accession": "P07333",
+    "url": "https://www.uniprot.org/uniprotkb/P07333/entry",
+    "name": "Macrophage colony-stimulating factor 1 receptor",
+    "function_excerpt": "Tyrosine-protein kinase that acts as a cell-surface receptor for CSF1 and IL34 and plays an essential role in the regulation of survival, proliferation and differentiation of hematopoietic precursor cells, especially mononuclear phagocytes, such as macrophages and monocytes. Promotes the release of pro-inflammatory chemokines in response to IL34 and CSF1, and thereby plays an important role in innate immunity and in inflammatory processes. Plays an important role in the regulation of osteoclast proliferation and differentiation, the regulation of bone resorption, and is required for normal bone and tooth development. Required for normal male and female fertility, and for normal development o",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "MYH6",
+    "accession": "P13533",
+    "url": "https://www.uniprot.org/uniprotkb/P13533/entry",
+    "name": "Myosin-6",
+    "function_excerpt": "Muscle contraction",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "CALD1",
+    "accession": "Q05682",
+    "url": "https://www.uniprot.org/uniprotkb/Q05682/entry",
+    "name": "Caldesmon",
+    "function_excerpt": "Actin- and myosin-binding protein implicated in the regulation of actomyosin interactions in smooth muscle and nonmuscle cells (could act as a bridge between myosin and actin filaments). Stimulates actin binding of tropomyosin which increases the stabilization of actin filament structure. In muscle tissues, inhibits the actomyosin ATPase by binding to F-actin. This inhibition is attenuated by calcium-calmodulin and is potentiated by tropomyosin. Interacts with actin, myosin, two molecules of tropomyosin and with calmodulin. Also plays an essential role during cellular mitosis and receptor capping. Involved in Schwann cell migration during peripheral nerve regeneration (By similarity)",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "MYH11",
+    "accession": "P35749",
+    "url": "https://www.uniprot.org/uniprotkb/P35749/entry",
+    "name": "Myosin-11",
+    "function_excerpt": "Muscle contraction",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "SOD1",
+    "accession": "P00441",
+    "url": "https://www.uniprot.org/uniprotkb/P00441/entry",
+    "name": "Superoxide dismutase [Cu-Zn]",
+    "function_excerpt": "Destroys radicals which are normally produced within the cells and which are toxic to biological systems (PubMed:18948262, PubMed:24140062). Catalyzes the oxidation of hydrogen sulfide (H2S) to sulfate, playing an important role in detoxifying H2S and limiting the accumulation of reactive sulfur species (RSS) such as persulfides and polysulfides (PubMed:36630448)",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "MBP",
+    "accession": "P02686",
+    "url": "https://www.uniprot.org/uniprotkb/P02686/entry",
+    "name": "Myelin basic protein",
+    "function_excerpt": "The classic group of MBP isoforms (isoform 4-isoform 14) are with PLP the most abundant protein components of the myelin membrane in the CNS. They have a role in both its formation and stabilization. The smaller isoforms might have an important role in remyelination of denuded axons in multiple sclerosis. The non-classic group of MBP isoforms (isoform 1-isoform 3/Golli-MBPs) may preferentially have a role in the early developing brain long before myelination, maybe as components of transcriptional complexes, and may also be involved in signaling pathways in T-cells and neural cells. Differential splicing events combined with optional post-translational modifications give a wide spectrum of i",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "ENO2",
+    "accession": "P09104",
+    "url": "https://www.uniprot.org/uniprotkb/P09104/entry",
+    "name": "Gamma-enolase",
+    "function_excerpt": "Enolase that catalyzes the conversion of 2-phosphoglycerate to phosphoenolpyruvate in glycolysis and the reverse reaction in gluconeogenesis (By similarity). Has neurotrophic and neuroprotective properties on a broad spectrum of central nervous system (CNS) neurons. Binds, in a calcium-dependent manner, to cultured neocortical neurons and promotes cell survival (By similarity)",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "CTNNB1",
+    "accession": "P35222",
+    "url": "https://www.uniprot.org/uniprotkb/P35222/entry",
+    "name": "Catenin beta-1",
+    "function_excerpt": "Key downstream component of the canonical Wnt signaling pathway (PubMed:17524503, PubMed:18077326, PubMed:18086858, PubMed:18957423, PubMed:21262353, PubMed:22155184, PubMed:22647378, PubMed:22699938). In the absence of Wnt, forms a complex with AXIN1, AXIN2, APC, CSNK1A1 and GSK3B that promotes phosphorylation on N-terminal Ser and Thr residues and ubiquitination of CTNNB1 via BTRC and its subsequent degradation by the proteasome (PubMed:17524503, PubMed:18077326, PubMed:18086858, PubMed:18957423, PubMed:21262353, PubMed:22155184, PubMed:22647378, PubMed:22699938). In the presence of Wnt ligand, CTNNB1 is not ubiquitinated and accumulates in the nucleus, where it acts as a coactivator for t",
+    "checked_on": "2026-10-20"
+  },
+  {
+    "gene": "CD44",
+    "accession": "P16070",
+    "url": "https://www.uniprot.org/uniprotkb/P16070/entry",
+    "name": "CD44 antigen",
+    "function_excerpt": "Cell-surface receptor that plays a role in cell-cell interactions, cell adhesion and migration, helping them to sense and respond to changes in the tissue microenvironment (PubMed:16541107, PubMed:19703720, PubMed:22726066). Participates thereby in a wide variety of cellular functions including the activation, recirculation and homing of T-lymphocytes, hematopoiesis, inflammation and response to bacterial infection (PubMed:7528188). Engages, through its ectodomain, extracellular matrix components such as hyaluronan/HA, collagen, growth factors, cytokines or proteases and serves as a platform for signal transduction by assembling, via its cytoplasmic domain, protein complexes containing recep",
+    "checked_on": "2026-10-20"
+  }
+]

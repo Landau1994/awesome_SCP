@@ -25,35 +25,22 @@ WebGestalt supports over-representation and network-based enrichment analyses ac
 - **Flexible Input Modes**: Ranked lists and unranked gene/protein sets.
 - **Visualization Utilities**: Interpretable summaries for downstream reporting.
 
-## Installation
-
-```bash
-# Web service; no local installation required
-```
-
 ## Usage
 
 ```r
 # Example code
-library(WebGestalt)
+library(WebGestaltR)
 ```
 
 ## Input/Output
 
 **Input:**
-- Raw files (.raw, .d, .mzML)
-- Gene/protein identifiers or ranked feature lists
+
+- Gene/protein identifiers mapped to supported gene IDs, ranked lists or other method-specific inputs
 
 **Output:**
-- Protein/peptide matrices
-- Quality metrics
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| organism | user-defined | Target species database |
-| enrichment_method | ORA/GSEA variants | Statistical analysis mode |
+- Functional enrichment results, statistics and visualizations
 
 ## Key Publications
 
@@ -69,3 +56,7 @@ library(WebGestalt)
 - [[MaxQuant]]
 - [[DIA-NN]]
 - [[scp Package]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [WebGestalt documentation or source](https://www.webgestalt.org/).

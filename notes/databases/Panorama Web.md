@@ -5,7 +5,7 @@ aliases:
 tags:
   - databases
 category: database
-url: 
+url: https://panoramaweb.org/home/wiki-page.view?name=default
 date_created: 2026-03-25
 ---
 
@@ -35,3 +35,7 @@ Panorama Web is a repository and sharing platform for targeted proteomics assays
 - [[Skyline]]
 - [[ProteomeXchange]]
 - [[Stellar]]
+
+## Sources
+
+- [Panorama Web official project](https://panoramaweb.org/home/wiki-page.view?name=default)

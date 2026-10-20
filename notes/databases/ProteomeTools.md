@@ -5,7 +5,7 @@ aliases:
 tags:
   - databases
 category: database
-url: 
+url: https://www.proteometools.org/
 date_created: 2026-03-25
 ---
 
@@ -35,3 +35,7 @@ ProteomeTools is a large synthetic peptide resource used for benchmarking, spect
 - [[Prosit]]
 - [[AlphaPeptDeep]]
 - [[ProteomeXchange]]
+
+## Sources
+
+- [ProteomeTools official project](https://www.proteometools.org/)

@@ -4,9 +4,9 @@ aliases:
   - Thermo Scientific Vanquish Neo UHPLC
 tags:
   - tools
-  - software
+  - equipment
 category: tool
-url: https://www.thermofisher.com
+url: https://docs.thermofisher.com/v/u/Vanquish-Neo-System-VN-A10-VN-C10-VN-P10-VN-S10-User-Guide
 date_created: 2026-01-18
 ---
 
@@ -25,43 +25,24 @@ Vanquish Neo UHPLC is used in proteomics workflows requiring stable short- and m
 - **Low-Input Compatibility**: Works with sensitive SCP-oriented methods.
 - **Vendor Ecosystem Integration**: Commonly paired with Thermo MS platforms.
 
-## Installation
-
-```bash
-# Vendor-managed hardware/software installation and qualification
-```
-
-## Usage
-
-```r
-# LC methods are configured in instrument control software
-```
-
 ## Input/Output
 
 **Input:**
-- Raw files (.raw, .d, .mzML)
-- Peptide digests and LC method schedules
+
+- Liquid samples, mobile phases, chromatography column and LC method
 
 **Output:**
-- Protein/peptide matrices
-- Quality metrics
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| gradient_length | method-dependent | Separation time per sample |
-| flow_rate | method-dependent | LC flow setting for sensitivity/throughput |
+- Chromatographically separated analytes delivered to a detector/MS; LC pressure and run records
 
 ## Key Publications
 
-> [!cite] Primary Reference
+> [!cite] Related Study Context
 > See benchmark datasets using high-throughput LC gradients.
 
 ## Links
 
-- GitHub:
+- Source availability: See the official source below; no separate public repository was confirmed.
 - Documentation: https://www.thermofisher.com
 
 ## Related Tools
@@ -69,3 +50,7 @@ Vanquish Neo UHPLC is used in proteomics workflows requiring stable short- and m
 - [[MaxQuant]]
 - [[DIA-NN]]
 - [[scp Package]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [Thermo Scientific Vanquish Neo UHPLC documentation or source](https://docs.thermofisher.com/v/u/Vanquish-Neo-System-VN-A10-VN-C10-VN-P10-VN-S10-User-Guide).

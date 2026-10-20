@@ -9,6 +9,7 @@ tags:
   - deep-learning
 category: concept
 date_created: 2026-03-17
+url: https://arxiv.org/abs/1707.00600
 ---
 
 # Zero-shot Learning
@@ -17,7 +18,7 @@ date_created: 2026-03-17
 
 ## Overview
 
-In zero-shot learning, the model must predict labels or outputs for which no training examples were provided. This is possible when the model learns a generalizable representation space that captures the underlying structure of the problem. In NLP, zero-shot capability is a hallmark of large language models. In computational biology, it enables prediction on new genes, proteins, or tissues not in the training set.
+In classical zero-shot classification, the target classes lack labeled training examples, and auxiliary information connects them to learned representations. In model applications, zero-shot may instead mean using a pretrained model on a new dataset without target-specific parameter updates. Reports should specify which meaning is intended; this does not by itself show that every gene, tissue or species was absent from pretraining.
 
 ## Types
 
@@ -25,17 +26,20 @@ In zero-shot learning, the model must predict labels or outputs for which no tra
 |------|-------------|
 | **Standard Zero-shot** | No target-domain training data at all |
 | **Generalized Zero-shot** | Test set includes both seen and unseen classes |
-| **Few-shot** | Very small number of target examples (1–20) |
+
 
 ## Application in SCP
 
-scTranslator achieves zero-shot protein prediction through its **re-indexed Gene Positional Encoding (GPE)** module, which maps NCBI Gene IDs to embedding vectors. This gene-identity-aware design allows the model to:
+scTranslator reports applications to new datasets using gene-aware representations. The absence of target-specific fine-tuning must be distinguished from absence of the gene or protein from pretraining. Its reported pan-cancer and cross-species evaluations should be interpreted using the original train/test splits; they are not a guarantee of arbitrary unseen-protein prediction.
 
-- Predict proteins not present in the fine-tuning dataset
-- Apply to entirely new datasets without gradient updates (e.g., pan-cancer analysis predicting 14,000 proteins)
-- Generalize across tissues and species (human → mouse)
+Few-shot learning uses a small number of target examples and is a separate setting, not a type of zero-shot learning.
 
 ## Related Concepts
 
 - [[Transfer Learning]] — Broader paradigm; zero-shot is an extreme case
 - [[Transformer]] — Architecture enabling zero-shot via learned representations
+
+## Sources
+
+- [Xian et al.: zero-shot learning evaluation](https://arxiv.org/abs/1707.00600)
+- [scTranslator official repository](https://github.com/TencentAILabHealthcare/sctranslator)

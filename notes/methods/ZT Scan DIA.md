@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://sciex.com/applications/biomedical-and-omics-research/proteomics
 date_created: 2026-03-25
 ---
 
@@ -15,7 +15,7 @@ date_created: 2026-03-25
 
 ## Overview
 
-ZT Scan DIA is a modern DIA acquisition mode referenced in benchmarking studies for short-gradient and low-input workflows.
+ZT Scan DIA combines a scanning Q1 quadrupole dimension with Zeno trap-enabled MS/MS on compatible SCIEX platforms. The added Q1 dimension provides precursor-selectivity information for DIA analysis.
 
 ## Key Features
 
@@ -31,9 +31,7 @@ Scanning quadrupole DIA acquisition → DIA feature extraction → Quantificatio
 
 ## Performance
 
-- **Proteins per cell**: Competitive for low-input benchmarks
-- **Throughput**: High with short gradients
-- **Data completeness**: Good in optimized platform settings
+Acquisition speed, sensitivity and quantitative performance depend on platform, scanning settings, sample and analysis. The Q1 scanning dimension provides additional selectivity; a fixed single-cell depth or universal advantage is not established by this definition.
 
 ## Advantages
 
@@ -49,11 +47,14 @@ Scanning quadrupole DIA acquisition → DIA feature extraction → Quantificatio
 
 ## Key Publications
 
-> [!cite] Primary Reference
-> See LFQ benchmark literature note.
+[SCIEX proteomics and ZT Scan DIA documentation](https://sciex.com/applications/biomedical-and-omics-research/proteomics), official technology information. Dataset-specific comparisons require their original benchmark publications.
 
 ## Related Methods
 
 - [[DIA]]
 - [[diagonal-PASEF]]
 - [[nDIA]]
+
+## Sources
+
+- [Reference for ZT Scan DIA](https://sciex.com/applications/biomedical-and-omics-research/proteomics)

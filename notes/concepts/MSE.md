@@ -1,8 +1,6 @@
 ---
 title: MSE
-aliases:
-  - Mean Squared Error
-  - mean squared error
+aliases: ["Mean Squared Error"]
 tags:
   - concept
   - machine-learning
@@ -10,6 +8,7 @@ tags:
   - metric
 category: concept
 date_created: 2026-03-17
+url: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html
 ---
 
 # MSE
@@ -39,10 +38,15 @@ scTranslator uses MSE as the loss function for training its [[Transformer]] enco
 |--------|---------|-------|
 | **MSE** | $\frac{1}{n}\sum(y-\hat{y})^2$ | Training loss |
 | **RMSE** | $\sqrt{\text{MSE}}$ | Same units as target |
-| **MAE** | $\frac{1}{n}\sum|y-\hat{y}|$ | Robust to outliers |
-| **Cosine Similarity** | $\frac{y \cdot \hat{y}}{||y|| \cdot ||\hat{y}||}$ | Direction agreement |
+| **MAE** | $\frac{1}{n}\sum\lvert y-\hat{y}\rvert$ | Less sensitive to large errors than squared loss |
+| **Cosine Similarity** | $\frac{y \cdot \hat{y}}{\lVert y\rVert \cdot \lVert\hat{y}\rVert}$ | Direction agreement |
 | **PCC** | Pearson correlation | Linear association |
 
 ## Related Concepts
 
 - [[Transformer]] — Architecture trained with MSE loss in scTranslator
+
+## Sources
+
+- [scikit-learn: mean_squared_error](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html)
+- [scTranslator official implementation](https://github.com/TencentAILabHealthcare/sctranslator)

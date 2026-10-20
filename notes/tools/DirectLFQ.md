@@ -1,13 +1,11 @@
 ---
 title: DirectLFQ
-aliases:
-  - DirectLFQ
-  - directLFQ
+aliases: ["DirectLFQ"]
 tags:
   - tools
   - software
 category: tool
-url: 
+url: https://github.com/MannLabs/directlfq
 date_created: 2026-03-25
 ---
 
@@ -24,51 +22,36 @@ DirectLFQ provides normalization and protein quantification from peptide-level e
 - **Label-Free Quantification**: Supports LFQ protein abundance estimation.
 - **Normalization Support**: Improves cross-sample comparability.
 - **Workflow Integration**: Used in modern DIA-oriented analyses.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# Refer to DirectLFQ documentation
-```
-
-## Usage
-
-```r
-# Example code
-# Commonly integrated in Python-based pipelines
-```
+- **Environment**: Follow the official release requirements; operating-system support depends on the package and its dependencies.
 
 ## Input/Output
 
 **Input:**
+
 - Peptide intensity tables
 - Sample annotations
 
 **Output:**
+
 - Normalized protein-level quantification matrix
 - QC/summary statistics
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| normalization | user-defined | Intensity normalization strategy |
-| aggregation | user-defined | Peptide-to-protein rollup setting |
-
 ## Key Publications
 
-> [!cite] Primary Reference
+> [!cite] Related Study Context
 > See spatial liver and cohort-scale DIA literature notes.
 
 ## Links
 
-- GitHub:
-- Documentation:
+- GitHub: https://github.com/MannLabs/directlfq
+- Documentation/source: https://github.com/MannLabs/directlfq
 
 ## Related Tools
 
 - [[DIA-NN]]
 - [[Perseus]]
 - [[ProteoBench]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [DirectLFQ documentation or source](https://github.com/MannLabs/directlfq).

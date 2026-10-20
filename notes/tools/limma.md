@@ -41,24 +41,18 @@ library(limma)
 ## Input/Output
 
 **Input:**
-- Raw files (.raw, .d, .mzML)
-- Processed expression/abundance matrices with sample design metadata
+
+- Processed expression or abundance matrix and an experimental design/contrasts
 
 **Output:**
-- Protein/peptide matrices
-- Quality metrics
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| design_matrix | user-defined | Experimental design specification |
-| contrast_matrix | user-defined | Hypothesis testing contrasts |
+- Model coefficients, differential-analysis statistics and adjusted P values
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Ritchie et al. (2015) *Nucleic Acids Research*.
+> Ritchie et al. (2015). limma powers differential expression analyses for RNA-sequencing and microarray studies. *Nucleic Acids Research*.
+> DOI: [10.1093/nar/gkv007](https://doi.org/10.1093/nar/gkv007)
 
 ## Links
 
@@ -69,3 +63,7 @@ library(limma)
 - [[MaxQuant]]
 - [[DIA-NN]]
 - [[scp Package]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [limma documentation or source](https://bioconductor.org/packages/limma/).

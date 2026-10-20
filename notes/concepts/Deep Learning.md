@@ -2,6 +2,8 @@
 title: Deep Learning
 tags:
 date_created: 2026-03-25
+url: https://www.nature.com/articles/nature14539
+category: concept
 ---
 
 # Deep Learning
@@ -23,3 +25,7 @@ Deep Learning is a class of representation-learning methods based on multi-layer
 
 - [[PyTorch]]
 - [[AlphaPeptDeep]]
+
+## Sources
+
+- [Authoritative reference for Deep Learning](https://www.nature.com/articles/nature14539)

@@ -11,9 +11,7 @@ authors:
   - Ljiljana Paša-Tolić
   - Lloyd M. Smith
   - Ying Ge
-aliases:
-   - Top-down proteomics Primer
-   - Top-down proteomics
+aliases: ["Top-down proteomics Primer"]
 tags:
   - literature
   - paper
@@ -23,9 +21,17 @@ category: literature
 date_created: 2024-05-22
 Journal: Nature Reviews Methods Primers
 Year: 2024
+doi: "10.1038/s43586-024-00318-2"
+url: "https://doi.org/10.1038/s43586-024-00318-2"
+publication_status: "published"
+published_online: "2024-06-13"
 ---
 
 # Top-down proteomics
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -34,8 +40,7 @@ Year: 2024
 > **Authors**: David S. Roberts, Joseph A. Loo, Yury O. Tsybin, Xiaowen Liu, Si Wu, Julia Chamot-Rooke, Jeffrey N. Agar, Ljiljana Paša-Tolić, Lloyd M. Smith & Ying Ge
 > **Year**: 2024
 > **Journal**: Nature Reviews Methods Primers
-> **DOI**: https://doi.org/10.1038/s43586-024-00318-2
-
+> **DOI**: [10.1038/s43586-024-00318-2](https://doi.org/10.1038/s43586-024-00318-2)
 ## Abstract
 
 Proteoforms, which arise from post-translational modifications, genetic polymorphisms and RNA splice variants, play a pivotal role as drivers in biology. Understanding proteoforms is essential to unravel the intricacies of biological systems and bridge the gap between genotypes and phenotypes. By analysing whole proteins without digestion, top-down proteomics (TDP) provides a holistic view of the proteome and can decipher protein function, uncover disease mechanisms and advance precision medicine. This Primer explores TDP, including the underlying principles, recent advances and an outlook on the future. The experimental section discusses instrumentation, sample preparation, intact protein separation, tandem mass spectrometry techniques and data collection. The results section looks at how to decipher raw data, visualize intact protein spectra and unravel data analysis. Additionally, proteoform identification, characterization and quantification are summarized, alongside approaches for statistical analysis. Various applications are described, including the human proteoform project and biomedical, biopharmaceutical and clinical sciences.

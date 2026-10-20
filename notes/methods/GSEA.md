@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://doi.org/10.1073/pnas.0506580102
 date_created: 2026-03-25
 ---
 
@@ -31,9 +31,7 @@ Generate ranked feature list → Evaluate enrichment score per gene set → Perm
 
 ## Performance
 
-- **Proteins per cell**: Not directly applicable
-- **Throughput**: High
-- **Data completeness**: Depends on input ranking quality
+Results depend on the ranking metric, gene identifiers, gene-set definition and permutation scheme. GSEA tests enrichment in the measured data; it does not increase molecular detection completeness.
 
 ## Advantages
 
@@ -57,3 +55,7 @@ Generate ranked feature list → Evaluate enrichment score per gene set → Perm
 - [[WGCNA]]
 - [[Linear Mixed Models]]
 - [[Pathview]]
+
+## Sources
+
+- [Reference for GSEA](https://doi.org/10.1073/pnas.0506580102)

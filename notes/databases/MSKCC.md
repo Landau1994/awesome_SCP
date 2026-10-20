@@ -3,7 +3,6 @@ title: MSKCC
 aliases:
   - Memorial Sloan Kettering Cancer Center
   - MSK
-  - cBioPortal
 tags:
   - database
   - resource
@@ -11,24 +10,21 @@ tags:
   - genomics
   - clinical
 category: database
-url: https://www.cbioportal.org/
+url: https://www.mskcc.org/msk-impact
 date_created: 2026-03-17
 ---
 
 # MSKCC
 
-**Memorial Sloan Kettering Cancer Center — a leading cancer research institution whose genomics data (often accessed via cBioPortal) provides extensive cancer genomic and proteomic datasets used widely in computational oncology research.**
+**Memorial Sloan Kettering Cancer Center — a cancer research and treatment institution, distinct from the cBioPortal data platform.**
 
 ## Overview
 
-MSKCC generates and hosts large-scale cancer genomics datasets, many of which are accessible through cBioPortal (developed jointly by MSKCC and other institutions). The datasets include clinical sequencing (MSK-IMPACT), RNA-seq, proteomics, and clinical annotations. MSKCC data has been integral to cancer genomics studies and multi-omics integration efforts.
+Memorial Sloan Kettering Cancer Center (MSKCC) is a cancer treatment and research institution. It contributes cancer-genomics studies and helped develop cBioPortal. Institution, individual assay and data portal must be distinguished when attributing datasets.
 
 ## Statistics
 
-- **Datasets**: Hundreds of cancer genomics studies
-- **Data Types**: Targeted sequencing (MSK-IMPACT), RNA-seq, RPPA proteomics, clinical data
-- **Cancer Types**: Pan-cancer coverage
-- **Access**: cBioPortal (https://www.cbioportal.org/)
+MSKCC is an institution. MSK-IMPACT is a clinical tumor DNA sequencing assay; it does not by itself provide paired RNA–protein profiles. cBioPortal is a separate multi-institution cancer-genomics platform that hosts studies from many sources. Its total study count is not an MSKCC-only statistic.
 
 ## Access
 
@@ -37,7 +33,7 @@ MSKCC generates and hosts large-scale cancer genomics datasets, many of which ar
 
 ## Application in SCP
 
-In scTranslator, MSKCC datasets contributed to the Stage 1 bulk pre-training corpus, providing paired RNA-protein data alongside [[TCGA]], [[CPTAC]], and Broad Institute samples for learning cross-modal translation patterns.
+An institutional label is insufficient to identify a training dataset. Any claimed MSKCC contribution to scTranslator requires the study identifier, modalities and pairing information from the original source list. This contribution remains to be verified at the cohort level.
 
 ## Key Publications
 
@@ -49,3 +45,9 @@ In scTranslator, MSKCC datasets contributed to the Stage 1 bulk pre-training cor
 
 - [[TCGA]] — NCI/NHGRI pan-cancer genomics program
 - [[CPTAC]] — NCI proteogenomics program
+
+## Sources
+
+- [MSK official MSK-IMPACT description](https://www.mskcc.org/msk-impact)
+- [cBioPortal project description](https://www.cbioportal.org/about)
+- [Cerami et al. (2012), cBioPortal](https://doi.org/10.1158/2159-8290.CD-12-0095)

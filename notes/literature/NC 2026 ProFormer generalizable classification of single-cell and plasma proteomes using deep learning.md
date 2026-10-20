@@ -1,5 +1,5 @@
 ---
-title: ProFormer:generalizable classification of single-cell and plasma proteomes using deep learning
+title: "ProFormer: generalizable classification of single-cell and plasma proteomes using deep learning"
 authors:
   - Karl K. Krull
   - Arlene Kühn
@@ -20,9 +20,17 @@ category: literature
 date_created: 2025-05-14
 Journal: Nature Communications
 Year: 2026
+doi: "10.1038/s41467-026-78143-2"
+url: "https://doi.org/10.1038/s41467-026-78143-2"
+publication_status: "published"
+published_online: "2026-10-05"
 ---
 
 # ProFormer: generalizable classification of single-cell and plasma proteomes using deep learning
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The SHAP, patch-merger and COVID-19 complement details remain unverified here.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -31,8 +39,7 @@ Year: 2026
 > **Authors**: Karl K. Krull, Arlene Kühn, Julia Höhn, Syed Azmal Ali, Martin H. Otterbein, Titus J. Brinker, Jeroen Krijgsveld
 > **Year**: 2026
 > **Journal**: Nature Communications
-> **DOI**: 10.1038/s41467-026-78143-2
-
+> **DOI**: [10.1038/s41467-026-78143-2](https://doi.org/10.1038/s41467-026-78143-2)
 ## Abstract
 
 Proteomics is essential for defining cell identity and biomarker discovery, yet limited throughput and complex data interpretation hinder large-scale cohort studies. The authors introduce ProFormer, a transformer-based deep learning pipeline for the direct analysis of mass spectrometry (MS) data. By utilizing tabular MS1-level features (m/z, retention time, ion mobility, and intensity) through a learnable "patch merger" rather than image-based binning, ProFormer achieves superior classification accuracy and robustness against batch effects. The model demonstrates high efficacy in annotating single-cell proteomes (e.g., cell type, cycle stage, and differentiation trajectory) and identifying disease status from plasma. Furthermore, ProFormer provides single-peptide resolution explainability through SHAP (SHapley Additive exPlanation) values, linking predictions to underlying biological processes, such as complement activation in COVID-19 patients.
@@ -51,8 +58,8 @@ Proteomics is essential for defining cell identity and biomarker discovery, yet 
 - Number of cells: Ranges from bulk samples down to single-cell instances (e.g., 30,000 cells per culture for IFN-γ studies).
 
 ### Data Analysis
-- Software: [[DIA-NN]], [[MaxQuant]], [[Python]], [[PyTorch]], [[Scikit-learn]], [[XGBoost]], [[Optuna]], [[SHAP]].
-- Downstream: [[Principal Component Analysis]], [[t-SNE]], [[Random Forest]], [[SHAP]]-based feature importance analysis.
+- Software: [[DIA-NN]], [[MaxQuant]], [[Python]], [[PyTorch]], [[scikit-learn]], [[XGBoost]], Optuna, [[SHAP]].
+- Downstream: [[PCA|Principal Component Analysis]], [[t-SNE]], [[Random Forest]], [[SHAP]]-based feature importance analysis.
 
 ## Results
 
@@ -93,7 +100,7 @@ Proteomics is essential for defining cell identity and biomarker discovery, yet 
 
 ## Related Papers
 
-- [[Cadow et al. 2021]] - On the feasibility of deep learning applications using raw mass spectrometry data.
-- [[Seddiki et al. 2020]] - Cumulative learning enables convolutional neural network representations for small mass spectrometry data classification.
-- [[Vaswani et al. 2017]] - Attention is all you need.
-- [[Demichev et al. 2020]] - DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput.
+- Cadow et al. 2021 - On the feasibility of deep learning applications using raw mass spectrometry data.
+- Seddiki et al. 2020 - Cumulative learning enables convolutional neural network representations for small mass spectrometry data classification.
+- Vaswani et al. 2017 - Attention is all you need.
+- Demichev et al. 2020 - DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput.

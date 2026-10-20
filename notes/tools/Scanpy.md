@@ -1,13 +1,11 @@
 ---
 title: Scanpy
-aliases:
-  - SCANPY
-  - Scanpy
+aliases: ["SCANPY"]
 tags:
   - tools
   - software
 category: tool
-url: 
+url: https://scanpy.readthedocs.io/en/stable/
 date_created: 2026-03-25
 ---
 
@@ -24,51 +22,37 @@ Scanpy is widely used for preprocessing, clustering, embedding, and trajectory a
 - **Single-Cell Workflow**: End-to-end analysis utilities.
 - **Scalable Processing**: Supports large datasets through sparse structures.
 - **Visualization Tools**: UMAP/t-SNE and marker exploration.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# pip install scanpy
-```
-
-## Usage
-
-```r
-# Example code
-# Scanpy is used in Python workflows
-```
+- **Environment**: Follow the official release requirements; operating-system support depends on the package and its dependencies.
 
 ## Input/Output
 
 **Input:**
+
 - Count/intensity matrices
 - Cell and feature metadata
 
 **Output:**
+
 - Clusters, embeddings, marker tables
 - AnnData objects for downstream analysis
-
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| n_neighbors | user-defined | Graph construction neighborhood size |
-| resolution | user-defined | Cluster granularity for Leiden |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Wolf et al. (2018) *Genome Biology*
+> Wolf et al. (2018). SCANPY: large-scale single-cell gene expression data analysis. *Genome Biology*.
+> DOI: [10.1186/s13059-017-1382-0](https://doi.org/10.1186/s13059-017-1382-0)
 
 ## Links
 
-- GitHub:
-- Documentation:
+- Source availability: See the official source below; no separate public repository was confirmed.
+- Documentation/source: https://scanpy.readthedocs.io/en/stable/
 
 ## Related Tools
 
 - [[Seurat]]
 - [[scvi-tools]]
 - [[Python]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [Scanpy documentation or source](https://scanpy.readthedocs.io/en/stable/).

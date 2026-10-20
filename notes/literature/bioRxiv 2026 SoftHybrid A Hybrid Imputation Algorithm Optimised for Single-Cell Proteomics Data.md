@@ -1,5 +1,5 @@
 ---
-title: SoftHybrid:A Hybrid Imputation Algorithm Optimised for Single-Cell Proteomics Data
+title: "SoftHybrid: A Hybrid Imputation Algorithm Optimised for Single-Cell Proteomics Data"
 authors:
   - Yixin Shi
   - Simon Davis
@@ -22,9 +22,17 @@ category: literature
 date_created: 2026-01-14
 Journal: bioRxiv
 Year: 2026
+doi: "10.64898/2026.01.13.699212"
+url: "https://doi.org/10.64898/2026.01.13.699212"
+publication_status: "preprint"
+posted: "2026-01-14"
 ---
 
 # SoftHybrid: A Hybrid Imputation Algorithm Optimised for Single-Cell Proteomics Data
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The local summary and the current indexed abstract differ in wording; the full version history has not been reconciled.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -33,8 +41,7 @@ Year: 2026
 > **Authors**: Yixin Shi, Simon Davis, Philip D. Charles, Stephen Taylor, Eszter Dombi, Georgina Berridge, Daniel Ebner, Roman Fischer
 > **Year**: 2026
 > **Journal**: bioRxiv
-> **DOI**: 10.64898/2026.01.13.699212
-
+> **DOI**: [10.64898/2026.01.13.699212](https://doi.org/10.64898/2026.01.13.699212)
 ## Abstract
 
 Missing values (MVs) remain a significant barrier to reliable proteomics analysis, particularly in single-cell proteomics, where small amounts of starting material and limits in detection drive Missing-Not-At-Random (MNAR) sparsity. Commonly used bulk proteomic imputation approaches typically address Missing-At-Random (MAR) MVs and improve replicate consistency at the expense of sensitivity for biological variation, whereas MNAR-specific strategies preserve group differences but compromise cross-replicate reproducibility. Existing imputation methods are commonly applied to bulk data and do not offer a generalised ‘off-the shelf’ implementation that robustly addresses the significant sparsity observed in single-cell studies. Here, we introduce SoftHybrid, a continuous weighting framework that automatically balances MAR- and MNAR-oriented imputation across a dataset-derived model between missing rate and protein abundance model. Benchmarking across known ground truth samples (three-species mix) and real single-cell proteomics data showed that SoftHybrid outperforms existing methods at low inputs while meeting or exceeding previous state-of-the-art performance at the mini-bulk level. Preservation of proteomic patterns and enhanced replicate consistency improve testing significance and boost recovery of biological signals. SoftHybrid is implemented as an R package and freely available on GitHub.
@@ -98,4 +105,4 @@ Missing values (MVs) remain a significant barrier to reliable proteomics analysi
 - [[MsImpute]]: "MsImpute: Estimation of Missing Peptide Intensity Data in Label-Free Quantitative Mass Spectrometry" (Ref 23)
 - [[MissForest]]: "MissForest--non-parametric missing value imputation for mixed-type data" (Ref 16)
 - [[Perseus]]: "The Perseus computational platform for comprehensive analysis of (prote)omics data" (Ref 13)
-- [[MinProb]]: Discussed as a standard Left-censored method (Ref 17)
+- [[minProb]]: Discussed as a standard Left-censored method (Ref 17)

@@ -8,7 +8,7 @@ tags:
   - single-cell
   - epigenomics
 category: method
-url: https://doi.org/10.1038/s41592-022-01461-y
+url: https://www.nature.com/articles/s41592-022-01461-y
 date_created: 2026-03-17
 ---
 
@@ -38,7 +38,7 @@ Sequencing → Multi-modal integration
 
 - **Proteins**: Intranuclear targets (transcription factors, histone modifications)
 - **Throughput**: Thousands of cells per experiment
-- **Data completeness**: Three modalities from each single nucleus
+- **Readout design**: Three modalities are assayed per nucleus; actual detection completeness depends on assay quality.
 
 ## Advantages
 
@@ -63,3 +63,7 @@ Sequencing → Multi-modal integration
 - [[CITE-seq]] — Surface protein + RNA; NEAT-seq extends to nuclear proteins + ATAC
 - [[Spatial CITE-seq]] — Spatial variant of protein + RNA multi-omics
 - [[REAP-seq]] — Another surface protein + RNA multi-omics method
+
+## Sources
+
+- [Reference for NEAT-seq](https://www.nature.com/articles/s41592-022-01461-y)

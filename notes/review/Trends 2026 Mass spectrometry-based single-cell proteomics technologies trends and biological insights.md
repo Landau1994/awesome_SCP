@@ -4,8 +4,7 @@ authors:
   - Rui Hu
   - Christian Montes
   - Justin W. Walley
-aliases:
-  - 
+aliases: []
 tags:
   - literature
   - paper
@@ -16,9 +15,18 @@ category: literature
 date_created: 2025-05-12
 Journal: Trends in Biochemical Sciences
 Year: 2026
+doi: "10.1016/j.tibs.2026.04.011"
+url: "https://doi.org/10.1016/j.tibs.2026.04.011"
+publication_status: "published"
+published_print: "2026-06"
+published_online: "2026-05-07"
 ---
 
 # Mass spectrometry-based single-cell proteomics technologies, trends, and biological insights
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -27,8 +35,7 @@ Year: 2026
 > **Authors**: Rui Hu, Christian Montes, Justin W. Walley
 > **Year**: 2026
 > **Journal**: Trends in Biochemical Sciences
-> **DOI**: 10.1016/j.tibs.2026.04.011
-
+> **DOI**: [10.1016/j.tibs.2026.04.011](https://doi.org/10.1016/j.tibs.2026.04.011)
 ## Abstract
 
 Single-cell proteomics (SCP) has emerged as a transformative approach for characterizing cellular heterogeneity at the protein level. Recent advances in mass spectrometry workflows, with improvements spanning sample preparation, peptide separation, data acquisition, and data interpretation, have enabled unprecedented proteome depth and throughput at single-cell resolution. Beyond technological innovations, SCP is now addressing complex biological questions in oncology, developmental biology, and neuroscience, revealing dynamic cellular states and regulatory mechanisms. Integration with other single-cell omics is bridging the gap between genotype–phenotype relationships and uncovering multilayered regulation. In this review, we summarize recent progress in SCP technologies and highlight emerging applications and integrative strategies that mark a transition from technological development to broad biological understanding.
@@ -42,13 +49,13 @@ Single-cell proteomics (SCP) has emerged as a transformative approach for charac
 ## Methods
 
 ### Sample Preparation
-- Method used: Review of multiple techniques including [[FACS]], [[cellenONE]], microfluidics, [[SCoPE]], [[isobaric labeling]] (e.g., [[TMTpro]]), and label-free approaches (e.g., droplet-based and plate-based digestion).
+- Method used: Review of multiple techniques including [[FACS]], [[cellenONE]], microfluidics, [[SCoPE2|SCoPE]], [[Isobaric Labeling|isobaric labeling]] (e.g., [[TMTPro]]), and label-free approaches (e.g., droplet-based and plate-based digestion).
 - Cell type: N/A (Review covering various types, e.g., HeLa, hepatocytes, mouse oocytes, human motor neurons).
 - Number of cells: N/A (Discusses throughput capabilities of >500 cells per day).
 
 ### Data Analysis
-- Software: Review covers traditional tools like [[MaxQuant]], [[DIA-NN]], [[FragPipe]], [[Spectronaut]], and [[Proteome Discoverer]], as well as SCP-specific packages like [[scp]], [[scPROTEIN]], and [[SCPline]].
-- Downstream: Missing value imputation (e.g., [[DART-ID]], PIMMS), batch effect correction, spectral clustering, and cell-size normalization.
+- Software: Review covers traditional tools like [[MaxQuant]], [[DIA-NN]], [[FragPipe]], [[Spectronaut]], and [[Proteome Discoverer]], as well as SCP-specific packages like [[scp Package|scp]], [[scPROTEIN]], and [[SCPline]].
+- Downstream: Retention-time alignment and identification-confidence updates (e.g., [[DART-ID]]), missing value imputation (e.g., PIMMS), batch effect correction, spectral clustering, and cell-size normalization.
 
 ## Results
 

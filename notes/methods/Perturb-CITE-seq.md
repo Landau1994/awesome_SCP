@@ -9,7 +9,7 @@ tags:
   - perturbation
   - CRISPR
 category: method
-url: https://doi.org/10.1038/s41592-020-0837-5
+url: https://www.nature.com/articles/s41588-021-00779-1
 date_created: 2026-03-17
 ---
 
@@ -38,12 +38,12 @@ Sequencing → Perturbation assignment → Multi-modal analysis
 ## Performance
 
 - **Perturbations**: Hundreds of gene knockouts per experiment
-- **Throughput**: Thousands of cells per perturbation condition
-- **Data completeness**: Three modalities per single cell
+- **Throughput**: Depends on total cell recovery and representation of each guide; thousands of cells per perturbation are not guaranteed.
+- **Readout design**: Guide, RNA and antibody-derived measurements; detection efficiency varies.
 
 ## Advantages
 
-- Direct causal inference of gene function on protein and RNA levels
+- Tests perturbation-associated changes in RNA and proteins; causal interpretation requires validated perturbations and appropriate controls.
 - Pooled screening reduces experimental cost and time
 - Multi-omics readout captures post-transcriptional regulation
 
@@ -68,3 +68,7 @@ Sequencing → Perturbation assignment → Multi-modal analysis
 - [[CITE-seq]] — Protein + RNA without perturbation component
 - [[ECCITE-seq]] — Extended CITE-seq with CRISPR guide capture
 - [[REAP-seq]] — Alternative protein + RNA multi-omics
+
+## Sources
+
+- [Reference for Perturb-CITE-seq](https://www.nature.com/articles/s41588-021-00779-1)

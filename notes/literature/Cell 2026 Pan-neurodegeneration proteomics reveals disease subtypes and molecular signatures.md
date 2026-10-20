@@ -1,15 +1,53 @@
 ---
 title: Pan-neurodegeneration proteomics reveals disease subtypes and molecular signatures
 authors:
-- Him K. Shrestha
-- Huan Sun
-- Jay M. Yarbro
-- Dong Geun Lee    
-- Danting Liu
-- Erming Wang
-- Xusheng Wang
-- Bin Zhang
-- Junmin Peng
+  - Him K. Shrestha
+  - Huan Sun
+  - Jay M. Yarbro
+  - DongGeun Lee
+  - Danting Liu
+  - Erming Wang
+  - Meghan McReynolds
+  - Nan Zhang
+  - Boer Xie
+  - Shu Yang
+  - Kaiwen Yu
+  - Suresh Poudel
+  - Yuxin Li
+  - Zuo-Fei Yuan
+  - Dehui Kong
+  - Minghui Wang
+  - Zhen Wang
+  - Mingming Niu
+  - Hong Wang
+  - Masihuz Zaman
+  - Ju Wang
+  - David R. Vanderwall
+  - Yu Sun
+  - Zhiping Wu
+  - Ping-Chung Chen
+  - Bing Bai
+  - Anthony A. High
+  - Júlia Faura
+  - Chunyu Liu
+  - David A. Bennett
+  - Erik C.B. Johnson
+  - Nicholas T. Seyfried
+  - Allan I. Levey
+  - Vahram Haroutunian
+  - Geidy E. Serrano
+  - Thomas G. Beach
+  - Michael DeTure
+  - Takahisa Kanekiyo
+  - Ronald C. Petersen
+  - Guojun Bu
+  - Pamela J. McLean
+  - Dennis W. Dickson
+  - Rosa Rademakers
+  - Gang Yu
+  - Xusheng Wang
+  - Bin Zhang
+  - Junmin Peng
 aliases: 
 - PanNDA    
 - Pan-neurodegeneration atlas 
@@ -25,19 +63,26 @@ date_created: 2026-03-25
 Journal: Cell
     
 Year: 2026
-    
-
+doi: "10.1016/j.cell.2026.02.026"
+url: "https://doi.org/10.1016/j.cell.2026.02.026"
+publication_status: "published"
+published_print: "2026-05"
+published_online: "2026-03-23"
 ---
 
 # Pan-neurodegeneration proteomics reveals disease subtypes and molecular signatures
 
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The GPNMB/NPTX2 change directions and causal interpretation of network drivers remain unverified.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
+
 ## Citation
 
-> [!cite] Reference Title: Pan-neurodegeneration proteomics reveals disease subtypes and molecular signatures Authors: Him K. Shrestha, Huan Sun, Jay M. Yarbro, Dong Geun Lee, Danting Liu, Erming Wang, ..., Xusheng Wang, Bin Zhang, Junmin Peng Year: 2026 Journal: Cell DOI: [https://doi.org/10.1016/j.cell.2026.02.026](https://doi.org/10.1016/j.cell.2026.02.026)
+> [!cite] Reference Title: Pan-neurodegeneration proteomics reveals disease subtypes and molecular signatures Authors: Him K. Shrestha, Huan Sun, Jay M. Yarbro, DongGeun Lee, Danting Liu, Erming Wang, ..., Xusheng Wang, Bin Zhang, Junmin Peng Year: 2026 Journal: Cell DOI: [https://doi.org/10.1016/j.cell.2026.02.026](https://doi.org/10.1016/j.cell.2026.02.026)
 
 ## Abstract
 
-The authors present the **Pan-neurodegeneration atlas (PanNDA)**, a deep multilayer proteomic analysis of **2,279 human brain samples** across six major neurodegenerative diseases (NDs): Alzheimer's (AD), Lewy body dementia (LBD), FTLD-TDP, PSP/FTLD-tau, vascular dementia (VAD), and Parkinson's disease (PD). By integrating whole proteome, detergent-insoluble proteome, and PTM (phosphorylation and ubiquitination) data, they identified distinct molecular subtypes for each disease (e.g., three in AD, four in LBD). Inter-disease comparisons revealed shared alterations, such as the upregulation of **GPNMB** and downregulation of **NPTX2**, alongside disease-specific hubs and drivers.
+The authors present the **Pan-neurodegeneration atlas (PanNDA)**, a deep multilayer proteomic analysis of **2,279 human brain samples** across six major neurodegenerative diseases (NDs): Alzheimer's (AD), Lewy body dementia (LBD), FTLD-TDP, progressive supranuclear palsy with tau pathology (PSP), vascular dementia (VAD), and Parkinson's disease (PD). By integrating whole proteome, detergent-insoluble proteome, and PTM (phosphorylation and ubiquitination) data, they identified distinct molecular subtypes for each disease (e.g., three in AD, four in LBD). Inter-disease comparisons revealed shared alterations, such as the upregulation of **GPNMB** and downregulation of **NPTX2**, alongside disease-specific hubs and drivers.
 
 ## Key Points
 

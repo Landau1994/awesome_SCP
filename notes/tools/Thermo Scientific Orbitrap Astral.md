@@ -4,9 +4,9 @@ aliases:
   - Thermo Scientific Orbitrap Astral
 tags:
   - tools
-  - software
+  - equipment
 category: tool
-url: 
+url: https://www.nature.com/articles/s41587-023-02099-7
 date_created: 2026-03-25
 ---
 
@@ -20,3 +20,7 @@ This compatibility page resolves full-name instrument links.
 
 - [[Orbitrap Astral]]
 - [[Astral]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [Thermo Scientific Orbitrap Astral documentation or source](https://www.nature.com/articles/s41587-023-02099-7).

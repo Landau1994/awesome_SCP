@@ -2,6 +2,8 @@
 title: SOD1
 tags:
 date_created: 2026-03-25
+url: https://www.uniprot.org/uniprotkb/P00441/entry
+category: concept
 ---
 
 # SOD1
@@ -23,3 +25,7 @@ SOD1 encodes superoxide dismutase 1, an antioxidant enzyme involved in reactive 
 
 - [[TALDO1]]
 - [[H1F0]]
+
+## Sources
+
+- [UniProt reviewed human reference: SOD1](https://www.uniprot.org/uniprotkb/P00441/entry)

@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7044796/
 date_created: 2026-03-25
 ---
 
@@ -31,9 +31,7 @@ Empirical spectra + Predicted spectra → Library merge/curation → DIA search
 
 ## Performance
 
-- **Proteins per cell**: Can improve depth for low-input datasets
-- **Throughput**: High once library is built
-- **Data completeness**: Improved in challenging samples
+Coverage depends on the experimental and predicted components and on library filtering. Adding candidates does not guarantee improved completeness; false-discovery control must remain valid for the merged search space.
 
 ## Advantages
 
@@ -49,11 +47,14 @@ Empirical spectra + Predicted spectra → Library merge/curation → DIA search
 
 ## Key Publications
 
-> [!cite] Primary Reference
-> See AlphaPeptDeep/OpenSpec-related workflow papers.
+[Hybrid Spectral Library Combining DIA-MS Data and a Targeted Virtual Library Substantially Deepens the Proteome Coverage](https://pmc.ncbi.nlm.nih.gov/articles/PMC7044796/) (2020), one concrete construction strategy.
 
 ## Related Methods
 
 - [[Open Search]]
 - [[DIA]]
 - [[Spectral Deconvolution]]
+
+## Sources
+
+- [Reference for Hybrid Spectral Library](https://pmc.ncbi.nlm.nih.gov/articles/PMC7044796/)

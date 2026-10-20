@@ -5,6 +5,8 @@ aliases:
   - Gene Ontology (GO)
 tags:
 date_created: 2026-03-25
+url: https://geneontology.org/docs/ontology-documentation/
+category: concept
 ---
 
 # GO
@@ -26,3 +28,7 @@ GO usually refers to Gene Ontology, a controlled vocabulary describing biologica
 
 - [[GSEA]]
 - [[Pathview]]
+
+## Sources
+
+- [Authoritative reference for GO](https://geneontology.org/docs/ontology-documentation/)

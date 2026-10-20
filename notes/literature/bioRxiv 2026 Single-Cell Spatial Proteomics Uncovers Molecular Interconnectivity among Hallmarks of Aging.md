@@ -23,9 +23,17 @@ category: literature
 date_created: 2026-02-28
 Journal: bioRxiv
 Year: 2026
+doi: "10.64898/2026.02.26.708335"
+url: "https://doi.org/10.64898/2026.02.26.708335"
+publication_status: "preprint"
+posted: "2026-02-28"
 ---
 
 # Single-Cell Spatial Proteomics Uncovers Molecular Interconnectivity among Hallmarks of Aging
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -34,8 +42,7 @@ Year: 2026
 > **Authors**: Seungmin Yoo, Christopher Young, Liying Li, Lingraj Vannur, Junming Zhuang, Fan Zheng, Meiying Wu, Julie K. Andersen, and Chuankai Zhou
 > **Year**: 2026
 > **Journal**: bioRxiv
-> **DOI**: https://doi.org/10.64898/2026.02.26.708335
-
+> **DOI**: [10.64898/2026.02.26.708335](https://doi.org/10.64898/2026.02.26.708335)
 ## Abstract
 
 Aging is accompanied by conserved hallmarks including genomic instability, epigenetic alterations, loss of proteostasis, and mitochondrial dysfunction, but how these processes emerge and become mechanistically linked remains unclear. Here we leverage a proteome-wide, single-cell, subcellular atlas of protein expression, localization, and aggregation across yeast replicative aging to map hallmark-linked remodeling in its spatial context. We identify hundreds of previously unappreciated molecular changes that underlie major hallmarks of aging and show that hallmark phenotypes frequently manifest as compartment-specific erosion of spatial confinement, relocalization, and aggregation. 91.6% human orthologs of these hallmark-linked yeast proteins also change during human aging. Integrating these spatial phenotypes reveals many molecular connections linking different hallmarks. Temporal analysis suggests that disorganization of nucleolar ribosome biogenesis, proteostasis decline, and mitochondrial dysfunction precede other hallmarks. Together, our findings substantially deepen the molecular underpinnings of aging hallmarks and provide a framework for linking them into a hierarchical sequence of cellular failures.

@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://github.com/ProteoBench/ProteoBench
 date_created: 2026-03-25
 ---
 
@@ -23,51 +23,36 @@ ProteoBench provides standardized datasets and evaluation procedures to compare 
 - **Benchmark Framework**: Reproducible software comparisons.
 - **Community Resource**: Supports shared evaluation datasets.
 - **Method Tracking**: Enables iterative tool performance monitoring.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# See ProteoBench project documentation
-```
-
-## Usage
-
-```r
-# Example code
-# Typical usage through web/platform workflows
-```
+- **Environment**: Follow the official release requirements; operating-system support depends on the package and its dependencies.
 
 ## Input/Output
 
 **Input:**
+
 - Standardized benchmark datasets
 - Software outputs for evaluation
 
 **Output:**
+
 - Comparative metrics and leaderboard-style summaries
 - Reproducible benchmark reports
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| benchmark_set | user-defined | Dataset/task definition |
-| metric_suite | user-defined | Accuracy/completeness criteria |
-
 ## Key Publications
 
-> [!cite] Primary Reference
+> [!cite] Related Study Context
 > See LFQ benchmark literature note.
 
 ## Links
 
-- GitHub:
-- Documentation:
+- GitHub: https://github.com/ProteoBench/ProteoBench
+- Documentation/source: https://github.com/ProteoBench/ProteoBench
 
 ## Related Tools
 
 - [[DIA-NN]]
 - [[Spectronaut]]
 - [[AlphaDIA]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [ProteoBench documentation or source](https://github.com/ProteoBench/ProteoBench).

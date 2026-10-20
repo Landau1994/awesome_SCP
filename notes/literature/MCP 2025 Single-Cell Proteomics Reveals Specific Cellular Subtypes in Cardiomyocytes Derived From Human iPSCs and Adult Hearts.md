@@ -29,9 +29,18 @@ category: literature
 date_created: 2025-01-22
 Journal: Mol Cell Proteomics
 Year: 2025
+doi: "10.1016/j.mcpro.2025.100910"
+url: "https://doi.org/10.1016/j.mcpro.2025.100910"
+publication_status: "published"
+published_print: "2025-09"
+published_online: "2025-01-22"
 ---
 
 # Single-Cell Proteomics Reveals Specific Cellular Subtypes in Cardiomyocytes Derived From Human iPSCs and Adult Hearts
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The stated total of over 1,300 cells and approximately 280 adult cardiomyocytes was not confirmed from the public abstract.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -62,7 +71,7 @@ The authors report a large-scale single-cell proteomics (SCP) characterization o
 
 ### Data Analysis
 - **Software**: [[DIA-NN]] (versions 1.8.1 and 1.8.2) for spectral library generation and search.
-- **Downstream**: [[SCANPY]] (Python) for clustering and visualization, [[UMAP]] for dimensionality reduction, [[Leiden clustering]], [[Monocle 3]] for trajectory analysis, and [[ClueGO]] for pathway enrichment.
+- **Downstream**: [[Scanpy]] (Python) for clustering and visualization, [[UMAP]] for dimensionality reduction, [[Leiden clustering]], [[Monocle 3]] for trajectory analysis, and [[ClueGO]] for pathway enrichment.
 
 ## Results
 

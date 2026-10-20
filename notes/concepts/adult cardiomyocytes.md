@@ -2,6 +2,8 @@
 title: adult cardiomyocytes
 tags:
 date_created: 2026-03-25
+url: https://pubmed.ncbi.nlm.nih.gov/39855627/
+category: concept
 ---
 
 # adult cardiomyocytes
@@ -23,3 +25,7 @@ Adult cardiomyocytes are mature heart muscle cells with specialized contractile 
 
 - [[iPSC]]
 - [[Cell Differentiation]]
+
+## Sources
+
+- [Authoritative reference for adult cardiomyocytes](https://pubmed.ncbi.nlm.nih.gov/39855627/)

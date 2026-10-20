@@ -14,10 +14,7 @@ authors:
   - Dorte B. Bekker-Jensen
   - Nicolai Bache
   - Jesper V. Olsen
-aliases:
-   - One-Tip
-   - Single-cell proteomics
-   - nDIA
+aliases: ["One-Tip"]
 tags:
   - literature
   - paper
@@ -28,9 +25,17 @@ category: literature
 date_created: 2024-05-22
 Journal: Nature Communications
 Year: 2024
+doi: "10.1038/s41467-024-46777-9"
+url: "https://doi.org/10.1038/s41467-024-46777-9"
+publication_status: "published"
+published_online: "2024-03-20"
 ---
 
 # One-Tip enables comprehensive proteome coverage in minimal cells and single zygotes
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The exact Evotip handling and two-pipetting-step description have not been independently checked.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -39,8 +44,7 @@ Year: 2024
 > **Authors**: Zilu Ye, Pierre Sabatier, Javier Martin-Gonzalez, Akihiro Eguchi, Maico Lechner, Ole Østergaard, Jingsheng Xie, Yuan Guo, Lesley Schultz, Rafaela Truffer, Dorte B. Bekker-Jensen, Nicolai Bache & Jesper V. Olsen
 > **Year**: 2024
 > **Journal**: Nature Communications
-> **DOI**: https://doi.org/10.1038/s41467-024-46777-9
-
+> **DOI**: [10.1038/s41467-024-46777-9](https://doi.org/10.1038/s41467-024-46777-9)
 ## Abstract
 
 Mass spectrometry (MS)-based proteomics workflows typically involve complex, multi-step processes, presenting challenges with sample losses, reproducibility, and requiring substantial time and financial investments. Here, the authors introduce **One-Tip**, a methodology that integrates efficient, one-pot sample preparation within an Evotip with precise, narrow-window data-independent acquisition (nDIA) analysis. One-Tip simplifies sample processing to just two pipetting steps, enabling the identification of >9000 proteins from ~1000 HeLa cells and ~6000 proteins in single cells from early mouse embryos. The study also demonstrates its utility in single-cell proteomics using the Uno Single Cell Dispenser and in analyzing extracellular vesicles (EVs) from blood plasma.

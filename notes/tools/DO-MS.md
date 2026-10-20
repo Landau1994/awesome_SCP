@@ -9,7 +9,7 @@ tags:
   - optimization
   - visualization
 category: tool
-url: https://do-ms.slavovlab.net/
+url: https://github.com/SlavovLab/DO-MS
 ---
 
 # DO-MS
@@ -22,7 +22,7 @@ DO-MS is an open-source interactive platform for quality control and optimizatio
 
 ## Key Features
 
-- **Interactive Dashboards**: Real-time data visualization
+- **Interactive Dashboards**: Interactive inspection of loaded result files
 - **QC Metrics**: Comprehensive quality assessment
 - **Optimization Guidance**: Identify bottlenecks
 - **Report Generation**: Shareable HTML reports
@@ -52,19 +52,7 @@ DO-MS is an open-source interactive platform for quality control and optimizatio
 
 ## Usage
 
-### R Shiny App
-
-```r
-# Install
-devtools::install_github("SlavovLab/DO-MS")
-
-# Run
-DO_MS::DO_MS()
-```
-
-### Online Version
-
-Available at: https://do-ms.slavovlab.net/
+Clone or download the [official repository](https://github.com/SlavovLab/DO-MS), install its documented R dependencies, and launch the Shiny application as described there (for example through the RStudio project and app launch files). The project website hosts documentation. The earlier `DO_MS::DO_MS()` package call was not the documented launch route.
 
 ## Input Files
 
@@ -87,3 +75,7 @@ Available at: https://do-ms.slavovlab.net/
 
 - [[MaxQuant]] - Data source
 - [[scp Package]] - Downstream analysis
+
+## Source Check
+
+- Source checked on 2026-10-20: [DO-MS documentation or source](https://github.com/SlavovLab/DO-MS).

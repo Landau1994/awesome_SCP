@@ -1,9 +1,6 @@
 ---
-title: AlphaPeptDeep:a modular deep learning framework to predict peptide properties for proteomics
-aliases:
-   - AlphaPeptDeep
-   - AlphaPeptDeep paper
-   - Zeng et al. 2022
+title: "AlphaPeptDeep: a modular deep learning framework to predict peptide properties for proteomics"
+aliases: ["NC 2025 AlphaPeptDeep a modular deep learning framework to predict peptide properties for proteomics", "AlphaPeptDeep paper", "Zeng et al. 2022"]
 tags:
   - literature
   - paper
@@ -21,10 +18,18 @@ authors:
   - Eugenia Voytik
   - Maximillian T. Strauss
   - Matthias Mann
+doi: "10.1038/s41467-022-34904-3"
+url: "https://doi.org/10.1038/s41467-022-34904-3"
+publication_status: "published"
+published_online: "2022-11-24"
 ---
 
 
 # AlphaPeptDeep: a modular deep learning framework to predict peptide properties for proteomics
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The speed-advantage claim and DDA HLA example exceed the checked abstract and remain unverified here.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -32,8 +37,7 @@ authors:
 > **Authors**: Wen-Feng Zeng, Xie-Xuan Zhou, Sander Willems, Constantin Ammar, Maria Wahle, Isabell Bludau, Eugenia Voytik, Maximillian T. Strauss & Matthias Mann
 > **Year**: 2022
 > **Journal**: Nature Communications
-> **DOI**: https://doi.org/10.1038/s41467-022-34904-3
-
+> **DOI**: [10.1038/s41467-022-34904-3](https://doi.org/10.1038/s41467-022-34904-3)
 ## Abstract
 
 Machine learning, particularly deep learning (DL), has become essential in MS-based proteomics for predicting peptide properties like retention time (RT), ion mobility, and fragment intensities. However, integrating new architectures remains challenging for researchers. This paper introduces **AlphaPeptDeep**, a modular Python framework built on [[PyTorch]] that allows easy creation and training of DL models. A key feature is its ability to handle post-translational modifications (PTMs) generically and use transfer learning to refine models with small datasets. The study demonstrates that AlphaPeptDeep performs on par with existing tools while offering significant advantages in speed and flexibility. It specifically highlights the framework's utility in improving HLA peptide identification in both data-dependent (DDA) and data-independent acquisition (DIA) modes through a specialized HLA peptide prediction model.

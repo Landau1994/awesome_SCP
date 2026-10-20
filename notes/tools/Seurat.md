@@ -69,3 +69,7 @@ DimPlot(obj, group.by = "seurat_clusters")
 - [[totalVI]] — Deep learning alternative for CITE-seq integration
 - [[sciPENN]] — Neural network for protein imputation
 - [[DIA-NN]] — MS-based proteomics search engine (different domain)
+
+## Source Check
+
+- Source checked on 2026-10-20: [Seurat documentation or source](https://satijalab.org/seurat/).

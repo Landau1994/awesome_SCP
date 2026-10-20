@@ -1,12 +1,12 @@
 ---
 title: Immunology
 aliases:
-  - <immune>
-  - <immune system>
+  - Immune proteomics
 tags:
   - applications
 category: application
 date_created: 2026-01-18
+url: https://doi.org/10.1038/s41467-025-67367-3
 ---
 
 # Immunology
@@ -19,12 +19,12 @@ Immunology is a major application area of single-cell proteomics because immune 
 
 ## Key Applications
 
-### Application Area 1
+### Immune-state characterization
 - Resolve immune-cell functional heterogeneity in inflamed and tumor tissues.
 - Distinguish activation/exhaustion-like proteomic programs across immune subsets.
-- Identify disease-associated markers with improved diagnostic specificity.
+- Identify candidate disease-associated markers; diagnostic specificity requires independent clinical validation.
 
-### Application Area 2
+### Treatment-response research
 - Track treatment- and microenvironment-driven immune-state transitions.
 - Support translational biomarker panel development in clinical cohorts.
 
@@ -32,15 +32,15 @@ Immunology is a major application area of single-cell proteomics because immune 
 
 | Study | Method | Cells | Key Finding |
 |-------|--------|-------|-------------|
-| Nat Commun 2025 glioblastoma neutrophil study | [[single-cell proteomics]] | Single-cell | Defined discrete neutrophil functional states in human GBM |
+| Nat Commun glioblastoma neutrophil study (online 2025 / volume 2026) | [[single-cell proteomics]] | Single-cell | Defined discrete neutrophil functional states in human GBM |
 
 ## Advantages Over Bulk/scRNA-seq
 
-| Aspect | SCP | Alternative |
-|--------|-----|-------------|
-| Protein regulation | Direct | Indirect |
-| PTMs | Possible | No |
-| Functional state | Yes | Inferred |
+| Comparison | What SCP adds | Limit |
+|------------|---------------|-------|
+| Bulk proteomics | Resolves cell-level variation | Bulk MS can also measure proteins and PTMs; it averages the sampled population |
+| scRNA-seq | Direct abundance measurements for detected proteins | Protein abundance is not automatically a direct functional readout |
+| PTM-specific assays | Can interrogate selected modifications with suitable workflows | Routine SCP does not guarantee broad PTM coverage |
 
 ## Challenges
 
@@ -57,7 +57,7 @@ Immunology is a major application area of single-cell proteomics because immune 
 ## Key Publications
 
 > [!cite] Primary References
-> - Sadiku, P., Brenes, A.J., Mayer, R.L., et al. Single cell proteomic analysis defines discrete neutrophil functional states in human glioblastoma. *Nat Commun* (2025). DOI: [10.1038/s41467-025-67367-3](https://doi.org/10.1038/s41467-025-67367-3)
+> - Sadiku, P., Brenes, A.J., Mayer, R.L., et al. Single cell proteomic analysis defines discrete neutrophil functional states in human glioblastoma. *Nat Commun* (online 2025; volume 2026). DOI: [10.1038/s41467-025-67367-3](https://doi.org/10.1038/s41467-025-67367-3)
 >   
 
 ## Related Topics
@@ -66,3 +66,7 @@ Immunology is a major application area of single-cell proteomics because immune 
 - [[Cell Differentiation]]
 - [[SCoPE2]]
 
+## Sources
+
+- [Sadiku et al.: human glioblastoma neutrophils, online 2025 / volume 2026](https://doi.org/10.1038/s41467-025-67367-3)
+- [Single-cell proteomics reporting recommendations](https://doi.org/10.1038/s41592-023-01785-3)

@@ -1,0 +1,2124 @@
+{
+  "date": "2026-10-20",
+  "scope": "All 78 pre-existing methods notes and eight new missing method targets. Status is limited to the explicitly listed checked claims; sources were retrieved through web browsing.",
+  "notes": [
+    {
+      "path": "notes/methods/Activity-based protein profiling.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC24710/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/aPCA.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Assay expansion, DHFR complementation mechanism and abundance-versus-stability interpretation."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Corrected aPCA from an invented PCA expansion to the abundance protein fragment complementation assay used by its citing paper."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41586-024-08370-4",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/APEX.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3916822/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/APEX2.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "APEX2 directed evolution and measured activity/sensitivity improvement."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Replaced an unsupported general stability claim with the demonstrated catalytic-efficiency and sensitivity improvement."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nmeth.3179",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/BioID.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3308701/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Bottom-up proteomics.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.promega.com/products/mass-spectrometry/trypsin/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Chip-Tip.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Workflow components, first author, DOI, and source-specific 5,204-protein median."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Identified the actual chip-to-Evotip workflow, corrected first author to Ye, and tied depth to the HeLa/40-SPD experimental setting."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41592-024-02558-2",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "The complete 80/120-SPD comparison and PTM site-confidence analysis were not independently reproduced."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/CITE-seq.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "2017 method identity, readouts, authors and DOI."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Removed unsupported current commercial capacities and near-complete coverage; separated original surface staining from intracellular extensions."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nmeth.4380",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Training data and performance of the linked predictive models were not audited in this methods note."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Cross-linking mass spectrometry.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3043253/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Data-dependent acquisition.md",
+      "date": "2026-10-20",
+      "status": "compatibility",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1146/annurev-bioeng-061008-124934",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Data-independent acquisition.md",
+      "date": "2026-10-20",
+      "status": "compatibility",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1074/mcp.O111.016717",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/DDA.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "DDA precursor selection, search/FDR distinction and cited review metadata.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Removed universal sensitivity/FDR comparison to DIA and labeled the existing review correctly.",
+        "Replaced generic performance rankings with method-specific conditions and limitations.",
+        "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1146/annurev-bioeng-061008-124934",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Deep Visual Proteomics.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Original DVP sampling design and 2023 scDVP extension."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Distinguished pooled phenotype-selected DVP material from single-cell-slice scDVP; removed misleading per-cell depth wording."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41587-022-01302-5",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41592-023-02007-6",
+          "note": "Additional primary source checked for the correction."
+        }
+      ],
+      "unresolved": [
+        "Tissue-specific sample-size and proteome-depth benchmarks beyond the stated distinction were not reanalyzed."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/dia-PASEF.md",
+      "date": "2026-10-20",
+      "status": "compatibility",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41592-020-00998-0",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/DIA.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Systematic DIA-window sampling and source bibliography."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Corrected guarantees of observing every peptide and solving missingness; made depth/completeness experiment-specific.",
+        "Removed complete-proteome digital-map and entire-precursor-space overstatements; allowed MS1/MS2 evidence and interference.",
+        "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1074/mcp.O111.016717",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "No universal depth, throughput or completeness advantage is claimed; full cross-platform benchmarking was outside this audit."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/diagonal-PASEF.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Vendor definition, quadrupole/TIMS synchronization and method family.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Clarified the vendor's method-family terminology and replaced the placeholder citation.",
+        "Replaced generic performance rankings with method-specific conditions and limitations."
+      ],
+      "sources": [
+        {
+          "url": "https://www.bruker.com/en/products-and-solutions/mass-spectrometry/timstof/pasef.html",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        },
+        {
+          "url": "https://doi.org/10.1016/j.mcpro.2025.101480",
+          "note": "Additional primary source checked for the correction."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/diaPASEF.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "TIMS-aware DIA scheduling and 2020 primary bibliography.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Corrected the primary paper's journal and added full bibliographic identity.",
+        "Replaced generic performance rankings with method-specific conditions and limitations.",
+        "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41592-020-00998-0",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/ECCITE-seq.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Five-modality design and primary-paper identity."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Removed unsupported superlative claiming the most comprehensive available assay."
+      ],
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31011186/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Per-modality capture efficiency and current competing assays were not benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/FACS.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Fluorescence-based sorting principle and downstream-sample constraints.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Removed the incorrect universal requirement for viable cells.",
+        "Replaced generic performance rankings with method-specific conditions and limitations. Replaced citation placeholder with a named source or explicit official-documentation link."
+      ],
+      "sources": [
+        {
+          "url": "https://www.thermofisher.com/us/en/home/life-science/cell-analysis/flow-cytometry/flow-cytometry-learning-center/flow-cytometry-instrumentation-information.html",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/FFPE tissues.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/overview-immunohistochemistry.html",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/GSEA.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Replaced generic performance rankings with method-specific conditions and limitations."
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1073/pnas.0506580102",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/High-content confocal microscopy.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.moleculardevices.com/products/cellular-imaging-systems/high-content-imaging/imagexpress-micro-confocal",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Hybrid Spectral Library.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Replaced generic performance rankings with method-specific conditions and limitations. Replaced citation placeholder with a named source or explicit official-documentation link."
+      ],
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7044796/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Hydrogen-deuterium exchange.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.waters.com/nextgen/en/products/technology-solutions/hydrogen-deuterium-exchange-mass-spectrometry.html",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Immunofluorescence.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/overview-immunohistochemistry.html",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Immunohistochemistry.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/overview-immunohistochemistry.html",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Isobaric Labeling.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41592-020-0781-4",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/label-free single-cell mass spectrometry.md",
+      "date": "2026-10-20",
+      "status": "compatibility",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41592-024-02558-2",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Label-free single-cell proteomics.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Method scope, Chip-Tip counterexample to the old depth range, and Brunner primary bibliography."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Corrected label-free scope, outdated depth ceiling, imputation-versus-measurement wording, and unsupported Zhu citation.",
+        "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41592-024-02558-2",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/8884154/",
+          "note": "Additional primary source checked for the correction."
+        }
+      ],
+      "unresolved": [
+        "Comparisons across label-free and carrier workflows remain dependent on matched experimental conditions."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Laser Microdissection.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Replaced generic performance rankings with method-specific conditions and limitations. Replaced citation placeholder with a named source or explicit official-documentation link."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41587-022-01302-5",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/LC-MS-MS.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Replaced generic performance rankings with method-specific conditions and limitations. Replaced citation placeholder with a named source or explicit official-documentation link."
+      ],
+      "sources": [
+        {
+          "url": "https://sciex.com/applications/biomedical-and-omics-research/proteomics",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/LC-MS.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Replaced generic performance rankings with method-specific conditions and limitations. Replaced citation placeholder with a named source or explicit official-documentation link."
+      ],
+      "sources": [
+        {
+          "url": "https://sciex.com/applications/biomedical-and-omics-research/proteomics",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Limited proteolysis.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nbt.2999",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Linear Mixed Models.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Replaced generic performance rankings with method-specific conditions and limitations. Replaced citation placeholder with a named source or explicit official-documentation link."
+      ],
+      "sources": [
+        {
+          "url": "https://www.jstatsoft.org/article/view/v067i01",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Long-read RNA sequencing.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.pacb.com/products-and-services/analytical-software/rna-sequencing/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Lys-C.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.promega.com/products/mass-spectrometry/trypsin/trypsin-lys-c-mix-mass-spec-grade/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/mPOP.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Freeze–heat lysis in pure water in the original mPOP preprint."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Corrected PBS to pure-water lysis and made unverified timings and optional labeling protocol-specific."
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1101/399774",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "The exact current laboratory protocol timings were not verified; original preprint and SCoPE2 workflow should be consulted."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/MS-based proteomics.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://sciex.com/applications/biomedical-and-omics-research/proteomics",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/nanoflow dual-trap single-column liquid chromatography.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Original source bibliography, column arrangement, run-time and protein-depth benchmark."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body.",
+        "Replaced nonspecific later-application source with the original 2023 nanoDTSC paper; explained dual-trap operation and conditioned benchmark figures."
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1016/j.mcpro.2025.100910",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37289937/",
+          "note": "Additional primary source checked for the correction."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/nanoLC-MS.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Replaced generic performance rankings with method-specific conditions and limitations. Replaced citation placeholder with a named source or explicit official-documentation link."
+      ],
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13118651/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/nanoPOTS.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "2018 input amounts and depth; 2021 N2 authorship, 243-well capacity, processing-throughput distinction."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body.",
+        "Corrected small-population coverage misrepresented as single-cell depth, removed unsupported universal recovery, and corrected N2 authors/year."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41467-018-03367-w",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-021-26514-2",
+          "note": "Additional primary source checked for the correction."
+        }
+      ],
+      "unresolved": [
+        "Performance of later nanoPOTS variants is not comprehensively benchmarked in this overview."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/nDIA.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Bulk and single-cell parameter distinction, 2024 bulk depth, 2025 median 5,204 HeLa-cell identifications and primary bibliography."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Separated 2024 bulk nDIA from the 2025 Chip-Tip single-cell 4-Th/6-ms setting; removed unqualified per-cell peptide/depth claims and corrected Chip-Tip authorship.",
+        "末轮交叉复核：区分通用nDIA概念和论文使用的Orbitrap Astral平台，不再称为独占硬件要求。"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41587-023-02099-7",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41592-024-02558-2",
+          "note": "Additional primary source checked for the correction."
+        }
+      ],
+      "unresolved": [
+        "PTM site-level confidence, identification transfer and all supplementary performance comparisons were not independently reproduced."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/NEAT-seq.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Tri-modal nuclear epitope/ATAC/RNA design and correct 2022 bibliography."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Distinguished intended tri-modal measurement from guaranteed complete detection."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41592-022-01461-y",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Exact throughput, antibody validation and full supplementary protocol details were not independently rechecked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/nPOP.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "2024 protocol bibliography, parallel nanoliter preparation, cellenONE implementation.",
+        "Protocol abstract's scale and plexDIA-specific protein-depth statement."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Corrected the Nature Protocols DOI and removed unsupported universal volume/depth/CV claims.",
+        "Replaced unsupported fixed >3000-cell batch claim with the protocol's thousands-scale scope; restored 3000–3700 protein range only for the reported plexDIA implementation."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41596-024-01033-8",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38076795/",
+          "note": "Additional primary source checked for the correction."
+        }
+      ],
+      "unresolved": [
+        "Step-specific dispensing volumes and complete per-cell depth distributions were not independently rechecked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Open Search.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Replaced generic performance rankings with method-specific conditions and limitations. Replaced citation placeholder with a named source or explicit official-documentation link."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nmeth.4256",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Papain.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.worthington-biochem.com/products/papain/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/PASEF.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Parallel accumulation/serial fragmentation mechanism and 2018 bibliography.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Corrected the 2018 PASEF implementation paper's journal and title.",
+        "Replaced generic performance rankings with method-specific conditions and limitations."
+      ],
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30385480/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Perturb-CITE-seq.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "2021 primary-paper DOI, assay design and scope."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Corrected mismatched source URL and weakened unsupported per-perturbation throughput and unconditional causal-inference claims."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41588-021-00779-1",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Guide efficiency, off-target effects and each screen's representation are experiment-specific."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/plexDIA.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Original experiment metrics, mass-offset labeling, publication online/issue dates; later label-design identities."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Scoped original 98% completeness/~5-min/~1000-protein claims to the specific single-cell plexDIA experiment; distinguished original mTRAQ from dimethyl/reference-channel and later PSMtags designs; removed unsupported universal superiority and MS1-only characterization."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41587-022-01389-w",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10495816/",
+          "note": "Additional primary source checked for the correction."
+        },
+        {
+          "url": "https://www.parallelsq.org/psmtags",
+          "note": "Additional primary source checked for the correction."
+        }
+      ],
+      "unresolved": [
+        "Later PSMtags performance and all supplementary benchmarks were not independently reanalyzed; no universal cross-platform ranking is asserted."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Proximity Labeling.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nbt.4201",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/pSCoPE.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Priority acquisition, MaxQuant.Live implementation, source-specific comparison and bibliography."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body.",
+        "Corrected authorship to Huffman 2023, explained priority acquisition without loss of discovery breadth, and removed misleading small-panel comparison table."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41592-023-01830-1",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Priority-list transferability and full supplementary performance metrics were not independently tested."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/pSILAC.md",
+      "date": "2026-10-20",
+      "status": "compatibility",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Pulsed-labeling interpretation from the SC-pSILAC primary paper."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body.",
+        "Preserved compatibility page while explaining that pulsed SILAC is not inherently single-cell."
+      ],
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0092867425002752",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/REAP-seq.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Original primary-paper affiliation and covalent chemistry (PDF pp.1 and 4), panel size, DOI."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Corrected developer affiliation, covalent conjugation chemistry and the distinction between an antibody panel and per-cell detection."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nbt.3973",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        },
+        {
+          "url": "https://rnajc.ucsf.edu/sites/rnajc.ucsf.edu/files/nbt.3973_0.pdf",
+          "note": "Additional primary source checked for the correction."
+        }
+      ],
+      "unresolved": [
+        "Compatibility and performance on later commercial platforms were not exhaustively assessed."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/RNA Velocity.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Replaced generic performance rankings with method-specific conditions and limitations."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41586-018-0414-6",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/RNAscope.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1016/j.jmoldx.2011.08.002",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/SC-pSILAC.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Primary DOI, single-cell benchmark counts and interpretation of endpoint light/heavy ratios."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Added the correct Cell DOI and differentiated reported upper coverage, initial-benchmark averages, and relative turnover versus half-life."
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1016/j.cell.2025.03.002",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Complete time-series normalization and per-protein kinetic models were not independently reproduced."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/scDVP.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "2023 scDVP abstract and sampling unit; later human-liver application identity."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Specified individual tissue cell slices and anchored depth to the 2023 mouse-hepatocyte study rather than an unqualified high-depth claim."
+      ],
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13031132/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        },
+        {
+          "url": "https://www.nature.com/articles/s41592-023-02007-6",
+          "note": "Additional primary source checked for the correction."
+        }
+      ],
+      "unresolved": [
+        "Full human-liver supplementary analyses and comparisons between tissue-section protocols were not independently checked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/SCoPE2.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "SCoPE2 primary paper and isobaric carrier/reference design."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Corrected plexDIA classification and removed an unsupported current dollar-per-cell estimate."
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1186/s13059-021-02267-5",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Current costs, universal carrier size and throughput are not established by the original publication."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/scPiMS.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "scPiMS principle, hippocampal cell classes, author and publication-date metadata."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Corrected cell-type scope and distinguished 2025 online publication from the 2026 issue date."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41587-025-02669-x",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/SDB-RPS.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nmeth.2834",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/SILAC.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Metabolic isotope-labeling definition and bulk-versus-single-cell scope."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Distinguished general pulsed SILAC from the single-cell adaptation."
+      ],
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12118079/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/single-cell proteomics.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "MS-based scope and distinction from targeted antibody-based protein assays.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Avoided defining the entire SCP field as exclusively mass spectrometric.",
+        "Replaced generic performance rankings with method-specific conditions and limitations. Replaced citation placeholder with a named source or explicit official-documentation link.",
+        "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1186/s13059-021-02267-5",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Single-molecule protein sequencing.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25714988/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Site-Saturation Mutagenesis.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41586-024-08370-4",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Spatial CITE-seq.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Primary-paper title, authors, DOI, journal/pages, and 25-µm/189-antibody example."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Corrected DOI/journal/pages and identified the paper's microfluidic spatial-barcoding design rather than a generic slide-capture assay."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41587-023-01676-0",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Full panel performance and spatial segmentation were not independently reanalyzed."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Spatial proteomics.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Tissue mapping using DVP; distinction from the broader subcellular concept.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Corrected the over-narrow tissue-only definition while retaining the vault's tissue focus.",
+        "Replaced generic performance rankings with method-specific conditions and limitations. Replaced citation placeholder with a named source or explicit official-documentation link."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41587-022-01302-5",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Spatial Transcriptomics.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Original 2016 spatial-barcoding principle and bibliographic identity."
+      ],
+      "changes": [
+        "Removed unqualified resolution and throughput values, avoided equating localization precision with resolution, and corrected blanket claims about sequencing platforms."
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1126/science.aaf2403",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Modern platform specifications are deliberately not quantified; individual platforms require their own documentation."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Spectral Deconvolution.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Replaced generic performance rankings with method-specific conditions and limitations. Replaced citation placeholder with a named source or explicit official-documentation link."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nmeth.3255",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/StageTips.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1021/ac026117i",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Structural proteomics.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nbt.2999",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Thermal protein profiling.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25278616/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/TMTPro.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41592-020-0781-4",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Top-down proteomics.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s43586-024-00318-2",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Trap-and-elute.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Replaced generic performance rankings with method-specific conditions and limitations. Replaced citation placeholder with a named source or explicit official-documentation link."
+      ],
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13118651/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Trypsin.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Added method-specific source URL to frontmatter.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.promega.com/products/mass-spectrometry/trypsin/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/TurboID.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nbt.4201",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/ZT Scan DIA.md",
+      "date": "2026-10-20",
+      "status": "partial",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files.",
+        "Official acquisition mechanism and platform-specific nature.",
+        "Reviewed performance claims for unsupported generalization."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body.",
+        "Replaced a vague benchmark-only definition with the manufacturer's actual scanning-Q1/Zeno-trap mechanism.",
+        "Replaced generic performance rankings with method-specific conditions and limitations. Replaced citation placeholder with a named source or explicit official-documentation link."
+      ],
+      "sources": [
+        {
+          "url": "https://sciex.com/applications/biomedical-and-omics-research/proteomics",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [
+        "Core definition and cited-source identity checked; individual implementations and all comparative performance claims were not independently benchmarked."
+      ],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/μMap.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Read the complete existing note.",
+        "Checked the core definition and method/source identity against the cited publisher, author, or official documentation.",
+        "Checked internal links against existing vault files."
+      ],
+      "changes": [
+        "Filled or replaced frontmatter url with the method-specific source.",
+        "Added a clickable source in the note body."
+      ],
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7336666/",
+          "note": "Source consulted for the core definition and method identity; does not validate every general performance claim."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/CRISPRa.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "CRISPRa mechanism, activation-versus-knockout distinction and primary paper.",
+        "Checked that related-link targets exist or belong to this repair batch."
+      ],
+      "changes": [
+        "Created a source-backed method note for an existing unresolved wikilink target."
+      ],
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/4253859/",
+          "note": "Primary paper or official documentation supporting the stated definition and scope."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/snRNA-seq.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Nuclei-versus-whole-cell scope, frozen-brain applicability and official intron-counting guidance.",
+        "Checked that related-link targets exist or belong to this repair batch."
+      ],
+      "changes": [
+        "Created a source-backed method note for an existing unresolved wikilink target."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nprot.2016.015",
+          "note": "Primary paper or official documentation supporting the stated definition and scope."
+        },
+        {
+          "url": "https://www.10xgenomics.com/support/software/cell-ranger/8.0/miscellaneous/cr-intron-mode-rec",
+          "note": "Primary paper or official documentation supporting the stated definition and scope."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/RNA-Seq.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "RNA-seq measurement principle, primary bibliography and distinction from protein measurement.",
+        "Checked that related-link targets exist or belong to this repair batch."
+      ],
+      "changes": [
+        "Created a source-backed method note for an existing unresolved wikilink target."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nmeth.1226",
+          "note": "Primary paper or official documentation supporting the stated definition and scope."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/MRM.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Targeted precursor/fragment transitions, common SRM synonym and assay limitations.",
+        "Checked that related-link targets exist or belong to this repair batch."
+      ],
+      "changes": [
+        "Created a source-backed method note for an existing unresolved wikilink target."
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1038/msb.2008.61",
+          "note": "Primary paper or official documentation supporting the stated definition and scope."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/PRM.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "PRM acquisition principle, distinction from MRM, and original paper.",
+        "Checked that related-link targets exist or belong to this repair batch."
+      ],
+      "changes": [
+        "Created a source-backed method note for an existing unresolved wikilink target."
+      ],
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3494192/",
+          "note": "Primary paper or official documentation supporting the stated definition and scope."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/nano-DESI.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Original ambient liquid-extraction principle and distinction from protein-specific adaptations.",
+        "Checked that related-link targets exist or belong to this repair batch."
+      ],
+      "changes": [
+        "Created a source-backed method note for an existing unresolved wikilink target."
+      ],
+      "sources": [
+        {
+          "url": "https://pubs.rsc.org/en/content/articlehtml/2010/an/c0an00312c",
+          "note": "Primary paper or official documentation supporting the stated definition and scope."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/Single-sample GSEA.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Within-sample scoring, distinction from ordinary GSEA, and scope of score interpretation.",
+        "Checked that related-link targets exist or belong to this repair batch."
+      ],
+      "changes": [
+        "Created a source-backed method note for an existing unresolved wikilink target."
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1038/nature08460",
+          "note": "Primary paper or official documentation supporting the stated definition and scope."
+        },
+        {
+          "url": "https://docs.gsea-msigdb.org/GSEA/GSEA_and_RNA-Seq/",
+          "note": "Primary paper or official documentation supporting the stated definition and scope."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    },
+    {
+      "path": "notes/methods/De novo peptide sequencing.md",
+      "date": "2026-10-20",
+      "status": "verified",
+      "checked": [
+        "Database-independent sequence inference, transformer example and identification limitations.",
+        "Checked that related-link targets exist or belong to this repair batch."
+      ],
+      "changes": [
+        "Created a source-backed method note for an existing unresolved wikilink target."
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41467-024-49731-x",
+          "note": "Primary paper or official documentation supporting the stated definition and scope."
+        }
+      ],
+      "unresolved": [],
+      "checked_on": "2026-10-20"
+    }
+  ]
+}

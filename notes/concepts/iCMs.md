@@ -4,6 +4,8 @@ aliases:
   - iCMs
 tags:
 date_created: 2026-03-25
+url: https://pubmed.ncbi.nlm.nih.gov/39855627/
+category: concept
 ---
 
 # iCMs
@@ -16,3 +18,7 @@ iCMs refers to iPSC-derived cardiomyocytes used in differentiation and maturatio
 
 - [[iPSC]]
 - [[adult cardiomyocytes]]
+
+## Sources
+
+- [Authoritative reference for iCMs](https://pubmed.ncbi.nlm.nih.gov/39855627/)

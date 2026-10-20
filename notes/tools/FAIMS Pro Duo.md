@@ -6,7 +6,7 @@ tags:
   - tools
   - equipment
 category: tool
-url: 
+url: https://www.thermofisher.com/order/catalog/product/FMS03-10001
 date_created: 2026-01-18
 ---
 
@@ -25,43 +25,24 @@ FAIMS Pro Duo adds differential ion mobility separation before mass analysis, re
 - **Workflow Compatibility**: Integrates with Orbitrap-class platforms.
 - **Method Flexibility**: Compensation voltage strategies for targeted goals.
 
-## Installation
-
-```bash
-# Vendor-installed hardware accessory and control integration
-```
-
-## Usage
-
-```r
-# Configure compensation voltage scheme in instrument methods
-```
-
 ## Input/Output
 
 **Input:**
-- Raw files (.raw, .d, .mzML)
-- LC-MS methods with FAIMS compensation settings
+
+- Gas-phase ions from the ion source and an instrument-specific compensation-voltage method
 
 **Output:**
-- Protein/peptide matrices
-- Quality metrics
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| compensation_voltage | method-dependent | Ion filtering condition |
-| cv_cycle_scheme | method-dependent | Number and order of CV steps |
+- Selectively transmitted ions delivered to the mass spectrometer
 
 ## Key Publications
 
-> [!cite] Primary Reference
+> [!cite] Related Study Context
 > See FAIMS-enabled low-input proteomics studies in literature notes.
 
 ## Links
 
-- GitHub:
+- Source availability: See the official source below; no separate public repository was confirmed.
 - Documentation: https://www.thermofisher.com
 
 ## Related Tools
@@ -69,3 +50,7 @@ FAIMS Pro Duo adds differential ion mobility separation before mass analysis, re
 - [[MaxQuant]]
 - [[DIA-NN]]
 - [[scp Package]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [FAIMS Pro Duo documentation or source](https://www.thermofisher.com/order/catalog/product/FMS03-10001).

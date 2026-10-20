@@ -23,10 +23,7 @@ authors:
   - Alexander Makarov
   - Vlad Zabrouskov
   - Jesper V. Olsen
-aliases:
-   - nDIA
-   - Astral analyzer
-   - Ultra-fast proteomics
+aliases: ["nbt 2024 Ultra-fast label-free quantification and comprehensive proteome covergae", "Astral analyzer", "Ultra-fast proteomics"]
 tags:
   - literature
   - paper
@@ -36,9 +33,18 @@ category: literature
 date_created: 2024-05-22
 Journal: Nature Biotechnology
 Year: 2024
+doi: "10.1038/s41587-023-02099-7"
+url: "https://doi.org/10.1038/s41587-023-02099-7"
+publication_status: "published"
+published_online: "2024-02-01"
+published_print: "2024-12"
 ---
 
 # Ultra-fast label-free quantification and comprehensive proteome coverage with narrow-window data-independent acquisition
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -47,8 +53,7 @@ Year: 2024
 > **Authors**: Ulises H. Guzman, Ana Martinez-Val, Zilu Ye, et al.
 > **Year**: 2024
 > **Journal**: Nature Biotechnology
-> **DOI**: https://doi.org/10.1038/s41587-023-02099-7
-
+> **DOI**: [10.1038/s41587-023-02099-7](https://doi.org/10.1038/s41587-023-02099-7)
 ## Abstract
 
 Mass spectrometry (MS)-based proteomics aims to characterize comprehensive proteomes in a fast and reproducible manner. The authors present a **narrow-window data-independent acquisition (nDIA)** strategy. Using a quadrupole Orbitrap mass spectrometer paired with the asymmetric track lossless (**Astral**) analyzer, they achieve >200-Hz MS/MS scanning speeds with 2-Th isolation windows. This approach dissolves the traditional differences between data-dependent (DDA) and data-independent (DIA) methods. The strategy allows for profiling >100 yeast proteomes or 48 human proteomes per day, reaching depths of ~10,000 human protein groups in 30 minutes.

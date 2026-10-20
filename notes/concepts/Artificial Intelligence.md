@@ -2,13 +2,15 @@
 title: Artificial Intelligence
 tags:
 date_created: 2026-03-25
+url: https://www.genome.gov/about-genomics/educational-resources/fact-sheets/artificial-intelligence-machine-learning-and-genomics
+category: concept
 ---
 
 # Artificial Intelligence
 
 ## Summary
 
-Artificial Intelligence (AI) refers to computational methods that perform tasks requiring adaptive decision-making or pattern learning.
+Artificial Intelligence (AI) is a broad field of computational methods for tasks such as inference, learning, perception and decision-making. Machine learning is a subset of AI; AI is not limited to methods that learn from data.
 
 ## Notes
 
@@ -23,3 +25,7 @@ Artificial Intelligence (AI) refers to computational methods that perform tasks 
 
 - [[Deep Learning]]
 - [[AlphaPeptDeep]]
+
+## Sources
+
+- [Authoritative reference for Artificial Intelligence](https://www.genome.gov/about-genomics/educational-resources/fact-sheets/artificial-intelligence-machine-learning-and-genomics)

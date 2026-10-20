@@ -7,10 +7,10 @@ This note aggregates identifying leading scientists and key contributors based o
 
 ## Dynamic Author Statistics (Dataview)
 
-This table is generated dynamically using the Dataview plugin. It flattens the `authors` field from all notes in the literature folder, groups them by name, and counts the number of papers associated with each.
+This table is generated dynamically using the Dataview plugin. It flattens the `authors` field from all notes in the literature folder, groups them by name, and counts associated literature notes. A preprint and its journal version may have separate notes, so these are not deduplicated publication counts.
 
 ```dataview
-TABLE length(rows) as "Paper Count", rows.file.link as "Papers"
+TABLE length(rows) as "Note Count", rows.file.link as "Notes"
 FROM "notes/literature"
 FLATTEN authors as author
 GROUP BY author
@@ -85,7 +85,7 @@ if (sortedAuthors.length === 0) {
     });
 
     dv.table(
-        ["Author", "Count", "Frequent Collaborators (Shared Papers)", "Associated Papers"],
+        ["Author", "Note Count", "Frequent Collaborators (Shared Notes)", "Associated Notes"],
         tableData
     );
 }
@@ -94,33 +94,22 @@ if (sortedAuthors.length === 0) {
 
 ## Research Groups & Key Figures (Snapshot)
 
-While the table above updates dynamically, this section provides context on the major research clusters identified in the current literature (as of Jan 2026, **the list i no particular order**,**The statistics and research group assignments are automatically generated based on the current selection of literature notes in this vault and may not reflect the full scope of the field or real-world academic hierarchies**.):
+The examples below describe authorship in selected publications, checked 2026-10-20. They are not an exhaustive ranking, a statement of current employment, or a claim that one group exclusively developed a technology.
 
-
-### 🇨‍🇳  Suzhou Institute of Systems6Medicine, Chinese Academy of Medical Sciences & Peking Union Medical College, Suzhou, China
-+ **Key Figures:** Zilu Ye
-+ Focus:High-sensitivity hardware workflows. They are the primary drivers behind the **Orbitrap Astral** methods, **SC-pSILAC** (turnover), and the **Chip-Tip** workflow
-
-### 🇩🇰 Center for Protein Research (Copenhagen)
-* **Key Figures:** Pierre Sabatier, Maico Lechner, Jesper V. Olsen, Zilu Ye.
-* **Focus:** High-sensitivity hardware workflows. They are the primary drivers behind the **Orbitrap Astral** methods, **SC-pSILAC** (turnover), and the **Chip-Tip** workflow.
-
-
-### 🇩🇪 Max Planck Institute (Biochemistry)
-* **Key Figures:** Matthias Mann.
-* **Focus:** Integration of Deep Learning in proteomics. Associated with **AlphaPeptDeep** and AI-driven peptide property prediction.
-
-### 🇬🇧/🇦🇹 Glioblastoma & Neutrophil Group
-* **Key Figures:** Sarah R. Walmsley, Karl Mechtler.
-* **Focus:** Applied clinical proteomics. Specifically mapping functional states of tumor-associated neutrophils (TANs) in Glioblastoma.
-
-### 🇩🇰 Hematopoietic Stem Cell Group
-* **Key Figures:** Bo T. Porse, Erwin M. Schoof.
-* **Focus:** Biological application of single-cell proteomics (**scp-MS**) to map differentiation hierarchies and translation dynamics (**scProtVelo**).
-
----
+| Publication context | Selected authors | Source |
+|---------------------|------------------|--------|
+| Chip-Tip and high-sensitivity workflows | Zilu Ye, Jesper V. Olsen and collaborators | Linked [[Chip-Tip]] method and original article |
+| AlphaPeptDeep | Wen-Feng Zeng, Xie-Xuan Zhou, Sander Willems, Constantin Ammar, Maria Wahle, Isabell Bludau, Eugenia Voytik, Maximillian T. Strauss and Matthias Mann | [Nature Communications (2022)](https://doi.org/10.1038/s41467-022-34904-3) |
+| Glioblastoma neutrophil states | Pranvera Sadiku, Karl Mechtler, Sarah R. Walmsley and collaborators | [Nature Communications](https://doi.org/10.1038/s41467-025-67367-3), online 2025 / volume 2026 |
+| Cellular differentiation hierarchies | Erwin M. Schoof, Bo T. Porse and collaborators | [Nature Communications (2021)](https://doi.org/10.1038/s41467-021-23667-y) |
 
 ## Methodology
 - **Data Source**: `notes/literature/`
 - **Field**: `authors` (YAML frontmatter)
 - **Tool**: Obsidian Dataview Plugin
+
+## Sources
+
+- [AlphaPeptDeep author list](https://doi.org/10.1038/s41467-022-34904-3)
+- [Neutrophil study author list](https://doi.org/10.1038/s41467-025-67367-3)
+- [Cellular hierarchies author list](https://doi.org/10.1038/s41467-021-23667-y)

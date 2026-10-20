@@ -6,7 +6,7 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://github.com/gao-lab/GLUE
 date_created: 2026-03-25
 ---
 
@@ -16,58 +16,44 @@ date_created: 2026-03-25
 
 ## Overview
 
-GLUE is used to align modalities into a shared latent space, supporting integration of transcriptomic and proteomic single-cell datasets.
+GLUE is used to align modalities into a shared latent space, using a guidance graph to connect features across assays. The core demonstrated setting includes unpaired RNA and chromatin-accessibility data; use with MS proteomics requires an appropriate feature graph and dataset-specific validation.
 
 ## Key Features
 
 - **Cross-Modality Alignment**: Integrates different omics views.
 - **Graph-Based Prior Use**: Incorporates regulatory/feature relationships.
 - **Label Transfer Support**: Helps map cell states across datasets.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# See official GLUE package instructions
-```
-
-## Usage
-
-```r
-# Example code
-# Commonly used in Python
-```
+- **Environment**: Follow the official release requirements; operating-system support depends on the package and its dependencies.
 
 ## Input/Output
 
 **Input:**
+
 - Multi-omics matrices
 - Feature linkage graph/prior knowledge
 
 **Output:**
+
 - Joint latent embedding
 - Cross-modal integration and transfer results
-
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| latent_dim | user-defined | Shared embedding dimensionality |
-| graph_weight | user-defined | Strength of prior graph constraints |
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Cao and Gao (2022) *Nature Biotechnology*
+> Cao et al. (2022). Multi-omics single-cell data integration and regulatory inference with graph-linked embedding. *Nature Biotechnology*.
+> DOI: [10.1038/s41587-022-01284-4](https://doi.org/10.1038/s41587-022-01284-4)
 
 ## Links
 
-- GitHub:
-- Documentation:
+- GitHub: https://github.com/gao-lab/GLUE
+- Documentation/source: https://github.com/gao-lab/GLUE
 
 ## Related Tools
 
 - [[Scanpy]]
 - [[scvi-tools]]
 - [[scProtVelo]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [GLUE documentation or source](https://github.com/gao-lab/GLUE).

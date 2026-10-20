@@ -2,6 +2,8 @@
 title: UMAP
 tags:
 date_created: 2026-03-25
+url: https://umap-learn.readthedocs.io/en/latest/
+category: concept
 ---
 
 # UMAP
@@ -23,3 +25,7 @@ UMAP is a nonlinear dimensionality reduction method widely used for visualizing 
 
 - [[Scanpy]]
 - [[Seurat]]
+
+## Sources
+
+- [Authoritative reference for UMAP](https://umap-learn.readthedocs.io/en/latest/)

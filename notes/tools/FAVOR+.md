@@ -9,7 +9,7 @@ tags:
   - attention
   - efficient-transformer
 category: concept
-url: https://doi.org/10.48550/arXiv.2009.14794
+url: https://arxiv.org/abs/2009.14794
 date_created: 2026-03-17
 ---
 
@@ -19,7 +19,7 @@ date_created: 2026-03-17
 
 ## Overview
 
-FAVOR+ was introduced as part of the [[Performer]] architecture (Choromanski et al., 2021). Standard [[Transformer]] self-attention has $O(N^2)$ complexity, making it infeasible for sequences with tens of thousands of elements. FAVOR+ replaces the softmax kernel with a random feature map using positive orthogonal random features, achieving an unbiased estimate of the attention matrix in $O(N)$ time and space.
+FAVOR+ was introduced as part of the [[Performer]] architecture (Choromanski et al., 2021). Standard [[Transformer]] self-attention has $O(N^2)$ complexity, making it infeasible for sequences with tens of thousands of elements. FAVOR+ replaces the softmax kernel with a random feature map using positive orthogonal random features, approximating the softmax kernel with positive random features. Unbiasedness of a kernel estimator does not by itself make the normalized attention ratio unbiased. Time and space scale linearly with $N$ when feature count and embedding dimensions are fixed.
 
 ## Key Ideas
 
@@ -50,3 +50,7 @@ In **scTranslator**, FAVOR+ enables the [[Transformer]] to process input sequenc
 
 - [[Performer]] — The Transformer variant that implements FAVOR+
 - [[Transformer]] — The base architecture FAVOR+ optimizes
+
+## Source Check
+
+- Source checked on 2026-10-20: [FAVOR+ documentation or source](https://arxiv.org/abs/2009.14794).

@@ -6,65 +6,40 @@ tags:
   - tools
   - software
 category: tool
-url: 
+url: https://peppre.ctarn.io/
 date_created: 2026-03-25
 ---
 
 # PepPre
 
-**Proteomics preprocessing tool used for peptide-level data preparation.**
+**Precursor detection and ranking to improve peptide identification.**
 
 ## Overview
 
-PepPre is used in peptide-centric preprocessing workflows, including preparing identification inputs and supporting downstream analysis consistency.
-
-## Key Features
-
-- **Peptide-Level Preprocessing**: Standardizes peptide data before analysis.
-- **Workflow Integration**: Fits into broader DIA/DDA processing pipelines.
-- **Data Cleaning**: Supports robust downstream interpretation.
-- **Cross-Platform**: Windows, Linux, macOS
-
-## Installation
-
-```bash
-# Installation commands
-# Check project-specific documentation
-```
-
-## Usage
-
-```r
-# Example code
-# Refer to PepPre usage examples
-```
+PepPre detects peptide precursor candidates by decomposing spectral peaks into multiple isotope clusters using linear programming. It scores and ranks those candidates so downstream identification engines can use more accurate and comprehensive precursor information, including multiple precursors per spectrum.
 
 ## Input/Output
 
-**Input:**
-- Peptide search tables
-- Spectral or feature files
+- Input: compatible spectral data containing precursor/isotope information; accepted formats depend on the release.
+- Output: ranked precursor information and supported intermediate spectral formats for downstream peptide search. This is not missing-value imputation or cleaning of a protein-abundance matrix.
 
-**Output:**
-- Cleaned peptide matrices
-- Standardized intermediate files
+## Installation and Use
 
-## Key Parameters
+The [official release page](https://peppre.ctarn.io/) provides Windows, Linux and macOS downloads. Follow the selected release's format and configuration instructions. The initial generation of isotopic pattern vectors may take additional time.
 
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| min_intensity | user-defined | Minimum acceptable signal |
-| missing_value_rule | user-defined | Missing data filtering strategy |
+## Conditions and Limitations
+
+Identification gains reported in the paper apply to its regular/cross-linked peptide datasets and acquisition/search conditions; they are not universal percentage improvements. The downstream search still requires an appropriate database and confidence assessment.
 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Author et al. (Year) *Journal*
+> Tarn C, Wu Y-Z, Wang K-F (2024). PepPre: Promote Peptide Identification Using Accurate and Comprehensive Precursors. *Journal of Proteome Research*.
+> DOI: [10.1021/acs.jproteome.3c00293](https://doi.org/10.1021/acs.jproteome.3c00293)
 
-## Links
+## Sources
 
-- GitHub:
-- Documentation:
+- [Official documentation and releases](https://peppre.ctarn.io/) — checked 2026-10-20.
 
 ## Related Tools
 

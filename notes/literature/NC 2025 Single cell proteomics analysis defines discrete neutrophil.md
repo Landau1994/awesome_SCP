@@ -39,19 +39,27 @@ category: literature
 date_created: 2026-05-12
 Journal: Nature Communications
 Year: 2026
+doi: "10.1038/s41467-025-67367-3"
+url: "https://doi.org/10.1038/s41467-025-67367-3"
+publication_status: "published"
+published_online: "2025-12-15"
+volume_year: 2026
 ---
 
 # Single cell proteomic analysis defines discrete neutrophil functional states in human glioblastoma
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
 > [!cite] Reference
 > **Title**：Single cell proteomic analysis defines discrete neutrophil functional states in human glioblastoma
 > **Authors**: Pranvera Sadiku, Alejandro J. Brenes, Rupert L. Mayer, et al.
-> **Year**: 2025
+> **Year**: 2025 (online); 2026 (volume year)
 > **Journal**: Nature Communications
-> **DOI**: https://doi.org/10.1038/s41467-025-67367-3
-
+> **DOI**: [10.1038/s41467-025-67367-3](https://doi.org/10.1038/s41467-025-67367-3)
 ## Abstract
 
 Neutrophils are vital innate immune cells shown to infiltrate glioblastomas, however we currently lack the molecular understanding of their functional states within the tumour niche. Given that neutrophils are known to display a prominent discordance between mRNA and protein abundance, we develop ultra-sensitive mini-bulk and single cell proteomic (SCP) workflows to study the heterogeneity of peripheral blood and tumour associated neutrophils (TAN) from patients with glioblastoma. Mini-bulk analysis enable a deeper protein coverage of circulating immature, mature and TAN populations, defining signatures of maturity and demonstrating that TANs resemble mature circulating neutrophils. Analysis of the SCP data results in the detection of >1,100 proteins from a single TAN providing a detailed characterization of neutrophil subsets in glioblastoma. Our approach shows evidence of pathogenic and anti-tumorigenic clusters and discovers cell states invisible to scRNAseq, opening new opportunities to selectively target pro-tumoural neutrophil states.

@@ -10,7 +10,7 @@ tags:
   - genomics
   - multi-omics
 category: database
-url: https://www.cancer.gov/tcga
+url: https://www.cancer.gov/ccg/research/genome-sequencing/tcga
 date_created: 2026-03-17
 ---
 
@@ -24,7 +24,7 @@ TCGA (2006–2018) is one of the largest and most comprehensive cancer genomics 
 
 ## Statistics
 
-- **Samples**: >20,000 primary tumor + matched normal
+- **Samples**: >20,000 primary tumor and matched-normal samples in the overall program; not 20,000 matched pairs (NCI overview, checked 2026-10-20)
 - **Cancer Types**: 33 (e.g., BRCA, LUAD, COAD, GBM, PRAD)
 - **Data Types**: WGS/WES, RNA-seq, miRNA-seq, methylation, CNV, RPPA proteomics, clinical
 - **Species**: Human
@@ -32,11 +32,11 @@ TCGA (2006–2018) is one of the largest and most comprehensive cancer genomics 
 ## Access
 
 **Portal**: https://portal.gdc.cancer.gov/
-**Legacy Archive**: https://portal.gdc.cancer.gov/legacy-archive
+**Data documentation**: https://docs.gdc.cancer.gov/
 
 ## Application in SCP
 
-In scTranslator, TCGA bulk RNA-protein paired data was used as part of the Stage 1 (bulk) pre-training corpus, providing 18,227 patient-level samples across 31 cancer types to learn general RNA-to-protein relationships.
+TCGA-derived bulk data contribute to RNA–protein modeling studies. The scTranslator total of 18,227 patient-level bulk samples across 31 cancer types refers to its multi-source assembled corpus, not TCGA alone. Dataset inclusion, RNA/protein pairing and training splits require the original study supplement.
 
 ## Key Publications
 
@@ -48,3 +48,9 @@ In scTranslator, TCGA bulk RNA-protein paired data was used as part of the Stage
 
 - [[CPTAC]] — Proteogenomic characterization complementing TCGA tumors
 - [[MSKCC]] — Clinical genomics resource
+
+## Sources
+
+- [NCI TCGA overview](https://www.cancer.gov/ccg/research/genome-sequencing/tcga)
+- [TCGA pan-cancer analysis project](https://doi.org/10.1038/ng.2764)
+- [scTranslator official repository](https://github.com/TencentAILabHealthcare/sctranslator)

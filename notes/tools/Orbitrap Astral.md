@@ -1,13 +1,11 @@
 ---
 title: Orbitrap Astral
-aliases:
-  - Thermo Scientific Orbitrap Astral
-  - Astral
+aliases: []
 tags:
   - tools
-  - software
+  - equipment
 category: tool
-url: https://www.thermofisher.com
+url: https://www.nature.com/articles/s41587-023-02099-7
 date_created: 2026-01-18
 ---
 
@@ -26,21 +24,6 @@ Orbitrap Astral is a Thermo Scientific mass spectrometry platform that combines 
 - **DIA-Ready Performance**: Works well with DIA, nDIA, and related deconvolution-heavy pipelines.
 - **Proteomics-Oriented Ecosystem**: Widely used with modern tools such as DIA-NN and FragPipe.
 
-## Installation
-
-```bash
-# Hardware platform
-# Installation is vendor-managed (instrument + control software).
-# Typical setup includes instrument qualification and calibration.
-```
-
-## Usage
-
-```r
-# Orbitrap Astral is controlled through vendor instrument software.
-# Downstream data analysis is typically done in external tools.
-```
-
 ## Input/Output
 
 **Input:**
@@ -55,25 +38,16 @@ Orbitrap Astral is a Thermo Scientific mass spectrometry platform that combines 
 - Peptide/protein quantification matrices after software processing
 - QC metrics (coverage, CV, ID rate, missingness)
 
-## Key Parameters
-
-|Parameter|Value|Description|
-|-----------|-------|-------------|
-|isolation_window|method-dependent|DIA/nDIA window width and segmentation strategy|
-|cycle_time|method-dependent|Balances depth and quantification precision|
-|gradient_length|5-120 min|Throughput-depth trade-off in LC-MS runs|
-|collision_energy|method-dependent|Affects fragmentation quality and identification confidence|
-
 ## Key Publications
 
 > [!cite] Primary Reference
-> Van Puyvelde et al. (2022) *Nature Methods* benchmark-related workflow context.
-> Guzman et al. (2024) *Nature Biotechnology* narrow-window DIA and high-speed acquisition context.
+> Guzman et al. (2024). Ultra-fast label-free quantification and comprehensive proteome coverage with narrow-window data-independent acquisition. *Nature Biotechnology*.
+> DOI: [10.1038/s41587-023-02099-7](https://doi.org/10.1038/s41587-023-02099-7)
 
 ## Links
 
-- Product: [thermofisher.com](https://www.thermofisher.com)
-- Documentation: [thermofisher.com](https://www.thermofisher.com)
+- Application/reference: [Original nDIA study](https://www.nature.com/articles/s41587-023-02099-7)
+- Product-family overview: [[Orbitrap]]
 
 ## Related Tools
 
@@ -81,3 +55,7 @@ Orbitrap Astral is a Thermo Scientific mass spectrometry platform that combines 
 - [[DIA-NN]]
 - [[FragPipe]]
 - [[Skyline]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [Orbitrap Astral documentation or source](https://www.nature.com/articles/s41587-023-02099-7).

@@ -36,20 +36,20 @@ Sequencing/Imaging → Spatial data analysis
 
 ## Performance
 
-- **Genes**: Genome-wide (sequencing-based) or targeted panels (imaging-based, up to ~10,000 genes)
-- **Resolution**: ~55 µm (Visium) to subcellular (~100 nm, MERFISH)
-- **Throughput**: One tissue section per experiment; multiple sections parallelizable
+- **Genes**: Broad transcriptome sampling or targeted panels, depending on the specific sequencing or imaging technology.
+- **Resolution**: Platform- and analysis-dependent; capture spot size, optical localization precision and effective cell-level resolution are distinct quantities.
+- **Throughput**: Depends on platform, tissue area, assay design and multiplexing.
 
 ## Advantages
 
 - Preserves spatial relationships and tissue architecture
-- Reveals cell-cell communication and microenvironment effects
+- Reveals spatial associations that can motivate hypotheses about cell communication and microenvironment effects.
 - Complementary to dissociation-based single-cell methods
 
 ## Limitations
 
 - Trade-off between spatial resolution and gene coverage
-- Sequencing-based methods are not truly single-cell without deconvolution
+- Spatial pixels may contain multiple cells; whether segmentation or deconvolution is needed depends on resolution and tissue morphology.
 - Requires tissue sectioning and specialized platforms
 
 ## Key Publications

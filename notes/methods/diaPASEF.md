@@ -1,12 +1,10 @@
 ---
 title: diaPASEF
-aliases:
-  - diaPASEF
-  - dia-PASEF
+aliases: ["diaPASEF"]
 tags:
   - methods
 category: method
-url: 
+url: https://www.nature.com/articles/s41592-020-00998-0
 date_created: 2026-03-25
 ---
 
@@ -32,9 +30,7 @@ Mobility-aware DIA window setup → PASEF acquisition → DIA deconvolution and 
 
 ## Performance
 
-- **Proteins per cell**: High, depending on sample/instrument settings
-- **Throughput**: High
-- **Data completeness**: Improved relative to many conventional modes
+The original work evaluated ion usage, coverage and quantitative performance under defined timsTOF acquisition conditions. Protein depth, throughput and completeness in single-cell applications depend on subsequent sample preparation and acquisition choices.
 
 ## Advantages
 
@@ -51,10 +47,15 @@ Mobility-aware DIA window setup → PASEF acquisition → DIA deconvolution and 
 ## Key Publications
 
 > [!cite] Primary Reference
-> Meier et al. (2020) *Molecular & Cellular Proteomics*
+> Meier F, Brunner AD, Frank M, et al. (2020). diaPASEF: parallel accumulation–serial fragmentation combined with data-independent acquisition. *Nature Methods* 17, 1229–1236.
+> [10.1038/s41592-020-00998-0](https://doi.org/10.1038/s41592-020-00998-0)
 
 ## Related Methods
 
 - [[PASEF]]
 - [[DIA]]
 - [[diagonal-PASEF]]
+
+## Sources
+
+- [Reference for diaPASEF](https://www.nature.com/articles/s41592-020-00998-0)

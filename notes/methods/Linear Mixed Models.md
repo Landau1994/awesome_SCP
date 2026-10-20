@@ -6,7 +6,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://www.jstatsoft.org/article/view/v067i01
 date_created: 2026-03-25
 ---
 
@@ -22,7 +22,7 @@ Linear Mixed Models (LMMs) are useful for continuous gradient analysis, repeated
 
 - **Fixed + Random Effects**: Separates global and group-specific variance.
 - **Hierarchical Data Support**: Handles donor/batch/sample structure.
-- **Robust Inference**: Suitable for biological replicates with dependence.
+- **Dependence Modeling**: Can account for specified grouping structure when model assumptions and replication are adequate.
 
 ## Workflow
 
@@ -32,14 +32,12 @@ Define formula and random structure → Fit model → Estimate effects → Multi
 
 ## Performance
 
-- **Proteins per cell**: Not directly applicable
-- **Throughput**: High (software-dependent)
-- **Data completeness**: Can better accommodate unbalanced designs
+A fitted mixed model does not create missing measurements. Inference depends on the fixed/random-effect structure, the number of independent groups, residual assumptions and the missing-data mechanism. Unbalanced observations can be modeled under appropriate assumptions.
 
 ## Advantages
 
 - Appropriate for nested and repeated designs
-- Reduces false positives from ignored dependency
+- Can reduce pseudoreplication when the dependence structure is specified appropriately
 - Interpretable coefficients and uncertainty
 
 ## Limitations
@@ -50,11 +48,14 @@ Define formula and random structure → Fit model → Estimate effects → Multi
 
 ## Key Publications
 
-> [!cite] Primary Reference
-> See spatial liver proteomics literature note using LMM.
+Bates et al. (2015). [Fitting Linear Mixed-Effects Models Using lme4](https://www.jstatsoft.org/article/view/v067i01).
 
 ## Related Methods
 
 - [[GSEA]]
 - [[WGCNA]]
 - [[RNA Velocity]]
+
+## Sources
+
+- [Reference for Linear Mixed Models](https://www.jstatsoft.org/article/view/v067i01)

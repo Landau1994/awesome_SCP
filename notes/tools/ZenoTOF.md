@@ -1,14 +1,11 @@
 ---
 title: ZenoTOF
-aliases:
-  - ZenoTOF
-  - SCIEX ZenoTOF 7600+
-  - SCIEX ZenoTOF 8600
+aliases: ["ZenoTOF"]
 tags:
   - tools
-  - software
+  - equipment
 category: tool
-url: 
+url: https://sciex.com/applications/biomedical-and-omics-research
 date_created: 2026-03-25
 ---
 
@@ -23,3 +20,7 @@ ZenoTOF is a SCIEX mass spectrometry platform family used in high-throughput pro
 - [[timsTOF]]
 - [[Orbitrap Astral]]
 - [[DIA-NN]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [ZenoTOF documentation or source](https://sciex.com/applications/biomedical-and-omics-research).

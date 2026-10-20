@@ -9,7 +9,7 @@ tags:
   - automation
   - nanoliter
 category: method
-url: https://scp.slavovlab.net/nPOP
+url: https://www.nature.com/articles/s41596-024-01033-8
 ---
 
 # nPOP
@@ -22,8 +22,8 @@ nPOP is a massively parallel sample preparation method that enables processing t
 
 ## Key Features
 
-- **Nanoliter Volumes**: 8-20 nL reaction volumes per cell
-- **Parallel Processing**: >3,000 cells simultaneously
+- **Nanoliter Volumes**: reaction volume changes across dispensing, lysis, digestion and labeling steps; follow the protocol's step-specific volumes.
+- **Parallel Processing**: Thousands of cells can be prepared in parallel in the reported workflow.
 - **Flexible Design**: Compatible with multiple MS methods
 - **Automation**: Implemented on CellenONE platform
 
@@ -46,9 +46,9 @@ nPOP is a massively parallel sample preparation method that enables processing t
 
 ## Performance
 
-- **Proteins identified**: 3,000-3,700 per human cell
-- **Processing capacity**: >3,000 cells per batch
-- **Reproducibility**: High CV consistency
+- **Proteins identified**: The protocol reports about 3,000–3,700 proteins per human cell in a specific plexDIA implementation. Depth depends on the combined preparation, labeling, acquisition and analysis workflow; this is not an intrinsic property of nPOP.
+- **Processing capacity**: Thousands of cells per preparation workflow; practical capacity depends on slide layout and dispensing/collection design.
+- **Reproducibility**: assess quantitative precision and preparation quality using the protocol's controls and QuantQC workflow.
 
 ## Advantages
 
@@ -67,7 +67,7 @@ nPOP is a massively parallel sample preparation method that enables processing t
 
 > [!cite] Primary Reference
 > Leduc et al. (2024) *Nature Protocols*
-> DOI: [10.1038/s41596-024-01000-z](https://doi.org/10.1038/s41596-024-01000-z)
+> DOI: [10.1038/s41596-024-01033-8](https://doi.org/10.1038/s41596-024-01033-8)
 
 ## Related Methods
 
@@ -75,3 +75,7 @@ nPOP is a massively parallel sample preparation method that enables processing t
 - [[mPOP]] - Tube-based lysis method
 - [[plexDIA]] - Often used together
 - [[SCoPE2]] - Alternative labeling approach
+
+## Sources
+
+- [Reference for nPOP](https://www.nature.com/articles/s41596-024-01033-8)

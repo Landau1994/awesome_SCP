@@ -2,6 +2,8 @@
 title: RYR2
 tags:
 date_created: 2026-03-25
+url: https://www.uniprot.org/uniprotkb/Q92736/entry
+category: concept
 ---
 
 # RYR2
@@ -22,3 +24,7 @@ RYR2 encodes ryanodine receptor 2, a calcium-release channel important in excita
 ## Related
 
 - [[iPSC]]
+
+## Sources
+
+- [UniProt reviewed human reference: RYR2](https://www.uniprot.org/uniprotkb/Q92736/entry)

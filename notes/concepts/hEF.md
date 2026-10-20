@@ -10,7 +10,7 @@ date_created: 2026-03-25
 
 ## Summary
 
-hEF is treated as a formal cell-type/cell-line abbreviation in this vault and should not be treated as a temporary placeholder.
+The expansion and cell identity of hEF have not been established from the sources available in this vault. Do not assume it is the same as hFF or hFF-1. This page is retained for compatibility pending a source that specifies the organism, tissue and cell-line identifier.
 
 ## Related
 

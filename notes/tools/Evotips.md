@@ -5,9 +5,9 @@ aliases:
   - EvoTip
 tags:
   - tools
-  - software
+  - equipment
 category: tool
-url: 
+url: https://www.evosep.com/evotip/
 date_created: 2026-01-18
 ---
 
@@ -26,43 +26,24 @@ Evotips are designed for robust, standardized peptide loading and cleanup before
 - **Low-Input Compatible**: Useful in SCP and limited-sample contexts.
 - **Workflow Integration**: Commonly paired with Evosep systems.
 
-## Installation
-
-```bash
-# Physical consumable; follow vendor preparation protocol
-```
-
-## Usage
-
-```r
-# Used as part of LC sample loading workflow
-```
-
 ## Input/Output
 
 **Input:**
-- Raw files (.raw, .d, .mzML)
-- Peptide digests for cleanup/loading
+
+- Peptide digest loaded onto compatible disposable trapping tips
 
 **Output:**
-- Protein/peptide matrices
-- Quality metrics
 
-## Key Parameters
-
-| Parameter | Value | Description |
-|-----------|-------|-------------|
-| loading_volume | protocol-dependent | Sample load amount per tip |
-| wash_steps | protocol-dependent | Cleanup stringency |
+- Trapped/cleaned peptide material for transfer into an Evosep LC workflow
 
 ## Key Publications
 
-> [!cite] Primary Reference
+> [!cite] Related Study Context
 > See Evosep-related methodology papers and benchmark literature notes.
 
 ## Links
 
-- GitHub:
+- Source availability: See the official source below; no separate public repository was confirmed.
 - Documentation: https://www.evosep.com
 
 ## Related Tools
@@ -70,3 +51,7 @@ Evotips are designed for robust, standardized peptide loading and cleanup before
 - [[MaxQuant]]
 - [[DIA-NN]]
 - [[scp Package]]
+
+## Source Check
+
+- Source checked on 2026-10-20: [Evotips documentation or source](https://www.evosep.com/evotip/).

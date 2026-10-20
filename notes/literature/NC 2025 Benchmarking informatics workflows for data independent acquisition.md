@@ -21,9 +21,17 @@ category: literature
 date_created: 2024-05-22
 Journal: Nature Communications
 Year: 2025
+doi: "10.1038/s41467-025-65174-4"
+url: "https://doi.org/10.1038/s41467-025-65174-4"
+publication_status: "published"
+published_online: "2025-11-21"
 ---
 
 # Benchmarking informatics workflows for data-independent acquisition single-cell proteomics
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note. The detailed software-by-software comparisons and search strategies remain to be checked against the full text.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -32,8 +40,7 @@ Year: 2025
 > **Authors**: Jianwei Wang, Yi Huang, Fanghua Lu, Qinqin Xu, Zhuo Yang, Yirong Jiang, Shaowen Shi, Jianzhang Pan, Yi Yang, Qun Fang
 > **Year**: 2025
 > **Journal**: Nature Communications
-> **DOI**: https://doi.org/10.1038/s41467-025-65174-4
-
+> **DOI**: [10.1038/s41467-025-65174-4](https://doi.org/10.1038/s41467-025-65174-4)
 ## Abstract
 
 Single-cell proteomics (SCP) using data-independent acquisition mass spectrometry (DIA MS) has advanced rapidly, yet the impact of diverse data analysis strategies on experimental outcomes remains under-investigated. This study presents a framework for benchmarking DIA-based SCP data analysis strategies. It comprehensively evaluates popular software tools (DIA-NN, Spectronaut, and PEAKS Studio), searching strategies (library-based vs. library-free), and downstream informatics steps, including sparsity reduction, missing value imputation, normalization, batch effect correction, and differential expression analysis. Using simulated mixed-proteome samples and real spike-in single-cell samples, the authors identify high-performing method combinations and provide concrete recommendations for optimizing SCP DIA workflows.

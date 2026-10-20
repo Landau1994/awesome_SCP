@@ -25,9 +25,18 @@ category: literature
 date_created: 2025-06-25
 Journal: Nature Biotechnology
 Year: 2026
+doi: "10.1038/s41587-025-02980-7"
+url: "https://doi.org/10.1038/s41587-025-02980-7"
+publication_status: "published"
+published_online: "2026-01-27"
+published_print: "2026-08"
 ---
 
 # Single-cell proteomic landscape of the developing human brain
+
+> [!info] Verification scope — 2026-10-20
+> Bibliographic metadata and the public abstract were checked. This does not verify every experimental detail, figure, parameter or performance claim in the full note.
+> See the [per-note audit record](../../audit/literature-audit.json) for evidence and unresolved items.
 
 ## Citation
 
@@ -36,7 +45,8 @@ Year: 2026
 > **Authors**: Tianzhi Wu, Lihua Jiang, Tanzila Mukhtar, Li Wang, Ruiqi Jian, Cheng Wang, Tiffany Trinh, Arnold R. Kriegstein, Michael Snyder & Jingjing Li
 > **Year**: 2026
 > **Journal**: Nature Biotechnology
-> **DOI**: https://doi.org/10.1038/s41587-025-02980-7
+> **DOI**: [10.1038/s41587-025-02980-7](https://doi.org/10.1038/s41587-025-02980-7)> **Preprint**: [[bioRxiv 2025 Single Cell Proteomics in the Developing Human Brain]] ([10.1101/2025.06.23.660079](https://doi.org/10.1101/2025.06.23.660079)).
+
 
 ## Abstract
 

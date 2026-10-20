@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-10-20T00:46:10.902405+00:00",
+  "root": "E:\\project\\SCP\\note\\awesome_SCP",
+  "scope": {
+    "note_count": 369,
+    "markdown_count": 371,
+    "canvas_count": 3,
+    "audit_links_included": true,
+    "network_requests": 0
+  },
+  "summary": {
+    "errors": 0,
+    "warnings": 0,
+    "issue_counts": {},
+    "empty_url_fields": 0,
+    "missing_url_fields": 2,
+    "notes_without_frontmatter": 1,
+    "wikilinks_checked": 1510,
+    "external_links_not_probed": 590,
+    "markdown_local_links_checked": 66,
+    "anchors_checked": 11,
+    "canvas_file_links_checked": 24
+  },
+  "audit_coverage": {
+    "reports": [
+      "audit/literature-audit.json",
+      "audit/methods-audit.json",
+      "audit/root-audit.json",
+      "audit/tools-audit.json"
+    ],
+    "covered_notes": 369,
+    "total_notes": 369,
+    "record_status_counts": {
+      "verified": 199,
+      "partial": 154,
+      "compatibility": 19,
+      "unverified": 2
+    },
+    "note_status_counts": {
+      "verified": 195,
+      "partial": 153,
+      "compatibility": 19,
+      "unverified": 2
+    },
+    "index_and_canvas_status_counts": {
+      "partial": 1,
+      "verified": 4
+    }
+  },
+  "filename_precedence_aliases": [],
+  "alias_only_links": [],
+  "metadata_gaps": [
+    {
+      "path": "notes/concepts/hEF.md",
+      "kind": "url_field_absent",
+      "note": "No frontmatter url field; this is distinct from an explicitly blank URL."
+    },
+    {
+      "path": "notes/research_group/Leading Scientists.md",
+      "kind": "frontmatter_absent",
+      "note": "Existing Markdown without frontmatter is permitted; body sources and audit coverage are checked separately."
+    },
+    {
+      "path": "notes/research_group/Leading Scientists.md",
+      "kind": "url_field_absent",
+      "note": "No frontmatter url field; this is distinct from an explicitly blank URL."
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Local structural validation only; external URLs were not probed.",
+    "Markdown/Obsidian anchor parsing is heuristic; see the script docstring.",
+    "Audit status is reported as supplied, not independently certified by this script."
+  ]
+}

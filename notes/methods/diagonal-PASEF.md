@@ -5,7 +5,7 @@ aliases:
 tags:
   - methods
 category: method
-url: 
+url: https://www.bruker.com/en/products-and-solutions/mass-spectrometry/timstof/pasef.html
 date_created: 2026-03-25
 ---
 
@@ -15,7 +15,7 @@ date_created: 2026-03-25
 
 ## Overview
 
-diagonal-PASEF is designed to improve low-input and short-gradient performance by constraining acquisition along informative mobility-m/z trajectories.
+diagonal-PASEF synchronizes a moving quadrupole isolation window with the TIMS ramp to follow the diagonal mobility–m/z distribution of peptide precursors. Bruker uses the term for methods including midia-PASEF and synchro-PASEF.
 
 ## Key Features
 
@@ -31,9 +31,7 @@ Ion mobility-aware window design → PASEF-style acquisition → DIA deconvoluti
 
 ## Performance
 
-- **Proteins per cell**: Improved in low-input comparisons
-- **Throughput**: High
-- **Data completeness**: Strong with optimized settings
+Performance depends on the particular implementation, quadrupole/mobility synchronization, gradient, input and analysis. A study of one diagonal-PASEF implementation does not establish the same gain for every member of this method family.
 
 ## Advantages
 
@@ -50,10 +48,15 @@ Ion mobility-aware window design → PASEF-style acquisition → DIA deconvoluti
 ## Key Publications
 
 > [!cite] Primary Reference
-> See LFQ benchmark and related method papers.
+> [Bruker PASEF technology documentation](https://www.bruker.com/en/products-and-solutions/mass-spectrometry/timstof/pasef.html)
+> Performance example: [10.1016/j.mcpro.2025.101480](https://doi.org/10.1016/j.mcpro.2025.101480)
 
 ## Related Methods
 
 - [[PASEF]]
 - [[diaPASEF]]
 - [[ZT Scan DIA]]
+
+## Sources
+
+- [Reference for diagonal-PASEF](https://www.bruker.com/en/products-and-solutions/mass-spectrometry/timstof/pasef.html)

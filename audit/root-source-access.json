@@ -1,0 +1,362 @@
+{
+  "ARI": {
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.adjusted_rand_score.html",
+    "final_url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.adjusted_rand_score.html",
+    "access": "retrieved",
+    "title": "adjusted_rand_score — scikit-learn 1.9.1 documentation"
+  },
+  "tSNE": {
+    "url": "https://www.jmlr.org/papers/v9/vandermaaten08a.html",
+    "final_url": "https://www.jmlr.org/papers/v9/vandermaaten08a.html",
+    "access": "retrieved",
+    "title": "Visualizing Data using t-SNE"
+  },
+  "KMeans": {
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html",
+    "final_url": "https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html",
+    "access": "retrieved",
+    "title": "KMeans — scikit-learn 1.9.1 documentation"
+  },
+  "MSE": {
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html",
+    "final_url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html",
+    "access": "retrieved",
+    "title": "mean_squared_error — scikit-learn 1.9.1 documentation"
+  },
+  "KNN": {
+    "url": "https://scikit-learn.org/stable/modules/neighbors.html",
+    "final_url": "https://scikit-learn.org/stable/modules/neighbors.html",
+    "access": "retrieved",
+    "title": "1.6. Nearest Neighbors — scikit-learn 1.9.1 documentation"
+  },
+  "PCA": {
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html",
+    "final_url": "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html",
+    "access": "retrieved",
+    "title": "PCA — scikit-learn 1.9.1 documentation"
+  },
+  "RandomForest": {
+    "url": "https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees",
+    "final_url": "https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees",
+    "access": "retrieved",
+    "title": "1.11. Ensembles: Gradient boosting, random forests, bagging, voting, stacking — scikit-learn 1.9.1 documentation"
+  },
+  "Hierarchical": {
+    "url": "https://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering",
+    "final_url": "https://scikit-learn.org/stable/modules/clustering.html#hierarchical-clustering",
+    "access": "retrieved",
+    "title": "2.3. Clustering — scikit-learn 1.9.1 documentation"
+  },
+  "Gaussian": {
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.norm.html",
+    "final_url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.norm.html",
+    "access": "retrieved",
+    "title": "scipy.stats.norm — SciPy v1.18.0 Manual"
+  },
+  "AI": {
+    "url": "https://jmc.stanford.edu/artificial-intelligence/what-is-ai/index.html",
+    "access": "restricted_or_failed",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'jmc.stanford.edu'. (_ssl.c:997)>"
+  },
+  "R": {
+    "url": "https://www.r-project.org/about.html",
+    "final_url": "https://www.r-project.org/about.html",
+    "access": "retrieved",
+    "title": "R: What is R?"
+  },
+  "TransferLearning": {
+    "url": "https://www.tensorflow.org/tutorials/images/transfer_learning",
+    "final_url": "https://www.tensorflow.org/tutorials/images/transfer_learning",
+    "access": "retrieved",
+    "title": "Transfer learning and fine-tuning  |  TensorFlow Core"
+  },
+  "GO": {
+    "url": "https://geneontology.org/docs/ontology-documentation/",
+    "final_url": "https://geneontology.org/docs/ontology-documentation/",
+    "access": "retrieved",
+    "title": "Gene Ontology overview"
+  },
+  "DeepLearning": {
+    "url": "https://www.nature.com/articles/nature14539",
+    "final_url": "https://www.nature.com/articles/nature14539?error=cookies_not_supported&code=dd443952-9cf5-4e0a-9bd7-f65a78761ea0",
+    "access": "retrieved",
+    "title": "Deep learning | Nature"
+  },
+  "Leiden": {
+    "url": "https://www.nature.com/articles/s41598-019-41695-z",
+    "final_url": "https://www.nature.com/articles/s41598-019-41695-z?error=cookies_not_supported&code=9aa56a2d-0718-45e6-808c-f437c39c7376",
+    "access": "retrieved",
+    "title": "From Louvain to Leiden: guaranteeing well-connected communities | Scientific Reports"
+  },
+  "UMAP": {
+    "url": "https://umap-learn.readthedocs.io/en/latest/",
+    "final_url": "https://umap-learn.readthedocs.io/en/latest/",
+    "access": "retrieved",
+    "title": "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction — umap 0.5.8 documentation"
+  },
+  "XGBoost": {
+    "url": "https://xgboost.readthedocs.io/en/stable/",
+    "final_url": "https://xgboost.readthedocs.io/en/stable/",
+    "access": "retrieved",
+    "title": "XGBoost Documentation — xgboost 3.4.2 documentation"
+  },
+  "SHAP": {
+    "url": "https://shap.readthedocs.io/en/latest/",
+    "final_url": "https://shap.readthedocs.io/en/latest/",
+    "access": "retrieved",
+    "title": "Welcome to the SHAP documentation — SHAP latest documentation"
+  },
+  "Python": {
+    "url": "https://www.python.org/about/",
+    "final_url": "https://www.python.org/about/",
+    "access": "retrieved",
+    "title": ""
+  },
+  "Drosophila": {
+    "url": "https://flybase.org/reports/FBsp00000001.html",
+    "final_url": "https://flybase.org/reports/FBsp00000001.html",
+    "access": "retrieved",
+    "title": "FlyBase - Sequence Species"
+  },
+  "Yeast": {
+    "url": "https://www.yeastgenome.org/",
+    "final_url": "https://www.yeastgenome.org/",
+    "access": "retrieved",
+    "title": "Saccharomyces Genome Database | SGD"
+  },
+  "mouseESC": {
+    "url": "https://www.nature.com/articles/292154a0",
+    "final_url": "https://www.nature.com/articles/292154a0?error=cookies_not_supported&code=b8e703b2-c4e1-4d6c-956c-75ea63ac140e",
+    "access": "retrieved",
+    "title": "Establishment in culture of pluripotential cells from mouse embryos | Nature"
+  },
+  "CAR": {
+    "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+    "final_url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+    "access": "retrieved",
+    "title": "CAR T Cells: Engineering Immune Cells to Treat Cancer - NCI"
+  },
+  "NK": {
+    "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/natural-killer-cell",
+    "final_url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/natural-killer-cell",
+    "access": "retrieved",
+    "title": "Facebook"
+  },
+  "Bortezomib": {
+    "url": "https://www.cancer.gov/about-cancer/treatment/drugs/bortezomib",
+    "final_url": "https://www.cancer.gov/about-cancer/treatment/drugs/bortezomib",
+    "access": "retrieved",
+    "title": "Bortezomib - NCI"
+  },
+  "HeLa": {
+    "url": "https://www.atcc.org/products/ccl-2",
+    "final_url": "https://www.atcc.org/products/ccl-2",
+    "access": "retrieved",
+    "title": "HeLa - CCL-2 | ATCC"
+  },
+  "U2OS": {
+    "url": "https://www.atcc.org/products/htb-96",
+    "final_url": "https://www.atcc.org/products/htb-96",
+    "access": "retrieved",
+    "title": "U-2 OS - HTB-96 | ATCC"
+  },
+  "hFF": {
+    "url": "https://www.atcc.org/products/scrc-1041",
+    "final_url": "https://www.atcc.org/products/scrc-1041",
+    "access": "retrieved",
+    "title": "HFF-1 - SCRC-1041 | ATCC"
+  },
+  "ZeroShot": {
+    "url": "https://arxiv.org/abs/1707.00600",
+    "final_url": "https://arxiv.org/abs/1707.00600",
+    "access": "retrieved",
+    "title": "[1707.00600] Zero-Shot Learning -- A Comprehensive Evaluation of the Good, the Bad and the Ugly"
+  },
+  "LLM": {
+    "url": "https://arxiv.org/abs/2005.14165",
+    "final_url": "https://arxiv.org/abs/2005.14165",
+    "access": "retrieved",
+    "title": "[2005.14165] Language Models are Few-Shot Learners"
+  },
+  "293T": {
+    "url": "https://www.atcc.org/products/crl-3216",
+    "final_url": "https://www.atcc.org/products/crl-3216",
+    "access": "retrieved",
+    "title": "293T - CRL-3216 | ATCC"
+  },
+  "K562": {
+    "url": "https://www.atcc.org/products/ccl-243",
+    "final_url": "https://www.atcc.org/products/ccl-243",
+    "access": "retrieved",
+    "title": "K-562 - CCL-243 | ATCC"
+  },
+  "PTM": {
+    "url": "https://www.uniprot.org/help/post-translational_modification",
+    "final_url": "https://www.uniprot.org/help/post-translational_modification",
+    "access": "retrieved",
+    "title": "UniProt"
+  },
+  "H4": {
+    "url": "https://www.uniprot.org/uniprotkb/P62805/entry",
+    "final_url": "https://www.uniprot.org/uniprotkb/P62805/entry",
+    "access": "retrieved",
+    "title": "UniProt"
+  },
+  "Network": {
+    "url": "https://www.nature.com/articles/nrg1272",
+    "final_url": "https://www.nature.com/articles/nrg1272?error=cookies_not_supported&code=9a74150d-6aca-4b9c-806a-561e4b1ba0b1",
+    "access": "retrieved",
+    "title": "Network biology: understanding the cell's functional organization | Nature Reviews Genetics"
+  },
+  "RA957": {
+    "url": "https://www.cellosaurus.org/CVCL_B4UJ",
+    "final_url": "https://www.cellosaurus.org/CVCL_B4UJ",
+    "access": "retrieved",
+    "title": "Cellosaurus cell line RA957 (CVCL_B4UJ)"
+  },
+  "ZGA": {
+    "url": "https://www.nature.com/articles/s41580-019-0122-5",
+    "access": "restricted_or_failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "TCGA": {
+    "url": "https://www.cancer.gov/ccg/research/genome-sequencing/tcga",
+    "final_url": "https://www.cancer.gov/ccg/research/genome-sequencing/tcga",
+    "access": "retrieved",
+    "title": "The Cancer Genome Atlas Program (TCGA) - NCI"
+  },
+  "CHIR99021": {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22540008/",
+    "final_url": "https://pubmed.ncbi.nlm.nih.gov/22540008/",
+    "access": "retrieved",
+    "title": "pubmed.ncbi.nlm.nih.gov"
+  },
+  "Ribosome": {
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK9849/",
+    "final_url": "https://www.ncbi.nlm.nih.gov/books/NBK9849/",
+    "access": "retrieved",
+    "title": "Checking your browser - reCAPTCHA"
+  },
+  "Gps1": {
+    "url": "https://www.ncbi.nlm.nih.gov/gene/209318",
+    "final_url": "https://www.ncbi.nlm.nih.gov/gene/209318",
+    "access": "retrieved",
+    "title": "Checking your browser - reCAPTCHA"
+  },
+  "Cycloheximide": {
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Cycloheximide",
+    "final_url": "https://pubchem.ncbi.nlm.nih.gov/compound/Cycloheximide",
+    "access": "retrieved",
+    "title": "Checking your browser - reCAPTCHA"
+  },
+  "Proteoform": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4114032/",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4114032/",
+    "access": "retrieved",
+    "title": "Proteoform: a single term describing protein complexity - PMC"
+  },
+  "Proteogenomics": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4392723/",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4392723/",
+    "access": "retrieved",
+    "title": "Proteogenomics: concepts, applications, and computational strategies - PMC"
+  },
+  "PSEA": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2984225/",
+    "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2984225/",
+    "access": "retrieved",
+    "title": "In Situ Proteomic Analysis of Human Breast Cancer Epithelial Cells Using Laser Capture Microdissection: Annotation by Protein Set Enrichment Analysis and Gene Ontology - PMC"
+  },
+  "Ecoli": {
+    "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562",
+    "final_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562",
+    "access": "retrieved",
+    "title": "Taxonomy browser\r\n        \r\n    Taxonomy Browser ()"
+  },
+  "Panorama": {
+    "url": "https://panoramaweb.org/home/wiki-page.view?name=default",
+    "final_url": "https://panoramaweb.org/home/wiki-page.view?name=default",
+    "access": "retrieved",
+    "title": "Panorama: A Repository for Targeted Mass Spectrometry Assays from Skyline: /home"
+  },
+  "Schoof": {
+    "url": "https://www.nature.com/articles/s41467-021-23602-0",
+    "access": "restricted_or_failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "Guidelines": {
+    "url": "https://www.nature.com/articles/s41592-023-01785-3",
+    "final_url": "https://www.nature.com/articles/s41592-023-01785-3?error=cookies_not_supported&code=e131e82e-b709-4de5-bd65-16d21e7021b7",
+    "access": "retrieved",
+    "title": "Initial recommendations for performing, benchmarking and reporting single-cell proteomics experiments | Nature Methods"
+  },
+  "FFPE": {
+    "url": "https://www.nature.com/articles/s41587-022-01302-5",
+    "final_url": "https://www.nature.com/articles/s41587-022-01302-5?error=cookies_not_supported&code=a8dfe03c-05a8-4120-9d5c-6a643e3d83c4",
+    "access": "retrieved",
+    "title": "Deep Visual Proteomics defines single-cell identity and heterogeneity | Nature Biotechnology"
+  },
+  "CPTAC": {
+    "url": "https://proteomics.cancer.gov/programs/cptac",
+    "final_url": "https://dctd.cancer.gov/programs/occpr",
+    "access": "retrieved",
+    "title": "Office of Cancer Clinical Proteomics Research (OCCPR) - NCI"
+  },
+  "iPSC": {
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(07)01471-7",
+    "access": "restricted_or_failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "ProteomeTools": {
+    "url": "https://www.proteometools.org/",
+    "final_url": "https://www.proteometools.org/",
+    "access": "retrieved",
+    "title": "Home: ProteomeTools"
+  },
+  "minProb": {
+    "url": "https://rformassspectrometry.github.io/MsCoreUtils/reference/imputation.html",
+    "final_url": "https://rformassspectrometry.github.io/MsCoreUtils/reference/imputation.html",
+    "access": "retrieved",
+    "title": "Quantitative mass spectrometry data imputation — impute_matrix • MsCoreUtils"
+  },
+  "cBioPortal": {
+    "url": "https://www.cbioportal.org/about",
+    "access": "restricted_or_failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "MSKCC": {
+    "url": "https://www.mskcc.org/msk-impact",
+    "final_url": "https://www.mskcc.org/msk-impact",
+    "access": "retrieved",
+    "title": "MSK-IMPACT: A Comprehensive Tumor Sequencing Test to Detect Targetable DNA Mutations | Memorial Sloan Kettering Cancer Center"
+  },
+  "SPDB": {
+    "url": "https://scproteomicsdb.com/",
+    "final_url": "https://scproteomicsdb.com/",
+    "access": "retrieved",
+    "title": "SPDB"
+  },
+  "SCoPE2": {
+    "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02267-5",
+    "final_url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02267-5",
+    "access": "retrieved",
+    "title": "Client Challenge"
+  },
+  "SingPro": {
+    "url": "https://singpro.idrblab.net/",
+    "final_url": "https://singpro.idrblab.net/",
+    "access": "retrieved",
+    "title": "SingPro: a proteomics-centric knowledge base for single-cell multimodal profiling"
+  },
+  "SCeptre": {
+    "url": "https://github.com/schoof-lab/SCeptre",
+    "access": "restricted_or_failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "QuantQC": {
+    "url": "https://github.com/SlavovLab/QuantQC",
+    "final_url": "https://github.com/SlavovLab/QuantQC",
+    "access": "retrieved",
+    "title": "GitHub - SlavovLab/QuantQC: QuantQC is a package for quality control (QC) of single-cell proteomics data. It is optimized to work with nPOP, a method for massively parallel sample preparation on glass slides. · GitHub"
+  }
+}

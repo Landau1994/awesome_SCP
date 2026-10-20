@@ -2,6 +2,8 @@
 title: TALDO1
 tags:
 date_created: 2026-03-25
+url: https://www.uniprot.org/uniprotkb/P37837/entry
+category: concept
 ---
 
 # TALDO1
@@ -23,3 +25,7 @@ TALDO1 encodes transaldolase 1, a pentose phosphate pathway enzyme linked to met
 
 - [[SOD1]]
 - [[H1F0]]
+
+## Sources
+
+- [UniProt reviewed human reference: TALDO1](https://www.uniprot.org/uniprotkb/P37837/entry)
