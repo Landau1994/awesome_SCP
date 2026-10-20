@@ -25,6 +25,8 @@ We welcome contributions of new resources, tools, databases, publications, or co
 
 ## Guidelines for Adding to the README
 
+- **Language:** Use English throughout the knowledge base, including notes, indexes, canvas text, templates, and audit reports and records. Preserve scientific names, source URLs, and reference identifiers. Historical conversation archives retain their original language.
+
 When adding a new item to the `README.md` list, please ensure it follows the existing format:
 - **[Resource Name](URL)** - A brief, clear description of the resource, tool, or publication. Highlight key metrics if applicable (e.g., throughput, proteins per cell).
 - Ensure the resource is placed under the most appropriate category (e.g., Sample Preparation, Software & Tools, Key Publications).

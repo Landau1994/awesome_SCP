@@ -315,7 +315,7 @@
     "changes": [
       "Filled or replaced front-matter URL with the checked source.",
       "Clarified result-table input and preprint status.",
-      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
     ],
     "sources": [
       {
@@ -340,7 +340,7 @@
       "Distinguished contextual literature pointers from a primary tool publication.",
       "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
       "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
-      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
     ],
     "sources": [
       {
@@ -404,7 +404,7 @@
       "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
       "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
       "Completed the confirmed original publication citation and DOI.",
-      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
     ],
     "sources": [
       {
@@ -489,7 +489,7 @@
       "Corrected the actual input/output domain.",
       "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
       "Completed the confirmed original publication citation and DOI.",
-      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
     ],
     "sources": [
       {
@@ -789,7 +789,7 @@
       "Distinguished contextual literature pointers from a primary tool publication.",
       "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
       "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
-      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
     ],
     "sources": [
       {
@@ -1450,7 +1450,7 @@
     "checked": "Bioconductor package description/manual and original paper: peptide-intensity imputation, MAR/MNAR distinction, setup and interpretation limitations.",
     "changes": [
       "Rebuilt previously empty note with official sources and related tools.",
-      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
     ],
     "sources": [
       {
@@ -1615,8 +1615,8 @@
       "Replaced generic vendor-homepage links with specific source and family note.",
       "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
       "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
-      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。",
-      "末轮交叉复核：按原论文核对并更正nDIA论文完整标题。"
+      "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json.",
+      "Final cross-check: verified and corrected the complete nDIA paper title against the original publication."
     ],
     "sources": [
       {
@@ -2294,7 +2294,7 @@
       "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
       "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
       "Completed the confirmed original publication citation and DOI.",
-      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
     ],
     "sources": [
       {
@@ -2580,7 +2580,7 @@
       "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
       "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
       "Completed the confirmed original publication citation and DOI.",
-      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
     ],
     "sources": [
       {
@@ -2885,7 +2885,7 @@
       "Corrected the actual input/output domain.",
       "Removed unsubstantiated template parameter table rather than treating its names/numbers as real settings.",
       "Removed comment-only installation/usage template sections; retained actual documented instructions and source links.",
-      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
     ],
     "sources": [
       {
@@ -3039,7 +3039,7 @@
     "checked": "Official SCIEX family overview: Zeno-trap-enabled QTOF instruments; model performance is configuration specific.",
     "changes": [
       "Filled or replaced front-matter URL with the checked source.",
-      "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+      "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
     ],
     "sources": [
       {

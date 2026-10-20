@@ -186,7 +186,7 @@ graph LR
 - [[gProfiler|g:Profiler]], [[GSVA]], [[Single-sample GSEA]] and [[Cytoscape]] — enrichment and network analysis
 - [[MRM]], [[PRM]], [[De novo peptide sequencing]], [[RNA-Seq]] and [[snRNA-seq]] — related measurement concepts
 - [[MsImpute]] — missing-value imputation with model assumptions
-- [核查报告](audit/knowledge-base-audit.md) — coverage, evidence and unresolved items
+- [Knowledge-base audit](audit/knowledge-base-audit.md) — coverage, evidence and unresolved items
 
 ## Quick Links
 

@@ -12303,7 +12303,7 @@
       "status": "accessible",
       "http_status": 200,
       "final_url": "https://www.agilent.com.cn/en/product/automated-liquid-handling/automated-liquid-handling-platforms/bravo-automated-liquid-handling-platform",
-      "title": "Automated liquid handling, compact and flexible liquid handler | 安捷伦",
+      "title": "Automated liquid handling, compact and flexible liquid handler | Agilent",
       "error": null,
       "content_type": "text/html; charset=UTF-8",
       "bytes_read": 16384,
@@ -12330,14 +12330,16 @@
           "http_status": 200,
           "status": "accessible",
           "final_url": "https://www.agilent.com.cn/en/product/automated-liquid-handling/automated-liquid-handling-platforms/bravo-automated-liquid-handling-platform",
-          "title": "Automated liquid handling, compact and flexible liquid handler | 安捷伦",
+          "title": "Automated liquid handling, compact and flexible liquid handler | Agilent",
           "error": null,
           "content_type": "text/html; charset=UTF-8",
           "bytes_read": 16384,
-          "elapsed_seconds": 78.84
+          "elapsed_seconds": 78.84,
+          "title_language_note": "The Chinese brand suffix in the recorded page title is rendered as its English name, Agilent. The URL and HTTP result are unchanged."
         }
       ],
-      "confirmed_404": false
+      "confirmed_404": false,
+      "title_language_note": "The Chinese brand suffix in the recorded page title is rendered as its English name, Agilent. The URL and HTTP result are unchanged."
     },
     {
       "url": "https://www.atcc.org/products/ccl-2",

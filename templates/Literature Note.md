@@ -19,7 +19,7 @@ Year:
 ## Citation
 
 > [!cite] Reference
-> **Title**：
+> **Title**:
 > **Authors**: 
 > **Year**: 
 > **Journal**: 

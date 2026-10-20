@@ -224,7 +224,7 @@
       "changes": [
         "Filled or replaced frontmatter url with the method-specific source.",
         "Added a clickable source in the note body.",
-        "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+        "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
       ],
       "sources": [
         {
@@ -247,7 +247,7 @@
       "changes": [
         "Filled or replaced frontmatter url with the method-specific source.",
         "Added a clickable source in the note body.",
-        "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+        "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
       ],
       "sources": [
         {
@@ -273,7 +273,7 @@
         "Filled or replaced frontmatter url with the method-specific source.",
         "Removed universal sensitivity/FDR comparison to DIA and labeled the existing review correctly.",
         "Replaced generic performance rankings with method-specific conditions and limitations.",
-        "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+        "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
       ],
       "sources": [
         {
@@ -352,7 +352,7 @@
         "Filled or replaced frontmatter url with the method-specific source.",
         "Corrected guarantees of observing every peptide and solving missingness; made depth/completeness experiment-specific.",
         "Removed complete-proteome digital-map and entire-precursor-space overstatements; allowed MS1/MS2 evidence and interference.",
-        "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+        "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
       ],
       "sources": [
         {
@@ -413,7 +413,7 @@
         "Added a clickable source in the note body.",
         "Corrected the primary paper's journal and added full bibliographic identity.",
         "Replaced generic performance rankings with method-specific conditions and limitations.",
-        "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+        "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
       ],
       "sources": [
         {
@@ -700,7 +700,7 @@
         "Filled or replaced frontmatter url with the method-specific source.",
         "Added a clickable source in the note body.",
         "Corrected label-free scope, outdated depth ceiling, imputation-versus-measurement wording, and unsupported Zhu citation.",
-        "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+        "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
       ],
       "sources": [
         {
@@ -1033,7 +1033,7 @@
         "Filled or replaced frontmatter url with the method-specific source.",
         "Added a clickable source in the note body.",
         "Separated 2024 bulk nDIA from the 2025 Chip-Tip single-cell 4-Th/6-ms setting; removed unqualified per-cell peptide/depth claims and corrected Chip-Tip authorship.",
-        "末轮交叉复核：区分通用nDIA概念和论文使用的Orbitrap Astral平台，不再称为独占硬件要求。"
+        "Final cross-check: distinguished the general nDIA concept from the Orbitrap Astral platform used in the cited studies; it is no longer described as an exclusive hardware requirement."
       ],
       "sources": [
         {
@@ -1561,7 +1561,7 @@
         "Added a clickable source in the note body.",
         "Avoided defining the entire SCP field as exclusively mass spectrometric.",
         "Replaced generic performance rankings with method-specific conditions and limitations. Replaced citation placeholder with a named source or explicit official-documentation link.",
-        "全库收尾：清理空值/模板/冲突别名，或同步更名后的引用；详见 structural-changes.json。"
+        "Final knowledge-base cleanup: removed empty, template or conflicting aliases, or updated references after renaming; see structural-changes.json."
       ],
       "sources": [
         {

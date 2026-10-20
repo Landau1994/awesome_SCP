@@ -10,5 +10,5 @@
     ".obsidian/graph.json"
   ],
   "staged_changes": [],
-  "limitation": "初始完整工作区快照保存于会话临时目录，后续执行环境无法再次访问；本记录证明当前文件清单与Git跟踪文件/更名映射对应，不是对初始脏工作区的完整逐字或哈希比较。原未跟踪工具中5个初始空URL未保存逐页分类；统计来自初查，不根据当前内容反推。"
+  "limitation": "The initial complete workspace snapshot was saved in the session's temporary directory, which could no longer be accessed from the later execution environment. This record establishes that the current file inventory corresponds to the Git-tracked files and rename mapping; it is not a complete verbatim or hash comparison against the initial working tree with uncommitted changes. Per-note classification was not retained for five initially blank URLs among the previously untracked tools. The count comes from the initial survey and was not inferred from current content."
 }

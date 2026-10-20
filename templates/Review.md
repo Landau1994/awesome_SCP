@@ -18,7 +18,7 @@ Year:
 ## Citation
 
 > [!cite] Reference
-> **Title**：
+> **Title**:
 > **Authors**: 
 > **Year**: 
 > **Journal**: 
@@ -84,4 +84,4 @@ Year:
 
 ## Related Papers
 
-- 
+-

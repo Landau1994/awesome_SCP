@@ -1,103 +1,103 @@
-# 知识库链接补全与核心事实核查报告
+# Knowledge Base Link Completion and Core Fact-Checking Report
 
-核查截止：**2026-10-20**。本次已在原知识库中直接修订，未提交、推送或发布到 GitHub。
+Audit cutoff: **2026-10-20**. Revisions were made directly in the existing knowledge base. No changes were committed, pushed or published to GitHub.
 
-## 覆盖与完成情况
+## Coverage and Completion
 
-已登记原有 **341 篇**及新增 **28 篇**，共 **369 篇笔记**，另检查 README、Home 和三个画布。逐文件核查记录覆盖率为 **369/369（100%）**；这表示每篇都经过检查并有记录，不表示全部陈述都已证实。
+The register includes **341 existing notes** and **28 new notes**, for a total of **369 notes**. README, Home and three canvases were also checked. Per-file audit records cover **369/369 notes (100%)**. This means that every note was inspected and recorded; it does not mean that every statement has been substantiated.
 
-| 类别 | 原有 | 新增 | 核查记录 |
+| Category | Existing | New | Audit records |
 |---|---:|---:|---:|
-| 概念 | 90 | 0 | 90 |
-| 方法 | 78 | 8 | 86 |
-| 工具 | 116 | 20 | 136 |
-| 文献 | 44 | 0 | 44 |
-| 综述 | 2 | 0 | 2 |
-| 数据库 | 7 | 0 | 7 |
-| 应用 | 3 | 0 | 3 |
-| 研究者索引 | 1 | 0 | 1 |
-| 合计 | 341 | 28 | 369 |
+| Concepts | 90 | 0 | 90 |
+| Methods | 78 | 8 | 86 |
+| Tools | 116 | 20 | 136 |
+| Literature | 44 | 0 | 44 |
+| Reviews | 2 | 0 | 2 |
+| Databases | 7 | 0 | 7 |
+| Applications | 3 | 0 | 3 |
+| Researcher index | 1 | 0 | 1 |
+| Total | 341 | 28 | 369 |
 
-- **核心范围已核对：195 篇**。
-- **部分核对：153 篇**。
-- **兼容页已检查：19 篇**。
-- **身份/核心证据不足：2 篇**。
+- **Verified within the recorded core scope: 195 notes**.
+- **Partially verified: 153 notes**.
+- **Compatibility pages checked: 19 notes**.
+- **Insufficient evidence for identity or core claims: 2 notes**.
 
-“核心范围已核对”仅覆盖记录注明的定义、书目或结论；“部分核对”保留对全文细节、版本、性能或实验条件的明确限制。文献与综述均核对了书目和公开摘要，未将公开摘要核验写成全文逐句审查。软件没有逐个安装执行，也未重现实验或训练结果。
+"Verified within the recorded core scope" covers only the definitions, bibliographic details or conclusions specified in the record. "Partially verified" retains explicit limitations concerning full-text details, versions, performance or experimental conditions. Bibliographic metadata and public abstracts were checked for the literature and review notes; checking a public abstract was not represented as a sentence-by-sentence review of the full text. Software packages were not individually installed and run, and experiments or training results were not reproduced.
 
-逐篇入口：[核查登记表](note-register.md)。完整记录分为 [概念、数据库、应用与索引](root-audit.json)、[方法](methods-audit.json)、[工具](tools-audit.json)、[文献与综述](literature-audit.json)。[文件清单](file-inventory.json)注明原有/新增、当前网址和审计路径。
+Per-note entry point: [Audit register](note-register.md). Complete records are divided into [concepts, databases, applications and indexes](root-audit.json), [methods](methods-audit.json), [tools](tools-audit.json), and [literature and reviews](literature-audit.json). The [file inventory](file-inventory.json) identifies existing and new notes, current URLs and audit-record paths.
 
-## 链接与结构
+## Links and Structure
 
-- 初查的 **117 个空白 `url` 字段已全部处理**；最终笔记没有空白 `url` 字段。
-- 初查 **29 个缺失内部目标名称**通过新增 **28 篇**实体笔记解决。两种 CRISPRa 名称指向同一篇，引用统一使用明确目标。
-- `g:Profiler` 使用 Windows 合法文件名 `gProfiler.md`，页面标题及显示文字保留 `g:Profiler`。
-- 重建原先零字节的 **MsImpute.md**，补充包用途、缺失机制假设、输入形式、来源和相关笔记。
-- 更正 **10 个文件名**，包括 AlphaPeptDeep 的2022年、OpenSpec的2025年、Proteoform medicine的2026年及明确拼写/截断错误；旧名称保留为别名。映射见 [renames.json](renames.json)。
-- 保留兼容页与短笔记；清理模板别名、空值和歧义别名，同步内部链接及画布路径。操作记录见 [structural-changes.json](structural-changes.json)。
-- **hEF** 与 **Leading Scientists** 没有 `url` 字段：前者无法唯一确定实体，明确保留待核实；后者保持原索引格式，可靠来源已放在正文。两者不是剩余的空网址字段。
+- All **117 blank `url` fields** identified in the initial inspection have been addressed. No blank `url` fields remain in the notes.
+- The **29 missing internal target names** identified initially were resolved by adding **28 entity notes**. Two CRISPRa names refer to the same note, and references now use an explicit target.
+- `g:Profiler` uses the Windows-compatible filename `gProfiler.md`; the page title and display text retain `g:Profiler`.
+- The previously empty **MsImpute.md** was rebuilt with the package's purpose, missingness assumptions, input format, sources and related notes.
+- **10 filenames** were corrected, including the 2022 year for AlphaPeptDeep, the 2025 year for OpenSpec, the 2026 year for Proteoform medicine, and clear spelling or truncation errors. Previous names were retained as aliases. See [renames.json](renames.json) for the mapping.
+- Compatibility pages and short notes were retained. Template, empty and ambiguous aliases were cleaned up, and internal links and canvas paths were updated. See [structural-changes.json](structural-changes.json) for the operation log.
+- **hEF** and **Leading Scientists** have no `url` field. The former cannot be uniquely identified and is explicitly left unresolved; the latter retains its original index format, with reliable sources in the body. Neither is a remaining blank URL field.
 
-模板、聊天记录、应用配置和与事实核查无关的代码示例不在内容修订范围。画布中错误的软件安装指向、统计标签等直接影响引用和理解的内容已作必要修正。
+Templates, chat histories, application settings and code examples unrelated to fact-checking were outside the content-revision scope. Necessary corrections were made to canvas content that directly affected references or interpretation, including incorrect software-installation targets and statistical labels.
 
-## 主要内容纠错
+## Main Content Corrections
 
-| 问题 | 修订结果与证据 |
+| Issue | Revision and evidence |
 |---|---|
-| PepPre 被描述成常规预处理/插补工具 | 更正为谱图前体检测、评分和排序工具；通过同位素簇分解帮助下游肽段鉴定。[官方说明](https://peppre.ctarn.io/) |
-| MassNet 原始与处理后数据体量混写 | 区分约30 TB原始DDA数据与4.45 TB处理后语料；82%为运行级MSDT文件相对谱图与检索结果文件总量的平均缩减。性能提升限定于相应基准，补充跨数据集迁移限制。[原论文](https://www.nature.com/articles/s41592-026-03247-y) |
-| aPCA 全称、Gps1物种语境、中心法则定义错误 | aPCA更正为丰度蛋白片段互补测定；Gps1回到小鼠COP9亚基语境；中心法则区分序列信息传递与RNA–蛋白定量关系。[aPCA来源](https://www.nature.com/articles/s41586-024-08370-4)、[中心法则](https://doi.org/10.1038/227561a0) |
-| nDIA/Chip-Tip 条件和单细胞性能混用 | 区分2024年bulk nDIA与2025年Chip-Tip；5,204蛋白为所报道40样本/日、Orbitrap Astral、HeLa基准的单细胞中位鉴定数，不能外推为通用能力。[Chip-Tip](https://doi.org/10.1038/s41592-024-02558-2) |
-| nanoPOTS、plexDIA、nPOP性能泛化 | 区分少量细胞池与单细胞；plexDIA约98%完整度限定在同一多重集合；nPOP深度依赖结合的采集和分析流程。相关原始来源已进入方法笔记。 |
-| pSCoPE、REAP-seq、Spatial CITE-seq、DVP/scDVP 等说明混淆 | 修正方法用途、原始论文和限定条件；不再把pSCoPE当成仅覆盖小面板的验证方法，也不把多个切片细胞的结果当作完整单细胞测量。 |
-| SPDB、SingPro 和 CPTAC 的引用错配 | SPDB改为10.1093/nar/gkad1018；SingPro改为10.1093/nar/gkad830；历史CPTAC门户论文改为10.1021/pr501254j。数据库统计注明日期与测量技术混合口径，删除没有依据的优劣比较。 |
-| MSKCC、cBioPortal、TCGA、CPTAC归属混淆 | 区分机构、检测、平台和项目；不把多来源训练语料的18,227样本全部归给TCGA。历史CPTAC门户退休后以PDC为主要访问入口。 |
-| 软件论文、安装和平台模板错误 | 修正cTP-net、sciPENN、DO-MS等引用；SCeptre指向bfurtwa官方仓库，删除与之无关的同名PyPI安装指示；SCPDA移至Python分类；AlphaPept改为鉴定/定量框架。 |
-| 无来源模板参数与硬件输入输出 | 工具组删除51处无证据模板参数表、47处无实质安装/使用模板；硬件输入不再写成软件原始文件，富集工具输入不再写成谱图。版本相关能力保留限制。 |
-| 综述中的绝对化比较 | 删除单细胞MS无泊松噪声、DIA检测全部离子、所有临床测定均须绝对定量等说法；深度、细胞蛋白质量与临床优势限定于具体实验和应用。[离子采样定量原始研究](https://doi.org/10.1038/s41467-021-23667-y) |
-| 应用中的泛化推断 | 3,042蛋白明确为SCoPE2的1,490细胞矩阵整体数量；伪时间不等同纵向追踪；丰度不自动证明活性；删除普遍低于1%稀有细胞检出和已证实诊断优势的断言。 |
-| 发表年份、预印本和索引 | 区分online年份、卷期年份及预印本版本；保留预印本与正式论文的独立页。README中2024 scp工作流文献改为Methods in Molecular Biology书章。 |
+| PepPre described as a routine preprocessing or imputation tool | Corrected to a tool for precursor detection, scoring and ranking in mass spectra; it supports downstream peptide identification through isotopic-cluster decomposition. [Official description](https://peppre.ctarn.io/) |
+| MassNet raw and processed data volumes conflated | Distinguished approximately 30 TB of raw DDA data from the 4.45 TB processed corpus. The 82% figure is the average run-level reduction in MSDT file size relative to the combined spectra and search-result files. Performance gains are limited to the relevant benchmarks, and cross-dataset transfer limitations were added. [Original paper](https://www.nature.com/articles/s41592-026-03247-y) |
+| Incorrect aPCA expansion, Gps1 species context and central-dogma definition | Corrected aPCA to abundance protein-fragment complementation assay; restored Gps1 to the mouse COP9-subunit context; distinguished sequence-information transfer from quantitative RNA–protein relationships in the central-dogma note. [aPCA source](https://www.nature.com/articles/s41586-024-08370-4), [central dogma](https://doi.org/10.1038/227561a0) |
+| nDIA/Chip-Tip conditions and single-cell performance conflated | Distinguished the 2024 bulk nDIA study from the 2025 Chip-Tip study. The 5,204-protein figure is the median number identified per single cell in the reported HeLa benchmark using Orbitrap Astral at 40 samples per day; it is not a general capability claim. [Chip-Tip](https://doi.org/10.1038/s41592-024-02558-2) |
+| Generalized performance claims for nanoPOTS, plexDIA and nPOP | Distinguished small cell pools from single cells; limited the approximately 98% completeness claim for plexDIA to the same multiplexed set; clarified that nPOP depth depends on the accompanying acquisition and analysis workflow. Relevant primary sources were added to the method notes. |
+| Confused descriptions of pSCoPE, REAP-seq, Spatial CITE-seq, DVP/scDVP and related methods | Corrected purposes, original references and conditions of use. pSCoPE is no longer presented as a validation method covering only a small panel, and results from multiple sectioned cells are no longer presented as measurements of an intact single cell. |
+| Mismatched references for SPDB, SingPro and CPTAC | Corrected SPDB to 10.1093/nar/gkad1018, SingPro to 10.1093/nar/gkad830, and the historical CPTAC portal paper to 10.1021/pr501254j. Database statistics now specify the date and the inclusion of multiple measurement technologies; unsupported comparative rankings were removed. |
+| Confused attribution among MSKCC, cBioPortal, TCGA and CPTAC | Distinguished institutions, assays, platforms and programs. The 18,227 samples in a multi-source training corpus are no longer attributed entirely to TCGA. PDC is the primary access point following retirement of the historical CPTAC portal. |
+| Template errors in software references, installation instructions and platform support | Corrected references for cTP-net, sciPENN, DO-MS and other tools. SCeptre now points to the official bfurtwa repository, and instructions to install the unrelated PyPI package of the same name were removed. SCPDA was moved to the Python category, and AlphaPept was corrected to an identification and quantification framework. |
+| Unsupported template parameters and incorrect hardware inputs/outputs | Removed 51 unsupported template parameter tables and 47 installation/usage templates without substantive instructions from the tool notes. Hardware inputs are no longer described as raw software files, and enrichment-tool inputs are no longer described as spectra. Qualifications concerning version-dependent capabilities were retained. |
+| Absolute comparisons in reviews | Removed claims that single-cell MS has no Poisson noise, DIA detects all ions, and all clinical assays require absolute quantification. Depth, cellular protein mass and clinical advantages are qualified by the relevant experiment and application. [Primary study of ion-sampling quantification](https://doi.org/10.1038/s41467-021-23667-y) |
+| Overgeneralized inferences in application notes | Clarified that 3,042 proteins is the total across the 1,490-cell SCoPE2 matrix. Pseudotime is not longitudinal tracking, and abundance does not automatically establish activity. Claims of universally detecting rare cells below 1% abundance and of demonstrated diagnostic superiority were removed. |
+| Publication years, preprints and indexes | Distinguished online-publication years, volume years and preprint versions. Separate pages for preprints and published articles were retained. The 2024 scp-workflow reference in README was corrected to a Methods in Molecular Biology book chapter. |
 
-以上已同步到相关笔记、README、Home或画布中的重复表述；具体改动范围以逐篇记录为准。
+These corrections were propagated to repeated statements in the relevant notes, README, Home or canvases. The per-note records define the precise scope of each change.
 
-## 尚待确认的重点
+## Key Unresolved Items
 
-| 对象 | 尚缺的证据或限制 |
+| Item | Missing evidence or limitation |
 |---|---|
-| [hEF](../notes/concepts/hEF.md) | 无法唯一确认缩写、细胞身份和原始来源；未猜测网址，也未把它等同hFF。 |
-| [ORBIT](../notes/tools/ORBIT.md) | 仅保留脑发育研究上下文，独立实现、官方仓库及平台未确认。 |
-| [MetaMorpheus-TC](../notes/tools/MetaMorpheus-TC.md) | 综述出现此名称，但专用发行版或独立实现未确认。 |
-| [PSEA-Quant](../notes/tools/PSEA-quant.md) | 原始论文及功能已确认，历史Web/Java服务的当前可用性未确认。 |
-| [hi12](../notes/concepts/hi12.md) | 2021和2025来源的亲本hFF细胞库编号记载存在差别，未认定为相同库存细胞。 |
-| AST/GSC/MAC/MIC | 已按关联SoftHybrid研究注明细胞群含义，但完整原始样本表仍待核对。 |
-| 部分文献的精确数字和机制解释 | 未被公开摘要证实的细胞数、分类准确率、性能倍数、图表及特定机制均列入逐篇未解决问题；相关文献正文新增核验范围说明。 |
-| 软件和方法版本细节 | 软件发行版依赖、特定仪器支持、参数语法和性能外推仍有部分核验限制；不能将来源页面可访问当成已实测。 |
+| [hEF](../notes/concepts/hEF.md) | The abbreviation, cell identity and original source cannot be uniquely confirmed. No URL was guessed, and hEF was not equated with hFF. |
+| [ORBIT](../notes/tools/ORBIT.md) | Only the brain-development study context is retained. A standalone implementation, official repository and platform remain unconfirmed. |
+| [MetaMorpheus-TC](../notes/tools/MetaMorpheus-TC.md) | The name appears in a review, but a dedicated release or standalone implementation remains unconfirmed. |
+| [PSEA-Quant](../notes/tools/PSEA-quant.md) | The original paper and function were confirmed; the current availability of the historical Web/Java service was not. |
+| [hi12](../notes/concepts/hi12.md) | The 2021 and 2025 sources report different cell-bank identifiers for the parental hFF cells. They were not assumed to refer to the same cell stock. |
+| AST/GSC/MAC/MIC | Cell-population meanings were specified according to the associated SoftHybrid study, but the complete original sample table remains to be checked. |
+| Exact numerical and mechanistic claims in some literature notes | Cell counts, classification accuracies, performance multiples, figures/tables and specific mechanisms not substantiated by public abstracts are listed as unresolved in the per-note records. Verification-scope statements were added to the relevant notes. |
+| Software and method version details | Some release dependencies, instrument support, parameter syntax and performance extrapolations remain only partially verified. Source-page accessibility must not be equated with empirical testing. |
 
-## 外链访问
+## External-Link Access
 
-批量外链访问及跳转、响应状态、来源文件、重试历史见 [external-links.json](external-links.json)。HTTP成功仅表示取得响应，不等于引用内容正确；访问拒绝、超时、TLS错误和404候选分别记录。
+See [external-links.json](external-links.json) for batch access results, redirects, response status, source files and retry history. HTTP success means only that a response was received, not that the cited content is correct. Access denials, timeouts, TLS errors and candidate 404s are recorded separately.
 
-共扫描**374个文件中的454个唯一外部网址**，最终状态如下。此前成功访问记录的来源为 [root-source-access.json](root-source-access.json)，未将它们冒记为本轮新取得的HTTP200。
+The scan covered **454 unique external URLs in 374 files**. Final statuses are listed below. Earlier successful-access records came from [root-source-access.json](root-source-access.json); they were not misrepresented as newly obtained HTTP 200 responses in this pass.
 
-| 状态 | 数量 |
+| Status | Count |
 |---|---:|
-| 本轮访问取得响应 | 340 |
-| 403访问拒绝 | 37 |
-| 复用本轮此前已记录的成功访问 | 49 |
-| 429频率限制 | 13 |
-| 验证/拦截页面（含2xx响应） | 12 |
-| 服务器错误 | 1 |
-| TLS连接错误 | 2 |
+| Response obtained in this pass | 340 |
+| 403 access denied | 37 |
+| Reused successful-access record from earlier in this audit | 49 |
+| 429 rate limit | 13 |
+| Verification/blocking page, including 2xx responses | 12 |
+| Server error | 1 |
+| TLS connection error | 2 |
 
-两次请求均返回404的链接：**0个**。访问受限或暂时失败的条目均保留网址、所在文件和具体状态；这些情况不证明链接失效。
+Links returning 404 on both requests: **0**. URLs, source files and specific statuses were retained for restricted or temporarily unsuccessful requests; these outcomes do not establish that a link is broken.
 
-链接身份与内容核查优先采用开发者文档、官方仓库、产品页、Crossref登记、PubMed公开摘要和原始论文。外链可访问性与内容正确性分开记录：例如SPDB/SingPro旧DOI能解析，仍因引用错配被更正。
+Link-identity and content checks prioritized developer documentation, official repositories, product pages, Crossref records, public PubMed abstracts and original papers. Accessibility and content accuracy are recorded separately. For example, the old SPDB/SingPro DOIs resolved successfully but were still corrected because they cited the wrong works.
 
-## 验收与工作区保留
+## Validation and Workspace Preservation
 
-最终结构检查记录见 [validation.json](validation.json)，检查器为 [check_vault.py](check_vault.py)。检查范围包括YAML/JSON解析、内部目标、Markdown相对链接、标题/块锚点、别名、24处画布文件引用和画布节点/边。最终结构检查为0错误、0警告；另检查83个表格和64个代码块，未发现列数或闭合问题，Git差异空白检查通过。结构检查不替代Obsidian界面逐页渲染，也不证明科学结论。
+Final structural results are in [validation.json](validation.json), with the checker in [check_vault.py](check_vault.py). Checks cover YAML/JSON parsing, internal targets, relative Markdown links, heading/block anchors, aliases, 24 canvas file references, and canvas nodes/edges. The final structural check reported 0 errors and 0 warnings. An additional check of 83 tables and 64 code blocks found no column-count or closure problems, and the Git diff whitespace check passed. Structural checks do not replace page-by-page rendering in Obsidian or establish scientific validity.
 
-文件清单对照确认：311篇原跟踪笔记与30篇原有未跟踪笔记均可对应到现有文件；除10次有映射的更名外，无未解释的原跟踪笔记缺失。未进行广泛暂存、回退或清理用户文件；暂存区为空。范围外的Git差异仍包括初查已有的 `.obsidian/graph.json`，本轮未编辑该配置。
+The file-inventory comparison confirmed that all 311 originally tracked notes and 30 originally untracked notes correspond to current files. Apart from 10 mapped renames, no originally tracked note is missing without explanation. No broad staging, reversion or cleanup of user files was performed, and the staging area is empty. Out-of-scope Git differences still include the pre-existing change to `.obsidian/graph.json`; that configuration was not edited during this audit.
 
-**保留核验的限制：**初始完整工作区快照位于会话临时目录，执行环境变化后无法重新访问，因此不能宣称完成了对初始脏工作区的完整逐字/哈希复核。当前采用文件清单、Git差异、修改范围和更名映射检查；原有未跟踪工具中5个初始空URL的逐页旧状态也未能完整恢复，未据当前内容反推。详见 [workspace-preservation.json](workspace-preservation.json)。
+**Limitation of the preservation check:** The initial complete workspace snapshot was stored in a session temporary directory and became inaccessible after an execution-environment change. A complete byte-for-byte or hash comparison against the initial dirty workspace therefore cannot be claimed. The current checks use the file inventory, Git diff, modification scope and rename mapping. The original per-page states of 5 initially blank URLs among the pre-existing untracked tool notes could not be fully recovered and were not inferred from current content. See [workspace-preservation.json](workspace-preservation.json).
 
-本报告将这项限制和科学证据不足一并保留；没有将未取得充分证据的内容写成已确认事实。
+This report retains that limitation alongside gaps in scientific evidence. Claims lacking sufficient evidence have not been presented as confirmed facts.

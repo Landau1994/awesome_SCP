@@ -31,6 +31,8 @@ awesome_SCP/
 
 ## Content Guidelines
 
+- Write all knowledge-base content in English, including notes, indexes, canvas text, templates, and audit reports and records. Preserve scientific names, source URLs, and reference identifiers. Historical conversation archives retain their original language.
+
 ### Markdown Notes
 - Use YAML frontmatter with: `title`, `aliases`, `tags`, `category`, `url`
 - Use `[[wikilinks]]` for internal linking
